@@ -1,0 +1,180 @@
+@import "compass/css3";     // Use one CSS3 mixin instead of multiple vendor prefixes.
+
+@font-face{
+	font-family: "Badiya LT W20 Bold";
+	src: url("../fonts/badya/6916aa1b-15fa-4f2a-95c2-9050445fb081.eot?#iefix");
+	src: url("../fonts/badya/6916aa1b-15fa-4f2a-95c2-9050445fb081.eot?#iefix") format("eot"),
+		 url("../fonts/badya/6a9a554c-c542-4037-9a52-1d49a970dc9c.woff") format("woff"),
+		 url("../fonts/badya/caf902de-2cc6-4fd4-97fa-612da8df47ea.ttf") format("truetype"),
+		 url("../fonts/badya/8d7fc603-9841-4dba-bfd5-8da4ed775ab9.svg#8d7fc603-9841-4dba-bfd5-8da4ed775ab9") format("svg");
+}
+@font-face{
+	font-family: "Badiya LT W20 Regular";
+	src: url("../fonts/badya/9f912a49-1b28-4c88-83c5-2865a79f0f53.eot?#iefix");
+	src: url("../fonts/badya/9f912a49-1b28-4c88-83c5-2865a79f0f53.eot?#iefix") format("eot"),
+		 url("../fonts/badya/45416e30-be50-4bbe-b5b1-1945261bca89.woff") format("woff"),
+		 url("../fonts/badya/0ff5726c-0bdd-4e6a-b3a2-58626f11cab9.ttf") format("truetype"),
+		 url("../fonts/badya/a7b4f780-32f1-430b-bc2c-222bc67f8dab.svg#a7b4f780-32f1-430b-bc2c-222bc67f8dab") format("svg");
+}
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v2/DroidKufi-Bold.ttf) format('truetype');
+}
+
+@import "util";
+
+
+/*--------------------*\
+	Base Styles
+\*--------------------*/
+
+%pullLeft { // flipped for RTL
+	float: right;
+}
+
+%pullRight { // flipped for RTL
+	float: left;
+}
+
+$baseFontSize: 62.5%;
+
+$bodyFont: "Badiya LT W20 Regular";
+$titleFont: "Droid Arabic Kufi";
+
+%bodyFont {
+	font-family: $bodyFont;
+}
+
+%titleFont {
+	font-family: $titleFont;
+	font-weight: 700;
+}
+
+%titleMain {
+	font-size: 4.2em;
+	@media all and (max-width: 721px) {
+		font-size: 3.2em;
+	}
+	@media all and (max-width: 440px) {
+		font-size: 2.8em;
+	}
+	@media all and (max-width: 350px) {
+		font-size: 2.2em;
+	}
+	@media all and (max-width: 490px) and (max-height: 500px) {
+		font-size: 1.8em;
+	}
+}
+
+%bodyFontSize {
+	font-size: 2em;
+	@media all and (max-width: 721px) {
+		font-size: 1.8em;
+	}
+	@media all and (max-width: 440px) {
+		font-size: 1.6em;
+	}
+	@media all and (max-width: 350px) {
+		font-size: 1.3em;
+	}
+}
+
+.nav {
+	@extend %titleFont;
+	ul {
+		@extend %stripListStyles;
+	}
+}
+html {
+	font-size: $baseFontSize;
+	@extend %bodyFont;
+}
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5 {
+	@extend %titleFont;
+}
+
+.main-title {
+	@extend %titleMain;
+	line-height: 1.55em;
+	font-weight: 700;
+}
+.post__content__body,
+.content__body {
+	ol, ul {
+		@extend %bodyFontSize;
+		margin-bottom: 30px;
+		line-height: 1.5em;
+		li {
+			margin-bottom: 1em;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		@media all and (max-width: 721px) {
+			list-style-position: inside;
+		}
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+p + ol,
+p + li {
+	margin-top: -1em;
+}
+
+p {
+	@extend %bodyFontSize;
+	margin-bottom: 2em;
+	line-height: 1.5em;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+i {
+	font-style: italic;
+}
+em {
+	font-weight: 700;
+}
+.post-content {
+	.title {
+		@extend %bodyFont;
+		font-size: 2em;
+		font-weight: 700;
+		margin-bottom: 0.5em;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.inline_embed {
+	margin-bottom: 30px;
+}
+/*--------------------*\
+	Partials
+\*--------------------*/
+@import "layout-rtl";
+@import "modules-rtl";
+@import "states-rtl";
+@import "admin-rtl";

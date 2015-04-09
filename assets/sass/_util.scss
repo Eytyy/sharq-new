@@ -1,0 +1,61 @@
+@import "compass/utilities/sprites";
+
+@import "sprites/*.png"; // create sprite
+
+$sprites-layout: horizontal;
+$sprites-spacing: 10px;
+
+@mixin generateIcon($image-name, $path-from-images) {
+	height: image-height('#{$path-from-images}/#{$image-name}.png');
+	width: image-width('#{$path-from-images}/#{$image-name}.png');
+
+	background-repeat: no-repeat;
+
+	.svg & {
+		background-image: inline-image('#{$path-from-images}/#{$image-name}.svg');
+		background-size: image-width('#{$path-from-images}/#{$image-name}.png') image-height('#{$path-from-images}/#{$image-name}.png');
+	}
+
+	.no-svg &,
+	.no-js & {
+   		@include sprites-sprite(#{$image-name});
+	}
+}
+$burgundy : #7D002E;
+%clearfix {
+	*zoom :1;
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+%stripListStyles {
+	li {
+		list-style: none;
+	}
+}
+
+%smoothTransition {
+	@include transition(all 0.1s linear);
+}
+%fullBorderRadius {
+	@include border-radius(100%);
+}
+%triangleIconDefaults {
+	content : "";
+	display: inline-block;
+	border: solid transparent;
+	height: 0;
+	width: 0;
+}
+@mixin triangleIcon($size: "6px", $direction: "left", $direction-extend: "0px", $fillColor: "#FFF") {
+	@extend %triangleIconDefaults;
+	border-width: #{$size};
+	border-#{$direction}-width: #{$size} + #{$direction-extend};
+	border-#{$direction}-color: #{$fillColor};
+}

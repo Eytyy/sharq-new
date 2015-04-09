@@ -1,0 +1,385 @@
+#admin-header-nav {
+	#admin-header-nav__one { @extend %pullLeft; }
+	#admin-header-nav__duet { @extend %pullLeft; }
+	.admin-nav__list {
+		// Admin navigation general styles
+		> li {
+			@extend %pullLeft; 
+			&.admin-nav__shortcut a .user-avatar {
+				left: auto;
+				right: 0;
+			}
+		}
+		// Admin navigation - admin controls with icons
+		&.admin-nav__controls-list {
+			@extend %pullLeft;
+			> li {
+				> a {
+					border-left: 1px solid #EEE;
+					border-right: 0;
+				}
+				&:first-child  > a {
+					border-right: 1px solid #EEE;
+				}
+				&.active  > a:before { left: 0; }
+			}
+		}
+		// Admin navigation - admin links
+		&.admin-nav__links-list {
+			@extend %pullRight;
+			padding-right: 3em;
+			padding-left: 0;
+			// internal links - Initiatives & discussions
+			.extra-links {
+				a {
+					padding: 0 0 0 2em;
+					@extend %pullLeft;
+				}
+			}
+		}
+	}
+	.admin-nav__control__count {
+		right: auto;
+		left: 10px;
+	}
+	.admin-nav__notifications {
+		a {
+			border-left: 1px solid #EEE;
+			border-right: 0;
+		}
+		.admin-nav__control__count {
+			right: auto;
+			left: 15px;
+		}
+	}
+	.admin-nav__dropdown {
+		top: 4.5em;
+		right: 0;
+		left: auto;
+		margin-right: 1px;
+		margin-left: 0;
+		li { padding: 10px 10px 10px 25px; }
+
+		.notification__message  a:hover .notification__message__right:after {
+			left: 5px;
+			right: auto;
+			@include generateIcon(reply-ar, sprites);
+		}
+	}
+}
+
+/*----------------------------------------*\
+	Shared styles
+	Dashboard Notification Messages +
+	Messages Modal Messages
+\*----------------------------------------*/
+	.admin-nav__dropdown .notification__message .notification__message__left,
+	.admin-nav__dropdown .notification__message .notification__message__right,
+	.messages-modal__conversations .message__left,
+	.messages-modal__conversations .message__right  {
+		@extend %pullLeft;
+	}
+	.admin-nav__dropdown .notification__message .notification__message__left,
+	.messages-modal__conversations .message__left {
+		padding-left: 10px;
+		padding-right: 0;
+	}
+
+	.admin-nav__dropdown .notification__message .notification__message__right,
+	.messages-modal__conversations .message__right  {
+		&:before {
+			@include triangleIcon($direction:"left", $fillColor: "#EEE");
+			right: -11px;
+			left: auto;
+		}
+	}
+/* ---------------- End of Messages Shared Styles --------------- */
+
+/*----------------------------------------*\
+	Messages Modal Styles
+\*----------------------------------------*/
+	.module__messages {
+		@extend %titleFont;
+		.msg {
+			font-weight: 400;
+		}
+	}
+	.messages-modal__header #closeMessages {
+		left: 5px;
+		right: auto;
+	}
+	.messages-modal__conversations .message-sent {
+		.message__left, .message__right { @extend %pullRight; }
+	}
+	.messages-modal__conversations .message-sent .message__right {
+		padding-right: 10px;
+		padding-left: 0;
+		&:before {
+			@include triangleIcon($direction:"right", $fillColor: "$burgundy");
+			right: auto;
+			left: -11px;
+		}
+	}
+	.messages-modal__conversations .message-sent .message__left {
+		padding-left: 0;
+		padding-right: 10px;
+	}
+	.messages-modal__form { text-align: left; }
+/* ---------------- End of Messages Modal Styles ---------------- */
+
+/*----------------------------------------*\
+	Mobile menu specific styles
+\*----------------------------------------*/
+	#admin-header-nav {
+		//Trigger mobile menu styles for screens less than 881px width
+		@media all and (max-width: 825px) {
+			#admin-header-nav__one,
+			#admin-header-nav__duet {
+				float: none;
+				right: auto;
+				left: 0;
+			}
+			#admin-header-nav__duet {
+				.admin-nav__controls-list { float: none; }
+				.admin-nav__links-list {
+					float: none;
+					padding: 0;
+				}
+			}
+			.admin-nav__list {
+				> li, &.admin-nav__controls-list li, &.admin-nav__links-list li.extra-links, &.admin-nav__links-list li.logout-link  {
+					float: none;
+				}
+				&.admin-nav__controls-list {
+					> li {
+						> a:after {
+							margin-right: 10px;
+							margin-left: auto;
+						}
+						&#admin-notifications > a:after { content: "فعاليات"; }
+						&#admin-calendar {
+							.icon {
+								margin-left: 3px;
+								margin-right: 0;
+							}
+							> a:after { content: "التقويم"; }
+						}
+					}
+				}
+				&.admin-nav__links-list {
+					.logout-link, .extra-links {
+						a {
+							float: none;
+							.icon { margin: 0 0 10px 0; }
+							&:before {
+								margin-left: 0;
+								margin-right: 10px;
+							}
+						}
+					}
+				}
+			}
+			.admin-nav__control__count {
+				right: auto !important;
+				left: 30px !important;
+			}
+		}
+	}
+	#menuToggle {
+		/* show mobile menu toggle switch */
+		@media all and (max-width: 825px) {
+			left: 3em;
+			right: auto;
+		}
+	}
+/* ---------------- End of Mobile Menu Styles ------------------- */
+
+/*----------------------------------------*\
+	Common Forms Styles
+\*----------------------------------------*/
+	input, button, label, legend { @extend %titleFont; }
+	input.btn, button, legend {
+		font-weight: 400;
+	}
+	textarea { @extend %bodyFont; }
+	.combo {
+		margin-left: 0;
+		margin-right: -3em;
+		.form-group {
+			@extend %pullLeft;
+			padding-left: 0;
+			padding-right: 3em;
+		}
+	}
+	.links__group {
+		margin-right: -3%;
+		margin-left: 0;
+		.links__group__item {
+			margin-right: 3%;
+			margin-left: 0;
+			@extend %pullLeft;
+			&:last-child { @extend %pullLeft; }
+			&:before {
+				margin-right: 0;
+				margin-left: 2%;
+			}
+		}
+	}
+	.options-group {
+		input, label { float: none; }
+		input {
+			margin-right: 5px;
+			margin-left: 0;
+		}
+	}
+	.options-group.radios {
+		margin-left: 30px;
+		margin-right: 0px;
+	}
+	#avatar-upload__wrapper {
+		input {
+			right: -9999px;
+			left: auto;
+		}
+	}
+/* ---------------- End of Common Forms Styles ------------------ */
+
+/*----------------------------------------*\
+	Dashboard Page & Admin Pages
+\*----------------------------------------*/
+	.page-w-sidebar {
+		.side-col__left {
+			padding: 10px;
+		}
+	}
+	.expandDashboardBar {
+		left: auto;
+		right: 0;
+		&:after {
+			@include triangleIcon(6px, left, 3px, #FFF);
+			margin-right: 11px;
+			margin-left: 0;
+		}
+	}
+	#dashboard__nav {
+		@extend %titleFont;
+		ul  li  ul {
+			margin: -5px 15px 0 10px;
+		}
+	}
+	.page__dashboard  .dashboard-page  > header {
+		padding-right: 60px;
+		padding-left: 0px;
+		&:before {
+			right: -4px;
+			left: auto;
+		}
+	}
+	.pager li {
+		margin-left: 0px;
+		margin-right: 10px;
+	}
+
+	// Dashboard Side Bar Message Form Styles
+		#dashboardSendMsgForm input[type="submit"] {
+			@extend %titleFont;
+			font-weight: 400;
+		}
+	
+	// Admin Content List (media & dashboard) Common Styles
+		.admin-content-list .admin-content-group {
+			legend {
+				@extend %titleFont;
+				font-weight: 400;
+				padding-right: 0px;
+				padding-left: 10px;
+			}
+			.admin-content-form-item {
+				.content-group {
+					@extend %pullLeft;
+					padding-right: 0;
+					padding-left: 3em;
+				}
+				.content-operations { @extend %pullRight; }
+
+				.content-group__left-col { @extend %pullLeft; }
+
+				.content-group__right-col {
+					@extend %pullLeft;
+					padding-right: 3em;
+					padding-left: 0;
+				}
+				.content-operations .btn {
+					@extend %pullLeft;
+					margin-left: 0;
+					&:first-child { margin-right: 0; }
+					&:last-child { margin-right: 5px; }
+				}
+				.content-title {
+					@extend %titleFont;
+					font-weight: 400;
+				}
+			}
+			@media all and (max-width: 490px) {
+				.admin-content-form-item {
+					.content-group,
+					.content-operations {
+						float: none;
+						padding: 0;
+					}
+					.content-operations {
+						float: right;
+						.btn {
+							margin-right: 10px;
+							margin-left: 0px;
+						}
+					}
+				}
+			}
+		}
+	
+	// Manage Media/users Specific Styles
+		.media-group strong, .media-group .media-item__title,
+		.user-group strong, .user-group .user-item__title {
+				@extend %titleFont;
+		}
+
+	// Admin create/edit pages & forms
+		.admin-form {
+			.form-main-btn-wrapper  .btn { @extend %pullRight; }
+			.module {
+				.form-inner-action-group { text-align: left; }
+				.remove {
+					right: auto;
+					left: 5px;
+				}
+			}
+			.module-speakers {
+				@extend %grid-wrapper;
+				margin-bottom: 0;
+				.module__col {
+					@extend %grid-col;
+				}
+			}
+		}
+	
+	// profile edit
+		.page__profile__edit .user__profile  {
+			.profile__social ul li, .profile__social ul li:last-child {
+				margin-right: 0;
+			}
+		}
+		.user__profile .admin-form {
+			input[type="text"], textarea {
+				float: none;
+			}
+			.user__profile__name .form-group,
+			.user__profile__location .form-group {
+				@extend %pullLeft;
+				width: 50%;
+			}
+		}
+		.share-links .links__group .links__group__item input {
+			width: 80%;
+		}
+/* ---------------- End of Dashboard Page & Admin Pages --------- */

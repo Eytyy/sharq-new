@@ -1,0 +1,1373 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"toggle",
+				"toggleClass〔function〕"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"main-head",
+				"main-header__top"
+			],
+			[
+				"center",
+				"centered-row"
+			],
+			[
+				"postMet",
+				"postMeta"
+			],
+			[
+				"content-lis",
+				"content-list__bottom"
+			],
+			[
+				"E",
+				"E0FFD7"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"cent",
+				"centered-row"
+			],
+			[
+				"ce",
+				"centered-row-narrow"
+			],
+			[
+				"exp",
+				"expert__item_name"
+			],
+			[
+				"grid",
+				"CreateGridCol"
+			],
+			[
+				"st",
+				"stripListStyles"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"start",
+				"startLimit"
+			],
+			[
+				"dashboar",
+				"dashboard_toggle"
+			],
+			[
+				"jquery",
+				"jqueryMap"
+			],
+			[
+				"open",
+				"openDropDown〔function〕"
+			],
+			[
+				"share",
+				"share-links"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"nav_",
+				"nav__main__dropdown"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"Poli",
+				"Politics"
+			],
+			[
+				"packa",
+				"packagejson"
+			],
+			[
+				"close",
+				"closeMessags"
+			],
+			[
+				"closeMess",
+				"closeMessageModal"
+			],
+			[
+				"previous",
+				"previousSlide"
+			],
+			[
+				"show",
+				"showContent"
+			],
+			[
+				"exce",
+				"executeAnimation"
+			],
+			[
+				"change",
+				"changeContent"
+			],
+			[
+				"fade",
+				"fadeOut  (function)"
+			],
+			[
+				"image",
+				"imageURL"
+			],
+			[
+				"featured",
+				"featuredPosts"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backr",
+				"background-color:   (property)"
+			],
+			[
+				"message",
+				"messages-modal__conversations"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mess",
+				"message__right"
+			],
+			[
+				"notif",
+				"notification__message"
+			],
+			[
+				"notific",
+				"notification__message__right"
+			],
+			[
+				"medi",
+				"media-group"
+			],
+			[
+				"module-init",
+				"module-initiative-tasks-list"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"genera",
+				"generateIcon"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"user",
+				"user-avatar"
+			],
+			[
+				"path-from",
+				"path-from-images"
+			],
+			[
+				"has",
+				"hasClass  (function)"
+			],
+			[
+				"postMeta_",
+				"postMeta__publishDate"
+			],
+			[
+				"post",
+				"postMeta"
+			],
+			[
+				"body",
+				"bodyFontSize"
+			],
+			[
+				"page",
+				"page__inner-wrapper"
+			],
+			[
+				"main",
+				"main-header"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"event-loc",
+				"event-location__details"
+			],
+			[
+				"relate",
+				"related__media__list__link"
+			],
+			[
+				"events",
+				"events__item__header"
+			],
+			[
+				"admineh",
+				"admin-header-nav__duet"
+			],
+			[
+				"backgrou",
+				"background-color:   (property)"
+			],
+			[
+				"notificat",
+				"notification__type"
+			],
+			[
+				"notifica",
+				"notification__message"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ed",
+				"E33B4D"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pull",
+				"pullLeft"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"events__item",
+				"events__item__details"
+			],
+			[
+				"e33b4",
+				"e33b4d"
+			],
+			[
+				"events_",
+				"events__item__state"
+			],
+			[
+				"block",
+				"blockquote	Tag"
+			],
+			[
+				"top",
+				"topOffset"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"post-top",
+				"post-top__content"
+			],
+			[
+				"e",
+				"e33b4d"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"even",
+				"events__list"
+			],
+			[
+				"fon",
+				"titleFont"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"upcoming-event",
+				"upcoming-events__item__wrapper"
+			],
+			[
+				"author",
+				"author-name"
+			],
+			[
+				"button",
+				"buttonStyle"
+			],
+			[
+				"title",
+				"titleFont"
+			],
+			[
+				"home-",
+				"home-banner__content"
+			],
+			[
+				"feautred",
+				"featured-nav__wrapper"
+			],
+			[
+				"user-nav",
+				"user-nav__button"
+			],
+			[
+				"centere",
+				"centered-row-narrow"
+			],
+			[
+				"scr",
+				"scrollTop  (function)"
+			],
+			[
+				"sub",
+				"sub-section__inner-wrapper"
+			],
+			[
+				"past",
+				"past-event__date"
+			],
+			[
+				"grid-",
+				"grid-col"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"full",
+				"container-w-fullImage"
+			],
+			[
+				"bac",
+				"background-color:   (property)"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"post-co",
+				"post-cover"
+			],
+			[
+				"post-cover",
+				"post-cover__image"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"comments",
+				"comments-module__header"
+			],
+			[
+				"content",
+				"main-content-col"
+			],
+			[
+				"moz-box",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"vie",
+				"views-row"
+			],
+			[
+				"text-d",
+				"text-indent"
+			],
+			[
+				"tr",
+				"transparent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/sass/_util.scss",
+			"settings":
+			{
+				"buffer_size": 1332,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/sharqv2",
+		"/Library/WebServer/Documents/sharqv2/assets",
+		"/Library/WebServer/Documents/sharqv2/assets/css",
+		"/Library/WebServer/Documents/sharqv2/assets/fonts",
+		"/Library/WebServer/Documents/sharqv2/assets/js",
+		"/Library/WebServer/Documents/sharqv2/assets/sass"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/sharqv2/logged-in/experts.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/expert.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/events.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-workshop.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-panel.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-conference.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-conference-with-panel-and-workshop.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/event-conference-passed.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/discussion.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/discussion-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/dashboard.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/calendar.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/boards.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/blog.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/blog-post.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/author-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/article-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/album.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/admin-create-success.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/admin-create-error.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/account-settings.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/index.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/initiative-closed.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/initiative-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/initiative.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/initiatives.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/manage-media.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/manage-users.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/multimedia.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/new-album.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/new-photo.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/new-video.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/notifications.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/paper-create.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/profile-edit.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/profile.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/publications-single.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/publications.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/research-single.html",
+		"/Library/WebServer/Documents/sharqv2/logged-in/research.html",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_base.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_util.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/css/screen.css",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/screen.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/js/main.js",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_modules.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_admin.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/config.rb",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_layout.scss",
+		"/Library/WebServer/Documents/sharqv2/forgot-password.html",
+		"/Library/WebServer/Documents/sharqv2/experts.html",
+		"/Library/WebServer/Documents/sharqv2/expert.html",
+		"/Library/WebServer/Documents/sharqv2/events.html",
+		"/Library/WebServer/Documents/sharqv2/event-workshop.html",
+		"/Library/WebServer/Documents/sharqv2/event-panel.html",
+		"/Library/WebServer/Documents/sharqv2/event-conference.html",
+		"/Library/WebServer/Documents/sharqv2/event-conference-with-panel-and-workshop.html",
+		"/Library/WebServer/Documents/sharqv2/event-conference-passed.html",
+		"/Library/WebServer/Documents/sharqv2/content-by-tag.html",
+		"/Library/WebServer/Documents/sharqv2/blog.html",
+		"/Library/WebServer/Documents/sharqv2/blog-post.html",
+		"/Library/WebServer/Documents/sharqv2/author.html",
+		"/Library/WebServer/Documents/sharqv2/album.html",
+		"/Library/WebServer/Documents/sharqv2/sign-up-step-2.html",
+		"/Library/WebServer/Documents/sharqv2/research.html",
+		"/Library/WebServer/Documents/sharqv2/research-single.html",
+		"/Library/WebServer/Documents/sharqv2/publications.html",
+		"/Library/WebServer/Documents/sharqv2/publications-single.html",
+		"/Library/WebServer/Documents/sharqv2/profile.html",
+		"/Library/WebServer/Documents/sharqv2/multimedia.html",
+		"/Library/WebServer/Documents/sharqv2/login.html",
+		"/Library/WebServer/Documents/sharqv2/index.html",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/awesome/awesome/_core.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/awesome/awesome/_icons.scss",
+		"/Library/WebServer/Documents/sharqv2/ar/account-settings.html",
+		"/Library/WebServer/Documents/sharqv2/ar/article-create.html",
+		"/Library/WebServer/Documents/sharqv2/ar/article-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/articles-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/boards.html",
+		"/Library/WebServer/Documents/sharqv2/ar/dashboard.html",
+		"/Library/WebServer/Documents/sharqv2/ar/discussion-create.html",
+		"/Library/WebServer/Documents/sharqv2/ar/discussion.html",
+		"/Library/WebServer/Documents/sharqv2/ar/event-create.html",
+		"/Library/WebServer/Documents/sharqv2/ar/event-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/event-passed-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/events-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/index-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/initiative-closed.html",
+		"/Library/WebServer/Documents/sharqv2/ar/initiative-create.html",
+		"/Library/WebServer/Documents/sharqv2/ar/initiative.html",
+		"/Library/WebServer/Documents/sharqv2/ar/initiatives.html",
+		"/Library/WebServer/Documents/sharqv2/ar/manage-media.html",
+		"/Library/WebServer/Documents/sharqv2/ar/manage-users.html",
+		"/Library/WebServer/Documents/sharqv2/ar/multimedia-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/new-album.html",
+		"/Library/WebServer/Documents/sharqv2/ar/new-photo.html",
+		"/Library/WebServer/Documents/sharqv2/ar/new-video.html",
+		"/Library/WebServer/Documents/sharqv2/ar/notifications.html",
+		"/Library/WebServer/Documents/sharqv2/ar/paper-create.html",
+		"/Library/WebServer/Documents/sharqv2/ar/paper-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/papers-loggedin.html",
+		"/Library/WebServer/Documents/sharqv2/ar/profile-edit.html",
+		"/Library/WebServer/Documents/sharqv2/ar/profile.html",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/awesome/_icons.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/awesome/_core.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_states.scss",
+		"/Library/WebServer/Documents/sharqv2/ar/album.html",
+		"/Library/WebServer/Documents/sharqv2/ar/article.html",
+		"/Library/WebServer/Documents/sharqv2/ar/articles.html",
+		"/Library/WebServer/Documents/sharqv2/ar/author.html",
+		"/Library/WebServer/Documents/sharqv2/ar/content-by-tag.html",
+		"/Library/WebServer/Documents/sharqv2/ar/event-passed.html",
+		"/Library/WebServer/Documents/sharqv2/ar/event.html",
+		"/Library/WebServer/Documents/sharqv2/ar/events.html",
+		"/Library/WebServer/Documents/sharqv2/ar/forgot-password.html",
+		"/Library/WebServer/Documents/sharqv2/ar/index-w-event.html",
+		"/Library/WebServer/Documents/sharqv2/ar/index.html",
+		"/Library/WebServer/Documents/sharqv2/ar/login.html",
+		"/Library/WebServer/Documents/sharqv2/ar/multimedia.html",
+		"/Library/WebServer/Documents/sharqv2/ar/paper.html",
+		"/Library/WebServer/Documents/sharqv2/ar/papers.html",
+		"/Library/WebServer/Documents/sharqv2/ar/sign-up-step-2.html",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/screen-rtl.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_modules-rtl.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/sass/_admin-rtl.scss",
+		"/Library/WebServer/Documents/sharqv2/assets/css/screen-rtl.css",
+		"/Library/WebServer/Documents/sharqv2/assets/.sass-cache/9ddd7f889eec2ee22351f76e7a2f1b246d8d7e25/screen.scssc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 321.0,
+		"where_history":
+		[
+			"",
+			"/Library/WebServer/Documents/sharqv2/logged-in",
+			"",
+			"<open files>",
+			"/Library/WebServer/Documents/sharqv2/logged-in",
+			"<open files>",
+			"/Library/WebServer/Documents/sharqv2/logged-in",
+			"/Library/WebServer/Documents/sharqv2",
+			"",
+			"<open files>",
+			"/Library/WebServer/Documents/sharq/ar",
+			"",
+			"sign-up-step-2.html",
+			"<open files>",
+			"",
+			"/Library/WebServer/Documents/sharq/ar",
+			"/Library/WebServer/Documents/sharq/,-*.txt",
+			"/Library/WebServer/Documents/sharq/",
+			"/Library/WebServer/Documents/sharq/ar",
+			"/Library/WebServer/Documents/sharq/",
+			"/Library/WebServer/Documents/sharq/ar",
+			"/Library/WebServer/Documents/sharq/",
+			"/Library/WebServer/Documents/sharq/ar",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user",
+			"lang",
+			"notification",
+			"manage",
+			"user-avatar",
+			"avatar",
+			"user-avtar",
+			"header",
+			"global",
+			"count",
+			"global",
+			"class=\"link__w__arrow\" ",
+			"link__w__arro",
+			"sliders",
+			"admin-header-nav__one",
+			"dashboard",
+			"settings",
+			"cog",
+			"icon",
+			"#admin-header-nav",
+			"icon",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/awesome/font-awesome.css\">",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen.css\">",
+			"card",
+			"<header class=\"main-header\">\n                <div class=\"main-header__top_inner\">\n                    <div class=\"main-header__top\">\n                        <div class=\"logo-wrapper\">\n                            <a href=\"index.html\" class=\"logo\" title=\"home\">\n                                <img src=\"../assets/images/logo.svg\" alt=\"\">\n                                <h1>Al Sharq Forum</h1>\n                            </a>\n                        </div>\n                        <nav class=\"global__nav nav\">\n                            <ul class=\"log__links\">\n                                <li class=\"link__w__icon\"><a href=\"login.html\"><span class=\"icon icon__login\"></span>Log in</a></li>\n                            </ul>\n                            <ul class=\"lang__links\">\n                                <li class=\"link__w__icon\"><a href=\"../sharq/ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>\n                            </ul>\n                        </nav>\n                        <nav class=\"nav nav__main\">\n                            <ul>\n                                <li class=\"nav__main__item active\"><a href=\"index.html\">Home</a></li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"research.html\">Research</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Reserach</a></li>\n                                            <li><a href=\"#\">Regional Politics</a></li>\n                                            <li><a href=\"#\">Regional Economics</a></li>\n                                            <li><a href=\"#\">Regional Security</a></li>\n                                            <li><a href=\"#\">World Politics</a></li>\n                                        </ul>\n                                    </div>\n                                </li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"publications.html\">Publications</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Publications</a></li>\n                                            <li><a href=\"#\">Expert Briefs</a></li>\n                                            <li><a href=\"#\">Research Papers</a></li>\n                                            <li><a href=\"#\">Task Force Reports</a></li>\n                                            <li><a href=\"#\">Position Papers</a></li>\n                                        </ul>\n                                    </div>\n                                </li>\n                                <li class=\"nav__main__item\"><a href=\"blog.html\">Blog</a></li>\n                                <li class=\"nav__main__item\"><a href=\"experts.html\">Experts</a></li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"events.html\">Events</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Events</a></li>\n                                            <li><a href=\"#\">Conferences</a></li>\n                                            <li><a href=\"#\">Panels</a></li>\n                                            <li><a href=\"#\">Workshops</a></li>\n                                            <li><a href=\"#\">Round Tables</a></li>\n                                        </ul>\n                                    </div>\n                                    </li>\n                                <li class=\"nav__main__item\"><a href=\"multimedia.html\">Media</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                </div>\n                <div class=\"main-header__bottom\">\n                    <div class=\"component-inner\">\n                        <nav id=\"admin-header-nav\" class=\"nav\">\n                            <div id=\"admin-header-nav__one\">\n                                <ul class=\"admin-nav__dashboard-list admin-nav__list\">\n                                    <li class=\"admin-nav__shortcut\">\n                                        <a class=\"admin-nav-item active\" href=\"profile.html\" title=\"Profile\">\n                                            <span class=\"user-avatar\">\n                                                <img src=\"../assets/images/avatar-tiny.png\">\n                                            </span>Omar</a>\n                                            <a class=\"admin-nav-item-secondary link__w__icon\" href=\"dashboard.html\" title=\"Manage Content\">\n                                                <span class=\"icon icon-settings\"></span>\n                                            </a>\n                                    </li>\n                                </ul>\n                            </div>\n                            <div id=\"admin-header-nav__duet\">\n                                <ul class=\"admin-nav__controls-list admin-nav__list\">\n                                    <li id=\"admin-notifications\" class=\"nav__control__item nav__control__item__w__dropdown\">\n                                        <a href=\"notifications.html\">\n                                            <span class=\"admin-nav__control__count\">23</span>\n                                            <span class=\"icon icon__r icon__notification\"></span>\n                                        </a>\n                                        <div class=\"admin-nav__dropdown\">\n                                            <ul class=\"admin-nav__notifications_list\">\n                                                <li class=\"notification__item notification__message\">\n                                                    <a href=\"#\">\n                                                        <div class=\"notification__message__left\">\n                                                            <span class=\"avatar\"><img src=\"../assets/images/avatar-tiny.png\"></span>\n                                                        </div>\n                                                        <div class=\"notification__message__right\">\n                                                            <span class=\"username\">Omar</span>\n                                                            <p class=\"msg\">Hey there, how is it going?</p>\n                                                        </div>\n                                                    </a>\n                                                </li>\n                                                <li class=\"notification__item notification__event\">\n                                                    Admin invited you to an event: <a href=\"#\" class=\"link__w__arrow\">\"Annual meet-up\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__discussion\">\n                                                    Omar posted a new discussion: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__article\">\n                                                    Omar posted a new article: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__initiative\">\n                                                    Omar created a new initiative: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__article\">\n                                                    Omar posted a new article: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__initiative\">\n                                                    Omar created a new initiative: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__message\">\n                                                    <a href=\"#\">\n                                                        <div class=\"notification__message__left\">\n                                                            <span class=\"avatar\"><img src=\"../assets/images/avatar-tiny.png\"></span>\n                                                        </div>\n                                                        <div class=\"notification__message__right\">\n                                                            <span class=\"username\">Omar</span>\n                                                            <p class=\"msg\">Hey there, how is it going?</p>\n                                                        </div>\n                                                    </a>\n                                                </li>\n                                            </ul>\n                                            <div class=\"dropdown__bottom\">\n                                                <a href=\"notifications.html\" class=\"dropdown__inner-link more__w-arrow\">See All</a>\n                                            </div>\n                                        </div>\n                                    </li>\n                                    <li id=\"admin-calendar\" class=\"nav__control__item\">\n                                        <a href=\"calendar.html\">\n                                            <span class=\"icon icon__r icon__calendar\"></span>\n                                        </a>\n                                    </li>\n                                </ul>\n                                <ul class=\"admin-nav__links-list admin-nav__list\">\n                                    <li class=\"extra-links\">\n                                        <a id=\"extra-initiative\" class=\"extra-links-item link__w__icon\" href=\"initiatives.html\" title=\"Initiatives\">\n                                            <span class=\"icon icon__initiatives\"></span>Initiatives\n                                        </a>\n                                        <a id=\"extra-discussion\" class=\"extra-links-item link__w__icon\" href=\"boards.html\" title=\"Discussions\">\n                                            <span class=\"icon icon__discussions\"></span>Discussions Board\n                                        </a>\n                                    </li>\n                                    <li class=\"logout-link link__w__icon\">\n                                        <a href=\"index-w-event.html\" title=\"logout\"><span class=\"icon icon__logout\"></span>Log out</a>\n                                    </li>\n                                </ul>\n                            </div>\n                        </nav>\n                        <a href=\"#\" id=\"menuToggle\"></a>\n                    </div>\n                </div>\n            </header>",
+			"lang",
+			"	\n",
+			"blog-post",
+			"tags",
+			"#E33B4D",
+			"color",
+			"logged",
+			"album",
+			"post-content",
+			"album",
+			"image",
+			"video",
+			"album",
+			"/assets",
+			"../",
+			"href=\"assets/",
+			"src=\"assets/",
+			"../../",
+			"assets/",
+			"../../",
+			"assets/",
+			"../../",
+			"<a href=\"index-w-event.html\" class=\"logo\" title=\"home\">",
+			"assets/",
+			"../../",
+			"assets/",
+			"foooter",
+			"footer",
+			"../../assets/",
+			"../assets//",
+			"../../../assets",
+			"assets/",
+			"assets/js/",
+			"assets/css/screen.css",
+			"<script src=\"assets/js/vendor/modernizr-2.6.2.min.js\"></script>",
+			"logo",
+			"item-link",
+			"content-list",
+			"experts",
+			"content-list",
+			"block-titl",
+			"eventsGroup",
+			"slider",
+			"tags",
+			"goes",
+			"narrow",
+			"logo",
+			"list",
+			"expert",
+			"arrow",
+			"slider",
+			"blog",
+			">\n",
+			"active",
+			"event__location",
+			"transfor",
+			"event__location",
+			"list",
+			"cover",
+			"post",
+			"fill",
+			"narrow",
+			"post",
+			"task for",
+			".html",
+			"content-list",
+			"sharq",
+			"sub-title",
+			"content-list",
+			"sub-title",
+			"content-list",
+			"events",
+			"ull",
+			"full-col",
+			"events",
+			"full__height",
+			"sub-section__without-margin",
+			"featured-posts",
+			";\n",
+			"post__nav",
+			"side-col__paper",
+			"isInsideContainer",
+			"post-content",
+			"adjust",
+			"c0c0",
+			"postMeta",
+			"content-list",
+			"postM",
+			"tags",
+			"postMeta",
+			".sharq-section__list",
+			"tags",
+			"post__nav",
+			"h3",
+			"max-width",
+			"sharq-post__content__main",
+			"sharq-post",
+			"meta",
+			";\n",
+			".post__content__body",
+			"postMe",
+			"user__profile",
+			"tags"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/awesome/font-awesome.css\">",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen.css\">\n<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/awesome/font-awesome.css\">",
+			"<header class=\"main-header\">\n                <div class=\"main-header__top\">\n                    <div class=\"main-header__top_inner\">\n                        <div class=\"logo-wrapper\">\n                            <a href=\"index.html\" class=\"logo\" title=\"home\">\n                                <img src=\"../assets/images/logo.svg\" alt=\"\">\n                                <h1>Al Sharq Forum</h1>\n                            </a>\n                        </div>\n                        <nav class=\"global__nav nav\">\n                            <ul class=\"log__links\">\n                                <li class=\"link__w__icon\"><a href=\"login.html\"><span class=\"icon icon__login\"></span>Log in</a></li>\n                            </ul>\n                            <ul class=\"lang__links\">\n                                <li class=\"link__w__icon\"><a href=\"../sharq/ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>\n                            </ul>\n                        </nav>\n                        <nav class=\"nav nav__main\">\n                            <ul>\n                                <li class=\"nav__main__item active\"><a href=\"index.html\">Home</a></li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"research.html\">Research</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Reserach</a></li>\n                                            <li><a href=\"#\">Regional Politics</a></li>\n                                            <li><a href=\"#\">Regional Economics</a></li>\n                                            <li><a href=\"#\">Regional Security</a></li>\n                                            <li><a href=\"#\">World Politics</a></li>\n                                        </ul>\n                                    </div>\n                                </li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"publications.html\">Publications</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Publications</a></li>\n                                            <li><a href=\"#\">Expert Briefs</a></li>\n                                            <li><a href=\"#\">Research Papers</a></li>\n                                            <li><a href=\"#\">Task Force Reports</a></li>\n                                            <li><a href=\"#\">Position Papers</a></li>\n                                        </ul>\n                                    </div>\n                                </li>\n                                <li class=\"nav__main__item\"><a href=\"blog.html\">Blog</a></li>\n                                <li class=\"nav__main__item\"><a href=\"experts.html\">Experts</a></li>\n                                <li class=\"nav__main__item parentNavItem\">\n                                    <a href=\"events.html\">Events</a>\n                                    <div class=\"nav__main__dropdown\">\n                                        <ul>\n                                            <li><a href=\"#\">All Events</a></li>\n                                            <li><a href=\"#\">Conferences</a></li>\n                                            <li><a href=\"#\">Panels</a></li>\n                                            <li><a href=\"#\">Workshops</a></li>\n                                            <li><a href=\"#\">Round Tables</a></li>\n                                        </ul>\n                                    </div>\n                                    </li>\n                                <li class=\"nav__main__item\"><a href=\"multimedia.html\">Media</a></li>\n                            </ul>\n                        </nav>\n                    </div>\n                </div>\n                <div class=\"main-header__bottom\">\n                    <div class=\"component-inner\">\n                        <nav id=\"admin-header-nav\" class=\"nav\">\n                            <div id=\"admin-header-nav__one\">\n                                <ul class=\"admin-nav__dashboard-list admin-nav__list\">\n                                    <li class=\"admin-nav__shortcut\">\n                                        <a class=\"admin-nav-item active\" href=\"profile.html\" title=\"Profile\">\n                                            <span class=\"user-avatar\">\n                                                <img src=\"../assets/images/avatar-tiny.png\">\n                                            </span>Omar</a>\n                                            <a class=\"admin-nav-item-secondary link__w__icon\" href=\"dashboard.html\" title=\"Manage Content\">\n                                                <span class=\"icon icon-settings\"></span>\n                                            </a>\n                                    </li>\n                                </ul>\n                            </div>\n                            <div id=\"admin-header-nav__duet\">\n                                <ul class=\"admin-nav__controls-list admin-nav__list\">\n                                    <li id=\"admin-notifications\" class=\"nav__control__item nav__control__item__w__dropdown\">\n                                        <a href=\"notifications.html\">\n                                            <span class=\"admin-nav__control__count\">23</span>\n                                            <span class=\"icon icon__r icon__notification\"></span>\n                                        </a>\n                                        <div class=\"admin-nav__dropdown\">\n                                            <ul class=\"admin-nav__notifications_list\">\n                                                <li class=\"notification__item notification__message\">\n                                                    <a href=\"#\">\n                                                        <div class=\"notification__message__left\">\n                                                            <span class=\"avatar\"><img src=\"../assets/images/avatar-tiny.png\"></span>\n                                                        </div>\n                                                        <div class=\"notification__message__right\">\n                                                            <span class=\"username\">Omar</span>\n                                                            <p class=\"msg\">Hey there, how is it going?</p>\n                                                        </div>\n                                                    </a>\n                                                </li>\n                                                <li class=\"notification__item notification__event\">\n                                                    Admin invited you to an event: <a href=\"#\" class=\"link__w__arrow\">\"Annual meet-up\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__discussion\">\n                                                    Omar posted a new discussion: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__article\">\n                                                    Omar posted a new article: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__initiative\">\n                                                    Omar created a new initiative: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__article\">\n                                                    Omar posted a new article: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__initiative\">\n                                                    Omar created a new initiative: <a class=\"link__w__arrow\" href=\"#\">\"Lorem ipsum dolor sit amet\".</a>\n                                                </li>\n                                                <li class=\"notification__item notification__message\">\n                                                    <a href=\"#\">\n                                                        <div class=\"notification__message__left\">\n                                                            <span class=\"avatar\"><img src=\"../assets/images/avatar-tiny.png\"></span>\n                                                        </div>\n                                                        <div class=\"notification__message__right\">\n                                                            <span class=\"username\">Omar</span>\n                                                            <p class=\"msg\">Hey there, how is it going?</p>\n                                                        </div>\n                                                    </a>\n                                                </li>\n                                            </ul>\n                                            <div class=\"dropdown__bottom\">\n                                                <a href=\"notifications.html\" class=\"dropdown__inner-link more__w-arrow\">See All</a>\n                                            </div>\n                                        </div>\n                                    </li>\n                                    <li id=\"admin-calendar\" class=\"nav__control__item\">\n                                        <a href=\"calendar.html\">\n                                            <span class=\"icon icon__r icon__calendar\"></span>\n                                        </a>\n                                    </li>\n                                </ul>\n                                <ul class=\"admin-nav__links-list admin-nav__list\">\n                                    <li class=\"extra-links\">\n                                        <a id=\"extra-initiative\" class=\"extra-links-item link__w__icon\" href=\"initiatives.html\" title=\"Initiatives\">\n                                            <span class=\"icon icon__initiatives\"></span>Initiatives\n                                        </a>\n                                        <a id=\"extra-discussion\" class=\"extra-links-item link__w__icon\" href=\"boards.html\" title=\"Discussions\">\n                                            <span class=\"icon icon__discussions\"></span>Discussions Board\n                                        </a>\n                                    </li>\n                                    <li class=\"logout-link link__w__icon\">\n                                        <a href=\"index-w-event.html\" title=\"logout\"><span class=\"icon icon__logout\"></span>Log out</a>\n                                    </li>\n                                </ul>\n                            </div>\n                        </nav>\n                        <a href=\"#\" id=\"menuToggle\"></a>\n                    </div>\n                </div>\n            </header>",
+			"$burgundy",
+			"assets",
+			"/",
+			"href=\"../assets/",
+			"src=\"../assets/",
+			"../",
+			"../assets/",
+			"../",
+			"../assets/",
+			"../",
+			"<a href=\"index.html\" class=\"logo\" title=\"home\">",
+			"../assets/",
+			"../",
+			"../assets/",
+			"../assets/js/",
+			"../assets/css/screen.css",
+			"<script src=\"../assets/js/vendor/modernizr-2.6.2.min.js\"></script>",
+			"<a href=\"research.html\">",
+			"<div class=\"user-item__role\"><strong>Role: </strong>عضو أساسي</div>",
+			"<div class=\"user-item__title\">إسم المستخدم</div>",
+			"<strong>الألبوم: </strong>",
+			"دحر خسائر عرفها ما, عل أما المواد اليميني, مكن بـ وسفن ترتيب. كل جوي المانيا الألماني.",
+			"<div class=\"media-item__title\">إسم الملف</div>",
+			"<option value=\"\">الألبوم 1</option>\n                                            <option value=\"\">الألبوم 2</option>",
+			"<label>الألبوم:</label>",
+			"<label for=\"\">شرح الملف:</label>",
+			" <label>إسم الملف:</label>",
+			"<a class=\"content-operations-item btn btn-form\" href=\"#\">حذف</a>",
+			"<a class=\"content-operations-item btn btn-form\" href=\"#\">تحرير</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-photo.html\">صورة جديدة</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-video.html\">فيديو جديد</a>",
+			"<h2 class=\"admin-page__title\">فيديو جديد</h2>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-album.html\">ألبوم جديد</a>",
+			"<a href=\"manage-media.html\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-media\">إدارة الوسائط</a>",
+			"<a href=\"manage-users\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-users\">إدارة المستخدمين</a>",
+			"<a href=\"manage-media.html\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-media\">إدارة الوسائط</a>",
+			"<h2 class=\"admin-page__title\">إدارة الوسائط</h2>",
+			"إدارة الوسائط",
+			"<p class=\"msg\">مرحباً! كيف الحال؟</p>",
+			"<span class=\"username\">عمر</span>",
+			"<span class=\"modal__title\">رسالة مباشرة</span> مع <span class=\"messages-user-name\">عمر</span>",
+			"<label for=\"\">مدرجة تحت:</label><input type=\"text\">",
+			"<legend>خيارات النشر</legend>",
+			"<input type=\"submit\" value=\"أرسل\" class=\"btn\">",
+			"<legend>ارسل رسالة جديدة</legend>",
+			"اكتب المهمة هنا...",
+			"<label for=\"\">الحد</label>",
+			"<legend>المهام</legend>",
+			"<label for=\"\">نص المبادرة:</label>",
+			"<label>عنوان المبادرة:</label>",
+			"<h2 class=\"admin-page__title\">مبادرة جديدة</h2>",
+			"<input type=\"submit\" value=\"حفظ\" class=\"btn\">",
+			"<label for=\"\">الجميع</label>",
+			"<label for=\"\">خاص</label>",
+			"<label for=\"\">الأعضاء الأساسيين</label>",
+			"<label for=\"\">اسم المستخدم:</label>",
+			"<legend>أضف المستخدمين الذين ترغب في دعوتهم :</legend>",
+			"<label for=\"\">مفتوح للمناقشة </label>",
+			"<button class=\"module-add-btn\">أضف</button>",
+			"<h1 class=\"title\">لوحة المعلومات</h1>",
+			"<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\" lang=\"ar\" dir=\"rtl\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\" lang=\"ar\" dir=\"ltr\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\" lang=\"ar\" dir=\"rtl\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"ar\" dir=\"rtl\"> <!--<![endif]-->",
+			"<input type=\"submit\" value=\"أرسل الرسالة\" class=\"btn\">",
+			"<li><a href=\"manage-users.html\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-users\">إدارة المستخدمين</a></li>",
+			"<li><a href=\"manage-media.html\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-media\">إدارة الوسائط</a></li>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"paper-create.html\">ورقة جديدة</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"article-create.html\">مقال جديد</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"discussion-create.html\">مناقشة جديدة</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"event-create.html\">فعالية جديدة</a>",
+			"<a class=\"admin-nav-item__new admin-nav__item__action\" href=\"initiative-create.html\">مبادرة جديدة</a>",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen.css\">\n        <link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen-rtl.css\">",
+			"src=\"../assets",
+			"<img src=\"../assets/images/avatar-tiny.png\">",
+			"<img src=\"../assets/images/logo.png\" alt=\"\">",
+			"<script src=\"../assets/js/vendor/jquery.fitvids.js\"></script>\n        <script src=\"../assets/js/main.js\"></script>",
+			"<script>window.jQuery || document.write('<script src=\"../assets/js/vendor/jquery-1.10.2.min.js\"><\\/script>')</script>",
+			"<script src=\"../assets/js/vendor/modernizr-2.6.2.min.js\"></script>",
+			"<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen.css\">\n<link rel=\"stylesheet\" media=\"screen, projection\" href=\"../assets/css/screen-rtl.css\">",
+			"خسائر اللازمة ومطالبة حدة بل. الآخر الحلفاء أن غزو, إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه, ربع الأثنان المقيتة في, اقتصّت المحور حدة و.",
+			"التيارات الاستراتيجية الرئيسية في المشرق العربي – الإسلامي خلال 2013",
+			"معركة القصير تفتتح فصلا جديدا في تاريخ حزب الله",
+			"منتدى التغيير يعقد مائدة مستديرة بعنوان ما بعد الربيع.",
+			"<a class=\"content-operations-item btn btn-form\" href=\"#\">حذف</a>",
+			"<a class=\"content-operations-item btn btn-form\" href=\"#\">تعديل</a>",
+			"gallery",
+			"form-group",
+			"Core Member",
+			"Role",
+			"",
+			"Username",
+			"<a href=\"manage-users\" class=\"admin-nav__item__action admin-nav__item__action__solo admin__manage-users\">Manage Users</a>",
+			"<li class=\"link__w__icon\"><a href=\"../index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<li class=\"link__w__icon\"><a href=\"../sharq/index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<li class=\"link__w__icon\"><a href=\"../sharq/ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<li><a href=\"../sharq/index.html\"></a></li>",
+			"<ul class=\"lang__links\">\n                                <li class=\"english-switch\"><a href=\"../ar/index.html\"></a></li>\n                            </ul>",
+			"<li class=\"link__w__icon\"><a href=\"../sharq/ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<li class=\"link__w__icon\"><a href=\"sharq/ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<li class=\"link__w__icon\"><a href=\"../ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>",
+			"<ul class=\"lang__links\">\n                                <li class=\"link__w__icon\"><a href=\"../ar/index.html\"><span class=\"icon icon__lang\"></span></a></li>\n                            </ul>",
+			"<ul class=\"lang__links\">\n                                <li><a href=\"../ar/index.html\"></a></li>\n                            </ul>",
+			"<a class=\"admin-nav-item active\" href=\"profile.html\" title=\"Profile\">",
+			"<li><a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-album.html\">New Album</a></li>",
+			"<li><a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-video.html\">New Album</a></li>",
+			"<li><a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-video.html\">New Video</a></li>",
+			"<li><a class=\"admin-nav-item__new admin-nav__item__action\" href=\"new-photo.html\">New Picture</a></li>",
+			"تطوع",
+			"Volunteer",
+			"volunteer",
+			"<a class=\"admin-nav-item-secondary link__w__icon\" href=\"dashboard.html\" title=\"Manage Content\">\n                                                <span class=\"icon icon-settings\"></span>\n                                            </a>",
+			"عرض الكل",
+			"أنشئ عمر مبادرة جديدة:",
+			"نشر عمر مقالة جديدة:",
+			"نشر عمر مناقشة جديدة:",
+			"الأدمن قام بدعوتك لفعالية:",
+			"<p class=\"msg\">سلام، كيف الحال ؟</p>",
+			"تسجيل الخروج",
+			"المناقشات",
+			"فعاليات",
+			"عمر",
+			"<img src=\"../assets/images/avatar-tiny.png\">",
+			"<h2 class=\"block-title\">مقالات مماثلة</h2>",
+			"<h2 class=\"block-title\">فيديو</h2>",
+			"<h2 class=\"block-title\">الصور</h2>",
+			"شارك هذا الألبوم"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/sass/_util.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sharq2.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.scss",
+				"assets/sass/main.scss"
+			],
+			[
+				"application3",
+				"application3.html"
+			],
+			[
+				"main-st",
+				"sites/all/themes/main/sass/main-styles.scss"
+			],
+			[
+				"main-logo",
+				"sites/default/files/images/ui/main-logo.svg"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "klip",
+		"selected_items":
+		[
+			[
+				"klip",
+				"/Library/WebServer/Documents/klipse/klipse.sublime-project"
+			],
+			[
+				"klipse",
+				"/Library/WebServer/Documents/klipse/klipse.sublime-project"
+			],
+			[
+				"klips",
+				"/Library/WebServer/Documents/klipse/klipse.sublime-project"
+			],
+			[
+				"kli",
+				"/Library/WebServer/Documents/klipse/klipse.sublime-project"
+			],
+			[
+				"spa",
+				"/Library/WebServer/Documents/aTraining/lab.sublime-project"
+			],
+			[
+				"fawa",
+				"/Library/WebServer/Documents/fawateer/fawateer.sublime-project"
+			],
+			[
+				"rh",
+				"/Library/WebServer/Documents/RHC/rhc.sublime-project"
+			],
+			[
+				"rhc",
+				"/Library/WebServer/Documents/RHC/rhc.sublime-project"
+			],
+			[
+				"fat",
+				"/Library/WebServer/Documents/fawateer/fawateer.sublime-project"
+			],
+			[
+				"four",
+				"/Library/WebServer/Documents/fourwinters/sites/all/themes/main/sass/fourwinters.sublime-workspace"
+			],
+			[
+				"shar",
+				"/Library/WebServer/Documents/Workspace/sharq.sublime-workspace"
+			],
+			[
+				"tuts",
+				"/Library/WebServer/Documents/Workspace/tuts.sublime-project"
+			],
+			[
+				"tut",
+				"/Library/WebServer/Documents/Workspace/tuts.sublime-project"
+			],
+			[
+				"sharq",
+				"/Library/WebServer/Documents/Workspace/sharq.sublime-project"
+			],
+			[
+				"t",
+				"/Library/WebServer/Documents/Workspace/tuts.sublime-project"
+			],
+			[
+				"RHC",
+				"/Library/WebServer/Documents/sharq/ar/rhc.sublime-project"
+			],
+			[
+				"te",
+				"/Library/WebServer/Documents/Workspace/tuts.sublime-project"
+			],
+			[
+				"backbone",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"backb",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"back",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"soukt",
+				"/Library/WebServer/Documents/Workspace/souktel.sublime-project"
+			],
+			[
+				"backbon",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"souk",
+				"/Library/WebServer/Documents/Workspace/souktel.sublime-project"
+			],
+			[
+				"souj",
+				"/Library/WebServer/Documents/Workspace/souktel.sublime-project"
+			],
+			[
+				"so",
+				"/Library/WebServer/Documents/Workspace/souktel.sublime-project"
+			],
+			[
+				"v",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"b",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"furr",
+				"/Library/WebServer/Documents/Workspace/furrais.sublime-project"
+			],
+			[
+				"",
+				"/Library/WebServer/Documents/Workspace/tiraz.sublime-project"
+			],
+			[
+				"vack",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"backbo",
+				"/Library/WebServer/Documents/Workspace/backbone.sublime-project"
+			],
+			[
+				"tira",
+				"/Library/WebServer/Documents/Workspace/tiraz.sublime-project"
+			],
+			[
+				"tiraz",
+				"/Library/WebServer/Documents/Workspace/tiraz.sublime-project"
+			],
+			[
+				"umni",
+				"/Library/WebServer/Documents/Workspace/umniah-mobile.sublime-project"
+			],
+			[
+				"mobile",
+				"/Library/WebServer/Documents/Workspace/umniah-mobile.sublime-project"
+			],
+			[
+				"hr",
+				"/Library/WebServer/Documents/Workspace/umniah-hr.sublime-project"
+			],
+			[
+				"ts",
+				"~/bin/tsu.sublime-workspace"
+			],
+			[
+				"tsu",
+				"~/bin/projects/tsu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 429.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

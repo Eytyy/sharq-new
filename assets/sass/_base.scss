@@ -1,0 +1,190 @@
+@import "compass/css3";     // Use one CSS3 mixin instead of multiple vendor prefixes.
+
+@import "util";
+
+@font-face {
+  font-family: 'akz';
+  src: url("../../fonts/fontawesome-webfont.eot?v=4.1.0");
+  src: url("../../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("../../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("../../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("../../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------------------*\
+	Reset
+\*--------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+	img {
+	  border: none;
+	}
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main {
+  display: block;
+}
+
+/*--------------------*\
+	Base Styles
+\*--------------------*/
+* {
+	@include box-sizing(border-box);
+}
+
+%pullLeft {
+	float: left;
+}
+
+%pullRight {
+	float: right;
+}
+
+$baseFontSize: 62.5%;
+
+$bodyFont: "ff-tisa-web-pro",serif;
+$titleFont: "adelle",serif;
+
+%bodyFont {
+	font-family: $bodyFont;
+}
+
+%titleFont {
+	font-family: $titleFont;
+}
+
+%titleMain {
+	font-size: 4.4em;
+	@media all and (max-width: 721px) {
+		font-size: 3.2em;
+	}
+	@media all and (max-width: 440px) {
+		font-size: 2.8em;
+	}
+	@media all and (max-width: 350px) {
+		font-size: 2.2em;
+	}
+	@media all and (max-width: 490px) and (max-height: 500px) {
+		font-size: 1.8em;
+	}
+}
+
+%bodyFontSize {
+	font-size: 2em;
+	@media all and (max-width: 721px) {
+		font-size: 1.8em;
+	}
+	@media all and (max-width: 440px) {
+		font-size: 1.6em;
+	}
+	@media all and (max-width: 350px) {
+		font-size: 1.3em;
+	}
+}
+
+.nav {
+	@extend %titleFont;
+	ul {
+		@extend %stripListStyles;
+	}
+}
+html {
+	font-size: $baseFontSize;
+	@extend %bodyFont;
+}
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5 {
+	@extend %titleFont;
+}
+
+.main-title {
+	@extend %titleMain;
+	line-height: 1.25em;
+	font-weight: 700;
+}
+.post__content__body,
+.content__body {
+	ol, ul {
+		@extend %bodyFontSize;
+		margin-bottom: 30px;
+		line-height: 1.5em;
+		li {
+			margin-bottom: 1em;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		@media all and (max-width: 721px) {
+			list-style-position: inside;
+		}
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+p + ol,
+p + li {
+	margin-top: -1em;
+}
+
+p {
+	@extend %bodyFontSize;
+	margin-bottom: 2em;
+	line-height: 1.5em;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+i {
+	font-style: italic;
+}
+em {
+	font-weight: 700;
+}
+.content__body {
+	.title {
+		@extend %bodyFont;
+		font-size: 2em;
+		font-weight: 700;
+		margin-bottom: 0.5em;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.inline_embed {
+	margin-bottom: 30px;
+}
+/*--------------------*\
+	Partials
+\*--------------------*/
+@import "layout";
+@import "modules";
+@import "admin";
+@import "states";

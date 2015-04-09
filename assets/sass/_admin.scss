@@ -1,0 +1,926 @@
+
+.icon__r {
+	display: inline-block;
+}
+.user-nav,
+.user-notifications {
+	position: relative;
+}
+#user-notify-trig {
+	.admin-nav__control__count {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background: #FFF;
+		line-height: 12px;
+		padding: 1px;
+		font-size: 12px;
+		font-weight: 700;
+		color: #C70D0D;
+	}
+}
+.dropdown {
+	z-index: 9994;
+	position: absolute;
+	width: 250px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	right: 0;
+	top: 45px;
+	padding: 10px 0 15px;
+	display: none;
+	&.isVisible {
+		display: block;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		border: 10px solid transparent;
+		height: 0;
+		width: 0;
+		border-bottom: 10px solid #DDD;
+		top: -20px;
+		right: 5px;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		border: 10px solid transparent;
+		height: 0;
+		width: 0;
+		border-bottom: 10px solid #FFF;
+		top: -19px;
+		right: 5px;
+	}
+}
+.user-nav {
+	margin-left: 15px;
+}
+.user-menu {
+	.icon {
+		margin-right: 5px;
+		width: 20px;
+	}
+	.fa-lightbulb-o {
+		font-size: 19px;
+		margin-top: -2px;
+	}
+	.fa-comments-o {
+		font-size: 17px;
+		margin-top: -5px;
+	}
+	.fa-calendar-o {
+		font-size: 15px;
+	  	margin-top: -3px;
+	}
+	.fa-pencil-square-o {
+		font-size: 17px;
+		margin-top: -1px;
+	}
+}
+.user-menu__item {
+	font-size: 1.5em;
+	a {
+		display: block;
+		padding: 10px 20px;
+		color: rgba(0, 0, 0, 0.6);
+		&:hover {
+			color: rgba(0, 0, 0, 0.8);
+		}
+	}
+	&.separator {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #f2f2f2;
+	}
+	&.account-link-item {
+		font-size: 1.4em;
+		a {
+			padding: 5px 20px;
+			color: rgba(0, 0, 0, 0.3);
+			&:hover {
+				color: rgba(0, 0, 0, 0.8);
+			}
+		}
+	}
+}
+.user-avatar {
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	overflow: hidden;
+	display: block;
+	@extend %fullBorderRadius;
+}
+.user-notifications .dropdown {
+	width: 300px;
+	a:hover {
+		color: $burgundy;
+	}
+	.dropdown__top {
+		border-bottom: 1px solid #EEE;
+		.dropdown__title {
+			display: block;
+			font-weight: 700;
+		}
+	}
+	.dropdown__bottom {
+		background: #FFF;
+		text-align: center;
+	}
+	.dropdown__inner-link {
+		text-align: center;
+		display: block;
+		padding: 10px 20px 0;
+		font-size: 1.4em;
+	}
+	.dropdown__title {
+		padding: 10px;
+		border: 0;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	li {
+		border-bottom: 1px solid #EEE;
+		line-height: 1.25em;
+		padding: 10px 20px 10px;
+		font-size: 1.3em;
+	}
+	.notification__message {
+		a:hover .notification__message__right:after {
+			  display: block;
+			  content: "\f112";
+			  position: absolute;
+			  right: 7px;
+			  top: 5px;
+			  font-family: FontAwesome;
+			  text-rendering: auto;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			  line-height: 14px;
+			  font-size: 10px;
+		}
+	}
+}
+/*----------------------------------------*\
+	Shared styles
+	Dashboard Notification Messages +
+	Messages Modal Messages
+\*----------------------------------------*/
+	.dashboard-page {
+		.section-title,
+		.subsection-title {
+			margin: 0;
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.subsection-title {
+		  line-height: 30px;
+			font-size: 2em;
+			color: #666;
+			&:before {
+				content: "\203A";
+				font-size: 2em;
+				line-height: 38px;
+				vertical-align: bottom;
+				margin: 0 5px;
+			}
+		}
+	}
+	.admin-nav__dropdown .notification__message,
+	.messages-modal__conversations .message {
+		padding: 10px;
+		> a , .username, .avatar { display: block; }
+		> a { @extend %clearfix; }
+		.username { font-weight: 700; }
+		.avatar img { @extend %fullBorderRadius; }
+	}
+	.admin-nav__dropdown .notification__message .notification__message__left,
+	.admin-nav__dropdown .notification__message .notification__message__right,
+	.messages-modal__conversations .message__left,
+	.messages-modal__conversations .message__right  {
+		@extend %pullLeft;
+		position: relative;
+	}
+	.admin-nav__dropdown .notification__message .notification__message__left,
+	.messages-modal__conversations .message__left {
+		max-width: 40px;
+		width: 15%;
+		padding-right: 10px;
+	}
+
+	.admin-nav__dropdown .notification__message .notification__message__right,
+	.messages-modal__conversations .message__right  {
+		width: 85%;
+		padding: 10px;
+		background: #eee;
+		.msg {
+			font-size: 13px;
+			line-height: 17px;
+		}
+		&:before {
+			@include triangleIcon($direction:"right", $fillColor: "#EEE");
+			position: absolute;
+			left: -11px;
+			top: 0;
+		}
+	}
+/* ---------------- End of Messages Shared Styles --------------- */
+
+/*----------------------------------------*\
+	Messages Modal Styles
+\*----------------------------------------*/
+	#messages-modal {
+		.modal__module {
+			display: table;
+			height: 100%;
+			width: 100%;
+			max-width: 760px;
+			margin: 0 auto;
+		}
+	}
+	.module__messages {
+		display: table-cell;
+		background: #fff;
+		@include box-shadow(0px 1px 9px -5px #000);
+	}
+	.messages-modal__header, .messages-modal__conversations { padding: 2em; }
+	.messages-modal__header {
+		padding-top: 1em;
+		font-size: 1.8em;
+		padding-bottom: 1em;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		height: 10vh;
+		overflow: hidden;
+		#closeMessages {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			font-family: helvetica, arial, serif;
+			cursor: pointer;
+		}
+	}
+	.messages-modal__conversations {
+		height: 50vh;
+		overflow: scroll;
+	}
+	.messages-modal__conversations .message { @extend %clearfix; }
+	.messages-modal__conversations .message__right {
+		width: 75%;
+		@include border-radius(3px);
+		&:before { top: 10px; }
+	}
+	.messages-modal__conversations .message-sent {
+		.message__left, .message__right { @extend %pullRight; }
+	}
+	.messages-modal__conversations .message-sent .message__right {
+		padding-right: 0;
+		padding-left: 10px;
+		background: $burgundy;
+		color: #FFF;
+		&:before {
+			@include triangleIcon($direction:"left", $fillColor: "$burgundy");
+			left: auto;
+			right: -11px;
+		}
+	}
+	.messages-modal__conversations .message-sent .message__left {
+		padding-right: 0;
+		padding-left: 10px;
+	}
+	.messages-modal__form {
+		position: relative;
+		height: 40vh;
+		overflow: scroll;
+		width: 100%;
+		text-align: right;
+		textarea {
+			border: 1px solid #e2e2e2;
+			width: 100%;
+			max-width: 100%;
+			outline: none;
+			padding: 5px;
+		}
+		form {
+			background-color: #F8f8f8;
+			position: absolute;
+			left: 0;
+			right: 0;
+			padding: 1em 2em;
+			border-top: 1px solid #EEE;
+			bottom: 0;
+		}
+	}
+/* ---------------- End of Messages Modal Styles ---------------- */
+
+/*----------------------------------------*\
+	Mobile menu specific styles
+\*----------------------------------------*/
+	#menuToggle {
+		z-index: 10;
+		@include sprites-sprite(menu);
+		height: sprites-sprite-height(menu);
+		width: sprites-sprite-width(menu);
+		/* show mobile menu toggle switch */
+		@media all and (max-width: 825px) {
+			position: absolute;
+			right: 3em;
+			top: 10px;
+			display: block;
+		}
+		@media all and (max-width: 350px) {
+			right: 2em;
+			top: 5px;
+		}
+	}
+/* ---------------- End of Mobile Menu Styles ------------------- */
+
+/*----------------------------------------*\
+	Common Forms Styles
+\*----------------------------------------*/
+	fieldset {
+		margin: 20px 0 10px;
+	}
+	legend {
+		font-size: 1.6em;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #000;
+	}
+	label {
+		font-size: 1.4em;
+		font-weight: 700;
+		line-height: 1.25em;
+	}
+	input, textarea, button {
+		outline: none;
+		font-size: 1.4em;
+		border: 0;
+	}
+	select {
+		display: block;
+	}
+	input, button {
+		@extend %titleFont;
+	}
+	textarea {
+		@extend %bodyFont;
+		width: 100%;
+		max-width: 100%;
+		background: #F6F6F6;
+		border-bottom: 1px solid #ccc;
+	}
+	input.btn {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background-color: $burgundy;
+		color: #FFF;
+		cursor : pointer;
+		font-weight: 400;
+		text-transform: uppercase;
+		&.btn__small {
+			max-width: 150px;
+		}
+	}
+	.form-group {
+		margin-bottom: 2em;
+		@extend %clearfix;
+	}
+	.form-group__subtle {
+		input {
+			margin: 10px 0 0;
+			padding: 0;
+			width: 100%;
+			max-width: 100%;
+			border-bottom: 1px solid #d3d3d3;
+			&:focus {
+				border-bottom: 1px solid #000;
+			}
+		}
+	}
+	.combo {
+		margin-left: -3em;
+		@extend %clearfix;
+		.form-group {
+			width: 50%;
+			@extend %pullLeft;
+			padding-left: 3em;
+		}
+	}
+	.links__group {
+		margin-left: -3%;
+		.links__group__item {
+			width: 30.333%;
+			margin-left: 3%;
+			margin-bottom: 30px;
+			@extend %pullLeft;
+			&:last-child {
+				@extend %pullLeft;
+			}
+			input {
+				display: inline-block;
+				width: auto;
+				max-width: 87%;
+			}
+			&:before {
+				margin-right: 2%;
+				content : "";
+				display: inline-block;
+				vertical-align: bottom;
+				width: 20px;
+				height: 20px;
+			}
+			&.tw:before { @include sprites-sprite(share-twitter); }
+			
+			&.fb:before { @include sprites-sprite(fg-l-fb); }
+			
+			&.web:before { @include sprites-sprite(fg-l-web); }
+
+			&.sk:before { @include sprites-sprite(fg-l-skype); }
+
+			&.lin:before { @include sprites-sprite(share-linkedin); }
+
+		}
+	}
+	.options-group {
+		input, label {
+			width: auto;
+			float: none;
+		}
+		input { margin-left: 5px; }
+	}
+	.options-group.radios {
+		display: inline-block;
+		margin-right: 30px;
+	}
+	#avatar-upload__wrapper {
+		label {
+			display: block;
+			width: 225px;
+			height: 225px;
+			overflow: hidden;
+			@extend %fullBorderRadius;
+			cursor: pointer;
+			z-index: 2;
+			margin: 0 0 3em;
+			background-image: url(../images/avatar-plain.png);
+			background-position: center;
+			background-color: #EEE;
+			color: #000;
+			position: relative;
+			&:after {
+				@include generateIcon(plus, sprites);
+				content: "";
+				position: absolute;
+				right: 40px;
+				top: 45px;
+			}
+		}
+		input {
+			position: absolute;
+			left: -9999px;
+		}
+	}
+/* ---------------- End of Common Forms Styles ------------------ */
+
+/*----------------------------------------*\
+	Dashboard Page & Admin Pages
+\*----------------------------------------*/
+	.admin-bar {
+		margin-top: 3em;
+		margin-bottom: 3em;
+		padding: 10px;
+		background: #F2F2F2;
+		border-radius: 10px;
+	}
+	.admin-bar__list {
+		@extend %stripListStyles;
+		> li {
+			position: relative;
+			display: inline-block;
+			margin-right: 100px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	.active-page > a {
+		color: #000;
+		font-weight: 700;
+	}
+	.admin-bar__link {
+		font-size: 1.6em;
+		color: #404040;
+		display: block;
+		&:hover {
+			color: #000;
+		}
+		.icon {
+			font-size: 20px;
+			margin-right: 10px;
+		}
+	}
+	.active .admin__dropdown {
+		display: block;
+	}
+	.admin__dropdown {
+		display: none;
+		position: absolute;
+		width: 250px;
+		background: #FFF;
+		border: 1px solid #e2e2e2;
+		left: 0;
+		top: 35px;
+		padding: 10px 0 15px;
+		min-height: 160px;
+		&:after,
+		&:before {
+			content: "";
+			position: absolute;
+			border: 10px solid rgba(0, 0, 0, 0);
+			height: 0;
+			width: 0;
+		}
+		&:before {
+			border-bottom: 10px solid #DDD;
+			top: -20px;
+			left: 3px;
+		}
+		&:after {
+			border-bottom: 10px solid #FFF;
+			top: -19px;
+			left: 3px;
+		}
+		a {	
+			font-size: 1.4em;
+			display: block;
+			width: 100%;
+			padding: 5px 10px;
+			color: rgba(0,0,0,0.4);
+		}
+		.admin__dropdwon_m a {
+			border-bottom: 1px solid #e2e2e2;
+			padding: 10px 10px;
+			color: rgba(0,0,0,0.6);
+		}
+		li:last-child a {
+			padding-bottom: 0;
+		}
+	}
+	.pager {
+		@extend %stripListStyles;
+		text-align: center;
+		margin-top: 1em;
+		li {
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 1.25em;
+			a {
+				color: #777;
+				font-size: 1.2em;
+				font-family: helvetica;
+				font-weight: 700;
+				&.active {
+					color: $burgundy;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	// Dashboard Side Bar Message Form Styles
+		#dashboardSendMsgForm {
+			margin-bottom: 10px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #d2d2d2;
+			legend {
+				font-weight: 300;
+				font-size: 1.2em;
+				line-height: 1.35em;
+				margin-top: 1em;
+				text-transform: uppercase;
+			}
+			input[type="submit"] {
+				width: 100%;
+				font-weight: 300;
+				@extend %titleFont;
+				text-shadow: 0 0 0;
+				outline: none;
+			}
+			input[type="text"], textarea {
+				padding: 5px;
+				display: block;
+				width: 100%;
+				border: 0;
+				background: #fff;
+				margin: 10px 0;
+				@include box-shadow(inset 1px 1px 5px -4px #000);
+				outline: none;
+			}
+		}
+	
+	// Admin Content List (media & dashboard) Common Styles
+		.admin-content-form-item {
+			margin-bottom: 1em;
+			padding-bottom: 1em;
+			border-bottom: 1px solid #EEE;
+			@extend %clearfix;
+			.content-group {
+				@extend %pullLeft;
+				width: 80%;
+				padding-right: 3em;
+			}
+			.content-operations {
+				@extend %pullRight;
+				width: 20%;
+			}
+			.content-group__left-col {
+				@extend %pullLeft;
+				width: 20%;
+			}
+			.content-group__right-col {
+				@extend %pullLeft;
+				width: 80%;
+				padding-left: 3em;
+			}
+			.content-operations .btn {
+				@extend %pullLeft;
+				margin-left: 5px;
+				width: 48%;
+				min-width: 50px;
+				padding: 5px;
+				font-weight: 400;
+				background: #EEE;
+				color: #000;
+				&:first-child {
+					margin-left: 0;
+				}
+				&:hover {
+					background: #ddd;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			.content-title {
+				font-size: 1.6em;
+				@extend %titleFont;
+				line-height: 1.25em;
+			}
+		}
+		@media all and (max-width: 1110px) {
+			.admin-content-form-item {
+				.content-group {
+					width: 70%;
+				}
+				.content-operations {
+					width: 30%;
+				}
+			}
+		}
+		@media all and (max-width: 490px) {
+			.admin-content-form-item {
+				padding-bottom: 2em;
+				border-bottom: 1px solid #EEE;
+				.content-group,
+				.content-operations {
+					width: 100%;
+					float: none;
+					display: block;
+					padding: 0;
+				}
+				.content-title {
+					font-size: 1.4em;
+				}
+				.content-operations {
+					margin-top: 10px;
+					float: right;
+					width: auto;
+					.btn {
+						width: auto;
+						margin-left: 10px;
+						font-size: 1.2em;
+					}
+				}
+			}
+		}
+	
+	// Manage Media/users Specific Styles
+		.media-content-list .media-group,
+		.users-content-list .user-group {
+			@extend %clearfix;
+		}
+		.media-group strong, .media-group .media-item__title,
+		.user-group strong, .user-group .user-item__title {
+				font-weight: 700;
+		}
+		.media-group, .user-group {
+			font-size: 1.4em;
+			p { font-size: 1em; }
+		}
+
+	// Admin create/edit pages & forms
+		.admin-page__title {
+			font-size: 2em;
+			margin-bottom: 1em;
+			font-weight: 300;
+		}
+		.admin-form {
+			padding: 4em;
+			border: 1px solid #ddd;
+			.form-main-btn-wrapper {
+				@extend %clearfix;
+				.btn { @extend %pullRight; }
+			}
+			.image-group, .textarea-group, .module {
+				label { margin-bottom: 10px; }
+				label, input {
+					display: block;
+					width: 100%;
+				}
+			}
+			.inline-group {
+				display: inline-block;
+				margin: 0;
+				vertical-align: top;
+			}
+			.module .module__wrapper, 
+			.form-wrapper-outlined {
+				padding: 10px;
+				border: 1px dashed #d2d2d2;
+			}
+			.module {
+				position: relative;
+				margin-bottom: 2em;
+				.form-inner-action-group {
+					text-align: right;
+				}
+				.module-add-btn {
+					background: #E2E2E2;
+					color: #696969;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+					border: 0;
+					padding: 5px 10px;
+					outline: 0;
+				}
+				.module-list {
+					margin-top: 2em;
+					@extend %stripListStyles;
+					li {
+						display: inline-block;
+						position: relative;
+					}
+					input {
+						border: 0;
+					}
+				}
+				.remove {
+					position: absolute;
+					top: -13px;
+					right: 5px;
+					cursor: pointer;
+				}
+			}
+			.module-speakers {
+				@extend %grid-wrapper;
+				margin-bottom: 0;
+				.module__col {
+					@extend %grid-col;
+				}
+			}
+			.module-initiatives-task {
+				.form-group {
+					margin-bottom: 10px;
+				}
+				.initiative-limit-group, .module-initiative-tasks-list input {
+					width: 10%;
+					max-width: 60px;
+				}
+				.initiative-task-group {
+					padding-top: 25px;
+				}
+				.initiative-task-group, .module-initiative-tasks-list textarea { 
+					width: 92.25%;
+				}
+				textarea {
+					background-color: #FFF;
+				}
+			}
+			.module-initiative-tasks-list {
+				input {
+					padding: 5px 0 0;
+				}
+				li {
+					width: 100%;
+					margin: 10px 0;
+				}
+				input, textarea {
+					display: inline-block;
+					width: auto;
+					float: none;
+					vertical-align: top;
+					border-bottom: 1px solid #d2d2d2;
+				}
+			}
+		}
+
+	// profile edit
+		.page__profile__edit {
+			background: #EEE;
+			.links__group__item {
+				width: 100%;
+			}
+		}
+		.user__profile .admin-form {
+			input[type="text"], textarea {
+				background-color: transparent;
+			}
+			input[type="text"], textarea {
+				float: none;
+				font-size: inherit;
+			}
+			.user__profile__name .form-group {
+				input {
+					font-weight: 700;
+				}
+			}
+			.profile-avatar-field {
+				margin-top: 30px;
+			}
+			.user__profile__name .form-group,
+			.user__profile__location .form-group {
+				@extend %pullLeft;
+				width: 50%;
+				padding: 0 5px;
+				input {
+					width: 100%;
+				}
+			}
+			.profile__bio textarea {
+				font-size: 18px;
+			}
+		}
+
+	// Account Settings
+	#deleteAcc {
+		font-size: 1.4em;
+		color: $burgundy;
+		display: inline-block;
+		margin-top: 20px;
+		text-decoration:  underline;
+	}
+/* ---------------- End of Dashboard Page & Admin Pages --------- */
+
+.event-create-notification-msg {
+	display: none;
+	padding: 1em;
+	background: #FFFAEC;
+	p {
+		font-size: 1.4em;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	textarea {
+		background-color: #FFF;
+	}
+	.form-main-btn-wrapper {
+		text-align: right;
+	}
+}
+
+
+.system-message {
+	position: fixed;
+	top: 100px;
+	z-index: 9;
+	left: 0;
+	right: 0;
+	padding: 1em 0;
+	color: #FFF;
+	font-weight: 700;
+	p {
+		font-size: 14px;
+	}
+	&.success {
+		background-color: #57AD68;
+		background-color: rgba(87, 173, 104, 0.85);
+	}
+	&.error {
+		background-color: #FA5757;
+		background-color: rgba(250, 87, 87, 0.85);
+	}
+}
+
+.logged-in {
+	.system-message {
+		top: 148px;
+		@media all and (max-width:400px) {
+			top: 128px;
+		}
+		@media all and (max-width:350px) {
+			top: 118px;
+		}
+	}
+}
