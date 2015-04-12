@@ -3,21 +3,22 @@ var SHARQ = (function () {
 	var jqueryMap = {
 			$dropdown_link             : $('.nav__control__item__w__dropdown > a'),
 			$menu_toggle               : $('#menuToggle'),
-			$dashboard_toggle          : $('.expandDashboardBar'),
 			$notifications             : $('.notification__message').find('a'),
+			$search_toggle			   : $('#toggleSearch'),
 			$notifications_close_link  : $('#closeMessages'),
 			$createEvent_btn           : $('#eventCreate'),
 			$contact_btn               : $('.contact-trig'),
 			$user_settings_btn         : $('#toggleUserSettings'),
-			$admin_dd_btn              : $('.admin__link_d')
+			$admin_dd_btn              : $('.admin__link_d'),
+			$admin_conf_ws_cb          : $('#hasWorkshop'),
+			$admin_conf_p_cb           : $('#hasPanel')
 		},
 
+		onSearchToggle,
 		MESSAGES,
-		adjustEventNavigationPosition,
 		adjustSharqPostNav,
 		openDropDown, closeDropDown,
 		handleMobileMenuEvents,
-		expandDashboardBar,
 		showUserSettings,
 		showEventCustomNotification;
 	//----------------- END MODULE SCOPE VARIABLES ---------------
@@ -42,22 +43,6 @@ var SHARQ = (function () {
 	})();
 
 	//--------------------- BEGIN DOM METHODS --------------------
-	adjustEventNavigationPosition = function () {
-		var topOffset = 78,
-			eventBottomOffset = $('#event-main').offset().top - 200;
-
-		$(window).on('scroll', function () {
-	    	if ($(window).scrollTop() > eventBottomOffset) {
-		        $('body').addClass('is-Fixed');
-		    }
-		    else {
-		        $('body').removeClass('is-Fixed');
-		    }
-		});
-	};
-
-
-
 	adjustSharqPostNav = function () {
 		var topOffset        = 78,
 			startLimit       = $('.sharq-post__content__main').offset().top - topOffset,
@@ -119,11 +104,11 @@ var SHARQ = (function () {
 
 
 	//------------------- BEGIN EVENT HANDLERS -------------------
-	expandDashboardBar = function (e) {
-		$("body").toggleClass('is-dashboardMenu-mobile-active pushed');
+
+	onSearchToggle = function (e) {
+		$('#header-search').toggleClass('isActive');
 		e.preventDefault();
 	};
-
 	/* This method overrides the openDropDown default behaviour
 	 * and attaches new events on links for mobile menu
 	 */
@@ -170,17 +155,36 @@ var SHARQ = (function () {
 
 		jqueryMap.$menu_toggle.on('click', handleMobileMenuEvents);
 
+		jqueryMap.$search_toggle.on('click', onSearchToggle);
+
 		jqueryMap.$contact_btn.on('click', showContactInfo);
 
 		jqueryMap.$user_settings_btn.on('click', showUserSettings);
-
-		jqueryMap.$dashboard_toggle.on('click', expandDashboardBar);
 
 		jqueryMap.$notifications.on('click', MESSAGES.openMessages );
 		
 		jqueryMap.$notifications_close_link.on('click', MESSAGES.closeMessags );
 
 		jqueryMap.$createEvent_btn.on('click', showEventCustomNotification);
+
+		jqueryMap.$admin_conf_ws_cb.on('change', function () {
+			if (this.checked) {
+				$('#conference-workshop').show();
+			} else {
+				$('#conference-workshop').hide();
+			}
+		});
+
+		jqueryMap.$admin_conf_p_cb.on('change', function () {
+			if (this.checked) {
+				$('#conference-panel').show();
+			} else {
+				$('#conference-panel').hide();
+			}
+		});
+
+		jqueryMap.$admin_conf_ws_cb.prop('checked') ? $('#conference-workshop').show() : $('#conference-workshop').hide();
+		jqueryMap.$admin_conf_p_cb.prop('checked') ? $('#conference-panel').show() : $('#conference-panel').hide();
 
 
 		// Fixed Elements Behavior

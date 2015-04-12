@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>New Paper</title>
+        <title>New Event</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,11 +15,11 @@
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
         <link rel="stylesheet" media="screen, projection" href="../assets/css/screen.css">
-<link rel="stylesheet" media="screen, projection" href="../assets/css/awesome/font-awesome.css">
+        <link rel="stylesheet" media="screen, projection" href="../assets/css/awesome/font-awesome.css">
         <a clas="extra-links-item" href="boards.html" title="Discussions">
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class="logged-in page-w-sidebar">
+    <body class="logged-in">
         <nav class="nav user-nav">
             <ul class="user-nav__navList">
                 <li class="user-nav__item"><a href="#"></a></li>
@@ -29,7 +29,7 @@
             </ul>
         </nav>
         <div class="site-container">
-            <div class="page-wrapper wSideBar wSideBar__left page__admin page__dashboard">
+            <div class="page-wrapper page__admin page__dashboard">
                 <header class="main-header">
                     <div class="main-header__top">
                         <div class="main-header__top_inner">
@@ -41,7 +41,10 @@
                             </div>
                             <nav class="global__nav nav">
                                 <div class="global__nav_item search">
-                                    <a href="#"><i class="icon fa fa-search"></i></a>
+                                    <a id="toggleSearch" href="#"><i class="icon fa fa-search"></i></a>
+                                    <form id="header-search">
+                                        <input type="text" placeholder="Search Al Sharq">
+                                    </form>
                                 </div>
                                 <div class="global__nav_item  user-notifications">
                                     <a href="#" id="user-notify-trig" class="dropdown-trig">
@@ -161,78 +164,192 @@
                 </header>
                 <main class="page-wrapper__inner">
                     <div class="centered-wrapper">
-                        <div class="sidebar__col sidebar__col_left">
-                            <div class="dasbhoard-bar">
-                                <form id="dashboardSendMsgForm">
-                                    <legend>Send a new message</legend>
-                                    <input type="text" placeholder="To">
-                                    <textarea rows="6" placeholder="Message"></textarea>
-                                    <input type="submit" value="Send" class="btn">
-                                </form>
-                                
-                                <nav id="dashboard__nav" class="nav">
-                                    <div class="admin-nav__group">
-                                        <ul class="admin-nav__main-list">
-                                            <li>
-                                                <a class="admin-nav-item__new admin-nav__item__action" href="initiative-create.html">New Initiatives</a>
-                                            </li>
-                                            <li>
-                                                <a class="admin-nav-item__new admin-nav__item__action" href="event-create.html">New Event</a>
-                                            </li>
-                                            <li>
-                                                <a class="admin-nav-item__new admin-nav__item__action" href="discussion-create.html">New Discussion</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="admin-nav__group">
-                                        <ul class="admin-nav__main-list">
-                                            <li>
-                                                <a class="admin-nav-item__new admin-nav__item__action" href="article-create.html">New Article</a>
-                                            </li>
-                                            <li>
-                                                <a class="admin-nav-item__new admin-nav__item__action" href="paper-create.html">New Paper</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="admin-nav__group">
-                                        <ul>
-                                            <li><a href="manage-media.html" class="admin-nav__item__action admin-nav__item__action__solo admin__manage-media">Manage Media</a></li>
-                                            <li><a href="manage-users.html" class="admin-nav__item__action admin-nav__item__action__solo admin__manage-users">Manage Users</a></li>
-                                        </ul>
-                                    </div>                                    
-                                </nav>
-                            </div>
-                        </div>
-                        <section class="main__col dashboard-page">
+                        <section class="dashboard-page full main__col">
                             <header>
-                                <h1 class="title">Dashboard</h1>
-                                <h2 class="admin-page__title">New Paper</h2>
+                                <h1 class="section-title">Dashboard</h1>
+                                <h2 class="subsection-title">New Panel</h2>
+                                <nav class="admin-bar">
+                                    <ul class="admin-bar__list">
+                                        <li class="active-page">
+                                            <a class="admin-bar__link admin__link_d" href="dashboard.html"><i class="icon fa fa-pencil"></i>Content</a>
+                                            <ul class="admin__dropdown">
+                                                <li class="admin__dropdwon_m"><a href="dashboard.html">View Content</a></li>
+                                                <li class="separator"></li>
+                                                <li><a href="sharq-post-create.html"><i class="icon fa fa-plus"></i>New Sharq Post</a></li>
+                                                <li><a href="event-conference-create.html"><i class="icon fa fa-plus"></i>New Conference</a></li>
+                                                <li><a href="event-panel-create.html"><i class="icon fa fa-plus"></i>New Panel</a></li>
+                                                <li><a href="event-workshop-create.html"><i class="icon fa fa-plus"></i>New Workshop</a></li>
+                                                <li><a href="event-roundtable-create.html"><i class="icon fa fa-plus"></i>New Round Table</a></li>
+                                                <li><a href="blog-post-create.html"><i class="icon fa fa-plus"></i>New Blog Post</a></li>
+                                                <li><a href="initiative-create.html"><i class="icon fa fa-plus"></i>New Initiative</a></li>
+                                                <li><a href="discussion-create.html"><i class="icon fa fa-plus"></i>New Discussion</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="admin-bar__link admin__link_d" href="sections.html"><i class="icon fa fa-bars"></i>Sections</a>
+                                            <ul class="admin__dropdown">
+                                                <li class="admin__dropdwon_m"><a href="sections.html">View Sections</a></li>
+                                                <li class="separator"></li>
+                                                <li><a href="sharq-section-create.html"><i class="icon fa fa-plus"></i>New Sharq Section</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="admin-bar__link admin__link_d" href="manage-media.html"><i class="icon fa fa-photo"></i>Media</a>
+                                            <ul class="admin__dropdown">
+                                                <li class="admin__dropdwon_m"><a href="manage-media.html">View Media</a></li>
+                                                <li class="separator"></li>
+                                                <li><a href="new-album.html"><i class="icon fa fa-plus"></i>New Album</a></li>
+                                                <li><a href="new-image.html"><i class="icon fa fa-plus"></i>New Image</a></li>
+                                                <li><a href="new-video.html"><i class="icon fa fa-plus"></i>New Video</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="admin-bar__link admin__link_d" href="#"><i class="icon fa fa-users"></i>Users</a>
+                                            <ul class="admin__dropdown">
+                                                <li class="admin__dropdwon_m"><a href="manage-users.html">View Users</a></li>
+                                                <li class="separator"></li>
+                                                <li><a href="author-create.html"><i class="icon fa fa-plus"></i>New Author</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="admin-bar__link" id="sendGlobalMsg" href="#"><i class="icon fa fa-envelope"></i>New Message</a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </header>
-                            <form class="admin-form" id="admin__article-create">
+                            <div id="event-notification-msg" class="event-create-notification-msg">
+                                <form action="admin-create-success.html">
+                                    <p>This is the default event notification message, you can either user it, or write your own:</p>
+                                    <div class="form-group">
+                                        <textarea name="" id="" cols="30" rows="3">&lt;User&gt; invited you to an event: &lt;Event name&gt;.</textarea>
+                                    </div>                                   
+                                    <div class="form-main-btn-wrapper">
+                                        <input  type="submit" value="Send" class="btn">
+                                    </div>
+                                </form>
+                            </div>
+                            <form class="admin-form" id="admin__event-create">
                                 <div class="form-group form-group__subtle">
-                                    <label>Paper Title:</label>
+                                    <label>Panel Title:</label>
                                     <input type="text">
                                 </div>
                                 <div class="form-group textarea-group">
-                                    <label for="">Paper Excerpt:</label>
+                                    <label for="">Panel Summary:</label>
                                     <textarea name="" id="" rows="5"></textarea>
                                 </div>
-                                <div class="form-group  form-group__subtle">
-                                    <label for="">Publish Date:</label><input type="text">
+                                <div class="form-group image-group">
+                                    <label for="post-cover__image">Main Image:</label>
+                                    <input type="file" id="post-cover__image">
                                 </div>
+                                <fieldset>
+                                    <legend>Panel Date</legend>
+                                    <div class="combo">
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">From:</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">To:</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Panel Location</legend>
+                                    <div class="combo">
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">City:</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="form-group form-group__subtle">
+                                             <label for="">Country:</label>   
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </fieldset>
                                 <div class="form-group textarea-group">
-                                    <label for="">Body:</label>
+                                    <label for="">Program:</label>
                                     <textarea rows="10"></textarea>
                                 </div>
-                                <div class="form-group form-group__subtle">
-                                    <label for="">Tags:</label><input type="text">
+                                <fieldset>
+                                    <legend>Moderator</legend>
+                                    <div class="module module-speakers">
+                                        <div class="module__col">
+                                            <div class="module__wrapper">
+                                                 <div class="form-group image-group">
+                                                    <label for="">Moderator Image:</label>
+                                                    <input type="file">
+                                                </div>
+                                                <div class="form-group form-group__subtle">
+                                                    <label for="">Moderator Name:</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="form-group textarea-group">
+                                                    <label for="">Moderator Bio:</label>
+                                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Participents</legend>
+                                    <div class="module module-speakers">
+                                        <div class="module__col">
+                                            <div class="module__wrapper">
+                                                 <div class="form-group image-group">
+                                                    <label for="">Participent Image:</label>
+                                                    <input type="file">
+                                                </div>
+                                                <div class="form-group form-group__subtle">
+                                                    <label for="">Participent Name:</label>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="form-group textarea-group">
+                                                    <label for="">Participent Bio:</label>
+                                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                                </div>
+                                                <div class="form-inner-action-group">
+                                                    <button class="module-add-btn">ADD</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Map Details</legend>
+                                    <div class="combo">
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">Longitude:</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">Latitude:</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="combo">
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">Building Name:</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label for="">Street Name:</label>
+                                            <input type="text">
+                                        </div>
+                                    </div> 
+                                </fieldset> 
+                                <div class="combo">
+                                    <div class="form-group form-group__subtle">
+                                        <label for="">Tags:</label><input type="text">
+                                    </div>
                                 </div>
                                 <div class="form-group options-group">
-                                    <label for="">Feature Paper</label>
+                                    <label for="">Feature on home page</label>
                                     <input type="checkbox">
-                                </div>                            
+                                </div>                          
                                 <div class="form-main-btn-wrapper">
-                                    <input type="submit" value="save" class="btn">
+                                    <input id="eventCreate" type="submit" value="save" class="btn">
                                 </div>
                             </form>
                         </section>

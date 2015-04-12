@@ -41,7 +41,10 @@
                             </div>
                             <nav class="global__nav nav">
                                 <div class="global__nav_item search">
-                                    <a href="#"><i class="icon fa fa-search"></i></a>
+                                    <a id="toggleSearch" href="#"><i class="icon fa fa-search"></i></a>
+                                    <form id="header-search">
+                                        <input type="text" placeholder="Search Al Sharq">
+                                    </form>
                                 </div>
                                 <div class="global__nav_item  user-notifications">
                                     <a href="#" id="user-notify-trig" class="dropdown-trig">
@@ -164,7 +167,7 @@
                         <section class="dashboard-page full main__col">
                             <header>
                                 <h1 class="section-title">Dashboard</h1>
-                                <h2 class="subsection-title">New Event</h2>
+                                <h2 class="subsection-title">New Workshop</h2>
                                 <nav class="admin-bar">
                                     <ul class="admin-bar__list">
                                         <li class="active-page">
@@ -173,7 +176,10 @@
                                                 <li class="admin__dropdwon_m"><a href="dashboard.html">View Content</a></li>
                                                 <li class="separator"></li>
                                                 <li><a href="sharq-post-create.html"><i class="icon fa fa-plus"></i>New Sharq Post</a></li>
-                                                <li><a href="event-create.html"><i class="icon fa fa-plus"></i>New Event</a></li>
+                                                <li><a href="event-conference-create.html"><i class="icon fa fa-plus"></i>New Conference</a></li>
+                                                <li><a href="event-panel-create.html"><i class="icon fa fa-plus"></i>New Panel</a></li>
+                                                <li><a href="event-workshop-create.html"><i class="icon fa fa-plus"></i>New Workshop</a></li>
+                                                <li><a href="event-roundtable-create.html"><i class="icon fa fa-plus"></i>New Round Table</a></li>
                                                 <li><a href="blog-post-create.html"><i class="icon fa fa-plus"></i>New Blog Post</a></li>
                                                 <li><a href="initiative-create.html"><i class="icon fa fa-plus"></i>New Initiative</a></li>
                                                 <li><a href="discussion-create.html"><i class="icon fa fa-plus"></i>New Discussion</a></li>
@@ -224,19 +230,19 @@
                             </div>
                             <form class="admin-form" id="admin__event-create">
                                 <div class="form-group form-group__subtle">
-                                    <label>Event Title:</label>
+                                    <label>Workshop Title:</label>
                                     <input type="text">
                                 </div>
-                                <div class="form-group form-group__subtle">
-                                    <label>Event Subtitle:</label>
-                                    <input type="text">
+                                <div class="form-group textarea-group">
+                                    <label for="">Workshop Summary:</label>
+                                    <textarea name="" id="" rows="5"></textarea>
                                 </div>
                                 <div class="form-group image-group">
                                     <label for="post-cover__image">Main Image:</label>
                                     <input type="file" id="post-cover__image">
                                 </div>
                                 <fieldset>
-                                    <legend>Event Date</legend>
+                                    <legend>Workshop Date</legend>
                                     <div class="combo">
                                         <div class="form-group form-group__subtle">
                                             <label for="">From:</label>
@@ -249,7 +255,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset>
-                                    <legend>Event Location</legend>
+                                    <legend>Workshop Location</legend>
                                     <div class="combo">
                                         <div class="form-group form-group__subtle">
                                             <label for="">City:</label>
@@ -266,20 +272,20 @@
                                     <textarea rows="10"></textarea>
                                 </div>
                                 <fieldset>
-                                    <legend>Speakers</legend>
+                                    <legend>Instructors</legend>
                                     <div class="module module-speakers">
                                         <div class="module__col">
                                             <div class="module__wrapper">
                                                  <div class="form-group image-group">
-                                                    <label for="">Speaker Image:</label>
+                                                    <label for="">Instructor Image:</label>
                                                     <input type="file">
                                                 </div>
                                                 <div class="form-group form-group__subtle">
-                                                    <label for="">Speaker Name:</label>
+                                                    <label for="">Instructor Name:</label>
                                                     <input type="text">
                                                 </div>
                                                 <div class="form-group textarea-group">
-                                                    <label for="">Speaker Bio:</label>
+                                                    <label for="">Instructor Bio:</label>
                                                     <textarea name="" id="" cols="30" rows="10"></textarea>
                                                 </div>
                                                 <div class="form-inner-action-group">
@@ -311,7 +317,16 @@
                                             <input type="text">
                                         </div>
                                     </div> 
-                                </fieldset>                          
+                                </fieldset> 
+                                <div class="combo">
+                                    <div class="form-group form-group__subtle">
+                                        <label for="">Tags:</label><input type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group options-group">
+                                    <label for="">Feature on home page</label>
+                                    <input type="checkbox">
+                                </div>                          
                                 <div class="form-main-btn-wrapper">
                                     <input id="eventCreate" type="submit" value="save" class="btn">
                                 </div>

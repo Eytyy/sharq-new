@@ -16,7 +16,7 @@
 		padding: 1px;
 		font-size: 12px;
 		font-weight: 700;
-		color: #C70D0D;
+		color: $burgundy;
 	}
 }
 .dropdown {
@@ -341,12 +341,16 @@
 	Common Forms Styles
 \*----------------------------------------*/
 	fieldset {
-		margin: 20px 0 10px;
+		margin: 20px 0px;
+		border: 1px solid #D2D2D2;
+		padding: 20px;
 	}
 	legend {
+		color: #444;
 		font-size: 1.6em;
 		margin-bottom: 20px;
-		border-bottom: 1px solid #000;
+		border-bottom: 0;
+		padding: 0 5px;
 	}
 	label {
 		font-size: 1.4em;
@@ -481,6 +485,26 @@
 		input {
 			position: absolute;
 			left: -9999px;
+		}
+	}
+	.conference-extra-combo {
+
+	}
+	.conference-extra__element {
+		display: inline-block;
+		font-size: 14px;
+		label {
+			font-size: 14px;
+		}
+		span {
+			margin: 0 5px 0 0;
+		}
+	}
+	.conference-extra {
+		background-color: #FFFEFB;
+		display: none;
+		fieldset, input, textarea {
+			background: #FFF;
 		}
 	}
 /* ---------------- End of Common Forms Styles ------------------ */
