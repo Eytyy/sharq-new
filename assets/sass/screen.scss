@@ -1036,15 +1036,23 @@ a {
 			float: none;
 		}
 	}
+	.album-wrapper {
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	.section-tag {
+		background: #7D002E;
+		color: #FFF;
+		padding: 0 15px 5px;
+		margin-bottom: 20px;
+		font-size: 1.6em;
+		display: inline-block;
+		border: 0;
+		&:hover {
+			background-color: #444;
+		}
+	}
 }
-.slider__section-tag {
-  background: #7D002E;
-  color: #FFF;
-  padding: 0 15px 5px;
-  margin-bottom: 20px;
-  font-size: 1.6em;
-  display: inline-block;
-}
+
 /*----------------------------------------*\
 	Discussions Board & Innitiatives
 \*----------------------------------------*/

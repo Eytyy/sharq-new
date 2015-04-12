@@ -5709,21 +5709,29 @@ a:hover, a.active {
 .content-by-tags-list .mutlimedia-list__album .postMeta {
   float: none;
 }
-
-/* line 1040, ../sass/screen.scss */
-.slider__section-tag {
+/* line 1039, ../sass/screen.scss */
+.content-by-tags-list .album-wrapper {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* line 1042, ../sass/screen.scss */
+.content-by-tags-list .section-tag {
   background: #7D002E;
   color: #FFF;
   padding: 0 15px 5px;
   margin-bottom: 20px;
   font-size: 1.6em;
   display: inline-block;
+  border: 0;
+}
+/* line 1050, ../sass/screen.scss */
+.content-by-tags-list .section-tag:hover {
+  background-color: #444;
 }
 
 /*----------------------------------------*\
 	Discussions Board & Innitiatives
 \*----------------------------------------*/
-/* line 1051, ../sass/screen.scss */
+/* line 1059, ../sass/screen.scss */
 .initiatives-list__item,
 .discussion-board-list__item {
   border-bottom: 1px solid #C5C5C5;
@@ -5731,13 +5739,13 @@ a:hover, a.active {
   background: #F2F2F2;
   margin-bottom: 3em;
 }
-/* line 1058, ../sass/screen.scss */
+/* line 1066, ../sass/screen.scss */
 .initiatives-list__item:first-child,
 .discussion-board-list__item:first-child {
   padding: 20px;
 }
 
-/* line 1067, ../sass/screen.scss */
+/* line 1075, ../sass/screen.scss */
 .initiative .author-avatar,
 .initiative .author-name,
 .discussion .author-avatar,
@@ -5749,7 +5757,7 @@ a:hover, a.active {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 1072, ../sass/screen.scss */
+/* line 1080, ../sass/screen.scss */
 .initiative .author-avatar,
 .discussion .author-avatar,
 .initiatives-list__item .author-avatar,
@@ -5759,7 +5767,7 @@ a:hover, a.active {
   background-size: contain;
   margin-right: 5px;
 }
-/* line 1079, ../sass/screen.scss */
+/* line 1087, ../sass/screen.scss */
 .initiative .author-name,
 .initiative .publish-date,
 .discussion .author-name,
@@ -5771,7 +5779,7 @@ a:hover, a.active {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 1084, ../sass/screen.scss */
+/* line 1092, ../sass/screen.scss */
 .initiative .publish-date:before,
 .discussion .publish-date:before,
 .initiatives-list__item .publish-date:before,
@@ -5780,23 +5788,23 @@ a:hover, a.active {
   margin: 0 5px;
 }
 
-/* line 1094, ../sass/screen.scss */
+/* line 1102, ../sass/screen.scss */
 .initiative .post-top header,
 .discussion .post-top header {
   width: 80%;
   padding-right: 3em;
 }
-/* line 1103, ../sass/screen.scss */
+/* line 1111, ../sass/screen.scss */
 .initiative .postMeta,
 .discussion .postMeta {
   padding: 0.5em 0 3em;
 }
 
-/* line 1109, ../sass/screen.scss */
+/* line 1117, ../sass/screen.scss */
 .discussion-board-list__item {
   position: relative;
 }
-/* line 1112, ../sass/screen.scss */
+/* line 1120, ../sass/screen.scss */
 .discussion-board-list__item.pinned:after {
   content: "";
   position: absolute;
@@ -5807,33 +5815,33 @@ a:hover, a.active {
   width: 40px;
 }
 
-/* line 1126, ../sass/screen.scss */
+/* line 1134, ../sass/screen.scss */
 .initiatives-list__item .initiatives__item__col.col-l {
   width: 88%;
   padding-right: 3em;
 }
-/* line 1130, ../sass/screen.scss */
+/* line 1138, ../sass/screen.scss */
 .initiatives-list__item .initiatives__item__col.col-r {
   width: 12%;
   max-width: 56px;
 }
 @media all and (max-width: 440px) {
-  /* line 1136, ../sass/screen.scss */
+  /* line 1144, ../sass/screen.scss */
   .initiatives-list__item .initiatives__item__col.col-r {
     width: 20%;
   }
-  /* line 1139, ../sass/screen.scss */
+  /* line 1147, ../sass/screen.scss */
   .initiatives-list__item .initiatives__item__col.col-l {
     width: 80%;
   }
 }
 
-/* line 1146, ../sass/screen.scss */
+/* line 1154, ../sass/screen.scss */
 .moudle__initiative__vote.isInitiativeOpen {
   display: none;
 }
 
-/* line 1150, ../sass/screen.scss */
+/* line 1158, ../sass/screen.scss */
 .vote {
   display: inline-block;
   font-size: 2em;
@@ -5842,37 +5850,37 @@ a:hover, a.active {
   text-align: center;
 }
 
-/* line 1157, ../sass/screen.scss */
+/* line 1165, ../sass/screen.scss */
 .vote-icon {
   margin-right: 10px;
 }
 
-/* line 1162, ../sass/screen.scss */
+/* line 1170, ../sass/screen.scss */
 .initiative__volunteer {
   margin-top: 6em;
 }
-/* line 1164, ../sass/screen.scss */
+/* line 1172, ../sass/screen.scss */
 .initiative__volunteer .block-title {
   margin-bottom: 0;
 }
-/* line 1167, ../sass/screen.scss */
+/* line 1175, ../sass/screen.scss */
 .initiative__volunteer header {
   margin-bottom: 3em;
 }
 
-/* line 1175, ../sass/screen.scss */
+/* line 1183, ../sass/screen.scss */
 .volunteer__list ul li:first-child {
   margin-left: 10px;
 }
 
-/* line 1180, ../sass/screen.scss */
+/* line 1188, ../sass/screen.scss */
 .volunteer__item {
   padding: 1em;
   background: #F8f8f8;
   margin-bottom: 2em;
   position: relative;
 }
-/* line 1185, ../sass/screen.scss */
+/* line 1193, ../sass/screen.scss */
 .volunteer__item h3 {
   font-size: 2em;
   line-height: 1.35em;
@@ -5880,27 +5888,27 @@ a:hover, a.active {
   margin-bottom: 0.5em;
 }
 @media all and (max-width: 721px) {
-  /* line 1185, ../sass/screen.scss */
+  /* line 1193, ../sass/screen.scss */
   .volunteer__item h3 {
     font-size: 1.6em;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 1185, ../sass/screen.scss */
+  /* line 1193, ../sass/screen.scss */
   .volunteer__item h3 {
     font-weight: 400;
   }
 }
-/* line 1197, ../sass/screen.scss */
+/* line 1205, ../sass/screen.scss */
 .volunteer__item.isFull {
   border-top: 3px solid #6EB281;
 }
-/* line 1199, ../sass/screen.scss */
+/* line 1207, ../sass/screen.scss */
 .volunteer__item.isFull .volunteerButton {
   display: none;
 }
 
-/* line 1204, ../sass/screen.scss */
+/* line 1212, ../sass/screen.scss */
 .volunteer__item__cap {
   display: inline-block;
   font-size: 1.6em;
@@ -5910,11 +5918,11 @@ a:hover, a.active {
   line-height: 22px;
 }
 
-/* line 1212, ../sass/screen.scss */
+/* line 1220, ../sass/screen.scss */
 .volunteer__item__users {
   display: inline-block;
 }
-/* line 1214, ../sass/screen.scss */
+/* line 1222, ../sass/screen.scss */
 .volunteer__item__users:before {
   content: "";
   display: inline-block;
@@ -5923,21 +5931,21 @@ a:hover, a.active {
   width: 25px;
   vertical-align: bottom;
 }
-/* line 1222, ../sass/screen.scss */
+/* line 1230, ../sass/screen.scss */
 .volunteer__item__users li {
   display: inline-block;
   font-size: 1.4em;
 }
-/* line 1225, ../sass/screen.scss */
+/* line 1233, ../sass/screen.scss */
 .volunteer__item__users li:after {
   content: ",";
 }
-/* line 1228, ../sass/screen.scss */
+/* line 1236, ../sass/screen.scss */
 .volunteer__item__users li:last-child:after {
   content: ".";
 }
 
-/* line 1233, ../sass/screen.scss */
+/* line 1241, ../sass/screen.scss */
 .volunteerButton {
   display: inline-block;
   border: 1px solid #D2D2D2;
@@ -5947,7 +5955,7 @@ a:hover, a.active {
   border-radius: 100%;
 }
 
-/* line 1241, ../sass/screen.scss */
+/* line 1249, ../sass/screen.scss */
 .vote__icon {
   position: absolute;
   right: -15px;
@@ -5959,11 +5967,11 @@ a:hover, a.active {
 /*--------------------*\
 	Login/Register
 \*--------------------*/
-/* line 1253, ../sass/screen.scss */
+/* line 1261, ../sass/screen.scss */
 .login__register__form__wrapper {
   margin-left: -3em;
 }
-/* line 1256, ../sass/screen.scss */
+/* line 1264, ../sass/screen.scss */
 .login__register__form__wrapper .floated {
   width: 50%;
   padding-left: 3em;
@@ -5971,7 +5979,7 @@ a:hover, a.active {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-/* line 1263, ../sass/screen.scss */
+/* line 1271, ../sass/screen.scss */
 .login__register__form__wrapper .floated:last-child:before {
   content: '';
   position: absolute;
@@ -5982,18 +5990,18 @@ a:hover, a.active {
   background: #d2d2d2;
 }
 @media all and (max-width: 721px) {
-  /* line 1253, ../sass/screen.scss */
+  /* line 1261, ../sass/screen.scss */
   .login__register__form__wrapper {
     margin-left: 0;
   }
-  /* line 1275, ../sass/screen.scss */
+  /* line 1283, ../sass/screen.scss */
   .login__register__form__wrapper .floated {
     float: none;
     padding: 3em 0;
     margin: 0 auto;
     width: 100%;
   }
-  /* line 1280, ../sass/screen.scss */
+  /* line 1288, ../sass/screen.scss */
   .login__register__form__wrapper .floated:last-child:before {
     top: 0;
     left: 0;
@@ -6003,37 +6011,37 @@ a:hover, a.active {
   }
 }
 
-/* line 1290, ../sass/screen.scss */
+/* line 1298, ../sass/screen.scss */
 .page__login {
   background: #EEE;
 }
 
-/* line 1295, ../sass/screen.scss */
+/* line 1303, ../sass/screen.scss */
 .login__register__form .st {
   max-width: 320px;
   display: block;
   font-size: 1.8em;
   margin-bottom: 0 !important;
 }
-/* line 1302, ../sass/screen.scss */
+/* line 1310, ../sass/screen.scss */
 .login__register__form .form__title {
   font-size: 2.6em;
   max-width: 320px;
   font-weight: 700;
   margin-bottom: 30px !important;
 }
-/* line 1308, ../sass/screen.scss */
+/* line 1316, ../sass/screen.scss */
 .login__register__form .login__regesiter__form__links {
   max-width: 320px;
   text-align: center;
   margin: 0 auto;
 }
-/* line 1312, ../sass/screen.scss */
+/* line 1320, ../sass/screen.scss */
 .login__register__form .login__regesiter__form__links .sep {
   margin: 0 3px;
   font-size: 1.6em;
 }
-/* line 1316, ../sass/screen.scss */
+/* line 1324, ../sass/screen.scss */
 .login__register__form .login__regesiter__form__links a {
   font-size: 1.4em;
   text-align: center;
@@ -6041,21 +6049,21 @@ a:hover, a.active {
   margin-top: 10px;
   color: #000;
 }
-/* line 1324, ../sass/screen.scss */
+/* line 1332, ../sass/screen.scss */
 .login__register__form .form__col {
   width: 40%;
   padding-left: 3em;
 }
-/* line 1328, ../sass/screen.scss */
+/* line 1336, ../sass/screen.scss */
 .login__register__form .form__col.account-col__right {
   padding-top: 1.5em;
   width: 60%;
 }
-/* line 1333, ../sass/screen.scss */
+/* line 1341, ../sass/screen.scss */
 .login__register__form .form__el__centered {
   margin: 0 auto 10px;
 }
-/* line 1336, ../sass/screen.scss */
+/* line 1344, ../sass/screen.scss */
 .login__register__form input,
 .login__register__form textarea {
   max-width: 330px;
@@ -6068,46 +6076,46 @@ a:hover, a.active {
   font-size: 1.6em;
   margin: 0 0 10px;
 }
-/* line 1349, ../sass/screen.scss */
+/* line 1357, ../sass/screen.scss */
 .login__register__form textarea {
   max-width: 100%;
   background: #F6F6F6;
   border-bottom: 1px solid #ccc;
 }
-/* line 1355, ../sass/screen.scss */
+/* line 1363, ../sass/screen.scss */
 .login__register__form input[type=email], .login__register__form input[type=password] {
   border: 1px solid #eee;
 }
-/* line 1357, ../sass/screen.scss */
+/* line 1365, ../sass/screen.scss */
 .login__register__form input[type=email] {
   border-bottom: none;
 }
-/* line 1359, ../sass/screen.scss */
+/* line 1367, ../sass/screen.scss */
 .login__register__form input[type=password] {
   border: 1px solid #eee;
 }
 @media all and (max-width: 721px) {
-  /* line 1363, ../sass/screen.scss */
+  /* line 1371, ../sass/screen.scss */
   .login__register__form .form__title {
     font-size: 2.2em;
   }
-  /* line 1365, ../sass/screen.scss */
+  /* line 1373, ../sass/screen.scss */
   .login__register__form input, .login__register__form textarea {
     font-size: 1.4em;
   }
-  /* line 1367, ../sass/screen.scss */
+  /* line 1375, ../sass/screen.scss */
   .login__register__form #avatar-upload__wrapper label {
     margin: 0 auto;
   }
-  /* line 1369, ../sass/screen.scss */
+  /* line 1377, ../sass/screen.scss */
   .login__register__form .combo .links__group {
     margin-top: 3em;
   }
-  /* line 1371, ../sass/screen.scss */
+  /* line 1379, ../sass/screen.scss */
   .login__register__form .combo .links__group .links__group__item input {
     width: 80%;
   }
-  /* line 1374, ../sass/screen.scss */
+  /* line 1382, ../sass/screen.scss */
   .login__register__form .form__col, .login__register__form .form__col.account-col__right {
     padding: 0;
     float: none;
@@ -6115,12 +6123,12 @@ a:hover, a.active {
   }
 }
 @media all and (max-width: 440px) {
-  /* line 1381, ../sass/screen.scss */
+  /* line 1389, ../sass/screen.scss */
   .login__register__form #avatar-upload__wrapper label {
     width: 165px;
     height: 165px;
   }
-  /* line 1386, ../sass/screen.scss */
+  /* line 1394, ../sass/screen.scss */
   .login__register__form .combo .links__group .links__group__item {
     width: 100%;
     float: none;
