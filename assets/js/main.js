@@ -234,6 +234,11 @@ var SHARQ = (function () {
 		  	});
 		  }
 
+		// Temporary scripts remove when backend is ready
+		$('#header-search').on('submit', function (e) {
+			window.location = 'search-results.html';
+			e.preventDefault();
+		});
 	})();
 	//-------------------- END PUBLIC METHODS --------------------
 
