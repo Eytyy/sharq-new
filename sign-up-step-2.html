@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login</title>
+        <title>Sign up</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -102,66 +102,69 @@
                 </header>
                 <main class="page-wrapper__inner">
                     <div class="centered-wrapper">
-                        <form id="account-form" action="index-loggedin.html" class="login__register__form">
-                            <h1 class="form__title title">Complete your profile.</h1>
-                            <div class="login__register__form__wrapper">
-                                <div class="form__col account-col__left">
-                                    <div class="form-group" id="avatar-upload__wrapper">
-                                        <label for="profile-avatar__field"></label>
-                                        <input type="file" id="profile-avatar__field" name="avatar-image">
-                                        <span id="filename"></span>
+                        <form id="account-form" action="index-loggedin.html">
+                            <h1 class="block-title">Complete your profile.</h1>
+                            <div class="register__form__wrapper">
+                                <div class="form-group" id="avatar-upload__wrapper">
+                                    <label for="profile-avatar__field">Profile Picture</label>
+                                    <input type="file" id="profile-avatar__field" name="avatar-image">
+                                    <span id="filename"></span>
+                                </div>
+                                <div class="form-separator"></div>
+                                <div class="register-group">
+                                    <div class="form-group form-group__subtle">
+                                        <input  type="text" name="lname-field" placeholder="Last Name" class="form__field" id="profile__last-name">
+                                    </div>
+                                    <div class="form-group form-group__subtle">
+                                         <input  type="text" name="fname-field" class="form__field" placeholder="First Name" id="profile__first-name">
                                     </div>
                                 </div>
-                                <div class="form__col account-col__right">
-                                    <div class="combo">
-                                        <div class="form-group form-group__subtle">
-                                            <input  type="text" name="lname-field" placeholder="Last Name" class="form__field" id="profile__last-name">
-                                        </div>
-                                        <div class="form-group form-group__subtle">
-                                             <input  type="text" name="fname-field" class="form__field" placeholder="First Name" id="profile__first-name">
-                                        </div>
+                                <div class="form-group form-group__subtle">
+                                    <input  type="text" name="title-field" placeholder="Job title" class="form__field" id="profile__job-title">
+                                </div>
+                                <div class="form-group form-group__block">
+                                    <textarea name="profile-bio__field" id="" cols="30" rows="8" placeholder="Short Bio"></textarea>
+                                </div>
+                                <div class="form-separator"></div>
+                                <div class="form-group form-group__subtle">
+                                    <input  type="text" name="mobile-field" placeholder="Mobile number" class="form__field" id="profile__mobile-number">
+                                </div>
+                                <div class="register-group">
+                                      <div class="form-group form-group__subtle">
+                                        <input  type="text" name="title-field" placeholder="Country" class="form__field" id="profile__country">
                                     </div>
                                     <div class="form-group form-group__subtle">
-                                        <input  type="text" name="mobile-field" placeholder="Mobile number" class="form__field" id="profile__mobile-number">
+                                        <input  type="text" name="title-field" placeholder="City" class="form__field" id="profile__city">
                                     </div>
-                                    <div class="form-group form-group__subtle">
-                                        <input  type="text" name="title-field" placeholder="Job title" class="form__field" id="profile__job-title">
-                                    </div>
-                                    <div class="combo">
-                                        <div class="form-group form-group__subtle">
-                                            <input  type="text" name="title-field" placeholder="Country" class="form__field" id="profile__job-title">
-                                        </div>
-                                        <div class="form-group form-group__subtle">
-                                            <input  type="text" name="title-field" placeholder="City" class="form__field" id="profile__job-title">
-                                        </div>
-                                    </div>
-                                    <div class="form-group form-group__subtle">
-                                        <input  type="text" name="title-field" placeholder="DOB" class="form__field" id="profile__dob">
-                                    </div>
+                                </div>
+                                <div class="form-group form-group__subtle">
+                                    <input  type="text" name="title-field" placeholder="DOB" class="form__field" id="profile__dob">
                                 </div>
                             </div>
+                            <div class="form-separator"></div>
                             <div class="form-group form-group__subtle combo links__group">
-                                <div class="links__group__item fb">
+                                <div class="links__group__item">
+                                    <i class="fa fa-facebook"></i>
                                     <input  type="text" name="title-field" placeholder="Facebook" class="form__field" id="profile__link__fb">
                                 </div>
-                                <div class="links__group__item tw">
+                                <div class="links__group__item">
+                                <i class="fa fa-twitter"></i>
                                     <input  type="text" name="title-field" placeholder="Twitter" class="form__field" id="profile__link__twitter">
                                 </div>
-                                <div class="links__group__item web">
+                                <div class="links__group__item">
+                                    <i class="fa fa-globe"></i>
                                     <input  type="text" name="title-field" placeholder="Website/blog" class="form__field" id="profile__link__website">
                                 </div>
-                                <div class="links__group__item lin">
+                                <div class="links__group__item">
+                                    <i class="fa fa-linkedin"></i>
                                     <input  type="text" name="title-field" placeholder="Linkedin" class="form__field" id="profile__link__lin">
                                 </div>
-                                <div class="links__group__item sk">
+                                <div class="links__group__item">
+                                    <i class="fa fa-skype"></i>
                                     <input  type="text" name="title-field" placeholder="Skype" class="form__field" id="profile__link__skype">
                                 </div>
                             </div>
-                            <div class="form-group form-group__block">
-                                <label for="profile__job-title">Biography</label>
-                                <textarea name="profile-bio__field" id="" cols="30" rows="8" ></textarea>
-                            </div>
-                            <input  type="submit" value="Save" class="btn btn__small form__el__centered">
+                            <input type="submit" value="Save" class="submit-btn btn btn__small form__el__centered">
                         </form>
                     </div>
                 </main>

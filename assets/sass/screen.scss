@@ -1308,6 +1308,41 @@ a {
 			}
 		}
 	}
+	#account-form {
+		@extend %clearfix;
+		.form-group__subtle input {
+			max-width: 300px;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: 400;
+			color: #A2A2A2;
+		}
+		.submit-btn {
+			float: right;
+		}
+	}
+		
+	.form-separator {
+		margin: 4em 0;
+		border: 1px solid #d2d2d2;
+	}
+	.register-group {
+		.form-group {
+			display: inline-block;
+			max-width: 300px;
+			width: 100%;
+			margin-right: 40px;
+			&:last-child {
+				margin-right: 0;
+			}
+			input {
+				width: 100%;
+			}
+		}
+	}
+
 	.page__login {
 		background: #EEE;
 	}
@@ -1385,13 +1420,10 @@ a {
 
 			input, textarea { font-size: 1.4em; }
 
-			#avatar-upload__wrapper label { margin: 0 auto; }
-
 			.combo .links__group {
 				margin-top: 3em;
 				.links__group__item input { width: 80%; }
 			}
-
 			.form__col, .form__col.account-col__right {
 				padding: 0;
 				float: none;
@@ -1399,11 +1431,6 @@ a {
 			}
 		}
 		@media all and (max-width: 440px) {
-			#avatar-upload__wrapper  label {
-				width: 165px;
-				height: 165px;
-			}
-
 			.combo .links__group .links__group__item  {
 				width: 100%;
 				float: none;

@@ -428,24 +428,11 @@
 				width: auto;
 				max-width: 87%;
 			}
-			&:before {
-				margin-right: 2%;
-				content : "";
-				display: inline-block;
-				vertical-align: bottom;
-				width: 20px;
-				height: 20px;
-			}
-			&.tw:before { @include sprites-sprite(share-twitter); }
-			
-			&.fb:before { @include sprites-sprite(fg-l-fb); }
-			
-			&.web:before { @include sprites-sprite(fg-l-web); }
-
-			&.sk:before { @include sprites-sprite(fg-l-skype); }
-
-			&.lin:before { @include sprites-sprite(share-linkedin); }
-
+		}
+		.fa {
+			font-size: 20px;
+			margin-right: 10px;
+			vertical-align: bottom;
 		}
 	}
 	.options-group {
@@ -458,34 +445,6 @@
 	.options-group.radios {
 		display: inline-block;
 		margin-right: 30px;
-	}
-	#avatar-upload__wrapper {
-		label {
-			display: block;
-			width: 225px;
-			height: 225px;
-			overflow: hidden;
-			@extend %fullBorderRadius;
-			cursor: pointer;
-			z-index: 2;
-			margin: 0 0 3em;
-			background-image: url(../images/avatar-plain.png);
-			background-position: center;
-			background-color: #EEE;
-			color: #000;
-			position: relative;
-			&:after {
-				@include generateIcon(plus, sprites);
-				content: "";
-				position: absolute;
-				right: 40px;
-				top: 45px;
-			}
-		}
-		input {
-			position: absolute;
-			left: -9999px;
-		}
 	}
 	.conference-extra-combo {
 
