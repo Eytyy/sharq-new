@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tag name - Editorial</title>
+        <title>Tag name</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -29,7 +29,7 @@
             </ul>
         </nav>
         <div class="site-container">
-            <div class="page-wrapper">
+            <div class="page-wrapper wSideBar wSideBar__right">
                 <header class="main-header">
                     <div class="main-header__top">
                         <div class="main-header__top_inner">
@@ -41,7 +41,10 @@
                             </div>
                             <nav class="global__nav nav">
                                 <div class="global__nav_item search">
-                                    <a href="#"><i class="icon fa fa-search"></i></a>
+                                    <a id="toggleSearch" href="#"><i class="icon fa fa-search"></i></a>
+                                    <form id="header-search">
+                                        <input type="text" placeholder="Search Al Sharq">
+                                    </form>
                                 </div>
                                 <div class="global__nav_item log__links">
                                     <a href="login.html"><i class="icon fa fa-sign-in"></i></a>
@@ -101,136 +104,220 @@
                     <div class="centered-wrapper">
                         <section class="specific-tag-contentList main__col">
                             <header class="inner-header">
-                                <h2 class="block-title">Tag Name</h2>
+                                <h1 class="block-title">Tag Name</h1>
                             </header>
-                            <div class="full-col__narrow">
-                                <ul class="editorial-list">
-                                    <li class="editorial-list__item">
-                                        <a href="article.html">
-                                            <article>
-                                                <header>
-                                                    <h2 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h2>
-                                                </header>
-                                                <div class="editorial-list__item__excerpt">
-                                                   <p>Hezbollah is no longer pleading justification for the intervention.</p>
-                                                </div>
-                                            </article>
-                                        </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__author-collection">
-                                                <a class="postMeta__link"href="author.html">
-                                                    <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                    <span class="author-name">Dr. Bashir Nafi' . </span>
-                                                </a>
+                            <ul class="content-list content-by-tags-list">
+                                <li class="content-list__item sharq-post__item wImg">
+                                    <a class="slider__section-tag" href="research.html">Research</a>
+                                    <article>
+                                        <a class="item-link" href="blog-post.html">
+                                            <div class="content-list__item-rCol">
+                                                <img src="assets/images/thumbs/thumb2.jpg">
                                             </div>
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="editorial-list__item">
-                                        <a href="article.html">
-                                            <article>
+                                            <div class="content-list__item-lCol">
                                                 <header>
                                                     <h2 class="title">Maliki takes the Iraq to war again</h2>
                                                 </header>
-                                                <div class="editorial-list__item__excerpt">
-                                                    <p>The crisis erupted grinding of Iraq today from Jdhiran key, one primary, due to the approach of the occupation administration.</p>
+                                                <div class="content-list__item-excerpt">
+                                                   <p>The crisis erupted grinding of Iraq today from Jdhiran key, one primary, due to the approach of the occupation administration.</p>
                                                 </div>
-                                            </article>
-                                        </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__author-collection">
-                                                <a class="postMeta__link"href="author.html">
-                                                    <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                    <span class="author-name">Dr. Bashir Nafi' . </span>
-                                                </a>
                                             </div>
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
+                                        </a>
+                                        <div class="content-list__bottom">
+                                            <div class="postMeta">
+                                                <div class="postMeta__l">
+                                                    <a href="author.html">
+                                                        <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                    </a>
+                                                </div>
+                                                <div class="postMeta__r">
+                                                    <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                </div>
+                                            </div>
+                                            <div id="tags" class="content-list__item-tags">
+                                                <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="editorial-list__item">
-                                        <a href="article.html">
-                                            <article>
+                                    </article>
+                                </li>
+                                <li class="content-list__item mutlimedia-list__album album">
+                                    <a class="slider__section-tag" href="multimedia.html">Media</a>
+                                    <article>
+                                        <div class="ablum-cover" style="background-image: url(assets/images/multimedia/1-thumb.jpg);"></div>
+                                        <div class="album-wrapper">
+                                            <a class="item-link" href="album.html">
                                                 <header>
-                                                    <h2 class="title">From commensal groups to conflicting identities</h2>
+                                                    <div class="postMeta">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <h2 class="title">Beyond Spring Album.</h2>
                                                 </header>
-                                                <div class="editorial-list__item__excerpt">
-                                                    <p>In the Levant,  lives  Islamic religious groups, which belong to almost all Christian churches, including what is known as the Eastern or Western churches; as well as Old Jewish groups.</p>
+                                                <div class="content-list__item-excerpt album__description">
+                                                    <p>Album Description Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                                 </div>
-                                            </article>
-                                        </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__author-collection">
-                                                <a class="postMeta__link"href="author.html">
-                                                    <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                    <span class="author-name">Dr. Bashir Nafi' . </span>
-                                                </a>
-                                            </div>
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div id="tags" class="content-list__item-tags album-tags">
+                                                    <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                    <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                    <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="editorial-list__item">
-                                        <a href="paper.html">
-                                            <article>
+                                    </article>
+                                </li>
+                                <li class="content-list__item sharq-post__item">
+                                    <a class="slider__section-tag" href="blog.html">Blog</a>
+                                    <article>
+                                        <a class="item-link" href="blog-post.html">
+                                            <div class="content-list__item-lCol">
                                                 <header>
                                                     <h2 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h2>
                                                 </header>
-                                                <div class="editorial-list__item__excerpt">
+                                                <div class="content-list__item-xcerpt">
                                                    <p>Hezbollah is no longer pleading justification for the intervention.</p>
                                                 </div>
-                                            </article>
+                                            </div>
                                         </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
+                                        <div class="content-list__bottom">
+                                            <div class="postMeta">
+                                                <div class="postMeta__l">
+                                                    <a href="author.html">
+                                                        <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                    </a>
+                                                </div>
+                                                <div class="postMeta__r">
+                                                    <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                </div>
+                                            </div>
+                                            <div id="tags" class="content-list__item-tags">
+                                                <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="editorial-list__item">
-                                        <a href="paper.html">
-                                            <article>
+                                    </article>
+                                </li>
+                                <li class="content-list__item sharq-post__item wImg">
+                                    <a class="slider__section-tag" href="blog.html">Blog</a>
+                                    <article>
+                                        <a class="item-link" href="blog-post.html">
+                                            <div class="content-list__item-rCol">
+                                                <img src="assets/images/thumbs/thumb2.jpg">
+                                            </div>
+                                            <div class="content-list__item-lCol">
                                                 <header>
                                                     <h2 class="title">Maliki takes the Iraq to war again</h2>
                                                 </header>
-                                                <div class="editorial-list__item__excerpt">
-                                                    <p>The crisis erupted grinding of Iraq today from Jdhiran key, one primary, due to the approach of the occupation administration.</p>
+                                                <div class="content-list__item-excerpt">
+                                                   <p>The crisis erupted grinding of Iraq today from Jdhiran key, one primary, due to the approach of the occupation administration.</p>
                                                 </div>
-                                            </article>
+                                            </div>
                                         </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
+                                        <div class="content-list__bottom">
+                                            <div class="postMeta">
+                                                <div class="postMeta__l">
+                                                    <a href="author.html">
+                                                        <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                    </a>
+                                                </div>
+                                                <div class="postMeta__r">
+                                                    <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                </div>
+                                            </div>
+                                            <div id="tags" class="content-list__item-tags">
+                                                <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="editorial-list__item">
-                                        <a href="paper.html">
-                                            <article>
+                                    </article>
+                                </li>
+                                <li class="content-list__item sharq-post__item">
+                                    <a class="slider__section-tag" href="blog.html">Publications</a>
+                                    <article>
+                                        <a class="item-link" href="blog-post.html">
+                                            <div class="content-list__item-lCol">
                                                 <header>
-                                                    <h2 class="title">From commensal groups to conflicting identities</h2>
+                                                    <h2 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h2>
                                                 </header>
-                                                <div class="editorial-list__item__excerpt">
-                                                    <p>In the Levant,  lives  Islamic religious groups, which belong to almost all Christian churches, including what is known as the Eastern or Western churches; as well as Old Jewish groups.</p>
+                                                <div class="content-list__item-xcerpt">
+                                                   <p>Hezbollah is no longer pleading justification for the intervention.</p>
                                                 </div>
-                                            </article>
+                                            </div>
                                         </a>
-                                        <div class="postMeta">
-                                            <div class="postMeta__publishDate">
-                                                <time datetime="2001-05-15 19:00">May 15 2001</time>
+                                        <div class="content-list__bottom">
+                                            <div class="postMeta">
+                                                <div class="postMeta__l">
+                                                    <a href="author.html">
+                                                        <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                    </a>
+                                                </div>
+                                                <div class="postMeta__r">
+                                                    <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                </div>
+                                            </div>
+                                            <div id="tags" class="content-list__item-tags">
+                                                <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
                                             </div>
                                         </div>
-                                    </li>
-                                </ul>
-                                <div class="action-wrapper">
-                                    <a href="#" class="loadMore">Loard More</a>
-                                </div>
-                            </div>
+                                    </article>
+                                </li>
+                                <li class="content-list__item sharq-post__item">
+                                    <a class="slider__section-tag" href="blog.html">Publications</a>
+                                    <article>
+                                        <a class="item-link" href="blog-post.html">
+                                            <div class="content-list__item-lCol">
+                                                <header>
+                                                    <h2 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h2>
+                                                </header>
+                                                <div class="content-list__item-xcerpt">
+                                                   <p>Hezbollah is no longer pleading justification for the intervention.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="content-list__bottom">
+                                            <div class="postMeta">
+                                                <div class="postMeta__l">
+                                                    <a href="author.html">
+                                                        <img src="assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                    </a>
+                                                </div>
+                                                <div class="postMeta__r">
+                                                    <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                </div>
+                                            </div>
+                                            <div id="tags" class="content-list__item-tags">
+                                                <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                                <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                                <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </li>
+                            </ul>
                         </section>
+                        <div class="sidebar__col sidebar__col_right">
+                            <section class="sidebar__content sidebar__block">
+                                <header>
+                                    <h2 class="block-title">Popular Tags</h2>
+                                </header>
+                                <div id="tags">
+                                    <a href="#">Syria</a><a href="#">Iraq</a><a href="#">ISIS</a><a href="#">Islamic State</a>
+                                    <a href="#">Crisis</a><a href="#">Middle East</a><a href="#">Obamacare</a><a href="#">Islamic Movements</a>
+                                    <a href="#">Yeman</a><a href="#">Libya</a><a href="#">Egypt</a><a href="#">SISI</a>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>

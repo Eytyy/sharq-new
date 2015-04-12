@@ -40,7 +40,10 @@
                             </div>
                             <nav class="global__nav nav">
                                 <div class="global__nav_item search">
-                                    <a href="#"><i class="icon fa fa-search"></i></a>
+                                    <a id="toggleSearch" href="#"><i class="icon fa fa-search"></i></a>
+                                    <form id="header-search">
+                                        <input type="text" placeholder="Search Al Sharq">
+                                    </form>
                                 </div>
                                 <div class="global__nav_item  user-notifications">
                                     <a href="#" id="user-notify-trig" class="dropdown-trig">
@@ -238,16 +241,19 @@
                                 </article>
                             </li>
                         </ul>
-                        <div id="slider_nav">
-                            <a id="nextSlide"><span class="banner-arrow arrow__right"></span></a>
-                            <a id="prevSlide"><span class="banner-arrow arrow__left"></span></a>
+                        <div id="slider-nav">
+                            <div class="slider-nav__inner">
+                                <a id="nextSlide"><span class="banner-arrow arrow__right"></span></a>
+                                <a id="prevSlide"><span class="banner-arrow arrow__left"></span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="centered-wrapper">
                         <div class="main__col">
-                            <section class="hp-block">
+                            <section class="hp-block hp-content">
                                 <header>
                                     <h2 class="block-title">Research</h2>
+                                    <a href="research.html" class="section-link">view all<i class="fa fa-angle-right"></i></a>
                                 </header>
                                 <ul class="content-list home-list">
                                     <li class="content-list__item sharq-post__item">
@@ -330,9 +336,10 @@
                                     </li>
                                 </ul>
                             </section>
-                            <section class="hp-block">
+                            <section class="hp-block hp-content">
                                 <header>
                                     <h2 class="block-title">Publications</h2>
+                                    <a href="publications.html" class="section-link">view all<i class="fa fa-angle-right"></i></a>
                                 </header>
                                 <ul class="content-list home-list">
                                     <li class="content-list__item sharq-post__item">
@@ -415,9 +422,10 @@
                                     </li>
                                 </ul>
                             </section>
-                            <section id="hp-blog">
+                            <section id="hp-blog" class="hp-content">
                                 <header>
                                     <h2 class="block-title">Blog</h2>
+                                    <a href="blog.html" class="section-link">view all<i class="fa fa-angle-right"></i></a>
                                 </header>
                                 <ul class="content-list">
                                     <li class="content-list__item sharq-post__item wImg">
@@ -526,9 +534,10 @@
                             </section>
                         </div>
                         <div class="sidebar__col sidebar__col_right">
-                            <section id="hp-event" class="sidebar__content sidebar__block">
+                            <section id="hp-event" class="sidebar__content sidebar__block hp-content">
                                 <header>
                                     <h2 class="block-title">Events</h2>
+                                    <a href="events.html" class="section-link">view all<i class="fa fa-angle-right"></i></a>
                                 </header>
                                 <article>
                                     <div class="event__date-and-place">
@@ -548,9 +557,10 @@
                                     </a>
                                 </article>
                             </section>
-                            <section id="hp-experts" class="sidebar__content sidebar__block">
+                            <section id="hp-experts" class="sidebar__content sidebar__block hp-content">
                                 <header>
                                     <h2 class="block-title">Experts</h2>
+                                    <a href="experts.html" class="section-link">view all<i class="fa fa-angle-right"></i></a>
                                 </header>
                                 <ul class="sidebar__content-list sidebar__latest-blog">
                                     <li class="sidebar__content-list__item expert__item">
