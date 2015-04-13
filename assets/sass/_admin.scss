@@ -605,19 +605,77 @@
 		}
 	
 	// Admin Content List (media & dashboard) Common Styles
+		.content-form-header {
+			border-bottom: 2px solid #d2d2d2;
+			padding: 5px;
+			font-weight: 700;
+			font-size: 1.5em;
+			@extend %clearfix;
+			> div {
+				@extend %pullLeft;
+			}
+		}
+		.admin-filter {
+			margin-bottom: 2em;
+			label, select {
+				display: inline;
+				font-weight: 400;
+			}
+			label {
+				font-size: 1.4em;
+				color: #424242;
+				margin-right: 10px;
+			}
+			select {
+				font-size: 1.2em;
+				background: #e2e2e2;
+				border: 0;
+				outline: none;
+				width: 150px;
+			}
+		}
+		.form-header-title {
+			width: 60%;
+		}
+		.form-header-type,
+		.form-header-actions {
+			width: 20%;
+		}
+		.form-header-actions {
+			@extend %pullRight;
+		}
 		.admin-content-form-item {
-			margin-bottom: 1em;
-			padding-bottom: 1em;
+			padding:1em 0.5em 1em;
 			border-bottom: 1px solid #EEE;
 			@extend %clearfix;
+			&:nth-child(even) {
+				background-color: #EEE;
+			}
+			.content-type {
+				@extend %pullLeft;
+				width: 20%;
+				font-size: 1.4em;
+			}
 			.content-group {
 				@extend %pullLeft;
-				width: 80%;
+				width: 60%;
 				padding-right: 3em;
 			}
 			.content-operations {
 				@extend %pullRight;
 				width: 20%;
+				a {
+					font-size: 1.4em;
+					color: #444;
+					text-transform: lowercase;
+					text-decoration: underline;
+					&:first-child {
+						margin-right: 15px;
+					}
+					&:hover {
+						color: #000;
+					}
+				}
 			}
 			.content-group__left-col {
 				@extend %pullLeft;
@@ -628,64 +686,12 @@
 				width: 80%;
 				padding-left: 3em;
 			}
-			.content-operations .btn {
-				@extend %pullLeft;
-				margin-left: 5px;
-				width: 48%;
-				min-width: 50px;
-				padding: 5px;
-				font-weight: 400;
-				background: #EEE;
-				color: #000;
-				&:first-child {
-					margin-left: 0;
-				}
-				&:hover {
-					background: #ddd;
-				}
-				&:last-child {
-					margin-right: 0;
-				}
-			}
 			.content-title {
-				font-size: 1.6em;
+				font-size: 1.4em;
 				@extend %titleFont;
 				line-height: 1.25em;
-			}
-		}
-		@media all and (max-width: 1110px) {
-			.admin-content-form-item {
-				.content-group {
-					width: 70%;
-				}
-				.content-operations {
-					width: 30%;
-				}
-			}
-		}
-		@media all and (max-width: 490px) {
-			.admin-content-form-item {
-				padding-bottom: 2em;
-				border-bottom: 1px solid #EEE;
-				.content-group,
-				.content-operations {
-					width: 100%;
-					float: none;
-					display: block;
-					padding: 0;
-				}
-				.content-title {
-					font-size: 1.4em;
-				}
-				.content-operations {
-					margin-top: 10px;
-					float: right;
-					width: auto;
-					.btn {
-						width: auto;
-						margin-left: 10px;
-						font-size: 1.2em;
-					}
+				a {
+					color: $burgundy;
 				}
 			}
 		}

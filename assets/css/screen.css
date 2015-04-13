@@ -6,7 +6,7 @@
 
 /* line 25, ../sass/_util.scss */
 .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .comments-module__header, .comments-list, .comment-item, .main-footer .footer-wrapper, .admin-nav__dropdown .notification__message > a,
-.messages-modal__conversations .message > a, .messages-modal__conversations .message, .form-group, .combo, .admin-content-form-item, .media-content-list .media-group,
+.messages-modal__conversations .message > a, .messages-modal__conversations .message, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
 .users-content-list .user-group, .admin-form .form-main-btn-wrapper, .events__item__shortcuts-links, #event__moderator, .expert__item article, .user__profile_header, .album-list, .initiatives-list__item,
 .discussion-board-list__item, .initiative .post-top,
 .discussion .post-top, .login__register__form__wrapper, #account-form {
@@ -14,11 +14,11 @@
 }
 /* line 27, ../sass/_util.scss */
 .admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .comments-module__header:before, .comments-list:before, .comment-item:before, .main-footer .footer-wrapper:before, .admin-nav__dropdown .notification__message > a:before,
-.messages-modal__conversations .message > a:before, .messages-modal__conversations .message:before, .form-group:before, .combo:before, .admin-content-form-item:before, .media-content-list .media-group:before,
+.messages-modal__conversations .message > a:before, .messages-modal__conversations .message:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
 .users-content-list .user-group:before, .admin-form .form-main-btn-wrapper:before, .events__item__shortcuts-links:before, #event__moderator:before, .expert__item article:before, .user__profile_header:before, .album-list:before, .initiatives-list__item:before,
 .discussion-board-list__item:before, .initiative .post-top:before,
 .discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .admin-nav__dropdown .notification__message > a:after,
-.messages-modal__conversations .message > a:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .admin-content-form-item:after, .media-content-list .media-group:after,
+.messages-modal__conversations .message > a:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
 .discussion .post-top:after, .login__register__form__wrapper:after, #account-form:after {
@@ -27,7 +27,7 @@
 }
 /* line 32, ../sass/_util.scss */
 .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .admin-nav__dropdown .notification__message > a:after,
-.messages-modal__conversations .message > a:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .admin-content-form-item:after, .media-content-list .media-group:after,
+.messages-modal__conversations .message > a:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
 .discussion .post-top:after, .login__register__form__wrapper:after, #account-form:after {
@@ -128,7 +128,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .admin-form .module-speakers .module__col, .home-list.content-list .content-list__item, .event__person, .mutlimedia-list__album, .divider_two .col, .logo-wrapper, .nav__main__item, .pull-quote.left, .comment-item__left, .comment-item__right, .main-footer .footer-wrapper .footer__left, .footer-nav, .notifications-center__content-list .notification__message .notification__message__left, .admin-nav__dropdown .notification__message .notification__message__left,
 .admin-nav__dropdown .notification__message .notification__message__right,
 .messages-modal__conversations .message__left,
-.messages-modal__conversations .message__right, .combo .form-group, .links__group .links__group__item, .links__group .links__group__item:last-child, .admin-content-form-item .content-group, .admin-content-form-item .content-group__left-col, .admin-content-form-item .content-group__right-col, .admin-content-form-item .content-operations .btn, .user__profile .admin-form .user__profile__name .form-group,
+.messages-modal__conversations .message__right, .combo .form-group, .links__group .links__group__item, .links__group .links__group__item:last-child, .content-form-header > div, .admin-content-form-item .content-type, .admin-content-form-item .content-group, .admin-content-form-item .content-group__left-col, .admin-content-form-item .content-group__right-col, .user__profile .admin-form .user__profile__name .form-group,
 .user__profile .admin-form .user__profile__location .form-group, .event__person_avatar,
 .event__person_details, .expert__item_avatar, .expert__item_details, .album-list li, .initiative .post-top header,
 .discussion .post-top header, .initiatives-list__item .initiatives__item__col, .login__register__form__wrapper .floated, .login__register__form .form__col {
@@ -136,7 +136,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 59, ../sass/_base.scss */
-.global__nav, .pull-quote, .main-footer .footer-wrapper .footer__right, .social-nav, .messages-modal__conversations .message-sent .message__left, .messages-modal__conversations .message-sent .message__right, .admin-content-form-item .content-operations, .admin-form .form-main-btn-wrapper .btn, .initiative .post-top .moudle__initiative__vote,
+.global__nav, .pull-quote, .main-footer .footer-wrapper .footer__right, .social-nav, .messages-modal__conversations .message-sent .message__left, .messages-modal__conversations .message-sent .message__right, .form-header-actions, .admin-content-form-item .content-operations, .admin-form .form-main-btn-wrapper .btn, .initiative .post-top .moudle__initiative__vote,
 .discussion .post-top .moudle__initiative__vote, .initiatives-list__item .initiatives__item__col.col-r {
   float: right;
 }
@@ -3837,156 +3837,163 @@ input.btn.btn__small {
 }
 
 /* line 608, ../sass/_admin.scss */
+.content-form-header {
+  border-bottom: 2px solid #d2d2d2;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/* line 618, ../sass/_admin.scss */
+.admin-filter {
+  margin-bottom: 2em;
+}
+/* line 620, ../sass/_admin.scss */
+.admin-filter label, .admin-filter select {
+  display: inline;
+  font-weight: 400;
+}
+/* line 624, ../sass/_admin.scss */
+.admin-filter label {
+  font-size: 1.4em;
+  color: #424242;
+  margin-right: 10px;
+}
+/* line 629, ../sass/_admin.scss */
+.admin-filter select {
+  font-size: 1.2em;
+  background: #e2e2e2;
+  border: 0;
+  outline: none;
+  width: 150px;
+}
+
+/* line 637, ../sass/_admin.scss */
+.form-header-title {
+  width: 60%;
+}
+
+/* line 640, ../sass/_admin.scss */
+.form-header-type,
+.form-header-actions {
+  width: 20%;
+}
+
+/* line 647, ../sass/_admin.scss */
 .admin-content-form-item {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  padding: 1em 0.5em 1em;
   border-bottom: 1px solid #EEE;
 }
-/* line 613, ../sass/_admin.scss */
+/* line 651, ../sass/_admin.scss */
+.admin-content-form-item:nth-child(even) {
+  background-color: #EEE;
+}
+/* line 654, ../sass/_admin.scss */
+.admin-content-form-item .content-type {
+  width: 20%;
+  font-size: 1.4em;
+}
+/* line 659, ../sass/_admin.scss */
 .admin-content-form-item .content-group {
-  width: 80%;
+  width: 60%;
   padding-right: 3em;
 }
-/* line 618, ../sass/_admin.scss */
+/* line 664, ../sass/_admin.scss */
 .admin-content-form-item .content-operations {
   width: 20%;
 }
-/* line 622, ../sass/_admin.scss */
+/* line 667, ../sass/_admin.scss */
+.admin-content-form-item .content-operations a {
+  font-size: 1.4em;
+  color: #444;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+/* line 672, ../sass/_admin.scss */
+.admin-content-form-item .content-operations a:first-child {
+  margin-right: 15px;
+}
+/* line 675, ../sass/_admin.scss */
+.admin-content-form-item .content-operations a:hover {
+  color: #000;
+}
+/* line 680, ../sass/_admin.scss */
 .admin-content-form-item .content-group__left-col {
   width: 20%;
 }
-/* line 626, ../sass/_admin.scss */
+/* line 684, ../sass/_admin.scss */
 .admin-content-form-item .content-group__right-col {
   width: 80%;
   padding-left: 3em;
 }
-/* line 631, ../sass/_admin.scss */
-.admin-content-form-item .content-operations .btn {
-  margin-left: 5px;
-  width: 48%;
-  min-width: 50px;
-  padding: 5px;
-  font-weight: 400;
-  background: #EEE;
-  color: #000;
-}
-/* line 640, ../sass/_admin.scss */
-.admin-content-form-item .content-operations .btn:first-child {
-  margin-left: 0;
-}
-/* line 643, ../sass/_admin.scss */
-.admin-content-form-item .content-operations .btn:hover {
-  background: #ddd;
-}
-/* line 646, ../sass/_admin.scss */
-.admin-content-form-item .content-operations .btn:last-child {
-  margin-right: 0;
-}
-/* line 650, ../sass/_admin.scss */
+/* line 689, ../sass/_admin.scss */
 .admin-content-form-item .content-title {
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.25em;
 }
+/* line 693, ../sass/_admin.scss */
+.admin-content-form-item .content-title a {
+  color: #7D002E;
+}
 
-@media all and (max-width: 1110px) {
-  /* line 658, ../sass/_admin.scss */
-  .admin-content-form-item .content-group {
-    width: 70%;
-  }
-  /* line 661, ../sass/_admin.scss */
-  .admin-content-form-item .content-operations {
-    width: 30%;
-  }
-}
-@media all and (max-width: 490px) {
-  /* line 667, ../sass/_admin.scss */
-  .admin-content-form-item {
-    padding-bottom: 2em;
-    border-bottom: 1px solid #EEE;
-  }
-  /* line 670, ../sass/_admin.scss */
-  .admin-content-form-item .content-group,
-  .admin-content-form-item .content-operations {
-    width: 100%;
-    float: none;
-    display: block;
-    padding: 0;
-  }
-  /* line 677, ../sass/_admin.scss */
-  .admin-content-form-item .content-title {
-    font-size: 1.4em;
-  }
-  /* line 680, ../sass/_admin.scss */
-  .admin-content-form-item .content-operations {
-    margin-top: 10px;
-    float: right;
-    width: auto;
-  }
-  /* line 684, ../sass/_admin.scss */
-  .admin-content-form-item .content-operations .btn {
-    width: auto;
-    margin-left: 10px;
-    font-size: 1.2em;
-  }
-}
-/* line 698, ../sass/_admin.scss */
+/* line 704, ../sass/_admin.scss */
 .media-group strong, .media-group .media-item__title,
 .user-group strong, .user-group .user-item__title {
   font-weight: 700;
 }
 
-/* line 702, ../sass/_admin.scss */
+/* line 708, ../sass/_admin.scss */
 .media-group, .user-group {
   font-size: 1.4em;
 }
-/* line 704, ../sass/_admin.scss */
+/* line 710, ../sass/_admin.scss */
 .media-group p, .user-group p {
   font-size: 1em;
 }
 
-/* line 708, ../sass/_admin.scss */
+/* line 714, ../sass/_admin.scss */
 .admin-page__title {
   font-size: 2em;
   margin-bottom: 1em;
   font-weight: 300;
 }
 
-/* line 713, ../sass/_admin.scss */
+/* line 719, ../sass/_admin.scss */
 .admin-form {
   padding: 4em;
   border: 1px solid #ddd;
 }
-/* line 721, ../sass/_admin.scss */
+/* line 727, ../sass/_admin.scss */
 .admin-form .image-group label, .admin-form .textarea-group label, .admin-form .module label {
   margin-bottom: 10px;
 }
-/* line 722, ../sass/_admin.scss */
+/* line 728, ../sass/_admin.scss */
 .admin-form .image-group label, .admin-form .image-group input, .admin-form .textarea-group label, .admin-form .textarea-group input, .admin-form .module label, .admin-form .module input {
   display: block;
   width: 100%;
 }
-/* line 727, ../sass/_admin.scss */
+/* line 733, ../sass/_admin.scss */
 .admin-form .inline-group {
   display: inline-block;
   margin: 0;
   vertical-align: top;
 }
-/* line 732, ../sass/_admin.scss */
+/* line 738, ../sass/_admin.scss */
 .admin-form .module .module__wrapper,
 .admin-form .form-wrapper-outlined {
   padding: 10px;
   border: 1px dashed #d2d2d2;
 }
-/* line 737, ../sass/_admin.scss */
+/* line 743, ../sass/_admin.scss */
 .admin-form .module {
   position: relative;
   margin-bottom: 2em;
 }
-/* line 740, ../sass/_admin.scss */
+/* line 746, ../sass/_admin.scss */
 .admin-form .module .form-inner-action-group {
   text-align: right;
 }
-/* line 743, ../sass/_admin.scss */
+/* line 749, ../sass/_admin.scss */
 .admin-form .module .module-add-btn {
   background: #E2E2E2;
   color: #696969;
@@ -3995,61 +4002,61 @@ input.btn.btn__small {
   padding: 5px 10px;
   outline: 0;
 }
-/* line 751, ../sass/_admin.scss */
+/* line 757, ../sass/_admin.scss */
 .admin-form .module .module-list {
   margin-top: 2em;
 }
-/* line 754, ../sass/_admin.scss */
+/* line 760, ../sass/_admin.scss */
 .admin-form .module .module-list li {
   display: inline-block;
   position: relative;
 }
-/* line 758, ../sass/_admin.scss */
+/* line 764, ../sass/_admin.scss */
 .admin-form .module .module-list input {
   border: 0;
 }
-/* line 762, ../sass/_admin.scss */
+/* line 768, ../sass/_admin.scss */
 .admin-form .module .remove {
   position: absolute;
   top: -13px;
   right: 5px;
   cursor: pointer;
 }
-/* line 769, ../sass/_admin.scss */
+/* line 775, ../sass/_admin.scss */
 .admin-form .module-speakers {
   margin-bottom: 0;
 }
-/* line 777, ../sass/_admin.scss */
+/* line 783, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .form-group {
   margin-bottom: 10px;
 }
-/* line 780, ../sass/_admin.scss */
+/* line 786, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-limit-group, .admin-form .module-initiatives-task .module-initiative-tasks-list input {
   width: 10%;
   max-width: 60px;
 }
-/* line 784, ../sass/_admin.scss */
+/* line 790, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-task-group {
   padding-top: 25px;
 }
-/* line 787, ../sass/_admin.scss */
+/* line 793, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-task-group, .admin-form .module-initiatives-task .module-initiative-tasks-list textarea {
   width: 92.25%;
 }
-/* line 790, ../sass/_admin.scss */
+/* line 796, ../sass/_admin.scss */
 .admin-form .module-initiatives-task textarea {
   background-color: #FFF;
 }
-/* line 795, ../sass/_admin.scss */
+/* line 801, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list input {
   padding: 5px 0 0;
 }
-/* line 798, ../sass/_admin.scss */
+/* line 804, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list li {
   width: 100%;
   margin: 10px 0;
 }
-/* line 802, ../sass/_admin.scss */
+/* line 808, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list input, .admin-form .module-initiative-tasks-list textarea {
   display: inline-block;
   width: auto;
@@ -4058,49 +4065,49 @@ input.btn.btn__small {
   border-bottom: 1px solid #d2d2d2;
 }
 
-/* line 813, ../sass/_admin.scss */
+/* line 819, ../sass/_admin.scss */
 .page__profile__edit {
   background: #EEE;
 }
-/* line 815, ../sass/_admin.scss */
+/* line 821, ../sass/_admin.scss */
 .page__profile__edit .links__group__item {
   width: 100%;
 }
 
-/* line 820, ../sass/_admin.scss */
+/* line 826, ../sass/_admin.scss */
 .user__profile .admin-form input[type="text"], .user__profile .admin-form textarea {
   background-color: transparent;
 }
-/* line 823, ../sass/_admin.scss */
+/* line 829, ../sass/_admin.scss */
 .user__profile .admin-form input[type="text"], .user__profile .admin-form textarea {
   float: none;
   font-size: inherit;
 }
-/* line 828, ../sass/_admin.scss */
+/* line 834, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group input {
   font-weight: 700;
 }
-/* line 832, ../sass/_admin.scss */
+/* line 838, ../sass/_admin.scss */
 .user__profile .admin-form .profile-avatar-field {
   margin-top: 30px;
 }
-/* line 835, ../sass/_admin.scss */
+/* line 841, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group,
 .user__profile .admin-form .user__profile__location .form-group {
   width: 50%;
   padding: 0 5px;
 }
-/* line 840, ../sass/_admin.scss */
+/* line 846, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group input,
 .user__profile .admin-form .user__profile__location .form-group input {
   width: 100%;
 }
-/* line 844, ../sass/_admin.scss */
+/* line 850, ../sass/_admin.scss */
 .user__profile .admin-form .profile__bio textarea {
   font-size: 18px;
 }
 
-/* line 850, ../sass/_admin.scss */
+/* line 856, ../sass/_admin.scss */
 #deleteAcc {
   font-size: 1.4em;
   color: #7D002E;
@@ -4110,28 +4117,28 @@ input.btn.btn__small {
 }
 
 /* ---------------- End of Dashboard Page & Admin Pages --------- */
-/* line 859, ../sass/_admin.scss */
+/* line 865, ../sass/_admin.scss */
 .event-create-notification-msg {
   display: none;
   padding: 1em;
   background: #FFFAEC;
 }
-/* line 863, ../sass/_admin.scss */
+/* line 869, ../sass/_admin.scss */
 .event-create-notification-msg p {
   font-size: 1.4em;
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* line 868, ../sass/_admin.scss */
+/* line 874, ../sass/_admin.scss */
 .event-create-notification-msg textarea {
   background-color: #FFF;
 }
-/* line 871, ../sass/_admin.scss */
+/* line 877, ../sass/_admin.scss */
 .event-create-notification-msg .form-main-btn-wrapper {
   text-align: right;
 }
 
-/* line 877, ../sass/_admin.scss */
+/* line 883, ../sass/_admin.scss */
 .system-message {
   position: fixed;
   top: 100px;
@@ -4142,33 +4149,33 @@ input.btn.btn__small {
   color: #FFF;
   font-weight: 700;
 }
-/* line 886, ../sass/_admin.scss */
+/* line 892, ../sass/_admin.scss */
 .system-message p {
   font-size: 14px;
 }
-/* line 889, ../sass/_admin.scss */
+/* line 895, ../sass/_admin.scss */
 .system-message.success {
   background-color: #57AD68;
   background-color: rgba(87, 173, 104, 0.85);
 }
-/* line 893, ../sass/_admin.scss */
+/* line 899, ../sass/_admin.scss */
 .system-message.error {
   background-color: #FA5757;
   background-color: rgba(250, 87, 87, 0.85);
 }
 
-/* line 900, ../sass/_admin.scss */
+/* line 906, ../sass/_admin.scss */
 .logged-in .system-message {
   top: 148px;
 }
 @media all and (max-width: 400px) {
-  /* line 900, ../sass/_admin.scss */
+  /* line 906, ../sass/_admin.scss */
   .logged-in .system-message {
     top: 128px;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 900, ../sass/_admin.scss */
+  /* line 906, ../sass/_admin.scss */
   .logged-in .system-message {
     top: 118px;
   }
