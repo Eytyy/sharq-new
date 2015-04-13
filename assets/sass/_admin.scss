@@ -694,6 +694,17 @@
 					color: $burgundy;
 				}
 			}
+			.content-group__left-col > div {
+				display: inline-block;
+			}
+			.media-type {
+				background: #FFF;
+				padding:0 10px;
+				font-size: 11px;
+				display: inline-block;
+				border: 1px solid #d2d2d2;
+				margin-bottom: 5px;
+			}
 		}
 	
 	// Manage Media/users Specific Styles
