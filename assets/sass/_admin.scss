@@ -236,44 +236,56 @@
 			display: table;
 			height: 100%;
 			width: 100%;
-			max-width: 760px;
+			max-width: 600px;
 			margin: 0 auto;
 		}
 	}
 	.module__messages {
 		display: table-cell;
-		background: #fff;
+		vertical-align: middle;
 		@include box-shadow(0px 1px 9px -5px #000);
 	}
-	.messages-modal__header, .messages-modal__conversations { padding: 2em; }
+	.messages-modal__header,
+	.messages-modal__conversations {
+		padding: 2em;
+		background: #fff;
+	}
 	.messages-modal__header {
+		@include border-radius(5px 5px 0 0);
 		padding-top: 1em;
 		font-size: 1.8em;
 		padding-bottom: 1em;
 		border-bottom: 1px solid #eee;
 		position: relative;
-		height: 10vh;
 		overflow: hidden;
 		#closeMessages {
 			position: absolute;
-			top: 5px;
-			right: 5px;
+			top: 15px;
+			right: 15px;
 			font-family: helvetica, arial, serif;
 			cursor: pointer;
 		}
 	}
 	.messages-modal__conversations {
-		height: 50vh;
-		overflow: scroll;
+		@extend %clearfix;
+		max-height: 300px;
+		overflow-y: scroll;
 	}
-	.messages-modal__conversations .message { @extend %clearfix; }
+	.messages-modal__conversations .message {
+		@extend %clearfix;
+	}
 	.messages-modal__conversations .message__right {
 		width: 75%;
-		@include border-radius(3px);
-		&:before { top: 10px; }
+		@include border-radius(5px);
+		&:before {
+			top: 10px;
+		}
 	}
 	.messages-modal__conversations .message-sent {
-		.message__left, .message__right { @extend %pullRight; }
+		.message__left,
+		.message__right { 
+			@extend %pullRight; 
+		}
 	}
 	.messages-modal__conversations .message-sent .message__right {
 		padding-right: 0;
@@ -281,7 +293,8 @@
 		background: $burgundy;
 		color: #FFF;
 		&:before {
-			@include triangleIcon($direction:"left", $fillColor: "$burgundy");
+			border-left: 6px solid $burgundy;
+			border-right: 6px solid transparent;
 			left: auto;
 			right: -11px;
 		}
@@ -291,10 +304,6 @@
 		padding-left: 10px;
 	}
 	.messages-modal__form {
-		position: relative;
-		height: 40vh;
-		overflow: scroll;
-		width: 100%;
 		text-align: right;
 		textarea {
 			border: 1px solid #e2e2e2;
@@ -304,13 +313,14 @@
 			padding: 5px;
 		}
 		form {
-			background-color: #F8f8f8;
-			position: absolute;
-			left: 0;
-			right: 0;
-			padding: 1em 2em;
-			border-top: 1px solid #EEE;
-			bottom: 0;
+			@include border-radius(0 0 5px 5px);
+			background-color: #f2f2f2;
+			padding: 2em;
+			border-top: 1px solid #d2d2d2;
+			.btn {
+				margin-top: 10px;
+				border-radius: 5px;
+			}
 		}
 	}
 /* ---------------- End of Messages Modal Styles ---------------- */
