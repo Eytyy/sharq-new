@@ -1005,6 +1005,56 @@ a {
 			}
 		}
 	}
+	// gallery
+	.gallery__header {
+		padding: 3em 0 0;
+		@extend %clearfix;
+	}
+	.gallery__image__description {
+		color: #FFF;
+		float: right;
+		position: relative;
+		p {
+			position: absolute;
+			display: none;
+			font-size: 1.6em;
+			padding: 20px;
+			background-color: rgba(255, 255, 255, 0.9);
+			top: 30px;
+			color: #000;
+			max-width: 320px;
+			right: -5px;
+			width: 320px;
+			&:before {
+				content: "";
+				position: absolute;
+				top: -10px;
+				right: 5px;
+				border: 5px solid transparent;
+				border-bottom: 5px solid #FFF;
+			}
+		}
+	}
+	#toggleModalDescription {
+		color: #fff;
+		font-size: 2em;
+		line-height: 1em;
+		display: block;
+		text-align: center;
+		font-weight: 700;
+		cursor: pointer;
+	}
+	.module__gallery {
+		height: 100%;
+		position: relative;
+		display: table;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.gallery__inner {
+		display: table-cell;
+		vertical-align: middle;
+	}
 // End Of Multimedia Index ---------------
 
 .content-by-tags-list {

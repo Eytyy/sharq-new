@@ -11,15 +11,22 @@ var SHARQ = (function () {
 			$user_settings_btn         : $('#toggleUserSettings'),
 			$admin_dd_btn              : $('.admin__link_d'),
 			$admin_conf_ws_cb          : $('#hasWorkshop'),
-			$admin_conf_p_cb           : $('#hasPanel')
+			$admin_conf_p_cb           : $('#hasPanel'),
+			$album_el 				   : $('.album-el-link'),
+			$album_el_desc_btn         : $('#toggleModalDescription'),
+			$modal_window              : $('.modal'),
+			$close_modal_btn           : $('.closeModal')
 		},
 
 		onSearchToggle,
 		MESSAGES,
 		adjustSharqPostNav,
 		openDropDown, closeDropDown,
+		openModal, closeModal,
 		handleMobileMenuEvents,
 		showUserSettings,
+		onClickAlbumItem,
+		onCloseModal,
 		showEventCustomNotification;
 	//----------------- END MODULE SCOPE VARIABLES ---------------
 
@@ -93,6 +100,16 @@ var SHARQ = (function () {
 		$('.nav__control__item__w__dropdown').removeClass('active');
 	};
 
+	openModal = function () {
+		jqueryMap.$modal_window.addClass('is-open');
+		$('body').addClass('isModalActive');
+	};
+
+	closeModal = function () {
+		jqueryMap.$modal_window.removeClass('is-open');
+		$('body').removeClass('isModalActive');
+	};
+
 	showEventCustomNotification = function (e) {
 		$("html, body").animate({ scrollTop: 0 }, 'fast', function() {
 			$('#event-notification-msg').addClass('is-visible');
@@ -109,6 +126,7 @@ var SHARQ = (function () {
 		$('#header-search').toggleClass('isActive');
 		e.preventDefault();
 	};
+
 	/* This method overrides the openDropDown default behaviour
 	 * and attaches new events on links for mobile menu
 	 */
@@ -126,18 +144,29 @@ var SHARQ = (function () {
 			console.log('not active');
 		}
 	};
+
 	showContactInfo = function (e) {
 		$(this).parent().siblings().removeClass('contact-visible');
 		$(this).parent().toggleClass('contact-visible');
 		e.preventDefault();
 	};
 
-
-
 	showUserSettings = function (event) {
 		$(this).parent().toggleClass('active');
 		event.preventDefault();
 	},
+
+	onClickAlbumItem = function () {
+		openModal();
+	};
+
+	onCloseModal = function() {
+		closeModal();
+	};
+
+	onToggleAlbumElementDescription = function () {
+		$(this).parent().toggleClass('is-galleryDescriptionVisible');
+	};
 	//-------------------- END EVENT HANDLERS --------------------
 
 
@@ -149,6 +178,7 @@ var SHARQ = (function () {
 			$(this).parent().siblings().find('.dropdown').removeClass('isVisible');
 			$(this).next('.dropdown').toggleClass('isVisible');
 		});
+
 		jqueryMap.$dropdown_link.on('click', openDropDown);
 
 		jqueryMap.$admin_dd_btn.on('click', openDropDown);
@@ -166,6 +196,12 @@ var SHARQ = (function () {
 		jqueryMap.$notifications_close_link.on('click', MESSAGES.closeMessags );
 
 		jqueryMap.$createEvent_btn.on('click', showEventCustomNotification);
+
+		jqueryMap.$album_el.on('click', onClickAlbumItem);
+
+		jqueryMap.$album_el_desc_btn.on('click', onToggleAlbumElementDescription);
+
+		jqueryMap.$close_modal_btn.on('click', onCloseModal);
 
 		jqueryMap.$admin_conf_ws_cb.on('change', function () {
 			if (this.checked) {
