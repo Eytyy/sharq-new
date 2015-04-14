@@ -6,9 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dashboard</title>
+        <title>Messages</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <script type="text/javascript" src="//use.typekit.net/ezj8rgx.js"></script>
@@ -198,81 +198,106 @@
                 </header>
                 <main class="page-wrapper__inner">
                     <div class="centered-wrapper">
-                        <section id="account-settings" class="main__col full">
-                            <h1 class="admin-page__title">Account Settings</h1>
-                            <form action="" class="admin-form">
-                                <div class="form-group options-group">
-                                    <label for="">Opt-out from Discussions notifications.</label>
-                                    <input type="checkbox">
-                                </div>
-                                <fieldset>
-                                    <legend>Change Password</legend>
-                                        <div class="form-wrapper-outlined">
-                                            <div class="form-group form-group__subtle">
-                                                <label for="">New Password:</label><input type="text">
-                                            </div>
-                                            <div class="form-group form-group__subtle">
-                                                <label for="">Confirm New Password:</label><input type="text">
-                                            </div>
+                        <section id="inbox" class="main__col full">
+                            <header>
+                                <h1 class="section-title">Messages</h1>
+                                <h2 class="subsection-title">Omar Suliman</h2>
+                                <a href="new-message.html" id="newMsg">New Message</a>
+                            </header>
+                            <div class="conversations">
+                                <div class="message message-recieved">
+                                    <div class="message__left">
+                                        <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
+                                    </div>
+                                    <div class="message__right">
+                                        <div class="message__inner">
+                                            <span class="username">Omar</span>
+                                            <p class="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                         </div>
-                                </fieldset>
-                                <div class="form-group">
-                                    <a id="deleteAcc" href="#">Delete Account</a>
+                                    </div>
+                                    <span class="msg-date">12/12/2012</span>
                                 </div>
-                                <div class="form-main-btn-wrapper">
-                                    <input type="submit" value="save" class="btn">
+                                <div class="message message-sent">
+                                    <div class="message__left">
+                                        <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
+                                    </div>
+                                    <div class="message__right">
+                                        <div class="message__inner">
+                                            <span class="username">Me</span>
+                                            <p class="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                    <span class="msg-date">12/12/2012</span>
                                 </div>
-                                    </form>
+                                <div class="message message-recieved">
+                                    <div class="message__left">
+                                        <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
+                                    </div>
+                                    <div class="message__right">
+                                        <div class="message__inner">
+                                            <span class="username">Omar</span>
+                                            <p class="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                    <span class="msg-date">12/12/2012</span>
+                                </div>
+                                <div class="message message-sent">
+                                    <div class="message__left">
+                                        <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
+                                    </div>
+                                    <div class="message__right">
+                                        <div class="message__inner">
+                                            <span class="username">Me</span>
+                                            <p class="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                    <span class="msg-date">12/12/2012</span>
+                                </div>
+                                <div class="message message-recieved">
+                                    <div class="message__left">
+                                        <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
+                                    </div>
+                                    <div class="message__right">
+                                        <div class="message__inner">
+                                            <span class="username">Omar</span>
+                                            <p class="msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                        </div>
+                                    </div>
+                                    <span class="msg-date">12/12/2012</span>
+                                </div>
+                            </div>
+                            <form action="" class="message-form">
+                                <textarea name="" id="" cols="30" rows="3" placeholder="Write your message here..."></textarea>
+                                <button type="submit" class="btn"><i class="fa fa-paper-plane icon"></i> Send</button>
+                            </form>
                         </section>
                     </div>
                 </main>
-                <div id="messages-modal" class="modal">
-                    <div class="modal__module">
-                        <div class="module__messages">
-                            <div class="messages-modal__header">
-                                <span class="modal__title">Direct Messages</span> with <span class="messages-user-name">Omar</span>
-                                <span id="closeMessages"><i class="fa fa-times"></i></span>
-                            </div>
-                            <div class="messages-modal__inside">
-                                <div class="messages-modal__conversations">
-                                    <div class="message message-recieved">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Omar</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                    <div class="message message-sent">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Me</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                    <div class="message message-recieved">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Omar</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="messages-modal__form">
-                                    <form action="">
-                                        <textarea name="" id="" cols="30" rows="3" placeholder="Write your message here..."></textarea>
-                                        <button type="submit" class="btn"><i class="fa fa-paper-plane icon"></i> Send</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <footer class="main-footer fill">
                 <div class="centered-wrapper">

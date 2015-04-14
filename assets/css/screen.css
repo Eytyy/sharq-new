@@ -5,20 +5,20 @@
 }
 
 /* line 25, ../sass/_util.scss */
-.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .comments-module__header, .comments-list, .comment-item, .main-footer .footer-wrapper, .admin-nav__dropdown .notification__message > a,
-.messages-modal__conversations .message > a, .messages-modal__conversations, .messages-modal__conversations .message, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
+.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .comments-module__header, .comments-list, .comment-item, .main-footer .footer-wrapper, .user-notifications .dropdown .dropdown__header,
+.user-messages .dropdown .dropdown__header, .admin-nav__dropdown .msg__item > a, .message, .conversations, .conversations .message > a, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
 .users-content-list .user-group, .admin-form .form-main-btn-wrapper, .events__item__shortcuts-links, #event__moderator, .expert__item article, .user__profile_header, .album-list, .gallery__header, .initiatives-list__item,
 .discussion-board-list__item, .initiative .post-top,
 .discussion .post-top, .login__register__form__wrapper, #account-form {
   *zoom: 1;
 }
 /* line 27, ../sass/_util.scss */
-.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .comments-module__header:before, .comments-list:before, .comment-item:before, .main-footer .footer-wrapper:before, .admin-nav__dropdown .notification__message > a:before,
-.messages-modal__conversations .message > a:before, .messages-modal__conversations:before, .messages-modal__conversations .message:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
+.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .comments-module__header:before, .comments-list:before, .comment-item:before, .main-footer .footer-wrapper:before, .user-notifications .dropdown .dropdown__header:before,
+.user-messages .dropdown .dropdown__header:before, .admin-nav__dropdown .msg__item > a:before, .message:before, .conversations:before, .conversations .message > a:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
 .users-content-list .user-group:before, .admin-form .form-main-btn-wrapper:before, .events__item__shortcuts-links:before, #event__moderator:before, .expert__item article:before, .user__profile_header:before, .album-list:before, .gallery__header:before, .initiatives-list__item:before,
 .discussion-board-list__item:before, .initiative .post-top:before,
-.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .admin-nav__dropdown .notification__message > a:after,
-.messages-modal__conversations .message > a:after, .messages-modal__conversations:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
+.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .user-notifications .dropdown .dropdown__header:after,
+.user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
 .discussion .post-top:after, .login__register__form__wrapper:after, #account-form:after {
@@ -26,8 +26,8 @@
   display: table;
 }
 /* line 32, ../sass/_util.scss */
-.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .admin-nav__dropdown .notification__message > a:after,
-.messages-modal__conversations .message > a:after, .messages-modal__conversations:after, .messages-modal__conversations .message:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
+.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .user-notifications .dropdown .dropdown__header:after,
+.user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
 .discussion .post-top:after, .login__register__form__wrapper:after, #account-form:after {
@@ -48,8 +48,7 @@
 }
 
 /* line 46, ../sass/_util.scss */
-.notifications-center__content-list .notification__message .notification__message__left img, .user-avatar, .admin-nav__dropdown .notification__message .avatar img,
-.messages-modal__conversations .message .avatar img, .user__profile_avatar, .initiative .author-avatar,
+.notifications-center__content-list .notification__message .notification__message__left img, .user-avatar, .admin-nav__dropdown .msg__item .avatar img, .conversations .message .avatar img, .user__profile_avatar, .initiative .author-avatar,
 .discussion .author-avatar,
 .initiatives-list__item .author-avatar,
 .discussion-board-list__item .author-avatar {
@@ -59,8 +58,7 @@
 }
 
 /* line 49, ../sass/_util.scss */
-.admin-nav__dropdown .notification__message .notification__message__right:before,
-.messages-modal__conversations .message__right:before {
+.admin-nav__dropdown .msg__item_right:before, .conversations .message__right .message__inner:before {
   content: "";
   display: inline-block;
   border: solid transparent;
@@ -125,10 +123,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 55, ../sass/_base.scss */
-.admin-form .module-speakers .module__col, .home-list.content-list .content-list__item, .event__person, .mutlimedia-list__album, .divider_two .col, .logo-wrapper, .nav__main__item, .pull-quote.left, .comment-item__left, .comment-item__right, .main-footer .footer-wrapper .footer__left, .footer-nav, .notifications-center__content-list .notification__message .notification__message__left, .admin-nav__dropdown .notification__message .notification__message__left,
-.admin-nav__dropdown .notification__message .notification__message__right,
-.messages-modal__conversations .message__left,
-.messages-modal__conversations .message__right, .combo .form-group, .links__group .links__group__item, .links__group .links__group__item:last-child, .content-form-header > div, .admin-content-form-item .content-type, .admin-content-form-item .content-group, .admin-content-form-item .content-group__left-col, .admin-content-form-item .content-group__right-col, .user__profile .admin-form .user__profile__name .form-group,
+.admin-form .module-speakers .module__col, .home-list.content-list .content-list__item, .event__person, .mutlimedia-list__album, .divider_two .col, .logo-wrapper, .nav__main__item, .pull-quote.left, .comment-item__left, .comment-item__right, .main-footer .footer-wrapper .footer__left, .footer-nav, .notifications-center__content-list .notification__message .notification__message__left, .admin-nav__dropdown .msg__item_left,
+.admin-nav__dropdown .msg__item_right, .conversations .message__right, .combo .form-group, .links__group .links__group__item, .links__group .links__group__item:last-child, .content-form-header > div, .admin-content-form-item .content-type, .admin-content-form-item .content-group, .admin-content-form-item .content-group__left-col, .admin-content-form-item .content-group__right-col, .user__profile .admin-form .user__profile__name .form-group,
 .user__profile .admin-form .user__profile__location .form-group, .event__person_avatar,
 .event__person_details, .expert__item_avatar, .expert__item_details, .album-list li, .initiative .post-top header,
 .discussion .post-top header, .initiatives-list__item .initiatives__item__col, .login__register__form__wrapper .floated, .login__register__form .form__col {
@@ -136,8 +132,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 59, ../sass/_base.scss */
-.global__nav, .pull-quote, .main-footer .footer-wrapper .footer__right, .social-nav, .messages-modal__conversations .message-sent .message__left,
-.messages-modal__conversations .message-sent .message__right, .form-header-actions, .admin-content-form-item .content-operations, .admin-form .form-main-btn-wrapper .btn, .initiative .post-top .moudle__initiative__vote,
+.global__nav, .pull-quote, .main-footer .footer-wrapper .footer__right, .social-nav, .message-sent .message__left,
+.message-sent .message__right, .form-header-actions, .admin-content-form-item .content-operations, .admin-form .form-main-btn-wrapper .btn, .initiative .post-top .moudle__initiative__vote,
 .discussion .post-top .moudle__initiative__vote, .initiatives-list__item .initiatives__item__col.col-r {
   float: right;
 }
@@ -3026,12 +3022,13 @@ be a descendant of the grid when it is being dragged.
 
 /* line 5, ../sass/_admin.scss */
 .user-nav,
-.user-notifications {
+.user-notifications,
+.user-messages {
   position: relative;
 }
 
 /* line 10, ../sass/_admin.scss */
-#user-notify-trig .admin-nav__control__count {
+.admin-nav__control__count {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -3043,7 +3040,7 @@ be a descendant of the grid when it is being dragged.
   color: #7D002E;
 }
 
-/* line 22, ../sass/_admin.scss */
+/* line 21, ../sass/_admin.scss */
 .dropdown {
   z-index: 9994;
   position: absolute;
@@ -3056,11 +3053,11 @@ be a descendant of the grid when it is being dragged.
   padding: 10px 0 15px;
   display: none;
 }
-/* line 33, ../sass/_admin.scss */
+/* line 32, ../sass/_admin.scss */
 .dropdown.isVisible {
   display: block;
 }
-/* line 36, ../sass/_admin.scss */
+/* line 35, ../sass/_admin.scss */
 .dropdown:before {
   content: "";
   position: absolute;
@@ -3071,7 +3068,7 @@ be a descendant of the grid when it is being dragged.
   top: -20px;
   right: 5px;
 }
-/* line 46, ../sass/_admin.scss */
+/* line 45, ../sass/_admin.scss */
 .dropdown:after {
   content: "";
   position: absolute;
@@ -3083,72 +3080,72 @@ be a descendant of the grid when it is being dragged.
   right: 5px;
 }
 
-/* line 57, ../sass/_admin.scss */
+/* line 56, ../sass/_admin.scss */
 .user-nav {
   margin-left: 15px;
 }
 
-/* line 61, ../sass/_admin.scss */
-.user-menu .icon {
-  margin-right: 5px;
-  width: 20px;
-}
-/* line 65, ../sass/_admin.scss */
-.user-menu .fa-lightbulb-o {
-  font-size: 19px;
-  margin-top: -2px;
-}
-/* line 69, ../sass/_admin.scss */
-.user-menu .fa-comments-o {
-  font-size: 17px;
-  margin-top: -5px;
-}
-/* line 73, ../sass/_admin.scss */
-.user-menu .fa-calendar-o {
-  font-size: 15px;
-  margin-top: -3px;
-}
-/* line 77, ../sass/_admin.scss */
-.user-menu .fa-pencil-square-o {
-  font-size: 17px;
-  margin-top: -1px;
-}
-
-/* line 82, ../sass/_admin.scss */
+/* line 59, ../sass/_admin.scss */
 .user-menu__item {
   font-size: 1.5em;
 }
-/* line 84, ../sass/_admin.scss */
+/* line 61, ../sass/_admin.scss */
 .user-menu__item a {
   display: block;
   padding: 10px 20px;
   color: rgba(0, 0, 0, 0.6);
 }
-/* line 88, ../sass/_admin.scss */
+/* line 65, ../sass/_admin.scss */
 .user-menu__item a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
-/* line 92, ../sass/_admin.scss */
+/* line 69, ../sass/_admin.scss */
 .user-menu__item.separator {
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #f2f2f2;
 }
-/* line 97, ../sass/_admin.scss */
+/* line 74, ../sass/_admin.scss */
 .user-menu__item.account-link-item {
   font-size: 1.4em;
 }
-/* line 99, ../sass/_admin.scss */
+/* line 76, ../sass/_admin.scss */
 .user-menu__item.account-link-item a {
   padding: 5px 20px;
   color: rgba(0, 0, 0, 0.3);
 }
-/* line 102, ../sass/_admin.scss */
+/* line 79, ../sass/_admin.scss */
 .user-menu__item.account-link-item a:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 108, ../sass/_admin.scss */
+/* line 86, ../sass/_admin.scss */
+.user-menu .icon {
+  margin-right: 5px;
+  width: 20px;
+}
+/* line 90, ../sass/_admin.scss */
+.user-menu .fa-lightbulb-o {
+  font-size: 19px;
+  margin-top: -2px;
+}
+/* line 94, ../sass/_admin.scss */
+.user-menu .fa-comments-o {
+  font-size: 17px;
+  margin-top: -5px;
+}
+/* line 98, ../sass/_admin.scss */
+.user-menu .fa-calendar-o {
+  font-size: 15px;
+  margin-top: -3px;
+}
+/* line 102, ../sass/_admin.scss */
+.user-menu .fa-pencil-square-o {
+  font-size: 17px;
+  margin-top: -1px;
+}
+
+/* line 107, ../sass/_admin.scss */
 .user-avatar {
   cursor: pointer;
   width: 35px;
@@ -3157,51 +3154,120 @@ be a descendant of the grid when it is being dragged.
   display: block;
 }
 
-/* line 116, ../sass/_admin.scss */
-.user-notifications .dropdown {
-  width: 300px;
-}
-/* line 118, ../sass/_admin.scss */
-.user-notifications .dropdown a:hover {
-  color: #7D002E;
-}
-/* line 121, ../sass/_admin.scss */
-.user-notifications .dropdown .dropdown__top {
-  border-bottom: 1px solid #EEE;
-}
-/* line 123, ../sass/_admin.scss */
-.user-notifications .dropdown .dropdown__top .dropdown__title {
-  display: block;
-  font-weight: 700;
-}
-/* line 128, ../sass/_admin.scss */
-.user-notifications .dropdown .dropdown__bottom {
-  background: #FFF;
-  text-align: center;
-}
-/* line 132, ../sass/_admin.scss */
-.user-notifications .dropdown .dropdown__inner-link {
-  text-align: center;
-  display: block;
-  padding: 10px 20px 0;
-  font-size: 1.4em;
-}
-/* line 138, ../sass/_admin.scss */
-.user-notifications .dropdown .dropdown__title {
-  padding: 10px;
-  border: 0;
-  font-size: 14px;
-  line-height: 20px;
-}
-/* line 144, ../sass/_admin.scss */
-.user-notifications .dropdown li {
+/* line 117, ../sass/_admin.scss */
+.user-notifications li,
+.user-notifications .dropdown__header,
+.user-messages li,
+.user-messages .dropdown__header {
   border-bottom: 1px solid #EEE;
   line-height: 1.25em;
   padding: 10px 20px 10px;
   font-size: 1.3em;
 }
-/* line 151, ../sass/_admin.scss */
-.user-notifications .dropdown .notification__message a:hover .notification__message__right:after {
+/* line 124, ../sass/_admin.scss */
+.user-notifications li:last-child,
+.user-messages li:last-child {
+  border-bottom: 0;
+}
+/* line 127, ../sass/_admin.scss */
+.user-notifications .dropdown,
+.user-messages .dropdown {
+  width: 300px;
+}
+/* line 129, ../sass/_admin.scss */
+.user-notifications .dropdown a:hover,
+.user-messages .dropdown a:hover {
+  color: #7D002E;
+}
+/* line 132, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown__top,
+.user-messages .dropdown .dropdown__top {
+  border-bottom: 1px solid #EEE;
+}
+/* line 134, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown__top .dropdown__title,
+.user-messages .dropdown .dropdown__top .dropdown__title {
+  display: block;
+  font-weight: 700;
+}
+/* line 139, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown__header,
+.user-messages .dropdown .dropdown__header {
+  padding: 10px 20px 20px 20px;
+}
+/* line 143, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown__inner-link,
+.user-messages .dropdown .dropdown__inner-link {
+  font-size: 10px;
+  float: right;
+  line-height: 1em;
+  padding-top: 6px;
+}
+/* line 148, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown__inner-link .icon,
+.user-messages .dropdown .dropdown__inner-link .icon {
+  line-height: 10px;
+  margin: 0 0 0 5px;
+}
+/* line 153, ../sass/_admin.scss */
+.user-notifications .dropdown .dropdown_title,
+.user-messages .dropdown .dropdown_title {
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #A2A2A2;
+  float: left;
+}
+
+/* line 161, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item {
+  padding: 10px;
+}
+/* line 163, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item > a, .admin-nav__dropdown .msg__item .username, .admin-nav__dropdown .msg__item .avatar {
+  display: block;
+}
+/* line 165, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item .username {
+  font-weight: 700;
+}
+
+/* line 168, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item_left,
+.admin-nav__dropdown .msg__item_right {
+  position: relative;
+}
+
+/* line 173, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item_left,
+.messages-modal__conversations .message__left {
+  max-width: 40px;
+  width: 15%;
+  padding-right: 10px;
+}
+
+/* line 180, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item_right {
+  width: 85%;
+  padding: 10px;
+  background: #eee;
+}
+/* line 184, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item_right .msg {
+  font-size: 13px;
+  line-height: 17px;
+}
+/* line 188, ../sass/_admin.scss */
+.admin-nav__dropdown .msg__item_right:before {
+  border-width: 6px;
+  border-right-width: 6px + 0px;
+  border-right-color: #EEE;
+  position: absolute;
+  left: -11px;
+  top: 0;
+}
+
+/* line 196, ../sass/_admin.scss */
+.msg__item a:hover .notification__message__right:after {
   display: block;
   content: "\f112";
   position: absolute;
@@ -3215,25 +3281,20 @@ be a descendant of the grid when it is being dragged.
   font-size: 10px;
 }
 
-/*----------------------------------------*\
-	Shared styles
-	Dashboard Notification Messages +
-	Messages Modal Messages
-\*----------------------------------------*/
-/* line 172, ../sass/_admin.scss */
+/* line 212, ../sass/_admin.scss */
 .dashboard-page .section-title,
 .dashboard-page .subsection-title {
   margin: 0;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 178, ../sass/_admin.scss */
+/* line 218, ../sass/_admin.scss */
 .dashboard-page .subsection-title {
   line-height: 30px;
   font-size: 2em;
   color: #666;
 }
-/* line 182, ../sass/_admin.scss */
+/* line 222, ../sass/_admin.scss */
 .dashboard-page .subsection-title:before {
   content: "\203A";
   font-size: 2em;
@@ -3242,70 +3303,9 @@ be a descendant of the grid when it is being dragged.
   margin: 0 5px;
 }
 
-/* line 191, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message,
-.messages-modal__conversations .message {
-  padding: 10px;
-}
-/* line 194, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message > a, .admin-nav__dropdown .notification__message .username, .admin-nav__dropdown .notification__message .avatar,
-.messages-modal__conversations .message > a,
-.messages-modal__conversations .message .username,
-.messages-modal__conversations .message .avatar {
-  display: block;
-}
-/* line 196, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .username,
-.messages-modal__conversations .message .username {
-  font-weight: 700;
-}
-
-/* line 199, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .notification__message__left,
-.admin-nav__dropdown .notification__message .notification__message__right,
-.messages-modal__conversations .message__left,
-.messages-modal__conversations .message__right {
-  position: relative;
-}
-
-/* line 206, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .notification__message__left,
-.messages-modal__conversations .message__left {
-  max-width: 40px;
-  width: 15%;
-  padding-right: 10px;
-}
-
-/* line 213, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .notification__message__right,
-.messages-modal__conversations .message__right {
-  width: 85%;
-  padding: 10px;
-  background: #eee;
-}
-/* line 218, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .notification__message__right .msg,
-.messages-modal__conversations .message__right .msg {
-  font-size: 13px;
-  line-height: 17px;
-}
-/* line 222, ../sass/_admin.scss */
-.admin-nav__dropdown .notification__message .notification__message__right:before,
-.messages-modal__conversations .message__right:before {
-  border-width: 6px;
-  border-right-width: 6px + 0px;
-  border-right-color: #EEE;
-  position: absolute;
-  left: -11px;
-  top: 0;
-}
-
 /* ---------------- End of Messages Shared Styles --------------- */
-/*----------------------------------------*\
-	Messages Modal Styles
-\*----------------------------------------*/
-/* line 235, ../sass/_admin.scss */
-#messages-modal .modal__module {
+/* line 232, ../sass/_admin.scss */
+.modal__module {
   display: table;
   height: 100%;
   width: 100%;
@@ -3313,114 +3313,216 @@ be a descendant of the grid when it is being dragged.
   margin: 0 auto;
 }
 
-/* line 243, ../sass/_admin.scss */
-.module__messages {
-  display: table-cell;
-  vertical-align: middle;
-  -moz-box-shadow: 0px 1px 9px -5px #000;
-  -webkit-box-shadow: 0px 1px 9px -5px #000;
-  box-shadow: 0px 1px 9px -5px #000;
-}
-
-/* line 248, ../sass/_admin.scss */
-.messages-modal__header,
-.messages-modal__conversations {
-  padding: 2em;
-  background: #fff;
-}
-
-/* line 253, ../sass/_admin.scss */
-.messages-modal__header {
-  -moz-border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px;
-  border-radius: 5px 5px 0 0;
-  padding-top: 1em;
-  font-size: 1.8em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #eee;
+/*----------------------------------------*\
+	Messages Styles
+\*----------------------------------------*/
+/* line 242, ../sass/_admin.scss */
+#inbox > header {
   position: relative;
-  overflow: hidden;
+  margin-bottom: 6em;
 }
-/* line 261, ../sass/_admin.scss */
-.messages-modal__header #closeMessages {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-family: helvetica, arial, serif;
-  cursor: pointer;
+/* line 245, ../sass/_admin.scss */
+#inbox > header .section-title,
+#inbox > header .subsection-title {
+  margin: 0;
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 251, ../sass/_admin.scss */
+#inbox > header .subsection-title {
+  line-height: 30px;
+  font-size: 2em;
+  color: #666;
+}
+/* line 255, ../sass/_admin.scss */
+#inbox > header .subsection-title:before {
+  content: "\203A";
+  font-size: 2em;
+  line-height: 38px;
+  vertical-align: bottom;
+  margin: 0 5px;
 }
 
-/* line 269, ../sass/_admin.scss */
-.messages-modal__conversations {
-  max-height: 300px;
+/* line 264, ../sass/_admin.scss */
+.message {
+  display: block;
+  position: relative;
+  margin-bottom: 3em;
+  color: #000;
+}
+
+/* line 272, ../sass/_admin.scss */
+a.message:hover .message__inner {
+  background: #7D002E;
+  color: #FFF;
+}
+/* line 275, ../sass/_admin.scss */
+a.message:hover .message__inner:before {
+  border-right-color: #7D002E;
+}
+
+/* line 280, ../sass/_admin.scss */
+#newMsg {
+  font-size: 1.4em;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 3px 20px 5px;
+  border: 1px solid #D2D2D2;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* line 292, ../sass/_admin.scss */
+.conversations {
+  max-height: 800px;
   overflow-y: scroll;
 }
-
-/* line 277, ../sass/_admin.scss */
-.messages-modal__conversations .message__right {
-  width: 75%;
+/* line 297, ../sass/_admin.scss */
+.conversations .message > a,
+.conversations .message .username,
+.conversations .message .avatar {
+  display: block;
+}
+/* line 305, ../sass/_admin.scss */
+.conversations .message .username {
+  font-weight: 700;
+  font-size: 1.6em;
+}
+/* line 313, ../sass/_admin.scss */
+.conversations .msg {
+  font-size: 14px;
+  line-height: 17px;
+}
+/* line 317, ../sass/_admin.scss */
+.conversations .message__right {
+  position: relative;
+}
+/* line 321, ../sass/_admin.scss */
+.conversations .message__left {
+  width: 60px;
+  padding-right: 10px;
+  position: absolute;
+}
+/* line 326, ../sass/_admin.scss */
+.conversations .message__right {
+  width: 100%;
+  padding-left: 60px;
+}
+/* line 329, ../sass/_admin.scss */
+.conversations .message__right .message__inner {
+  padding: 10px;
+  position: relative;
+  background: #eee;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 280, ../sass/_admin.scss */
-.messages-modal__conversations .message__right:before {
+/* line 334, ../sass/_admin.scss */
+.conversations .message__right .message__inner:before {
+  border-width: 6px;
+  border-right-width: 6px + 0px;
+  border-right-color: #EEE;
+  position: absolute;
+  left: -11px;
   top: 10px;
 }
 
-/* line 290, ../sass/_admin.scss */
-.messages-modal__conversations .message-sent .message__right {
-  padding-right: 0;
-  padding-left: 10px;
-  background: #7D002E;
-  color: #FFF;
+/* line 344, ../sass/_admin.scss */
+.msg-date {
+  clear: both;
+  padding-top: 10px;
+  display: block;
+  margin-left: 60px;
 }
-/* line 295, ../sass/_admin.scss */
-.messages-modal__conversations .message-sent .message__right:before {
-  border-left: 6px solid #7D002E;
+
+/* line 355, ../sass/_admin.scss */
+.message-sent .message__right {
+  padding-left: 0;
+  padding-right: 6em;
+}
+/* line 358, ../sass/_admin.scss */
+.message-sent .message__right .message__inner {
+  background: #bbb;
+}
+/* line 360, ../sass/_admin.scss */
+.message-sent .message__right .message__inner:before {
+  border-left: 6px solid #bbb;
   border-right: 6px solid transparent;
   left: auto;
   right: -11px;
 }
-
-/* line 302, ../sass/_admin.scss */
-.messages-modal__conversations .message-sent .message__left {
+/* line 368, ../sass/_admin.scss */
+.message-sent .message__left {
+  right: 0;
   padding-right: 0;
   padding-left: 10px;
 }
-
-/* line 306, ../sass/_admin.scss */
-.messages-modal__form {
+/* line 373, ../sass/_admin.scss */
+.message-sent .msg-date {
   text-align: right;
+  margin-left: 0;
+  margin-right: 60px;
 }
-/* line 308, ../sass/_admin.scss */
-.messages-modal__form textarea {
-  border: 1px solid #e2e2e2;
+
+/* line 379, ../sass/_admin.scss */
+.message-form {
+  text-align: right;
+  margin-top: 2em;
+}
+/* line 382, ../sass/_admin.scss */
+.message-form textarea {
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   width: 100%;
   max-width: 100%;
   outline: none;
   padding: 5px;
 }
-/* line 315, ../sass/_admin.scss */
-.messages-modal__form form {
-  -moz-border-radius: 0 0 5px 5px;
-  -webkit-border-radius: 0;
-  border-radius: 0 0 5px 5px;
-  background-color: #f2f2f2;
-  padding: 2em;
-  border-top: 1px solid #d2d2d2;
-}
-/* line 320, ../sass/_admin.scss */
-.messages-modal__form form .btn {
+/* line 391, ../sass/_admin.scss */
+.message-form .btn {
   margin-top: 10px;
   border-radius: 5px;
+}
+
+/* line 397, ../sass/_admin.scss */
+.conversations-list li {
+  display: block;
+}
+
+/* line 401, ../sass/_admin.scss */
+.new-msg-user {
+  text-align: left;
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+/* line 407, ../sass/_admin.scss */
+.new-msg-user label {
+  position: absolute;
+  left: 10;
+  top: 4;
+  width: 30px;
+}
+/* line 413, ../sass/_admin.scss */
+.new-msg-user input {
+  width: 100%;
+  padding-left: 30px;
 }
 
 /* ---------------- End of Messages Modal Styles ---------------- */
 /*----------------------------------------*\
 	Mobile menu specific styles
 \*----------------------------------------*/
-/* line 331, ../sass/_admin.scss */
+/* line 423, ../sass/_admin.scss */
 #menuToggle {
   z-index: 10;
   background-position: 0 -805px;
@@ -3429,7 +3531,7 @@ be a descendant of the grid when it is being dragged.
   /* show mobile menu toggle switch */
 }
 @media all and (max-width: 825px) {
-  /* line 331, ../sass/_admin.scss */
+  /* line 423, ../sass/_admin.scss */
   #menuToggle {
     position: absolute;
     right: 3em;
@@ -3438,7 +3540,7 @@ be a descendant of the grid when it is being dragged.
   }
 }
 @media all and (max-width: 350px) {
-  /* line 331, ../sass/_admin.scss */
+  /* line 423, ../sass/_admin.scss */
   #menuToggle {
     right: 2em;
     top: 5px;
@@ -3449,14 +3551,14 @@ be a descendant of the grid when it is being dragged.
 /*----------------------------------------*\
 	Common Forms Styles
 \*----------------------------------------*/
-/* line 353, ../sass/_admin.scss */
+/* line 445, ../sass/_admin.scss */
 fieldset {
   margin: 20px 0px;
   border: 1px solid #D2D2D2;
   padding: 20px;
 }
 
-/* line 358, ../sass/_admin.scss */
+/* line 450, ../sass/_admin.scss */
 legend {
   color: #444;
   font-size: 1.6em;
@@ -3465,26 +3567,26 @@ legend {
   padding: 0 5px;
 }
 
-/* line 365, ../sass/_admin.scss */
+/* line 457, ../sass/_admin.scss */
 label {
   font-size: 1.4em;
   font-weight: 700;
   line-height: 1.25em;
 }
 
-/* line 370, ../sass/_admin.scss */
+/* line 462, ../sass/_admin.scss */
 input, textarea, button {
   outline: none;
   font-size: 1.4em;
   border: 0;
 }
 
-/* line 375, ../sass/_admin.scss */
+/* line 467, ../sass/_admin.scss */
 select {
   display: block;
 }
 
-/* line 381, ../sass/_admin.scss */
+/* line 473, ../sass/_admin.scss */
 textarea {
   width: 100%;
   max-width: 100%;
@@ -3492,7 +3594,7 @@ textarea {
   border-bottom: 1px solid #ccc;
 }
 
-/* line 388, ../sass/_admin.scss */
+/* line 480, ../sass/_admin.scss */
 input.btn {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -3503,17 +3605,17 @@ input.btn {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 397, ../sass/_admin.scss */
+/* line 489, ../sass/_admin.scss */
 input.btn.btn__small {
   max-width: 150px;
 }
 
-/* line 401, ../sass/_admin.scss */
+/* line 493, ../sass/_admin.scss */
 .form-group {
   margin-bottom: 2em;
 }
 
-/* line 406, ../sass/_admin.scss */
+/* line 498, ../sass/_admin.scss */
 .form-group__subtle input {
   margin: 10px 0 0;
   padding: 0;
@@ -3521,80 +3623,80 @@ input.btn.btn__small {
   max-width: 100%;
   border-bottom: 1px solid #d3d3d3;
 }
-/* line 412, ../sass/_admin.scss */
+/* line 504, ../sass/_admin.scss */
 .form-group__subtle input:focus {
   border-bottom: 1px solid #000;
 }
 
-/* line 417, ../sass/_admin.scss */
+/* line 509, ../sass/_admin.scss */
 .combo {
   margin-left: -3em;
 }
-/* line 420, ../sass/_admin.scss */
+/* line 512, ../sass/_admin.scss */
 .combo .form-group {
   width: 50%;
   padding-left: 3em;
 }
 
-/* line 426, ../sass/_admin.scss */
+/* line 518, ../sass/_admin.scss */
 .links__group {
   margin-left: -3%;
 }
-/* line 428, ../sass/_admin.scss */
+/* line 520, ../sass/_admin.scss */
 .links__group .links__group__item {
   width: 30.333%;
   margin-left: 3%;
   margin-bottom: 30px;
 }
-/* line 436, ../sass/_admin.scss */
+/* line 528, ../sass/_admin.scss */
 .links__group .links__group__item input {
   display: inline-block;
   width: auto;
   max-width: 87%;
 }
-/* line 442, ../sass/_admin.scss */
+/* line 534, ../sass/_admin.scss */
 .links__group .fa {
   font-size: 20px;
   margin-right: 10px;
   vertical-align: bottom;
 }
 
-/* line 449, ../sass/_admin.scss */
+/* line 541, ../sass/_admin.scss */
 .options-group input, .options-group label {
   width: auto;
   float: none;
 }
-/* line 453, ../sass/_admin.scss */
+/* line 545, ../sass/_admin.scss */
 .options-group input {
   margin-left: 5px;
 }
 
-/* line 455, ../sass/_admin.scss */
+/* line 547, ../sass/_admin.scss */
 .options-group.radios {
   display: inline-block;
   margin-right: 30px;
 }
 
-/* line 462, ../sass/_admin.scss */
+/* line 554, ../sass/_admin.scss */
 .conference-extra__element {
   display: inline-block;
   font-size: 14px;
 }
-/* line 465, ../sass/_admin.scss */
+/* line 557, ../sass/_admin.scss */
 .conference-extra__element label {
   font-size: 14px;
 }
-/* line 468, ../sass/_admin.scss */
+/* line 560, ../sass/_admin.scss */
 .conference-extra__element span {
   margin: 0 5px 0 0;
 }
 
-/* line 472, ../sass/_admin.scss */
+/* line 564, ../sass/_admin.scss */
 .conference-extra {
   background-color: #FFFEFB;
   display: none;
 }
-/* line 475, ../sass/_admin.scss */
+/* line 567, ../sass/_admin.scss */
 .conference-extra fieldset, .conference-extra input, .conference-extra textarea {
   background: #FFF;
 }
@@ -3603,7 +3705,7 @@ input.btn.btn__small {
 /*----------------------------------------*\
 	Dashboard Page & Admin Pages
 \*----------------------------------------*/
-/* line 484, ../sass/_admin.scss */
+/* line 576, ../sass/_admin.scss */
 .admin-bar {
   margin-top: 3em;
   margin-bottom: 3em;
@@ -3612,45 +3714,45 @@ input.btn.btn__small {
   border-radius: 10px;
 }
 
-/* line 493, ../sass/_admin.scss */
+/* line 585, ../sass/_admin.scss */
 .admin-bar__list > li {
   position: relative;
   display: inline-block;
   margin-right: 100px;
 }
-/* line 497, ../sass/_admin.scss */
+/* line 589, ../sass/_admin.scss */
 .admin-bar__list > li:last-child {
   margin-right: 0;
 }
 
-/* line 502, ../sass/_admin.scss */
+/* line 594, ../sass/_admin.scss */
 .active-page > a {
   color: #000;
   font-weight: 700;
 }
 
-/* line 506, ../sass/_admin.scss */
+/* line 598, ../sass/_admin.scss */
 .admin-bar__link {
   font-size: 1.6em;
   color: #404040;
   display: block;
 }
-/* line 510, ../sass/_admin.scss */
+/* line 602, ../sass/_admin.scss */
 .admin-bar__link:hover {
   color: #000;
 }
-/* line 513, ../sass/_admin.scss */
+/* line 605, ../sass/_admin.scss */
 .admin-bar__link .icon {
   font-size: 20px;
   margin-right: 10px;
 }
 
-/* line 518, ../sass/_admin.scss */
+/* line 610, ../sass/_admin.scss */
 .active .admin__dropdown {
   display: block;
 }
 
-/* line 521, ../sass/_admin.scss */
+/* line 613, ../sass/_admin.scss */
 .admin__dropdown {
   display: none;
   position: absolute;
@@ -3662,7 +3764,7 @@ input.btn.btn__small {
   padding: 10px 0 15px;
   min-height: 160px;
 }
-/* line 531, ../sass/_admin.scss */
+/* line 623, ../sass/_admin.scss */
 .admin__dropdown:after, .admin__dropdown:before {
   content: "";
   position: absolute;
@@ -3670,19 +3772,19 @@ input.btn.btn__small {
   height: 0;
   width: 0;
 }
-/* line 539, ../sass/_admin.scss */
+/* line 631, ../sass/_admin.scss */
 .admin__dropdown:before {
   border-bottom: 10px solid #DDD;
   top: -20px;
   left: 3px;
 }
-/* line 544, ../sass/_admin.scss */
+/* line 636, ../sass/_admin.scss */
 .admin__dropdown:after {
   border-bottom: 10px solid #FFF;
   top: -19px;
   left: 3px;
 }
-/* line 549, ../sass/_admin.scss */
+/* line 641, ../sass/_admin.scss */
 .admin__dropdown a {
   font-size: 1.4em;
   display: block;
@@ -3690,48 +3792,48 @@ input.btn.btn__small {
   padding: 5px 10px;
   color: rgba(0, 0, 0, 0.4);
 }
-/* line 556, ../sass/_admin.scss */
+/* line 648, ../sass/_admin.scss */
 .admin__dropdown .admin__dropdwon_m a {
   border-bottom: 1px solid #e2e2e2;
   padding: 10px 10px;
   color: rgba(0, 0, 0, 0.6);
 }
-/* line 561, ../sass/_admin.scss */
+/* line 653, ../sass/_admin.scss */
 .admin__dropdown li:last-child a {
   padding-bottom: 0;
 }
 
-/* line 565, ../sass/_admin.scss */
+/* line 657, ../sass/_admin.scss */
 .pager {
   text-align: center;
   margin-top: 1em;
 }
-/* line 569, ../sass/_admin.scss */
+/* line 661, ../sass/_admin.scss */
 .pager li {
   display: inline-block;
   margin-left: 10px;
   font-size: 1.25em;
 }
-/* line 573, ../sass/_admin.scss */
+/* line 665, ../sass/_admin.scss */
 .pager li a {
   color: #777;
   font-size: 1.2em;
   font-family: helvetica;
   font-weight: 700;
 }
-/* line 578, ../sass/_admin.scss */
+/* line 670, ../sass/_admin.scss */
 .pager li a.active {
   color: #7D002E;
   text-decoration: underline;
 }
 
-/* line 587, ../sass/_admin.scss */
+/* line 679, ../sass/_admin.scss */
 #dashboardSendMsgForm {
   margin-bottom: 10px;
   padding-bottom: 20px;
   border-bottom: 1px solid #d2d2d2;
 }
-/* line 591, ../sass/_admin.scss */
+/* line 683, ../sass/_admin.scss */
 #dashboardSendMsgForm legend {
   font-weight: 300;
   font-size: 1.2em;
@@ -3739,14 +3841,14 @@ input.btn.btn__small {
   margin-top: 1em;
   text-transform: uppercase;
 }
-/* line 598, ../sass/_admin.scss */
+/* line 690, ../sass/_admin.scss */
 #dashboardSendMsgForm input[type="submit"] {
   width: 100%;
   font-weight: 300;
   text-shadow: 0 0 0;
   outline: none;
 }
-/* line 605, ../sass/_admin.scss */
+/* line 697, ../sass/_admin.scss */
 #dashboardSendMsgForm input[type="text"], #dashboardSendMsgForm textarea {
   padding: 5px;
   display: block;
@@ -3760,7 +3862,7 @@ input.btn.btn__small {
   outline: none;
 }
 
-/* line 618, ../sass/_admin.scss */
+/* line 710, ../sass/_admin.scss */
 .content-form-header {
   border-bottom: 2px solid #d2d2d2;
   padding: 5px;
@@ -3768,22 +3870,22 @@ input.btn.btn__small {
   font-size: 1.5em;
 }
 
-/* line 628, ../sass/_admin.scss */
+/* line 720, ../sass/_admin.scss */
 .admin-filter {
   margin-bottom: 2em;
 }
-/* line 630, ../sass/_admin.scss */
+/* line 722, ../sass/_admin.scss */
 .admin-filter label, .admin-filter select {
   display: inline;
   font-weight: 400;
 }
-/* line 634, ../sass/_admin.scss */
+/* line 726, ../sass/_admin.scss */
 .admin-filter label {
   font-size: 1.4em;
   color: #424242;
   margin-right: 10px;
 }
-/* line 639, ../sass/_admin.scss */
+/* line 731, ../sass/_admin.scss */
 .admin-filter select {
   font-size: 1.2em;
   background: #e2e2e2;
@@ -3792,78 +3894,78 @@ input.btn.btn__small {
   width: 150px;
 }
 
-/* line 647, ../sass/_admin.scss */
+/* line 739, ../sass/_admin.scss */
 .form-header-title {
   width: 60%;
 }
 
-/* line 650, ../sass/_admin.scss */
+/* line 742, ../sass/_admin.scss */
 .form-header-type,
 .form-header-actions {
   width: 20%;
 }
 
-/* line 657, ../sass/_admin.scss */
+/* line 749, ../sass/_admin.scss */
 .admin-content-form-item {
   padding: 1em 0.5em 1em;
   border-bottom: 1px solid #EEE;
 }
-/* line 661, ../sass/_admin.scss */
+/* line 753, ../sass/_admin.scss */
 .admin-content-form-item:nth-child(even) {
   background-color: #EEE;
 }
-/* line 664, ../sass/_admin.scss */
+/* line 756, ../sass/_admin.scss */
 .admin-content-form-item .content-type {
   width: 20%;
   font-size: 1.4em;
 }
-/* line 669, ../sass/_admin.scss */
+/* line 761, ../sass/_admin.scss */
 .admin-content-form-item .content-group {
   width: 60%;
   padding-right: 3em;
 }
-/* line 674, ../sass/_admin.scss */
+/* line 766, ../sass/_admin.scss */
 .admin-content-form-item .content-operations {
   width: 20%;
 }
-/* line 677, ../sass/_admin.scss */
+/* line 769, ../sass/_admin.scss */
 .admin-content-form-item .content-operations a {
   font-size: 1.4em;
   color: #444;
   text-transform: lowercase;
   text-decoration: underline;
 }
-/* line 682, ../sass/_admin.scss */
+/* line 774, ../sass/_admin.scss */
 .admin-content-form-item .content-operations a:first-child {
   margin-right: 15px;
 }
-/* line 685, ../sass/_admin.scss */
+/* line 777, ../sass/_admin.scss */
 .admin-content-form-item .content-operations a:hover {
   color: #000;
 }
-/* line 690, ../sass/_admin.scss */
+/* line 782, ../sass/_admin.scss */
 .admin-content-form-item .content-group__left-col {
   width: 20%;
 }
-/* line 694, ../sass/_admin.scss */
+/* line 786, ../sass/_admin.scss */
 .admin-content-form-item .content-group__right-col {
   width: 80%;
   padding-left: 3em;
 }
-/* line 699, ../sass/_admin.scss */
+/* line 791, ../sass/_admin.scss */
 .admin-content-form-item .content-title {
   font-size: 1.4em;
   line-height: 1.25em;
 }
-/* line 703, ../sass/_admin.scss */
+/* line 795, ../sass/_admin.scss */
 .admin-content-form-item .content-title a {
   color: #7D002E;
 }
-/* line 707, ../sass/_admin.scss */
+/* line 799, ../sass/_admin.scss */
 .admin-content-form-item .content-group__left-col > div {
   display: inline-block;
 }
-/* line 710, ../sass/_admin.scss */
+/* line 802, ../sass/_admin.scss */
 .admin-content-form-item .media-type {
   background: #FFF;
   padding: 0 10px;
@@ -3873,64 +3975,64 @@ input.btn.btn__small {
   margin-bottom: 5px;
 }
 
-/* line 725, ../sass/_admin.scss */
+/* line 817, ../sass/_admin.scss */
 .media-group strong, .media-group .media-item__title,
 .user-group strong, .user-group .user-item__title {
   font-weight: 700;
 }
 
-/* line 729, ../sass/_admin.scss */
+/* line 821, ../sass/_admin.scss */
 .media-group, .user-group {
   font-size: 1.4em;
 }
-/* line 731, ../sass/_admin.scss */
+/* line 823, ../sass/_admin.scss */
 .media-group p, .user-group p {
   font-size: 1em;
 }
 
-/* line 735, ../sass/_admin.scss */
+/* line 827, ../sass/_admin.scss */
 .admin-page__title {
   font-size: 2em;
   margin-bottom: 1em;
   font-weight: 300;
 }
 
-/* line 740, ../sass/_admin.scss */
+/* line 832, ../sass/_admin.scss */
 .admin-form {
   padding: 4em;
   border: 1px solid #ddd;
 }
-/* line 748, ../sass/_admin.scss */
+/* line 840, ../sass/_admin.scss */
 .admin-form .image-group label, .admin-form .textarea-group label, .admin-form .module label {
   margin-bottom: 10px;
 }
-/* line 749, ../sass/_admin.scss */
+/* line 841, ../sass/_admin.scss */
 .admin-form .image-group label, .admin-form .image-group input, .admin-form .textarea-group label, .admin-form .textarea-group input, .admin-form .module label, .admin-form .module input {
   display: block;
   width: 100%;
 }
-/* line 754, ../sass/_admin.scss */
+/* line 846, ../sass/_admin.scss */
 .admin-form .inline-group {
   display: inline-block;
   margin: 0;
   vertical-align: top;
 }
-/* line 759, ../sass/_admin.scss */
+/* line 851, ../sass/_admin.scss */
 .admin-form .module .module__wrapper,
 .admin-form .form-wrapper-outlined {
   padding: 10px;
   border: 1px dashed #d2d2d2;
 }
-/* line 764, ../sass/_admin.scss */
+/* line 856, ../sass/_admin.scss */
 .admin-form .module {
   position: relative;
   margin-bottom: 2em;
 }
-/* line 767, ../sass/_admin.scss */
+/* line 859, ../sass/_admin.scss */
 .admin-form .module .form-inner-action-group {
   text-align: right;
 }
-/* line 770, ../sass/_admin.scss */
+/* line 862, ../sass/_admin.scss */
 .admin-form .module .module-add-btn {
   background: #E2E2E2;
   color: #696969;
@@ -3939,61 +4041,61 @@ input.btn.btn__small {
   padding: 5px 10px;
   outline: 0;
 }
-/* line 778, ../sass/_admin.scss */
+/* line 870, ../sass/_admin.scss */
 .admin-form .module .module-list {
   margin-top: 2em;
 }
-/* line 781, ../sass/_admin.scss */
+/* line 873, ../sass/_admin.scss */
 .admin-form .module .module-list li {
   display: inline-block;
   position: relative;
 }
-/* line 785, ../sass/_admin.scss */
+/* line 877, ../sass/_admin.scss */
 .admin-form .module .module-list input {
   border: 0;
 }
-/* line 789, ../sass/_admin.scss */
+/* line 881, ../sass/_admin.scss */
 .admin-form .module .remove {
   position: absolute;
   top: -13px;
   right: 5px;
   cursor: pointer;
 }
-/* line 796, ../sass/_admin.scss */
+/* line 888, ../sass/_admin.scss */
 .admin-form .module-speakers {
   margin-bottom: 0;
 }
-/* line 804, ../sass/_admin.scss */
+/* line 896, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .form-group {
   margin-bottom: 10px;
 }
-/* line 807, ../sass/_admin.scss */
+/* line 899, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-limit-group, .admin-form .module-initiatives-task .module-initiative-tasks-list input {
   width: 10%;
   max-width: 60px;
 }
-/* line 811, ../sass/_admin.scss */
+/* line 903, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-task-group {
   padding-top: 25px;
 }
-/* line 814, ../sass/_admin.scss */
+/* line 906, ../sass/_admin.scss */
 .admin-form .module-initiatives-task .initiative-task-group, .admin-form .module-initiatives-task .module-initiative-tasks-list textarea {
   width: 92.25%;
 }
-/* line 817, ../sass/_admin.scss */
+/* line 909, ../sass/_admin.scss */
 .admin-form .module-initiatives-task textarea {
   background-color: #FFF;
 }
-/* line 822, ../sass/_admin.scss */
+/* line 914, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list input {
   padding: 5px 0 0;
 }
-/* line 825, ../sass/_admin.scss */
+/* line 917, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list li {
   width: 100%;
   margin: 10px 0;
 }
-/* line 829, ../sass/_admin.scss */
+/* line 921, ../sass/_admin.scss */
 .admin-form .module-initiative-tasks-list input, .admin-form .module-initiative-tasks-list textarea {
   display: inline-block;
   width: auto;
@@ -4002,49 +4104,49 @@ input.btn.btn__small {
   border-bottom: 1px solid #d2d2d2;
 }
 
-/* line 840, ../sass/_admin.scss */
+/* line 932, ../sass/_admin.scss */
 .page__profile__edit {
   background: #EEE;
 }
-/* line 842, ../sass/_admin.scss */
+/* line 934, ../sass/_admin.scss */
 .page__profile__edit .links__group__item {
   width: 100%;
 }
 
-/* line 847, ../sass/_admin.scss */
+/* line 939, ../sass/_admin.scss */
 .user__profile .admin-form input[type="text"], .user__profile .admin-form textarea {
   background-color: transparent;
 }
-/* line 850, ../sass/_admin.scss */
+/* line 942, ../sass/_admin.scss */
 .user__profile .admin-form input[type="text"], .user__profile .admin-form textarea {
   float: none;
   font-size: inherit;
 }
-/* line 855, ../sass/_admin.scss */
+/* line 947, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group input {
   font-weight: 700;
 }
-/* line 859, ../sass/_admin.scss */
+/* line 951, ../sass/_admin.scss */
 .user__profile .admin-form .profile-avatar-field {
   margin-top: 30px;
 }
-/* line 862, ../sass/_admin.scss */
+/* line 954, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group,
 .user__profile .admin-form .user__profile__location .form-group {
   width: 50%;
   padding: 0 5px;
 }
-/* line 867, ../sass/_admin.scss */
+/* line 959, ../sass/_admin.scss */
 .user__profile .admin-form .user__profile__name .form-group input,
 .user__profile .admin-form .user__profile__location .form-group input {
   width: 100%;
 }
-/* line 871, ../sass/_admin.scss */
+/* line 963, ../sass/_admin.scss */
 .user__profile .admin-form .profile__bio textarea {
   font-size: 18px;
 }
 
-/* line 877, ../sass/_admin.scss */
+/* line 969, ../sass/_admin.scss */
 #deleteAcc {
   font-size: 1.4em;
   color: #7D002E;
@@ -4054,28 +4156,28 @@ input.btn.btn__small {
 }
 
 /* ---------------- End of Dashboard Page & Admin Pages --------- */
-/* line 886, ../sass/_admin.scss */
+/* line 978, ../sass/_admin.scss */
 .event-create-notification-msg {
   display: none;
   padding: 1em;
   background: #FFFAEC;
 }
-/* line 890, ../sass/_admin.scss */
+/* line 982, ../sass/_admin.scss */
 .event-create-notification-msg p {
   font-size: 1.4em;
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* line 895, ../sass/_admin.scss */
+/* line 987, ../sass/_admin.scss */
 .event-create-notification-msg textarea {
   background-color: #FFF;
 }
-/* line 898, ../sass/_admin.scss */
+/* line 990, ../sass/_admin.scss */
 .event-create-notification-msg .form-main-btn-wrapper {
   text-align: right;
 }
 
-/* line 904, ../sass/_admin.scss */
+/* line 996, ../sass/_admin.scss */
 .system-message {
   position: fixed;
   top: 100px;
@@ -4086,33 +4188,33 @@ input.btn.btn__small {
   color: #FFF;
   font-weight: 700;
 }
-/* line 913, ../sass/_admin.scss */
+/* line 1005, ../sass/_admin.scss */
 .system-message p {
   font-size: 14px;
 }
-/* line 916, ../sass/_admin.scss */
+/* line 1008, ../sass/_admin.scss */
 .system-message.success {
   background-color: #57AD68;
   background-color: rgba(87, 173, 104, 0.85);
 }
-/* line 920, ../sass/_admin.scss */
+/* line 1012, ../sass/_admin.scss */
 .system-message.error {
   background-color: #FA5757;
   background-color: rgba(250, 87, 87, 0.85);
 }
 
-/* line 927, ../sass/_admin.scss */
+/* line 1019, ../sass/_admin.scss */
 .logged-in .system-message {
   top: 148px;
 }
 @media all and (max-width: 400px) {
-  /* line 927, ../sass/_admin.scss */
+  /* line 1019, ../sass/_admin.scss */
   .logged-in .system-message {
     top: 128px;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 927, ../sass/_admin.scss */
+  /* line 1019, ../sass/_admin.scss */
   .logged-in .system-message {
     top: 118px;
   }

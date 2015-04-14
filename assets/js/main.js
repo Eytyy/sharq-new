@@ -32,14 +32,13 @@ var SHARQ = (function () {
 
 	MESSAGES = (function () {
 		var openMessageModal = function (e) {
-		 		$('#messages-modal').addClass('is-open');
-		 		$('body').toggleClass('isModalActive');
+				openModal();
 		 		e.preventDefault();
 		 		closeDropDown();
 			},
 			closeMessageModal = function (e) {
+				closeModal();
 				$('#messages-modal').removeClass('is-open');
-		 		$('body').toggleClass('isModalActive');
 		 		e.preventDefault();
 			};
 

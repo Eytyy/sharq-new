@@ -1,12 +1,12 @@
 
-.icon__r {
-	display: inline-block;
-}
-.user-nav,
-.user-notifications {
-	position: relative;
-}
-#user-notify-trig {
+	.icon__r {
+		display: inline-block;
+	}
+	.user-nav,
+	.user-notifications,
+	.user-messages {
+		position: relative;
+	}
 	.admin-nav__control__count {
 		position: absolute;
 		top: 0px;
@@ -18,200 +18,166 @@
 		font-weight: 700;
 		color: $burgundy;
 	}
-}
-.dropdown {
-	z-index: 9994;
-	position: absolute;
-	width: 250px;
-	background: #FFF;
-	border: 1px solid #DDD;
-	border-radius: 5px;
-	right: 0;
-	top: 45px;
-	padding: 10px 0 15px;
-	display: none;
-	&.isVisible {
-		display: block;
-	}
-	&:before {
-		content: "";
+	.dropdown {
+		z-index: 9994;
 		position: absolute;
-		border: 10px solid transparent;
-		height: 0;
-		width: 0;
-		border-bottom: 10px solid #DDD;
-		top: -20px;
-		right: 5px;
-	}
-	&:after {
-		content: "";
-		position: absolute;
-		border: 10px solid transparent;
-		height: 0;
-		width: 0;
-		border-bottom: 10px solid #FFF;
-		top: -19px;
-		right: 5px;
-	}
-}
-.user-nav {
-	margin-left: 15px;
-}
-.user-menu {
-	.icon {
-		margin-right: 5px;
-		width: 20px;
-	}
-	.fa-lightbulb-o {
-		font-size: 19px;
-		margin-top: -2px;
-	}
-	.fa-comments-o {
-		font-size: 17px;
-		margin-top: -5px;
-	}
-	.fa-calendar-o {
-		font-size: 15px;
-	  	margin-top: -3px;
-	}
-	.fa-pencil-square-o {
-		font-size: 17px;
-		margin-top: -1px;
-	}
-}
-.user-menu__item {
-	font-size: 1.5em;
-	a {
-		display: block;
-		padding: 10px 20px;
-		color: rgba(0, 0, 0, 0.6);
-		&:hover {
-			color: rgba(0, 0, 0, 0.8);
+		width: 250px;
+		background: #FFF;
+		border: 1px solid #DDD;
+		border-radius: 5px;
+		right: 0;
+		top: 45px;
+		padding: 10px 0 15px;
+		display: none;
+		&.isVisible {
+			display: block;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			border: 10px solid transparent;
+			height: 0;
+			width: 0;
+			border-bottom: 10px solid #DDD;
+			top: -20px;
+			right: 5px;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			border: 10px solid transparent;
+			height: 0;
+			width: 0;
+			border-bottom: 10px solid #FFF;
+			top: -19px;
+			right: 5px;
 		}
 	}
-	&.separator {
-		margin-top: 10px;
-		margin-bottom: 10px;
-		border-bottom: 1px solid #f2f2f2;
+	.user-nav {
+		margin-left: 15px;
 	}
-	&.account-link-item {
-		font-size: 1.4em;
+	.user-menu__item {
+		font-size: 1.5em;
 		a {
-			padding: 5px 20px;
-			color: rgba(0, 0, 0, 0.3);
+			display: block;
+			padding: 10px 20px;
+			color: rgba(0, 0, 0, 0.6);
 			&:hover {
 				color: rgba(0, 0, 0, 0.8);
 			}
 		}
-	}
-}
-.user-avatar {
-	cursor: pointer;
-	width: 35px;
-	height: 35px;
-	overflow: hidden;
-	display: block;
-	@extend %fullBorderRadius;
-}
-.user-notifications .dropdown {
-	width: 300px;
-	a:hover {
-		color: $burgundy;
-	}
-	.dropdown__top {
-		border-bottom: 1px solid #EEE;
-		.dropdown__title {
-			display: block;
-			font-weight: 700;
+		&.separator {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid #f2f2f2;
 		}
-	}
-	.dropdown__bottom {
-		background: #FFF;
-		text-align: center;
-	}
-	.dropdown__inner-link {
-		text-align: center;
-		display: block;
-		padding: 10px 20px 0;
-		font-size: 1.4em;
-	}
-	.dropdown__title {
-		padding: 10px;
-		border: 0;
-		font-size: 14px;
-		line-height: 20px;
-	}
-	li {
-		border-bottom: 1px solid #EEE;
-		line-height: 1.25em;
-		padding: 10px 20px 10px;
-		font-size: 1.3em;
-	}
-	.notification__message {
-		a:hover .notification__message__right:after {
-			  display: block;
-			  content: "\f112";
-			  position: absolute;
-			  right: 7px;
-			  top: 5px;
-			  font-family: FontAwesome;
-			  text-rendering: auto;
-			  -webkit-font-smoothing: antialiased;
-			  -moz-osx-font-smoothing: grayscale;
-			  line-height: 14px;
-			  font-size: 10px;
-		}
-	}
-}
-/*----------------------------------------*\
-	Shared styles
-	Dashboard Notification Messages +
-	Messages Modal Messages
-\*----------------------------------------*/
-	.dashboard-page {
-		.section-title,
-		.subsection-title {
-			margin: 0;
-			display: inline-block;
-			vertical-align: bottom;
-		}
-		.subsection-title {
-		  line-height: 30px;
-			font-size: 2em;
-			color: #666;
-			&:before {
-				content: "\203A";
-				font-size: 2em;
-				line-height: 38px;
-				vertical-align: bottom;
-				margin: 0 5px;
+		&.account-link-item {
+			font-size: 1.4em;
+			a {
+				padding: 5px 20px;
+				color: rgba(0, 0, 0, 0.3);
+				&:hover {
+					color: rgba(0, 0, 0, 0.8);
+				}
 			}
 		}
 	}
-	.admin-nav__dropdown .notification__message,
-	.messages-modal__conversations .message {
+	.user-menu {
+		.icon {
+			margin-right: 5px;
+			width: 20px;
+		}
+		.fa-lightbulb-o {
+			font-size: 19px;
+			margin-top: -2px;
+		}
+		.fa-comments-o {
+			font-size: 17px;
+			margin-top: -5px;
+		}
+		.fa-calendar-o {
+			font-size: 15px;
+		  	margin-top: -3px;
+		}
+		.fa-pencil-square-o {
+			font-size: 17px;
+			margin-top: -1px;
+		}
+	}
+	.user-avatar {
+		cursor: pointer;
+		width: 35px;
+		height: 35px;
+		overflow: hidden;
+		display: block;
+		@extend %fullBorderRadius;
+	}
+	.user-notifications,
+	.user-messages {
+		li,
+		.dropdown__header {
+			border-bottom: 1px solid #EEE;
+			line-height: 1.25em;
+			padding: 10px 20px 10px;
+			font-size: 1.3em;
+		}
+		li:last-child {
+			border-bottom: 0;
+		}
+		.dropdown {
+			width: 300px;
+			a:hover {
+				color: $burgundy;
+			}
+			.dropdown__top {
+				border-bottom: 1px solid #EEE;
+				.dropdown__title {
+					display: block;
+					font-weight: 700;
+				}
+			}
+			.dropdown__header {
+				padding: 10px 20px 20px 20px;
+				@extend %clearfix;
+			}
+			.dropdown__inner-link {
+				font-size: 10px;
+				float: right;
+				line-height: 1em;
+				padding-top: 6px;
+				.icon {
+					line-height: 10px;
+					margin: 0 0 0 5px;
+				}
+			}
+			.dropdown_title {
+				font-weight: 400;
+				font-size: 1.4em;
+				color: #A2A2A2;
+				float: left;
+			}
+		}
+	}
+	.admin-nav__dropdown .msg__item {
 		padding: 10px;
 		> a , .username, .avatar { display: block; }
 		> a { @extend %clearfix; }
 		.username { font-weight: 700; }
 		.avatar img { @extend %fullBorderRadius; }
 	}
-	.admin-nav__dropdown .notification__message .notification__message__left,
-	.admin-nav__dropdown .notification__message .notification__message__right,
-	.messages-modal__conversations .message__left,
-	.messages-modal__conversations .message__right  {
+	.admin-nav__dropdown .msg__item_left,
+	.admin-nav__dropdown .msg__item_right {
 		@extend %pullLeft;
 		position: relative;
 	}
-	.admin-nav__dropdown .notification__message .notification__message__left,
+	.admin-nav__dropdown .msg__item_left,
 	.messages-modal__conversations .message__left {
 		max-width: 40px;
 		width: 15%;
 		padding-right: 10px;
 	}
 
-	.admin-nav__dropdown .notification__message .notification__message__right,
-	.messages-modal__conversations .message__right  {
+	.admin-nav__dropdown .msg__item_right	 {
 		width: 85%;
 		padding: 10px;
 		background: #eee;
@@ -226,101 +192,227 @@
 			top: 0;
 		}
 	}
-/* ---------------- End of Messages Shared Styles --------------- */
+	.msg__item {
+		a:hover .notification__message__right:after {
+			  display: block;
+			  content: "\f112";
+			  position: absolute;
+			  right: 7px;
+			  top: 5px;
+			  font-family: FontAwesome;
+			  text-rendering: auto;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			  line-height: 14px;
+			  font-size: 10px;
+		}
+	}
 
+	.dashboard-page {
+		.section-title,
+		.subsection-title {
+			margin: 0;
+			display: inline-block;
+			vertical-align: bottom;
+		}
+		.subsection-title {
+		  	line-height: 30px;
+			font-size: 2em;
+			color: #666;
+			&:before {
+				content: "\203A";
+				font-size: 2em;
+				line-height: 38px;
+				vertical-align: bottom;
+				margin: 0 5px;
+			}
+		}
+	}
+/* ---------------- End of Messages Shared Styles --------------- */
+	.modal__module {
+		display: table;
+		height: 100%;
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
 /*----------------------------------------*\
-	Messages Modal Styles
+	Messages Styles
 \*----------------------------------------*/
-	#messages-modal {
-		.modal__module {
-			display: table;
-			height: 100%;
-			width: 100%;
-			max-width: 600px;
-			margin: 0 auto;
-		}
-	}
-	.module__messages {
-		display: table-cell;
-		vertical-align: middle;
-		@include box-shadow(0px 1px 9px -5px #000);
-	}
-	.messages-modal__header,
-	.messages-modal__conversations {
-		padding: 2em;
-		background: #fff;
-	}
-	.messages-modal__header {
-		@include border-radius(5px 5px 0 0);
-		padding-top: 1em;
-		font-size: 1.8em;
-		padding-bottom: 1em;
-		border-bottom: 1px solid #eee;
+	#inbox > header {
 		position: relative;
-		overflow: hidden;
-		#closeMessages {
-			position: absolute;
-			top: 15px;
-			right: 15px;
-			font-family: helvetica, arial, serif;
-			cursor: pointer;
+		margin-bottom: 6em;
+		.section-title,
+		.subsection-title {
+		  margin: 0;
+		  display: inline-block;
+		  vertical-align: bottom;
+		}
+		.subsection-title {
+			line-height: 30px;
+			font-size: 2em;
+			color: #666;
+			&:before {
+				content: "\203A";
+				font-size: 2em;
+				line-height: 38px;
+				vertical-align: bottom;
+				margin: 0 5px;
+			}
 		}
 	}
-	.messages-modal__conversations {
+	.message {
+		display: block;
+		position: relative;
+		margin-bottom: 3em;
 		@extend %clearfix;
-		max-height: 300px;
+		color: #000;
+	}
+	a.message:hover {
+		.message__inner {
+			background: $burgundy;
+			color: #FFF;
+			&:before {
+				border-right-color: $burgundy;
+			}
+		}
+	}
+	#newMsg {
+		font-size: 1.4em;
+		position: absolute;
+		right: 0;
+		top: 5px;
+		padding: 3px 20px 5px;
+		border: 1px solid #D2D2D2;
+		border-radius: 25px;
+		text-align: center;
+		font-weight: 700;
+		display: inline-block;
+	}
+	.conversations {
+		@extend %clearfix;
+		max-height: 800px;
 		overflow-y: scroll;
-	}
-	.messages-modal__conversations .message {
-		@extend %clearfix;
-	}
-	.messages-modal__conversations .message__right {
-		width: 75%;
-		@include border-radius(5px);
-		&:before {
-			top: 10px;
+		.message {
+			> a ,
+			.username,
+			.avatar {
+				display: block;
+			}
+			> a {
+				@extend %clearfix;
+			}
+			.username {
+				font-weight: 700;
+				font-size: 1.6em;
+			}
+			.avatar img {
+				@extend %fullBorderRadius;
+			}
+		}
+		.msg {
+			font-size: 14px;
+			line-height: 17px;
+		}
+		.message__right  {
+			@extend %pullLeft;
+			position: relative;
+		}
+		.message__left {
+			width: 60px;
+			padding-right: 10px;
+			position: absolute;
+		}
+		.message__right  {
+			width: 100%;
+			padding-left: 60px;
+			.message__inner {
+				padding: 10px;
+				position: relative;
+				background: #eee;
+				@include border-radius(5px);
+				&:before {
+					@include triangleIcon($direction:"right", $fillColor: "#EEE");
+					position: absolute;
+					left: -11px;
+					top: 10px;
+				}
+			}
+				
 		}
 	}
-	.messages-modal__conversations .message-sent {
+	.msg-date {
+		clear: both;
+		padding-top: 10px;
+		display: block;
+		margin-left: 60px;
+	}
+	.message-sent {
 		.message__left,
 		.message__right { 
 			@extend %pullRight; 
 		}
-	}
-	.messages-modal__conversations .message-sent .message__right {
-		padding-right: 0;
-		padding-left: 10px;
-		background: $burgundy;
-		color: #FFF;
-		&:before {
-			border-left: 6px solid $burgundy;
-			border-right: 6px solid transparent;
-			left: auto;
-			right: -11px;
+		.message__right {
+			padding-left: 0;
+			padding-right: 6em;
+			.message__inner {
+				background: #bbb;
+				&:before {
+					border-left: 6px solid #bbb;
+					border-right: 6px solid transparent;
+					left: auto;
+					right: -11px;
+				}
+			}
+		}
+		.message__left {
+			right: 0;
+			padding-right: 0;
+			padding-left: 10px;
+		}
+		.msg-date {
+			text-align: right;
+			margin-left: 0;
+			margin-right: 60px;
 		}
 	}
-	.messages-modal__conversations .message-sent .message__left {
-		padding-right: 0;
-		padding-left: 10px;
-	}
-	.messages-modal__form {
+	.message-form {
 		text-align: right;
+		margin-top: 2em;
 		textarea {
-			border: 1px solid #e2e2e2;
+			background: #FFF;
+			border: 1px solid #d2d2d2;
+			@include border-radius(5px);
 			width: 100%;
 			max-width: 100%;
 			outline: none;
 			padding: 5px;
 		}
-		form {
-			@include border-radius(0 0 5px 5px);
-			background-color: #f2f2f2;
-			padding: 2em;
-			border-top: 1px solid #d2d2d2;
-			.btn {
-				margin-top: 10px;
-				border-radius: 5px;
-			}
+		.btn {
+			margin-top: 10px;
+			border-radius: 5px;
+		}
+	}
+	.conversations-list {
+		li {
+			display: block;
+		}
+	}
+	.new-msg-user {
+		text-align: left;
+		border: 1px solid #d2d2d2;
+		padding: 10px;
+		@include border-radius(5px);
+		position: relative;
+		label {
+			position: absolute;
+			left: 10;
+			top: 4;
+			width: 30px;
+		}
+		input {
+			width: 100%;
+			padding-left: 30px;
 		}
 	}
 /* ---------------- End of Messages Modal Styles ---------------- */
