@@ -2084,7 +2084,7 @@ body .fc {
   height: 2.1em;
   padding: 0 .6em;
   /* text & cursor */
-  font-size: 1.1em;
+  font-size: 1.4em;
   /* normalize */
   white-space: nowrap;
   cursor: pointer;
@@ -2113,7 +2113,7 @@ body .fc {
 */
 /* line 1375, ../sass/_modules.scss */
 .fc-state-default {
-  font-weight: 300;
+  font-weight: 700;
   background-color: #7D002E;
   color: #FFF;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -2137,11 +2137,12 @@ body .fc {
 /* line 1395, ../sass/_modules.scss */
 .fc-state-down,
 .fc-state-active {
+  font-weight: 400;
   background-color: #cccccc;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 1401, ../sass/_modules.scss */
+/* line 1402, ../sass/_modules.scss */
 .fc-state-disabled {
   cursor: default;
   opacity: 0.65;
@@ -2151,7 +2152,7 @@ body .fc {
 
 /* Buttons Groups
 --------------------------------------------------------------------------------------------------*/
-/* line 1412, ../sass/_modules.scss */
+/* line 1413, ../sass/_modules.scss */
 .fc-button-group {
   display: inline-block;
 }
@@ -2160,14 +2161,14 @@ body .fc {
 every button that is not first in a button group should scootch over one pixel and cover the
 previous button's border...
 */
-/* line 1421, ../sass/_modules.scss */
+/* line 1422, ../sass/_modules.scss */
 .fc .fc-button-group > * {
   /* extra precedence b/c buttons have margin set to zero */
   float: left;
   margin: 0 0 0 -1px;
 }
 
-/* line 1426, ../sass/_modules.scss */
+/* line 1427, ../sass/_modules.scss */
 .fc .fc-button-group > :first-child {
   /* same */
   margin-left: 0;
@@ -2175,54 +2176,54 @@ previous button's border...
 
 /* Popover
 --------------------------------------------------------------------------------------------------*/
-/* line 1434, ../sass/_modules.scss */
+/* line 1435, ../sass/_modules.scss */
 .fc-popover {
   position: absolute;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1439, ../sass/_modules.scss */
+/* line 1440, ../sass/_modules.scss */
 .fc-popover .fc-header {
   padding: 2px 4px;
 }
 
-/* line 1443, ../sass/_modules.scss */
+/* line 1444, ../sass/_modules.scss */
 .fc-popover .fc-header .fc-title {
   margin: 0 2px;
 }
 
-/* line 1447, ../sass/_modules.scss */
+/* line 1448, ../sass/_modules.scss */
 .fc-popover .fc-header .fc-close {
   cursor: pointer;
 }
 
-/* line 1451, ../sass/_modules.scss */
+/* line 1452, ../sass/_modules.scss */
 .fc-ltr .fc-popover .fc-header .fc-title,
 .fc-rtl .fc-popover .fc-header .fc-close {
   float: left;
 }
 
-/* line 1456, ../sass/_modules.scss */
+/* line 1457, ../sass/_modules.scss */
 .fc-rtl .fc-popover .fc-header .fc-title,
 .fc-ltr .fc-popover .fc-header .fc-close {
   float: right;
 }
 
 /* unthemed */
-/* line 1463, ../sass/_modules.scss */
+/* line 1464, ../sass/_modules.scss */
 .fc-unthemed .fc-popover {
   border-width: 1px;
   border-style: solid;
 }
 
-/* line 1468, ../sass/_modules.scss */
+/* line 1469, ../sass/_modules.scss */
 .fc-unthemed .fc-popover .fc-header .fc-close {
   font-size: 25px;
   margin-top: 4px;
 }
 
 /* jqui themed */
-/* line 1475, ../sass/_modules.scss */
+/* line 1476, ../sass/_modules.scss */
 .fc-popover > .ui-widget-header + .ui-widget-content {
   border-top: 0;
   /* where they meet, let the header have the border */
@@ -2230,7 +2231,7 @@ previous button's border...
 
 /* Misc Reusable Components
 --------------------------------------------------------------------------------------------------*/
-/* line 1483, ../sass/_modules.scss */
+/* line 1484, ../sass/_modules.scss */
 .fc hr {
   height: 0;
   margin: 0;
@@ -2240,12 +2241,12 @@ previous button's border...
   border-width: 1px 0;
 }
 
-/* line 1491, ../sass/_modules.scss */
+/* line 1492, ../sass/_modules.scss */
 .fc-clear {
   clear: both;
 }
 
-/* line 1495, ../sass/_modules.scss */
+/* line 1496, ../sass/_modules.scss */
 .fc-bg,
 .fc-highlight-skeleton,
 .fc-helper-skeleton {
@@ -2256,13 +2257,13 @@ previous button's border...
   right: 0;
 }
 
-/* line 1505, ../sass/_modules.scss */
+/* line 1506, ../sass/_modules.scss */
 .fc-bg {
   bottom: 0;
   /* strech bg to bottom edge */
 }
 
-/* line 1509, ../sass/_modules.scss */
+/* line 1510, ../sass/_modules.scss */
 .fc-bg table {
   height: 100%;
   /* strech bg to bottom edge */
@@ -2270,7 +2271,7 @@ previous button's border...
 
 /* Tables
 --------------------------------------------------------------------------------------------------*/
-/* line 1517, ../sass/_modules.scss */
+/* line 1518, ../sass/_modules.scss */
 .fc table {
   width: 100%;
   table-layout: fixed;
@@ -2280,22 +2281,22 @@ previous button's border...
   /* normalize cross-browser */
 }
 
-/* line 1525, ../sass/_modules.scss */
+/* line 1526, ../sass/_modules.scss */
 .fc th {
   text-align: center;
 }
 
-/* line 1529, ../sass/_modules.scss */
+/* line 1530, ../sass/_modules.scss */
 .fc th,
 .fc td {
   border-style: solid;
   border-width: 1px;
   padding: 0;
   vertical-align: top;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-/* line 1538, ../sass/_modules.scss */
+/* line 1539, ../sass/_modules.scss */
 .fc td.fc-today {
   border-style: double;
   /* overcome neighboring borders */
@@ -2303,7 +2304,7 @@ previous button's border...
 
 /* Fake Table Rows
 --------------------------------------------------------------------------------------------------*/
-/* line 1546, ../sass/_modules.scss */
+/* line 1547, ../sass/_modules.scss */
 .fc .fc-row {
   /* extra precedence to overcome themes w/ .ui-widget-content forcing a 1px border */
   /* no visible border by default. but make available if need be (scrollbar width compensation) */
@@ -2311,7 +2312,7 @@ previous button's border...
   border-width: 0;
 }
 
-/* line 1552, ../sass/_modules.scss */
+/* line 1553, ../sass/_modules.scss */
 .fc-row table {
   /* don't put left/right border on anything within a fake row.
      the outer tbody will worry about this */
@@ -2321,7 +2322,7 @@ previous button's border...
   border-bottom: 0 hidden transparent;
 }
 
-/* line 1562, ../sass/_modules.scss */
+/* line 1563, ../sass/_modules.scss */
 .fc-row:first-child table {
   border-top: 0 hidden transparent;
   /* no top border on first row */
@@ -2329,31 +2330,31 @@ previous button's border...
 
 /* Day Row (used within the header and the DayGrid)
 --------------------------------------------------------------------------------------------------*/
-/* line 1570, ../sass/_modules.scss */
+/* line 1571, ../sass/_modules.scss */
 .fc-row {
   position: relative;
 }
 
-/* line 1574, ../sass/_modules.scss */
+/* line 1575, ../sass/_modules.scss */
 .fc-row .fc-bg {
   z-index: 1;
 }
 
 /* highlighting cells */
-/* line 1580, ../sass/_modules.scss */
+/* line 1581, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton {
   z-index: 2;
   bottom: 0;
   /* stretch skeleton to bottom of row */
 }
 
-/* line 1585, ../sass/_modules.scss */
+/* line 1586, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton table {
   height: 100%;
   /* stretch skeleton to bottom of row */
 }
 
-/* line 1589, ../sass/_modules.scss */
+/* line 1590, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton td {
   border-color: transparent;
 }
@@ -2362,7 +2363,7 @@ previous button's border...
 row content (which contains day/week numbers and events) as well as "helper" (which contains
 temporary rendered events).
 */
-/* line 1598, ../sass/_modules.scss */
+/* line 1599, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton {
   position: relative;
   z-index: 3;
@@ -2370,12 +2371,12 @@ temporary rendered events).
   /* matches the space above the events */
 }
 
-/* line 1604, ../sass/_modules.scss */
+/* line 1605, ../sass/_modules.scss */
 .fc-row .fc-helper-skeleton {
   z-index: 4;
 }
 
-/* line 1608, ../sass/_modules.scss */
+/* line 1609, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton td,
 .fc-row .fc-helper-skeleton td {
   /* see-through to the background below */
@@ -2386,7 +2387,7 @@ temporary rendered events).
   border-bottom: 0;
 }
 
-/* line 1618, ../sass/_modules.scss */
+/* line 1619, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton tbody td,
 .fc-row .fc-helper-skeleton tbody td {
   /* don't put a border between event cells */
@@ -2395,14 +2396,14 @@ temporary rendered events).
 
 /* Scrolling Container
 --------------------------------------------------------------------------------------------------*/
-/* line 1628, ../sass/_modules.scss */
+/* line 1629, ../sass/_modules.scss */
 .fc-scroller {
   /* this class goes on elements for guaranteed vertical scrollbars */
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-/* line 1633, ../sass/_modules.scss */
+/* line 1634, ../sass/_modules.scss */
 .fc-scroller > * {
   /* we expect an immediate inner element */
   position: relative;
@@ -2415,7 +2416,7 @@ temporary rendered events).
 
 /* Global Event Styles
 --------------------------------------------------------------------------------------------------*/
-/* line 1643, ../sass/_modules.scss */
+/* line 1644, ../sass/_modules.scss */
 .fc-event {
   position: relative;
   /* for resize handle and other inner positioning */
@@ -2431,7 +2432,7 @@ temporary rendered events).
 }
 
 /* overpower some of bootstrap's and jqui's styles on <a> tags */
-/* line 1654, ../sass/_modules.scss */
+/* line 1655, ../sass/_modules.scss */
 .fc-event,
 .fc-event:hover,
 .ui-widget .fc-event {
@@ -2441,7 +2442,7 @@ temporary rendered events).
   /* if <a> has an href */
 }
 
-/* line 1661, ../sass/_modules.scss */
+/* line 1662, ../sass/_modules.scss */
 .fc-event[href],
 .fc-event.fc-draggable {
   cursor: pointer;
@@ -2453,7 +2454,7 @@ temporary rendered events).
 We use the full "fc-day-grid-event" class instead of using descendants because the event won't
 be a descendant of the grid when it is being dragged.
 */
-/* line 1673, ../sass/_modules.scss */
+/* line 1674, ../sass/_modules.scss */
 .fc-day-grid-event {
   margin: 1px 2px 0;
   /* spacing between events and edges */
@@ -2461,7 +2462,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* events that are continuing to/from another week. kill rounded corners and butt up against edge */
-/* line 1680, ../sass/_modules.scss */
+/* line 1681, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event.fc-not-start,
 .fc-rtl .fc-day-grid-event.fc-not-end {
   margin-left: 0;
@@ -2472,7 +2473,7 @@ be a descendant of the grid when it is being dragged.
   border-bottom-left-radius: 0;
 }
 
-/* line 1689, ../sass/_modules.scss */
+/* line 1690, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event.fc-not-end,
 .fc-rtl .fc-day-grid-event.fc-not-start {
   margin-right: 0;
@@ -2483,20 +2484,20 @@ be a descendant of the grid when it is being dragged.
   border-bottom-right-radius: 0;
 }
 
-/* line 1698, ../sass/_modules.scss */
+/* line 1699, ../sass/_modules.scss */
 .fc-day-grid-event > .fc-content {
   /* force events to be one-line tall */
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* line 1703, ../sass/_modules.scss */
+/* line 1704, ../sass/_modules.scss */
 .fc-day-grid-event .fc-time {
   font-weight: bold;
 }
 
 /* resize handle (outside of fc-content, so can go outside of bounds) */
-/* line 1709, ../sass/_modules.scss */
+/* line 1710, ../sass/_modules.scss */
 .fc-day-grid-event .fc-resizer {
   position: absolute;
   top: 0;
@@ -2504,13 +2505,13 @@ be a descendant of the grid when it is being dragged.
   width: 7px;
 }
 
-/* line 1716, ../sass/_modules.scss */
+/* line 1717, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event .fc-resizer {
   right: -3px;
   cursor: e-resize;
 }
 
-/* line 1721, ../sass/_modules.scss */
+/* line 1722, ../sass/_modules.scss */
 .fc-rtl .fc-day-grid-event .fc-resizer {
   left: -3px;
   cursor: w-resize;
@@ -2519,7 +2520,7 @@ be a descendant of the grid when it is being dragged.
 /* Event Limiting
 --------------------------------------------------------------------------------------------------*/
 /* "more" link that represents hidden events */
-/* line 1732, ../sass/_modules.scss */
+/* line 1733, ../sass/_modules.scss */
 a.fc-more {
   margin: 1px 3px;
   font-size: .85em;
@@ -2527,57 +2528,57 @@ a.fc-more {
   text-decoration: none;
 }
 
-/* line 1739, ../sass/_modules.scss */
+/* line 1740, ../sass/_modules.scss */
 a.fc-more:hover {
   text-decoration: underline;
 }
 
-/* line 1743, ../sass/_modules.scss */
+/* line 1744, ../sass/_modules.scss */
 .fc-limited {
   /* rows and cells that are hidden because of a "more" link */
   display: none;
 }
 
 /* popover that appears when "more" link is clicked */
-/* line 1749, ../sass/_modules.scss */
+/* line 1750, ../sass/_modules.scss */
 .fc-day-grid .fc-row {
   z-index: 1;
   /* make the "more" popover one higher than this */
 }
 
-/* line 1753, ../sass/_modules.scss */
+/* line 1754, ../sass/_modules.scss */
 .fc-more-popover {
   z-index: 2;
   width: 220px;
 }
 
-/* line 1758, ../sass/_modules.scss */
+/* line 1759, ../sass/_modules.scss */
 .fc-more-popover .fc-event-container {
   padding: 10px;
 }
 
 /* Toolbar
 --------------------------------------------------------------------------------------------------*/
-/* line 1765, ../sass/_modules.scss */
+/* line 1766, ../sass/_modules.scss */
 .fc-toolbar {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
-/* line 1768, ../sass/_modules.scss */
+/* line 1769, ../sass/_modules.scss */
 .fc-toolbar .fc-left {
   float: left;
 }
-/* line 1771, ../sass/_modules.scss */
+/* line 1772, ../sass/_modules.scss */
 .fc-toolbar .fc-right {
   float: right;
 }
-/* line 1774, ../sass/_modules.scss */
+/* line 1775, ../sass/_modules.scss */
 .fc-toolbar .fc-center {
   display: inline-block;
 }
 
 /* the things within each left/right/center section */
-/* line 1780, ../sass/_modules.scss */
+/* line 1781, ../sass/_modules.scss */
 .fc .fc-toolbar > * > * {
   /* extra precedence to override button border margins */
   float: left;
@@ -2585,43 +2586,44 @@ a.fc-more:hover {
 }
 
 /* the first thing within each left/center/right section */
-/* line 1786, ../sass/_modules.scss */
+/* line 1787, ../sass/_modules.scss */
 .fc .fc-toolbar > * > :first-child {
   /* extra precedence to override button border margins */
   margin-left: 0;
 }
 
 /* title text */
-/* line 1791, ../sass/_modules.scss */
+/* line 1792, ../sass/_modules.scss */
 .fc-toolbar h2 {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 /* button layering (for border precedence) */
-/* line 1797, ../sass/_modules.scss */
+/* line 1799, ../sass/_modules.scss */
 .fc-toolbar button {
   position: relative;
 }
 
-/* line 1801, ../sass/_modules.scss */
+/* line 1803, ../sass/_modules.scss */
 .fc-toolbar .fc-state-hover,
 .fc-toolbar .ui-state-hover {
   z-index: 2;
 }
 
-/* line 1806, ../sass/_modules.scss */
+/* line 1808, ../sass/_modules.scss */
 .fc-toolbar .fc-state-down {
   z-index: 3;
 }
 
-/* line 1810, ../sass/_modules.scss */
+/* line 1812, ../sass/_modules.scss */
 .fc-toolbar .fc-state-active,
 .fc-toolbar .ui-state-active {
   z-index: 4;
 }
 
-/* line 1815, ../sass/_modules.scss */
+/* line 1817, ../sass/_modules.scss */
 .fc-toolbar button:focus {
   z-index: 5;
 }
@@ -2630,7 +2632,7 @@ a.fc-more:hover {
 --------------------------------------------------------------------------------------------------*/
 /* undo twitter bootstrap's box-sizing rules. normalizes positioning techniques */
 /* don't do this for the toolbar because we'll want bootstrap to style those buttons as some pt */
-/* line 1825, ../sass/_modules.scss */
+/* line 1827, ../sass/_modules.scss */
 .fc-view-container *,
 .fc-view-container *:before,
 .fc-view-container *:after {
@@ -2639,7 +2641,7 @@ a.fc-more:hover {
   box-sizing: content-box;
 }
 
-/* line 1833, ../sass/_modules.scss */
+/* line 1835, ../sass/_modules.scss */
 .fc-view,
 .fc-view > table {
   /* so dragged elements can be above the view's main element */
@@ -2650,7 +2652,7 @@ a.fc-more:hover {
 /* BasicView
 --------------------------------------------------------------------------------------------------*/
 /* day row structure */
-/* line 1844, ../sass/_modules.scss */
+/* line 1846, ../sass/_modules.scss */
 .fc-basicWeek-view .fc-content-skeleton,
 .fc-basicDay-view .fc-content-skeleton {
   /* we are sure there are no day numbers in these views, so... */
@@ -2660,19 +2662,19 @@ a.fc-more:hover {
   /* ensure a space at bottom of cell for user selecting/clicking */
 }
 
-/* line 1851, ../sass/_modules.scss */
+/* line 1853, ../sass/_modules.scss */
 .fc-basic-view tbody .fc-row {
   min-height: 4em;
   /* ensure that all rows are at least this tall */
 }
 
 /* a "rigid" row will take up a constant amount of height because content-skeleton is absolute */
-/* line 1857, ../sass/_modules.scss */
+/* line 1859, ../sass/_modules.scss */
 .fc-row.fc-rigid {
   overflow: hidden;
 }
 
-/* line 1861, ../sass/_modules.scss */
+/* line 1863, ../sass/_modules.scss */
 .fc-row.fc-rigid .fc-content-skeleton {
   position: absolute;
   top: 0;
@@ -2681,42 +2683,42 @@ a.fc-more:hover {
 }
 
 /* week and day number styling */
-/* line 1870, ../sass/_modules.scss */
+/* line 1872, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number,
 .fc-basic-view .fc-day-number {
   padding: 0 2px;
 }
 
-/* line 1875, ../sass/_modules.scss */
+/* line 1877, ../sass/_modules.scss */
 .fc-basic-view td.fc-week-number span,
 .fc-basic-view td.fc-day-number {
   padding-top: 2px;
   padding-bottom: 2px;
 }
 
-/* line 1881, ../sass/_modules.scss */
+/* line 1883, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number {
   text-align: center;
 }
 
-/* line 1885, ../sass/_modules.scss */
+/* line 1887, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number span {
   /* work around the way we do column resizing and ensure a minimum width */
   display: inline-block;
   min-width: 1.25em;
 }
 
-/* line 1891, ../sass/_modules.scss */
+/* line 1893, ../sass/_modules.scss */
 .fc-ltr .fc-basic-view .fc-day-number {
   text-align: right;
 }
 
-/* line 1895, ../sass/_modules.scss */
+/* line 1897, ../sass/_modules.scss */
 .fc-rtl .fc-basic-view .fc-day-number {
   text-align: left;
 }
 
-/* line 1899, ../sass/_modules.scss */
+/* line 1901, ../sass/_modules.scss */
 .fc-day-number.fc-other-month {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -2728,20 +2730,20 @@ a.fc-more:hover {
 
 /* AgendaView all-day area
 --------------------------------------------------------------------------------------------------*/
-/* line 1910, ../sass/_modules.scss */
+/* line 1912, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid {
   position: relative;
   z-index: 2;
   /* so the "more.." popover will be over the time grid */
 }
 
-/* line 1915, ../sass/_modules.scss */
+/* line 1917, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid .fc-row {
   min-height: 3em;
   /* all-day section will never get shorter than this */
 }
 
-/* line 1919, ../sass/_modules.scss */
+/* line 1921, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
   padding-top: 1px;
   /* add a pixel to make sure there are 2px padding above events */
@@ -2751,7 +2753,7 @@ a.fc-more:hover {
 
 /* TimeGrid axis running down the side (for both the all-day area and the slot area)
 --------------------------------------------------------------------------------------------------*/
-/* line 1928, ../sass/_modules.scss */
+/* line 1930, ../sass/_modules.scss */
 .fc .fc-axis {
   /* .fc to overcome default cell styles */
   vertical-align: middle;
@@ -2759,17 +2761,17 @@ a.fc-more:hover {
   white-space: nowrap;
 }
 
-/* line 1934, ../sass/_modules.scss */
+/* line 1936, ../sass/_modules.scss */
 .fc-ltr .fc-axis {
   text-align: right;
 }
 
-/* line 1938, ../sass/_modules.scss */
+/* line 1940, ../sass/_modules.scss */
 .fc-rtl .fc-axis {
   text-align: left;
 }
 
-/* line 1942, ../sass/_modules.scss */
+/* line 1944, ../sass/_modules.scss */
 .ui-widget td.fc-axis {
   font-weight: normal;
   /* overcome jqui theme making it bold */
@@ -2777,7 +2779,7 @@ a.fc-more:hover {
 
 /* TimeGrid Structure
 --------------------------------------------------------------------------------------------------*/
-/* line 1950, ../sass/_modules.scss */
+/* line 1952, ../sass/_modules.scss */
 .fc-time-grid-container,
 .fc-time-grid {
   /* so slats/bg/content/etc positions get scoped within here */
@@ -2785,24 +2787,24 @@ a.fc-more:hover {
   z-index: 1;
 }
 
-/* line 1956, ../sass/_modules.scss */
+/* line 1958, ../sass/_modules.scss */
 .fc-time-grid {
   min-height: 100%;
   /* so if height setting is 'auto', .fc-bg stretches to fill height */
 }
 
-/* line 1960, ../sass/_modules.scss */
+/* line 1962, ../sass/_modules.scss */
 .fc-time-grid table {
   /* don't put outer borders on slats/bg/content/etc */
   border: 0 hidden transparent;
 }
 
-/* line 1964, ../sass/_modules.scss */
+/* line 1966, ../sass/_modules.scss */
 .fc-time-grid > .fc-bg {
   z-index: 1;
 }
 
-/* line 1968, ../sass/_modules.scss */
+/* line 1970, ../sass/_modules.scss */
 .fc-time-grid .fc-slats,
 .fc-time-grid > hr {
   /* the <hr> AgendaView injects when grid is shorter than scroller */
@@ -2810,12 +2812,12 @@ a.fc-more:hover {
   z-index: 2;
 }
 
-/* line 1974, ../sass/_modules.scss */
+/* line 1976, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight-skeleton {
   z-index: 3;
 }
 
-/* line 1978, ../sass/_modules.scss */
+/* line 1980, ../sass/_modules.scss */
 .fc-time-grid .fc-content-skeleton {
   position: absolute;
   z-index: 4;
@@ -2824,26 +2826,26 @@ a.fc-more:hover {
   right: 0;
 }
 
-/* line 1986, ../sass/_modules.scss */
+/* line 1988, ../sass/_modules.scss */
 .fc-time-grid > .fc-helper-skeleton {
   z-index: 5;
 }
 
 /* TimeGrid Slats (lines that run horizontally)
 --------------------------------------------------------------------------------------------------*/
-/* line 1994, ../sass/_modules.scss */
+/* line 1996, ../sass/_modules.scss */
 .fc-slats td {
   height: 1.5em;
   border-bottom: 0;
   /* each cell is responsible for its top border */
 }
 
-/* line 1999, ../sass/_modules.scss */
+/* line 2001, ../sass/_modules.scss */
 .fc-slats .fc-minor td {
   border-top-style: dotted;
 }
 
-/* line 2003, ../sass/_modules.scss */
+/* line 2005, ../sass/_modules.scss */
 .fc-slats .ui-widget-content {
   /* for jqui theme */
   background: none;
@@ -2852,14 +2854,14 @@ a.fc-more:hover {
 
 /* TimeGrid Highlighting Slots
 --------------------------------------------------------------------------------------------------*/
-/* line 2011, ../sass/_modules.scss */
+/* line 2013, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight-container {
   /* a div within a cell within the fc-highlight-skeleton */
   position: relative;
   /* scopes the left/right of the fc-highlight to be in the column */
 }
 
-/* line 2015, ../sass/_modules.scss */
+/* line 2017, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight {
   position: absolute;
   left: 0;
@@ -2869,25 +2871,25 @@ a.fc-more:hover {
 
 /* TimeGrid Event Containment
 --------------------------------------------------------------------------------------------------*/
-/* line 2026, ../sass/_modules.scss */
+/* line 2028, ../sass/_modules.scss */
 .fc-time-grid .fc-event-container {
   /* a div within a cell within the fc-content-skeleton */
   position: relative;
 }
 
-/* line 2030, ../sass/_modules.scss */
+/* line 2032, ../sass/_modules.scss */
 .fc-ltr .fc-time-grid .fc-event-container {
   /* space on the sides of events for LTR (default) */
   margin: 0 2.5% 0 2px;
 }
 
-/* line 2034, ../sass/_modules.scss */
+/* line 2036, ../sass/_modules.scss */
 .fc-rtl .fc-time-grid .fc-event-container {
   /* space on the sides of events for RTL */
   margin: 0 2px 0 2.5%;
 }
 
-/* line 2038, ../sass/_modules.scss */
+/* line 2040, ../sass/_modules.scss */
 .fc-time-grid .fc-event {
   position: absolute;
   z-index: 1;
@@ -2899,7 +2901,7 @@ a.fc-more:hover {
 We use the full "fc-time-grid-event" class instead of using descendants because the event won't
 be a descendant of the grid when it is being dragged.
 */
-/* line 2050, ../sass/_modules.scss */
+/* line 2052, ../sass/_modules.scss */
 .fc-time-grid-event.fc-not-start {
   /* events that are continuing from another day */
   /* replace space made by the top border with padding */
@@ -2910,7 +2912,7 @@ be a descendant of the grid when it is being dragged.
   border-top-right-radius: 0;
 }
 
-/* line 2060, ../sass/_modules.scss */
+/* line 2062, ../sass/_modules.scss */
 .fc-time-grid-event.fc-not-end {
   /* replace space made by the top border with padding */
   border-bottom-width: 0;
@@ -2920,13 +2922,13 @@ be a descendant of the grid when it is being dragged.
   border-bottom-right-radius: 0;
 }
 
-/* line 2070, ../sass/_modules.scss */
+/* line 2072, ../sass/_modules.scss */
 .fc-time-grid-event {
   overflow: hidden;
   /* don't let the bg flow over rounded corners */
 }
 
-/* line 2074, ../sass/_modules.scss */
+/* line 2076, ../sass/_modules.scss */
 .fc-time-grid-event > .fc-content {
   /* contains the time and title, but no bg and resizer */
   position: relative;
@@ -2934,19 +2936,19 @@ be a descendant of the grid when it is being dragged.
   /* above the bg */
 }
 
-/* line 2079, ../sass/_modules.scss */
+/* line 2081, ../sass/_modules.scss */
 .fc-time-grid-event .fc-time,
 .fc-time-grid-event .fc-title {
   padding: 0 1px;
 }
 
-/* line 2084, ../sass/_modules.scss */
+/* line 2086, ../sass/_modules.scss */
 .fc-time-grid-event .fc-time {
   font-size: .85em;
   white-space: nowrap;
 }
 
-/* line 2089, ../sass/_modules.scss */
+/* line 2091, ../sass/_modules.scss */
 .fc-time-grid-event .fc-bg {
   z-index: 1;
   background: #fff;
@@ -2956,13 +2958,13 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* short mode, where time and title are on the same line */
-/* line 2098, ../sass/_modules.scss */
+/* line 2100, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-content {
   /* don't wrap to second line (now that contents will be inline) */
   white-space: nowrap;
 }
 
-/* line 2103, ../sass/_modules.scss */
+/* line 2105, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time,
 .fc-time-grid-event.fc-short .fc-title {
   /* put the time and title on the same line */
@@ -2970,25 +2972,25 @@ be a descendant of the grid when it is being dragged.
   vertical-align: top;
 }
 
-/* line 2110, ../sass/_modules.scss */
+/* line 2112, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time span {
   display: none;
   /* don't display the full time text... */
 }
 
-/* line 2114, ../sass/_modules.scss */
+/* line 2116, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time:before {
   content: attr(data-start);
   /* ...instead, display only the start time */
 }
 
-/* line 2118, ../sass/_modules.scss */
+/* line 2120, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time:after {
   content: "\000A0-\000A0";
   /* seperate with a dash, wrapped in nbsp's */
 }
 
-/* line 2122, ../sass/_modules.scss */
+/* line 2124, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-title {
   font-size: .85em;
   /* make the title text the same size as the time */
@@ -2997,7 +2999,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* resizer */
-/* line 2129, ../sass/_modules.scss */
+/* line 2131, ../sass/_modules.scss */
 .fc-time-grid-event .fc-resizer {
   position: absolute;
   z-index: 3;
@@ -3014,7 +3016,7 @@ be a descendant of the grid when it is being dragged.
   cursor: s-resize;
 }
 
-/* line 2144, ../sass/_modules.scss */
+/* line 2146, ../sass/_modules.scss */
 .fc-time-grid-event .fc-resizer:after {
   content: "=";
 }
