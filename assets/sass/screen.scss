@@ -505,7 +505,7 @@ a {
 		select {
 			display: none;
 		}
-		ul > li {
+		> ul > li {
 			margin-bottom: 1em;
 			padding-bottom: 1em;
 			border-bottom: 1px dashed #d2d2d2;
@@ -530,12 +530,12 @@ a {
 				font-size: 1.3em;
 			}
 			.share-links li {
-				margin-right: 0.65em;
+				margin-right: 1.5em;
 				padding-bottom: 0;
 				border-bottom: 0;
 				margin-bottom: 0;
 				a {
-					font-size: 0.7em;
+					font-size: 1.8em;
 				}
 				&:last-child {
 					margin-right: 0;
@@ -1043,6 +1043,9 @@ a {
 		text-align: center;
 		font-weight: 700;
 		cursor: pointer;
+	}
+	#modalGallery .modal__module {
+		max-width: 100%;
 	}
 	.module__gallery {
 		height: 100%;
