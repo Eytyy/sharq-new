@@ -1,11 +1,11 @@
 /* line 384, sprites/*.png */
-.sprites-sprite, .icon__lang, .social-nav li.social-fb a:after, .social-nav li.social-twitter a:after, .social-nav li.social-gplus a:after, #menuToggle, .album__item__video > a:after, .discussion-board-list__item.pinned:after, .volunteer__item__users:before {
+.sprites-sprite, .icon__lang, #menuToggle, .album__item__video > a:after, .discussion-board-list__item.pinned:after, .volunteer__item__users:before {
   background-image: url('../images/sprites-s3d0ddad2a9.png');
   background-repeat: no-repeat;
 }
 
 /* line 25, ../sass/_util.scss */
-.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .comments-module__header, .comments-list, .comment-item, .main-footer .footer-wrapper, .user-notifications .dropdown .dropdown__header,
+.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .comments-module__header, .comments-list, .comment-item, .footer__top, .user-notifications .dropdown .dropdown__header,
 .user-messages .dropdown .dropdown__header, .admin-nav__dropdown .msg__item > a, .message, .conversations, .conversations .message > a, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
 .users-content-list .user-group, .admin-form .form-main-btn-wrapper, .events__item__shortcuts-links, #event__moderator, .expert__item article, .user__profile_header, .album-list, .gallery__header, .initiatives-list__item,
 .discussion-board-list__item, .initiative .post-top,
@@ -13,11 +13,11 @@
   *zoom: 1;
 }
 /* line 27, ../sass/_util.scss */
-.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .comments-module__header:before, .comments-list:before, .comment-item:before, .main-footer .footer-wrapper:before, .user-notifications .dropdown .dropdown__header:before,
+.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .comments-module__header:before, .comments-list:before, .comment-item:before, .footer__top:before, .user-notifications .dropdown .dropdown__header:before,
 .user-messages .dropdown .dropdown__header:before, .admin-nav__dropdown .msg__item > a:before, .message:before, .conversations:before, .conversations .message > a:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
 .users-content-list .user-group:before, .admin-form .form-main-btn-wrapper:before, .events__item__shortcuts-links:before, #event__moderator:before, .expert__item article:before, .user__profile_header:before, .album-list:before, .gallery__header:before, .initiatives-list__item:before,
 .discussion-board-list__item:before, .initiative .post-top:before,
-.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .user-notifications .dropdown .dropdown__header:after,
+.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
 .user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
@@ -26,7 +26,7 @@
   display: table;
 }
 /* line 32, ../sass/_util.scss */
-.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .main-footer .footer-wrapper:after, .user-notifications .dropdown .dropdown__header:after,
+.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .comments-module__header:after, .comments-list:after, .comment-item:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
 .user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
@@ -123,7 +123,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 55, ../sass/_base.scss */
-.admin-form .module-speakers .module__col, .home-list.content-list .content-list__item, .event__person, .mutlimedia-list__album, .divider_two .col, .logo-wrapper, .nav__main__item, .pull-quote.left, .comment-item__left, .comment-item__right, .main-footer .footer-wrapper .footer__left, .footer-nav, .notifications-center__content-list .notification__message .notification__message__left, .admin-nav__dropdown .msg__item_left,
+.admin-form .module-speakers .module__col, .home-list.content-list .content-list__item, .event__person, .mutlimedia-list__album, .divider_two .col, .logo-wrapper, .nav__main__item, .pull-quote.left, .comment-item__left, .comment-item__right, .footer-nav, .notifications-center__content-list .notification__message .notification__message__left, .admin-nav__dropdown .msg__item_left,
 .admin-nav__dropdown .msg__item_right, .conversations .message__right, .combo .form-group, .links__group .links__group__item, .links__group .links__group__item:last-child, .content-form-header > div, .admin-content-form-item .content-type, .admin-content-form-item .content-group, .admin-content-form-item .content-group__left-col, .admin-content-form-item .content-group__right-col, .user__profile .admin-form .user__profile__name .form-group,
 .user__profile .admin-form .user__profile__location .form-group, .event__person_avatar,
 .event__person_details, .expert__item_avatar, .expert__item_details, .album-list li, .initiative .post-top header,
@@ -132,7 +132,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 59, ../sass/_base.scss */
-.global__nav, .pull-quote, .main-footer .footer-wrapper .footer__right, .social-nav, .message-sent .message__left,
+.global__nav, .pull-quote, .social-nav, .message-sent .message__left,
 .message-sent .message__right, .form-header-actions, .admin-content-form-item .content-operations, .admin-form .form-main-btn-wrapper .btn, .initiative .post-top .moudle__initiative__vote,
 .discussion .post-top .moudle__initiative__vote, .initiatives-list__item .initiatives__item__col.col-r {
   float: right;
@@ -518,7 +518,6 @@ body {
 
 /* line 169, ../sass/_layout.scss */
 footer {
-  height: 83px;
   margin-top: -83px;
 }
 
@@ -560,7 +559,7 @@ footer {
 /* ----- buttons & links----- */
 /* line 30, ../sass/_modules.scss */
 .btn {
-  background: #7D002E;
+  background: #930036;
   border: 0;
   padding: 10px 20px;
   font-size: 1.4em;
@@ -574,7 +573,7 @@ footer {
 /* line 42, ../sass/_modules.scss */
 .btn:hover {
   color: #FFF;
-  background: #7D002E;
+  background: #930036;
   background: rgba(227, 59, 77, 0.7);
 }
 @media all and (max-width: 440px) {
@@ -950,7 +949,7 @@ footer {
   right: 0;
   margin-top: 0;
   z-index: 2;
-  background: #7D002E;
+  background: #930036;
 }
 /* line 371, ../sass/_modules.scss */
 .nav__main__dropdown ul {
@@ -1116,7 +1115,7 @@ footer {
   font-weight: 700;
   line-height: 21px;
   margin-right: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 1em;
   display: inline-block;
 }
 
@@ -1137,7 +1136,12 @@ footer {
 /* line 523, ../sass/_modules.scss */
 .share-links a {
   display: block;
+  color: #424242;
   font-size: 2em;
+}
+/* line 527, ../sass/_modules.scss */
+.share-links a:hover {
+  color: #930036;
 }
 
 /*----------------------------------------------------------*\
@@ -1146,27 +1150,27 @@ footer {
 /*-----------------------------------------------------------*\
 	Horizontal Content Lists Styles
 \*-----------------------------------------------------------*/
-/* line 536, ../sass/_modules.scss */
+/* line 540, ../sass/_modules.scss */
 .item-link {
   display: block;
   color: #000;
 }
-/* line 541, ../sass/_modules.scss */
+/* line 545, ../sass/_modules.scss */
 .item-link:hover .title {
   color: #606060;
 }
 
-/* line 546, ../sass/_modules.scss */
+/* line 550, ../sass/_modules.scss */
 .contentGroup {
   margin-bottom: 6em;
 }
 
-/* line 549, ../sass/_modules.scss */
+/* line 553, ../sass/_modules.scss */
 .contentGroup__header {
   position: relative;
   margin-bottom: 3em;
 }
-/* line 552, ../sass/_modules.scss */
+/* line 556, ../sass/_modules.scss */
 .contentGroup__header:after {
   display: block;
   content: "";
@@ -1178,7 +1182,7 @@ footer {
   bottom: 5px;
 }
 
-/* line 563, ../sass/_modules.scss */
+/* line 567, ../sass/_modules.scss */
 .contentGroup-title {
   margin-bottom: 0;
   color: #404040;
@@ -1190,118 +1194,118 @@ footer {
   font-weight: 300;
 }
 
-/* line 578, ../sass/_modules.scss */
+/* line 582, ../sass/_modules.scss */
 .content-list .postMeta {
   color: #747474;
 }
-/* line 581, ../sass/_modules.scss */
+/* line 585, ../sass/_modules.scss */
 .content-list .postMeta {
   float: left;
   width: 45%;
 }
 
-/* line 587, ../sass/_modules.scss */
+/* line 591, ../sass/_modules.scss */
 .content-list__item-excerpt p {
   font-size: 1.8em;
   line-height: 1.5em;
 }
 @media all and (max-width: 721px) {
-  /* line 592, ../sass/_modules.scss */
+  /* line 596, ../sass/_modules.scss */
   .content-list__item-excerpt p {
     font-size: 1.6em;
   }
 }
 @media all and (max-width: 440px) {
-  /* line 597, ../sass/_modules.scss */
+  /* line 601, ../sass/_modules.scss */
   .content-list__item-excerpt p {
     font-size: 1.2em;
   }
 }
 
-/* line 602, ../sass/_modules.scss */
+/* line 606, ../sass/_modules.scss */
 .content-list__bottom {
   margin-top: 2em;
 }
 
-/* line 605, ../sass/_modules.scss */
+/* line 609, ../sass/_modules.scss */
 .content-list__item {
   border-bottom: 1px solid #eee;
   padding: 30px 0;
 }
-/* line 608, ../sass/_modules.scss */
+/* line 612, ../sass/_modules.scss */
 .fill .content-list__item {
   border-bottom-color: #FFF;
 }
-/* line 611, ../sass/_modules.scss */
+/* line 615, ../sass/_modules.scss */
 .content-list__item:first-child {
   padding-top: 0;
 }
-/* line 614, ../sass/_modules.scss */
+/* line 618, ../sass/_modules.scss */
 .content-list__item:last-child {
   border-bottom: 0;
 }
 
-/* line 621, ../sass/_modules.scss */
+/* line 625, ../sass/_modules.scss */
 .content-list__item-excerpt {
   margin-top: 1em;
 }
 
-/* line 624, ../sass/_modules.scss */
+/* line 628, ../sass/_modules.scss */
 .content-list__item-tags {
   float: left;
   width: 55%;
   padding-left: 20px;
 }
 
-/* line 630, ../sass/_modules.scss */
+/* line 634, ../sass/_modules.scss */
 .wImg .content-list__item-lCol {
   float: left;
   width: 70%;
   padding-right: 3em;
 }
-/* line 635, ../sass/_modules.scss */
+/* line 639, ../sass/_modules.scss */
 .wImg .content-list__item-rCol {
   width: 30%;
   float: right;
 }
 
-/* line 640, ../sass/_modules.scss */
+/* line 644, ../sass/_modules.scss */
 .sidebar__content-list {
   list-style: none;
 }
 
-/* line 643, ../sass/_modules.scss */
+/* line 647, ../sass/_modules.scss */
 .sidebar__content-list__item {
   margin-bottom: 4em;
 }
-/* line 645, ../sass/_modules.scss */
+/* line 649, ../sass/_modules.scss */
 .sidebar__content-list__item img {
   margin: 3px 0 5px;
 }
-/* line 648, ../sass/_modules.scss */
+/* line 652, ../sass/_modules.scss */
 .sidebar__content-list__item:last-child {
   margin-bottom: 0;
 }
-/* line 651, ../sass/_modules.scss */
+/* line 655, ../sass/_modules.scss */
 .sidebar__content-list__item .postMeta {
   font-size: 13px;
   line-height: 13px;
   padding-top: 5px;
 }
-/* line 655, ../sass/_modules.scss */
+/* line 659, ../sass/_modules.scss */
 .sidebar__content-list__item .postMeta .postMeta__l {
   padding: 0;
 }
 
-/* line 660, ../sass/_modules.scss */
+/* line 664, ../sass/_modules.scss */
 .sidebar__content-list__item h3 {
   font-size: 1.5em;
   color: #000;
   font-weight: 700;
 }
-/* line 664, ../sass/_modules.scss */
+/* line 668, ../sass/_modules.scss */
 .sidebar__content-list__item h3:hover {
-  color: #7D002E;
+  color: #930036;
 }
 
 /*-----------------------------------------------------------*\
@@ -1310,7 +1314,7 @@ footer {
 /*-----------------------------------------------------------*\
 	Sharq Section Components Styles
 \*-----------------------------------------------------------*/
-/* line 676, ../sass/_modules.scss */
+/* line 680, ../sass/_modules.scss */
 .section-tag {
   font-size: 1.4em;
   margin-bottom: 8px;
@@ -1319,7 +1323,7 @@ footer {
 }
 
 /* ----- quotes ----- */
-/* line 683, ../sass/_modules.scss */
+/* line 687, ../sass/_modules.scss */
 .pull-quote {
   width: 260px;
   margin: 0 0 15px 25px;
@@ -1327,132 +1331,132 @@ footer {
   font-size: 2.4em;
   position: relative;
 }
-/* line 690, ../sass/_modules.scss */
+/* line 694, ../sass/_modules.scss */
 .pull-quote:before, .pull-quote:after {
   position: absolute;
   font-size: 2.2em;
 }
-/* line 694, ../sass/_modules.scss */
+/* line 698, ../sass/_modules.scss */
 .pull-quote:before {
   left: -30px;
   content: "\201C";
 }
-/* line 698, ../sass/_modules.scss */
+/* line 702, ../sass/_modules.scss */
 .pull-quote:after {
   content: "\201D";
   right: -15px;
 }
-/* line 702, ../sass/_modules.scss */
+/* line 706, ../sass/_modules.scss */
 .pull-quote.left {
   margin: 0 25px 15px 0;
 }
 @media all and (max-width: 721px) {
-  /* line 683, ../sass/_modules.scss */
+  /* line 687, ../sass/_modules.scss */
   .pull-quote {
     font-size: 2em;
   }
-  /* line 708, ../sass/_modules.scss */
+  /* line 712, ../sass/_modules.scss */
   .pull-quote:before, .pull-quote:after {
     position: absolute;
     font-size: 2.2em;
   }
-  /* line 712, ../sass/_modules.scss */
+  /* line 716, ../sass/_modules.scss */
   .pull-quote:before {
     left: -20px;
   }
-  /* line 715, ../sass/_modules.scss */
+  /* line 719, ../sass/_modules.scss */
   .pull-quote:after {
     right: -15px;
   }
 }
 @media all and (max-width: 440px) {
-  /* line 683, ../sass/_modules.scss */
+  /* line 687, ../sass/_modules.scss */
   .pull-quote {
     font-size: 1.8em;
     width: 200px;
     padding: 0 0 5px 15px;
   }
-  /* line 723, ../sass/_modules.scss */
+  /* line 727, ../sass/_modules.scss */
   .pull-quote:before {
     left: -10px;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 683, ../sass/_modules.scss */
+  /* line 687, ../sass/_modules.scss */
   .pull-quote {
     font-size: 1.6em;
     width: 150px;
     padding: 0 0 5px 5px;
   }
-  /* line 731, ../sass/_modules.scss */
+  /* line 735, ../sass/_modules.scss */
   .pull-quote:before {
     left: -15px;
   }
 }
 
 /* ----- posts meta data i.e: author, date...etc. ----- */
-/* line 737, ../sass/_modules.scss */
+/* line 741, ../sass/_modules.scss */
 .postMeta {
   font-size: 16px;
   padding-top: 20px;
   clear: both;
   color: #999;
 }
-/* line 742, ../sass/_modules.scss */
+/* line 746, ../sass/_modules.scss */
 .postMeta .publish-date {
   text-transform: uppercase;
   line-height: 1em;
   color: #000;
 }
-/* line 747, ../sass/_modules.scss */
+/* line 751, ../sass/_modules.scss */
 .postMeta .author-avatar {
   display: block;
   max-width: 40px;
   max-height: 40px;
 }
-/* line 752, ../sass/_modules.scss */
+/* line 756, ../sass/_modules.scss */
 .postMeta .author-name {
   border-bottom: 1px dotted #000;
   display: inline-block;
   color: #525252;
 }
-/* line 756, ../sass/_modules.scss */
+/* line 760, ../sass/_modules.scss */
 .postMeta .author-name:hover {
   color: #000;
 }
-/* line 760, ../sass/_modules.scss */
+/* line 764, ../sass/_modules.scss */
 .content-list .postMeta {
   padding-top: 0;
 }
 
-/* line 764, ../sass/_modules.scss */
+/* line 768, ../sass/_modules.scss */
 .postMeta__link {
   white-space: nowrap;
   display: block;
 }
-/* line 768, ../sass/_modules.scss */
+/* line 772, ../sass/_modules.scss */
 .postMeta__link:hover .author-name {
   text-decoration: underline;
 }
 
-/* line 773, ../sass/_modules.scss */
+/* line 777, ../sass/_modules.scss */
 .postMeta__l,
 .postMeta__r {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 778, ../sass/_modules.scss */
+/* line 782, ../sass/_modules.scss */
 .postMeta__l {
   padding-right: 10px;
 }
 
-/* line 783, ../sass/_modules.scss */
+/* line 787, ../sass/_modules.scss */
 .blog-post header .postMeta,
 .sharq-post .postMeta {
   padding: 0 0 20px;
 }
-/* line 786, ../sass/_modules.scss */
+/* line 790, ../sass/_modules.scss */
 .blog-post header .postMeta__l, .blog-post header .postMeta__r,
 .sharq-post .postMeta__l,
 .sharq-post .postMeta__r {
@@ -1467,13 +1471,13 @@ footer {
 /*-----------------------------------------------------------*\
 	Comments component
 \*-----------------------------------------------------------*/
-/* line 805, ../sass/_modules.scss */
+/* line 809, ../sass/_modules.scss */
 .comments {
   padding: 3em 0 6em;
   background: #f8f8f8;
   border-top: 2px solid #d2d2d2;
 }
-/* line 809, ../sass/_modules.scss */
+/* line 813, ../sass/_modules.scss */
 .comments textarea {
   width: 100%;
   max-width: 100%;
@@ -1488,70 +1492,70 @@ footer {
   border: 1px solid #d2d2d2;
 }
 @media all and (max-width: 660px) {
-  /* line 823, ../sass/_modules.scss */
+  /* line 827, ../sass/_modules.scss */
   .comments textarea {
     font-size: 2em;
     padding: 3px 10px;
   }
-  /* line 827, ../sass/_modules.scss */
+  /* line 831, ../sass/_modules.scss */
   .comments .comment-item__left {
     width: 9%;
   }
-  /* line 830, ../sass/_modules.scss */
+  /* line 834, ../sass/_modules.scss */
   .comments .comment-item__right {
     width: 91%;
   }
-  /* line 834, ../sass/_modules.scss */
+  /* line 838, ../sass/_modules.scss */
   .comments .comment-item .comment-user {
     font-size: 1.4em;
   }
-  /* line 837, ../sass/_modules.scss */
+  /* line 841, ../sass/_modules.scss */
   .comments .comment-item .comment-body {
     font-size: 1.4em;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 843, ../sass/_modules.scss */
+  /* line 847, ../sass/_modules.scss */
   .comments textarea {
     font-size: 1.6em;
     padding: 5px 0px;
   }
 }
 
-/* line 852, ../sass/_modules.scss */
+/* line 856, ../sass/_modules.scss */
 .comments-anonymous {
   margin-bottom: 2em;
 }
-/* line 854, ../sass/_modules.scss */
+/* line 858, ../sass/_modules.scss */
 .comments-anonymous a {
-  color: #7D002E;
+  color: #930036;
   margin-right: 5px;
 }
-/* line 857, ../sass/_modules.scss */
+/* line 861, ../sass/_modules.scss */
 .comments-anonymous a:hover {
   color: #000;
 }
 
-/* line 862, ../sass/_modules.scss */
+/* line 866, ../sass/_modules.scss */
 .btn__post-comment {
   min-width: 100%;
   width: 100%;
   margin: 0;
 }
 @media all and (max-width: 350px) {
-  /* line 862, ../sass/_modules.scss */
+  /* line 866, ../sass/_modules.scss */
   .btn__post-comment {
     padding: 10px;
   }
 }
 
-/* line 870, ../sass/_modules.scss */
+/* line 874, ../sass/_modules.scss */
 .comments-module__header {
   padding-bottom: 1em;
   margin-bottom: 2em;
 }
 
-/* line 879, ../sass/_modules.scss */
+/* line 883, ../sass/_modules.scss */
 .comment-item {
   margin: 0 0 1em;
   line-height: 2em;
@@ -1560,18 +1564,18 @@ footer {
   border-bottom: 1px solid #d2d2d2;
 }
 
-/* line 887, ../sass/_modules.scss */
+/* line 891, ../sass/_modules.scss */
 .comment-user {
   font-size: 1.4em;
   display: inline-block;
 }
-/* line 890, ../sass/_modules.scss */
+/* line 894, ../sass/_modules.scss */
 .comment-user a {
   font-weight: 700;
-  color: #7D002E;
+  color: #930036;
 }
 
-/* line 895, ../sass/_modules.scss */
+/* line 899, ../sass/_modules.scss */
 .comment-body {
   font-family: "ff-tisa-web-pro", serif;
   font-size: 1.6em;
@@ -1579,32 +1583,32 @@ footer {
   margin-top: 5px;
 }
 
-/* line 901, ../sass/_modules.scss */
+/* line 905, ../sass/_modules.scss */
 .comment-item__left {
   padding-right: 10px;
   width: 7.5%;
   max-width: 60px;
 }
-/* line 906, ../sass/_modules.scss */
+/* line 910, ../sass/_modules.scss */
 .comment-item__left img {
   border-radius: 3px;
   margin: 0 auto;
   margin-top: 8px;
 }
 @media all and (max-width: 440px) {
-  /* line 901, ../sass/_modules.scss */
+  /* line 905, ../sass/_modules.scss */
   .comment-item__left {
     width: 15%;
   }
 }
 
-/* line 915, ../sass/_modules.scss */
+/* line 919, ../sass/_modules.scss */
 .comment-item__right {
   padding: 2px 10px 10px 10px;
   width: 92.5%;
 }
 @media all and (max-width: 440px) {
-  /* line 915, ../sass/_modules.scss */
+  /* line 919, ../sass/_modules.scss */
   .comment-item__right {
     width: 85%;
   }
@@ -1613,7 +1617,7 @@ footer {
 /*-----------------------------------------------------------*\
 	End Of Comments component
 \*-----------------------------------------------------------*/
-/* line 930, ../sass/_modules.scss */
+/* line 934, ../sass/_modules.scss */
 #tags a {
   display: inline-block;
   margin: 0 10px 10px 0;
@@ -1624,36 +1628,36 @@ footer {
   font-weight: 700;
   border: 1px solid #eee;
 }
-/* line 939, ../sass/_modules.scss */
+/* line 943, ../sass/_modules.scss */
 #tags a:hover {
-  background: #7D002E;
+  background: #930036;
   color: #FFF;
 }
-/* line 944, ../sass/_modules.scss */
+/* line 948, ../sass/_modules.scss */
 #tags.content-list__item-tags {
   text-align: right;
 }
-/* line 946, ../sass/_modules.scss */
+/* line 950, ../sass/_modules.scss */
 #tags.content-list__item-tags a {
   margin: 0 0 5px 5px;
   padding: 2px 5px;
   font-size: 1.1em;
 }
 
-/* line 956, ../sass/_modules.scss */
+/* line 960, ../sass/_modules.scss */
 #expert-card .expert-name {
   font-size: 2em;
   font-weight: 700;
   line-height: 1em;
 }
-/* line 961, ../sass/_modules.scss */
+/* line 965, ../sass/_modules.scss */
 #expert-card p {
   font-size: 1.5em;
   line-height: 1.35;
   margin-bottom: 0;
   display: inline;
 }
-/* line 967, ../sass/_modules.scss */
+/* line 971, ../sass/_modules.scss */
 #expert-card a {
   font-size: 1.4em;
   border-bottom: 1px dotted;
@@ -1661,12 +1665,12 @@ footer {
   font-weight: 700;
 }
 
-/* line 974, ../sass/_modules.scss */
+/* line 978, ../sass/_modules.scss */
 .expert-card__r {
   display: inline;
 }
 
-/* line 977, ../sass/_modules.scss */
+/* line 981, ../sass/_modules.scss */
 .expert-card__l {
   float: left;
   width: 85px;
@@ -1677,32 +1681,15 @@ footer {
 /*-----------------------------------------------------------*\
 	FOOTER
 \*-----------------------------------------------------------*/
-/* line 986, ../sass/_modules.scss */
+/* line 990, ../sass/_modules.scss */
 .main-footer {
-  border-top: 5px solid #7D002E;
-  background: #000;
-  padding-top: 1em;
+  border-top: 5px solid #D2D2D2;
+  background: #7D002E;
+  padding-top: 2em;
   padding-bottom: 4em;
 }
-/* line 993, ../sass/_modules.scss */
-.main-footer .footer-wrapper .footer__left,
-.main-footer .footer-wrapper .footer__right {
-  height: 28px;
-}
-@media all and (max-width: 721px) {
-  /* line 1006, ../sass/_modules.scss */
-  .main-footer .footer-wrapper .footer__left,
-  .main-footer .footer-wrapper .footer__right {
-    height: auto;
-    float: none;
-  }
-  /* line 1011, ../sass/_modules.scss */
-  .main-footer .footer-wrapper .footer__right {
-    margin-top: 1em;
-  }
-}
 
-/* line 1017, ../sass/_modules.scss */
+/* line 999, ../sass/_modules.scss */
 .social-nav li,
 .footer-nav li,
 .footer__left .cr {
@@ -1711,7 +1698,7 @@ footer {
 }
 
 /* ----- copyrights----- */
-/* line 1024, ../sass/_modules.scss */
+/* line 1006, ../sass/_modules.scss */
 .cr {
   font-weight: 700;
   position: relative;
@@ -1721,135 +1708,127 @@ footer {
   clear: both;
 }
 @media all and (max-width: 531px) {
-  /* line 1024, ../sass/_modules.scss */
+  /* line 1006, ../sass/_modules.scss */
   .cr {
     font-size: 1.2em;
   }
 }
 
 /* ----- footer fb/twitter/youtube...etc.----- */
-/* line 1037, ../sass/_modules.scss */
+/* line 1019, ../sass/_modules.scss */
 .social-nav {
   position: relative;
 }
-/* line 1040, ../sass/_modules.scss */
+/* line 1022, ../sass/_modules.scss */
 .social-nav li {
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 2.2em;
   font-weight: 700;
-  margin-right: 1em;
+  margin-left: 25px;
 }
-/* line 1045, ../sass/_modules.scss */
+/* line 1027, ../sass/_modules.scss */
 .social-nav li a {
   color: #FFF;
   display: block;
 }
-/* line 1048, ../sass/_modules.scss */
-.social-nav li a:hover {
-  color: #7D002E;
-}
-/* line 1051, ../sass/_modules.scss */
-.social-nav li a:after {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-}
-/* line 1058, ../sass/_modules.scss */
-.social-nav li:last-child {
-  margin-right: 0;
-}
-/* line 1062, ../sass/_modules.scss */
-.social-nav li.social-fb a:after {
-  background-position: 0 -178px;
-}
-/* line 1067, ../sass/_modules.scss */
-.social-nav li.social-twitter a:after {
-  background-position: 0 -1131px;
-}
-/* line 1072, ../sass/_modules.scss */
-.social-nav li.social-gplus a:after {
-  background-position: 0 -258px;
-}
-@media all and (max-width: 531px) {
-  /* line 1037, ../sass/_modules.scss */
-  .social-nav {
-    float: none;
-    margin-top: 1em;
-  }
-}
 
 /* ----- footer navigation----- */
-/* line 1084, ../sass/_modules.scss */
+/* line 1035, ../sass/_modules.scss */
 .footer-nav {
   position: relative;
 }
-/* line 1087, ../sass/_modules.scss */
+/* line 1038, ../sass/_modules.scss */
 .footer-nav li {
   display: inline-block;
   font-size: 1.4em;
-  margin-right: 2em;
+  margin-right: 3em;
   font-weight: 700;
 }
-/* line 1092, ../sass/_modules.scss */
+/* line 1043, ../sass/_modules.scss */
 .footer-nav li a {
   color: #FFF;
 }
-/* line 1094, ../sass/_modules.scss */
+/* line 1045, ../sass/_modules.scss */
 .footer-nav li a:hover {
   text-decoration: underline;
 }
-@media all and (max-width: 531px) {
-  /* line 1084, ../sass/_modules.scss */
-  .footer-nav {
-    float: none;
-  }
-  /* line 1102, ../sass/_modules.scss */
-  .footer-nav li {
-    font-size: 1.2em;
-    margin-right: 2em;
-  }
-  /* line 1105, ../sass/_modules.scss */
-  .footer-nav li:last-child {
-    margin-right: 0;
-  }
+/* line 1049, ../sass/_modules.scss */
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+
+/* line 1054, ../sass/_modules.scss */
+.nav__main_footer {
+  margin: 2em 0;
+  padding: 2em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* line 1060, ../sass/_modules.scss */
+.nav__main_footer_item {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5em;
+}
+/* line 1064, ../sass/_modules.scss */
+.nav__main_footer_item a {
+  color: #FFF;
+}
+/* line 1066, ../sass/_modules.scss */
+.nav__main_footer_item a:hover {
+  color: #f2f2f2;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* line 1071, ../sass/_modules.scss */
+.nav__main_footer_item > a {
+  font-size: 1.6em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 1078, ../sass/_modules.scss */
+.nav__main_footer_item_child a {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 
 /*-----------------------------------------------------------*\
 	Notifications Center
 \*-----------------------------------------------------------*/
-/* line 1122, ../sass/_modules.scss */
+/* line 1095, ../sass/_modules.scss */
 .notifications-center__nav {
   margin-bottom: 2.25em;
   border-bottom: 1px solid #EEE;
 }
-/* line 1125, ../sass/_modules.scss */
+/* line 1098, ../sass/_modules.scss */
 .notifications-center__nav li {
   display: inline-block;
   margin-right: 2em;
   font-size: 1.2em;
   text-transform: uppercase;
 }
-/* line 1130, ../sass/_modules.scss */
+/* line 1103, ../sass/_modules.scss */
 .notifications-center__nav li a {
   display: block;
   padding: 0 0 20px;
 }
-/* line 1134, ../sass/_modules.scss */
+/* line 1107, ../sass/_modules.scss */
 .notifications-center__nav li:last-child {
   margin-right: 0;
 }
-/* line 1138, ../sass/_modules.scss */
+/* line 1111, ../sass/_modules.scss */
 .notifications-center__nav li.active a {
   border-bottom: 1px solid #000;
   color: #000;
 }
 
-/* line 1145, ../sass/_modules.scss */
+/* line 1118, ../sass/_modules.scss */
 .notifications-center__content-list {
   font-size: 1.6em;
 }
-/* line 1147, ../sass/_modules.scss */
+/* line 1120, ../sass/_modules.scss */
 .notifications-center__content-list > li {
   position: relative;
   line-height: 1.25em;
@@ -1857,26 +1836,26 @@ footer {
   margin-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-/* line 1153, ../sass/_modules.scss */
+/* line 1126, ../sass/_modules.scss */
 .notifications-center__content-list > li p {
   font-size: 1em;
 }
-/* line 1156, ../sass/_modules.scss */
+/* line 1129, ../sass/_modules.scss */
 .notifications-center__content-list > li a {
   color: #000;
   position: relative;
   text-decoration: underline !important;
 }
-/* line 1160, ../sass/_modules.scss */
+/* line 1133, ../sass/_modules.scss */
 .notifications-center__content-list > li a:hover {
-  color: #7D002E;
+  color: #930036;
 }
-/* line 1162, ../sass/_modules.scss */
+/* line 1135, ../sass/_modules.scss */
 .notifications-center__content-list > li a:hover:after {
-  color: #7D002E;
+  color: #930036;
   display: inline;
 }
-/* line 1167, ../sass/_modules.scss */
+/* line 1140, ../sass/_modules.scss */
 .notifications-center__content-list > li a:after {
   position: absolute;
   right: -20px;
@@ -1886,11 +1865,11 @@ footer {
   color: #000;
   vertical-align: top;
 }
-/* line 1177, ../sass/_modules.scss */
+/* line 1150, ../sass/_modules.scss */
 .notifications-center__content-list > li:last-child {
   margin-bottom: 0;
 }
-/* line 1181, ../sass/_modules.scss */
+/* line 1154, ../sass/_modules.scss */
 .notifications-center__content-list .deleteNotification {
   position: absolute;
   right: 0;
@@ -1900,48 +1879,48 @@ footer {
   background: #000;
   display: block;
 }
-/* line 1190, ../sass/_modules.scss */
+/* line 1163, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message {
   overflow: auto;
 }
-/* line 1194, ../sass/_modules.scss */
+/* line 1167, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message > a:hover .notification__message__right {
   background: #EEE;
   color: #000;
 }
-/* line 1199, ../sass/_modules.scss */
+/* line 1172, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message > a:after, .notifications-center__content-list .notification__message > a:hover:after {
   display: none;
 }
-/* line 1203, ../sass/_modules.scss */
+/* line 1176, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message .username {
   font-weight: 700;
 }
-/* line 1206, ../sass/_modules.scss */
+/* line 1179, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message .notification__message__left {
   width: 15%;
   padding-right: 1em;
   max-width: 80px;
 }
-/* line 1215, ../sass/_modules.scss */
+/* line 1188, ../sass/_modules.scss */
 .notifications-center__content-list .notification__message .notification__message__right {
   float: left;
   width: 85%;
   padding: 1em;
   background: #F6F6F6;
 }
-/* line 1222, ../sass/_modules.scss */
+/* line 1195, ../sass/_modules.scss */
 .notifications-center__content-list .notification__event-details {
   color: #999;
 }
-/* line 1224, ../sass/_modules.scss */
+/* line 1197, ../sass/_modules.scss */
 .notifications-center__content-list .notification__event-details li {
   font-size: 0.875em;
   display: inline-block;
   margin-right: 2.14285714285714em;
   margin-top: 0.71428571428571em;
 }
-/* line 1229, ../sass/_modules.scss */
+/* line 1202, ../sass/_modules.scss */
 .notifications-center__content-list .notification__event-details li:last-child {
   margin-right: 0;
 }
@@ -1949,26 +1928,26 @@ footer {
 /*-----------------------------------------------------------*\
 	Calendar 
 \*-----------------------------------------------------------*/
-/* line 1240, ../sass/_modules.scss */
+/* line 1213, ../sass/_modules.scss */
 body .fc {
   /* extra precedence to overcome jqui */
   font-size: 1em;
 }
 
-/* line 1244, ../sass/_modules.scss */
+/* line 1217, ../sass/_modules.scss */
 .fc {
   direction: ltr;
   text-align: left;
 }
 
-/* line 1249, ../sass/_modules.scss */
+/* line 1222, ../sass/_modules.scss */
 .fc-rtl {
   text-align: right;
 }
 
 /* Colors
 --------------------------------------------------------------------------------------------------*/
-/* line 1256, ../sass/_modules.scss */
+/* line 1229, ../sass/_modules.scss */
 .fc-unthemed th,
 .fc-unthemed td,
 .fc-unthemed hr,
@@ -1979,28 +1958,28 @@ body .fc {
   border-color: #ddd;
 }
 
-/* line 1266, ../sass/_modules.scss */
+/* line 1239, ../sass/_modules.scss */
 .fc-unthemed .fc-popover {
   background-color: #fff;
 }
 
-/* line 1270, ../sass/_modules.scss */
+/* line 1243, ../sass/_modules.scss */
 .fc-unthemed hr,
 .fc-unthemed .fc-popover .fc-header {
   background: #eee;
 }
 
-/* line 1275, ../sass/_modules.scss */
+/* line 1248, ../sass/_modules.scss */
 .fc-unthemed .fc-popover .fc-header .fc-close {
   color: #666;
 }
 
-/* line 1279, ../sass/_modules.scss */
+/* line 1252, ../sass/_modules.scss */
 .fc-unthemed .fc-today {
   background: #F6F6F6;
 }
 
-/* line 1283, ../sass/_modules.scss */
+/* line 1256, ../sass/_modules.scss */
 .fc-highlight {
   /* when user is selecting cells */
   background: #bce8f1;
@@ -2011,7 +1990,7 @@ body .fc {
 
 /* Icons (inline elements with styled text that mock arrow icons)
 --------------------------------------------------------------------------------------------------*/
-/* line 1293, ../sass/_modules.scss */
+/* line 1266, ../sass/_modules.scss */
 .fc-icon {
   display: inline-block;
   font-size: 2em;
@@ -2021,36 +2000,36 @@ body .fc {
   font-family: "Courier New", Courier, monospace;
 }
 
-/* line 1301, ../sass/_modules.scss */
+/* line 1274, ../sass/_modules.scss */
 .fc-icon-left-single-arrow:after {
   content: "\02039";
   font-weight: bold;
 }
 
-/* line 1306, ../sass/_modules.scss */
+/* line 1279, ../sass/_modules.scss */
 .fc-icon-right-single-arrow:after {
   content: "\0203A";
   font-weight: bold;
 }
 
-/* line 1311, ../sass/_modules.scss */
+/* line 1284, ../sass/_modules.scss */
 .fc-icon-left-double-arrow:after {
   content: "\000AB";
 }
 
-/* line 1315, ../sass/_modules.scss */
+/* line 1288, ../sass/_modules.scss */
 .fc-icon-right-double-arrow:after {
   content: "\000BB";
 }
 
-/* line 1319, ../sass/_modules.scss */
+/* line 1292, ../sass/_modules.scss */
 .fc-icon-x:after {
   content: "\000D7";
 }
 
 /* Buttons (styled <button> tags, normalized to work cross-browser)
 --------------------------------------------------------------------------------------------------*/
-/* line 1327, ../sass/_modules.scss */
+/* line 1300, ../sass/_modules.scss */
 .fc button {
   /* dimensions */
   margin: 0;
@@ -2064,14 +2043,14 @@ body .fc {
 }
 
 /* Firefox has an annoying inner border */
-/* line 1340, ../sass/_modules.scss */
+/* line 1313, ../sass/_modules.scss */
 .fc button::-moz-focus-inner {
   margin: 0;
   padding: 0;
 }
 
 /* icons in buttons */
-/* line 1344, ../sass/_modules.scss */
+/* line 1317, ../sass/_modules.scss */
 .fc button .fc-icon {
   /* non-theme */
   position: relative;
@@ -2084,15 +2063,15 @@ body .fc {
   button states
   borrowed from twitter bootstrap (http://twitter.github.com/bootstrap/)
 */
-/* line 1355, ../sass/_modules.scss */
+/* line 1328, ../sass/_modules.scss */
 .fc-state-default {
   font-weight: 700;
-  background-color: #7D002E;
+  background-color: #930036;
   color: #FFF;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 1362, ../sass/_modules.scss */
+/* line 1335, ../sass/_modules.scss */
 .fc-state-hover,
 .fc-state-down,
 .fc-state-active,
@@ -2101,13 +2080,13 @@ body .fc {
   background-color: #e6e6e6;
 }
 
-/* line 1370, ../sass/_modules.scss */
+/* line 1343, ../sass/_modules.scss */
 .fc-state-hover {
   color: #333333;
   text-decoration: none;
 }
 
-/* line 1375, ../sass/_modules.scss */
+/* line 1348, ../sass/_modules.scss */
 .fc-state-down,
 .fc-state-active {
   font-weight: 400;
@@ -2115,7 +2094,7 @@ body .fc {
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 1382, ../sass/_modules.scss */
+/* line 1355, ../sass/_modules.scss */
 .fc-state-disabled {
   cursor: default;
   opacity: 0.65;
@@ -2125,7 +2104,7 @@ body .fc {
 
 /* Buttons Groups
 --------------------------------------------------------------------------------------------------*/
-/* line 1393, ../sass/_modules.scss */
+/* line 1366, ../sass/_modules.scss */
 .fc-button-group {
   display: inline-block;
 }
@@ -2134,14 +2113,14 @@ body .fc {
 every button that is not first in a button group should scootch over one pixel and cover the
 previous button's border...
 */
-/* line 1402, ../sass/_modules.scss */
+/* line 1375, ../sass/_modules.scss */
 .fc .fc-button-group > * {
   /* extra precedence b/c buttons have margin set to zero */
   float: left;
   margin: 0 0 0 -1px;
 }
 
-/* line 1407, ../sass/_modules.scss */
+/* line 1380, ../sass/_modules.scss */
 .fc .fc-button-group > :first-child {
   /* same */
   margin-left: 0;
@@ -2149,54 +2128,54 @@ previous button's border...
 
 /* Popover
 --------------------------------------------------------------------------------------------------*/
-/* line 1415, ../sass/_modules.scss */
+/* line 1388, ../sass/_modules.scss */
 .fc-popover {
   position: absolute;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1420, ../sass/_modules.scss */
+/* line 1393, ../sass/_modules.scss */
 .fc-popover .fc-header {
   padding: 2px 4px;
 }
 
-/* line 1424, ../sass/_modules.scss */
+/* line 1397, ../sass/_modules.scss */
 .fc-popover .fc-header .fc-title {
   margin: 0 2px;
 }
 
-/* line 1428, ../sass/_modules.scss */
+/* line 1401, ../sass/_modules.scss */
 .fc-popover .fc-header .fc-close {
   cursor: pointer;
 }
 
-/* line 1432, ../sass/_modules.scss */
+/* line 1405, ../sass/_modules.scss */
 .fc-ltr .fc-popover .fc-header .fc-title,
 .fc-rtl .fc-popover .fc-header .fc-close {
   float: left;
 }
 
-/* line 1437, ../sass/_modules.scss */
+/* line 1410, ../sass/_modules.scss */
 .fc-rtl .fc-popover .fc-header .fc-title,
 .fc-ltr .fc-popover .fc-header .fc-close {
   float: right;
 }
 
 /* unthemed */
-/* line 1444, ../sass/_modules.scss */
+/* line 1417, ../sass/_modules.scss */
 .fc-unthemed .fc-popover {
   border-width: 1px;
   border-style: solid;
 }
 
-/* line 1449, ../sass/_modules.scss */
+/* line 1422, ../sass/_modules.scss */
 .fc-unthemed .fc-popover .fc-header .fc-close {
   font-size: 25px;
   margin-top: 4px;
 }
 
 /* jqui themed */
-/* line 1456, ../sass/_modules.scss */
+/* line 1429, ../sass/_modules.scss */
 .fc-popover > .ui-widget-header + .ui-widget-content {
   border-top: 0;
   /* where they meet, let the header have the border */
@@ -2204,7 +2183,7 @@ previous button's border...
 
 /* Misc Reusable Components
 --------------------------------------------------------------------------------------------------*/
-/* line 1464, ../sass/_modules.scss */
+/* line 1437, ../sass/_modules.scss */
 .fc hr {
   height: 0;
   margin: 0;
@@ -2214,12 +2193,12 @@ previous button's border...
   border-width: 1px 0;
 }
 
-/* line 1472, ../sass/_modules.scss */
+/* line 1445, ../sass/_modules.scss */
 .fc-clear {
   clear: both;
 }
 
-/* line 1476, ../sass/_modules.scss */
+/* line 1449, ../sass/_modules.scss */
 .fc-bg,
 .fc-highlight-skeleton,
 .fc-helper-skeleton {
@@ -2230,13 +2209,13 @@ previous button's border...
   right: 0;
 }
 
-/* line 1486, ../sass/_modules.scss */
+/* line 1459, ../sass/_modules.scss */
 .fc-bg {
   bottom: 0;
   /* strech bg to bottom edge */
 }
 
-/* line 1490, ../sass/_modules.scss */
+/* line 1463, ../sass/_modules.scss */
 .fc-bg table {
   height: 100%;
   /* strech bg to bottom edge */
@@ -2244,7 +2223,7 @@ previous button's border...
 
 /* Tables
 --------------------------------------------------------------------------------------------------*/
-/* line 1498, ../sass/_modules.scss */
+/* line 1471, ../sass/_modules.scss */
 .fc table {
   width: 100%;
   table-layout: fixed;
@@ -2254,12 +2233,12 @@ previous button's border...
   /* normalize cross-browser */
 }
 
-/* line 1506, ../sass/_modules.scss */
+/* line 1479, ../sass/_modules.scss */
 .fc th {
   text-align: center;
 }
 
-/* line 1510, ../sass/_modules.scss */
+/* line 1483, ../sass/_modules.scss */
 .fc th,
 .fc td {
   border-style: solid;
@@ -2269,7 +2248,7 @@ previous button's border...
   font-size: 14px;
 }
 
-/* line 1519, ../sass/_modules.scss */
+/* line 1492, ../sass/_modules.scss */
 .fc td.fc-today {
   border-style: double;
   /* overcome neighboring borders */
@@ -2277,7 +2256,7 @@ previous button's border...
 
 /* Fake Table Rows
 --------------------------------------------------------------------------------------------------*/
-/* line 1527, ../sass/_modules.scss */
+/* line 1500, ../sass/_modules.scss */
 .fc .fc-row {
   /* extra precedence to overcome themes w/ .ui-widget-content forcing a 1px border */
   /* no visible border by default. but make available if need be (scrollbar width compensation) */
@@ -2285,7 +2264,7 @@ previous button's border...
   border-width: 0;
 }
 
-/* line 1533, ../sass/_modules.scss */
+/* line 1506, ../sass/_modules.scss */
 .fc-row table {
   /* don't put left/right border on anything within a fake row.
      the outer tbody will worry about this */
@@ -2295,7 +2274,7 @@ previous button's border...
   border-bottom: 0 hidden transparent;
 }
 
-/* line 1543, ../sass/_modules.scss */
+/* line 1516, ../sass/_modules.scss */
 .fc-row:first-child table {
   border-top: 0 hidden transparent;
   /* no top border on first row */
@@ -2303,31 +2282,31 @@ previous button's border...
 
 /* Day Row (used within the header and the DayGrid)
 --------------------------------------------------------------------------------------------------*/
-/* line 1551, ../sass/_modules.scss */
+/* line 1524, ../sass/_modules.scss */
 .fc-row {
   position: relative;
 }
 
-/* line 1555, ../sass/_modules.scss */
+/* line 1528, ../sass/_modules.scss */
 .fc-row .fc-bg {
   z-index: 1;
 }
 
 /* highlighting cells */
-/* line 1561, ../sass/_modules.scss */
+/* line 1534, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton {
   z-index: 2;
   bottom: 0;
   /* stretch skeleton to bottom of row */
 }
 
-/* line 1566, ../sass/_modules.scss */
+/* line 1539, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton table {
   height: 100%;
   /* stretch skeleton to bottom of row */
 }
 
-/* line 1570, ../sass/_modules.scss */
+/* line 1543, ../sass/_modules.scss */
 .fc-row .fc-highlight-skeleton td {
   border-color: transparent;
 }
@@ -2336,7 +2315,7 @@ previous button's border...
 row content (which contains day/week numbers and events) as well as "helper" (which contains
 temporary rendered events).
 */
-/* line 1579, ../sass/_modules.scss */
+/* line 1552, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton {
   position: relative;
   z-index: 3;
@@ -2344,12 +2323,12 @@ temporary rendered events).
   /* matches the space above the events */
 }
 
-/* line 1585, ../sass/_modules.scss */
+/* line 1558, ../sass/_modules.scss */
 .fc-row .fc-helper-skeleton {
   z-index: 4;
 }
 
-/* line 1589, ../sass/_modules.scss */
+/* line 1562, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton td,
 .fc-row .fc-helper-skeleton td {
   /* see-through to the background below */
@@ -2360,7 +2339,7 @@ temporary rendered events).
   border-bottom: 0;
 }
 
-/* line 1599, ../sass/_modules.scss */
+/* line 1572, ../sass/_modules.scss */
 .fc-row .fc-content-skeleton tbody td,
 .fc-row .fc-helper-skeleton tbody td {
   /* don't put a border between event cells */
@@ -2369,14 +2348,14 @@ temporary rendered events).
 
 /* Scrolling Container
 --------------------------------------------------------------------------------------------------*/
-/* line 1609, ../sass/_modules.scss */
+/* line 1582, ../sass/_modules.scss */
 .fc-scroller {
   /* this class goes on elements for guaranteed vertical scrollbars */
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-/* line 1614, ../sass/_modules.scss */
+/* line 1587, ../sass/_modules.scss */
 .fc-scroller > * {
   /* we expect an immediate inner element */
   position: relative;
@@ -2389,7 +2368,7 @@ temporary rendered events).
 
 /* Global Event Styles
 --------------------------------------------------------------------------------------------------*/
-/* line 1624, ../sass/_modules.scss */
+/* line 1597, ../sass/_modules.scss */
 .fc-event {
   position: relative;
   /* for resize handle and other inner positioning */
@@ -2398,14 +2377,14 @@ temporary rendered events).
   font-size: 1em;
   line-height: 1.3;
   border-radius: 3px;
-  background-color: #7D002E;
+  background-color: #930036;
   /* default BACKGROUND color */
   font-weight: normal;
   /* undo jqui's ui-widget-header bold */
 }
 
 /* overpower some of bootstrap's and jqui's styles on <a> tags */
-/* line 1635, ../sass/_modules.scss */
+/* line 1608, ../sass/_modules.scss */
 .fc-event,
 .fc-event:hover,
 .ui-widget .fc-event {
@@ -2415,7 +2394,7 @@ temporary rendered events).
   /* if <a> has an href */
 }
 
-/* line 1642, ../sass/_modules.scss */
+/* line 1615, ../sass/_modules.scss */
 .fc-event[href],
 .fc-event.fc-draggable {
   cursor: pointer;
@@ -2427,7 +2406,7 @@ temporary rendered events).
 We use the full "fc-day-grid-event" class instead of using descendants because the event won't
 be a descendant of the grid when it is being dragged.
 */
-/* line 1654, ../sass/_modules.scss */
+/* line 1627, ../sass/_modules.scss */
 .fc-day-grid-event {
   margin: 1px 2px 0;
   /* spacing between events and edges */
@@ -2435,7 +2414,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* events that are continuing to/from another week. kill rounded corners and butt up against edge */
-/* line 1661, ../sass/_modules.scss */
+/* line 1634, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event.fc-not-start,
 .fc-rtl .fc-day-grid-event.fc-not-end {
   margin-left: 0;
@@ -2446,7 +2425,7 @@ be a descendant of the grid when it is being dragged.
   border-bottom-left-radius: 0;
 }
 
-/* line 1670, ../sass/_modules.scss */
+/* line 1643, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event.fc-not-end,
 .fc-rtl .fc-day-grid-event.fc-not-start {
   margin-right: 0;
@@ -2457,20 +2436,20 @@ be a descendant of the grid when it is being dragged.
   border-bottom-right-radius: 0;
 }
 
-/* line 1679, ../sass/_modules.scss */
+/* line 1652, ../sass/_modules.scss */
 .fc-day-grid-event > .fc-content {
   /* force events to be one-line tall */
   white-space: nowrap;
   overflow: hidden;
 }
 
-/* line 1684, ../sass/_modules.scss */
+/* line 1657, ../sass/_modules.scss */
 .fc-day-grid-event .fc-time {
   font-weight: bold;
 }
 
 /* resize handle (outside of fc-content, so can go outside of bounds) */
-/* line 1690, ../sass/_modules.scss */
+/* line 1663, ../sass/_modules.scss */
 .fc-day-grid-event .fc-resizer {
   position: absolute;
   top: 0;
@@ -2478,13 +2457,13 @@ be a descendant of the grid when it is being dragged.
   width: 7px;
 }
 
-/* line 1697, ../sass/_modules.scss */
+/* line 1670, ../sass/_modules.scss */
 .fc-ltr .fc-day-grid-event .fc-resizer {
   right: -3px;
   cursor: e-resize;
 }
 
-/* line 1702, ../sass/_modules.scss */
+/* line 1675, ../sass/_modules.scss */
 .fc-rtl .fc-day-grid-event .fc-resizer {
   left: -3px;
   cursor: w-resize;
@@ -2493,7 +2472,7 @@ be a descendant of the grid when it is being dragged.
 /* Event Limiting
 --------------------------------------------------------------------------------------------------*/
 /* "more" link that represents hidden events */
-/* line 1713, ../sass/_modules.scss */
+/* line 1686, ../sass/_modules.scss */
 a.fc-more {
   margin: 1px 3px;
   font-size: .85em;
@@ -2501,57 +2480,57 @@ a.fc-more {
   text-decoration: none;
 }
 
-/* line 1720, ../sass/_modules.scss */
+/* line 1693, ../sass/_modules.scss */
 a.fc-more:hover {
   text-decoration: underline;
 }
 
-/* line 1724, ../sass/_modules.scss */
+/* line 1697, ../sass/_modules.scss */
 .fc-limited {
   /* rows and cells that are hidden because of a "more" link */
   display: none;
 }
 
 /* popover that appears when "more" link is clicked */
-/* line 1730, ../sass/_modules.scss */
+/* line 1703, ../sass/_modules.scss */
 .fc-day-grid .fc-row {
   z-index: 1;
   /* make the "more" popover one higher than this */
 }
 
-/* line 1734, ../sass/_modules.scss */
+/* line 1707, ../sass/_modules.scss */
 .fc-more-popover {
   z-index: 2;
   width: 220px;
 }
 
-/* line 1739, ../sass/_modules.scss */
+/* line 1712, ../sass/_modules.scss */
 .fc-more-popover .fc-event-container {
   padding: 10px;
 }
 
 /* Toolbar
 --------------------------------------------------------------------------------------------------*/
-/* line 1746, ../sass/_modules.scss */
+/* line 1719, ../sass/_modules.scss */
 .fc-toolbar {
   text-align: center;
   margin-bottom: 3em;
 }
-/* line 1749, ../sass/_modules.scss */
+/* line 1722, ../sass/_modules.scss */
 .fc-toolbar .fc-left {
   float: left;
 }
-/* line 1752, ../sass/_modules.scss */
+/* line 1725, ../sass/_modules.scss */
 .fc-toolbar .fc-right {
   float: right;
 }
-/* line 1755, ../sass/_modules.scss */
+/* line 1728, ../sass/_modules.scss */
 .fc-toolbar .fc-center {
   display: inline-block;
 }
 
 /* the things within each left/right/center section */
-/* line 1761, ../sass/_modules.scss */
+/* line 1734, ../sass/_modules.scss */
 .fc .fc-toolbar > * > * {
   /* extra precedence to override button border margins */
   float: left;
@@ -2559,14 +2538,14 @@ a.fc-more:hover {
 }
 
 /* the first thing within each left/center/right section */
-/* line 1767, ../sass/_modules.scss */
+/* line 1740, ../sass/_modules.scss */
 .fc .fc-toolbar > * > :first-child {
   /* extra precedence to override button border margins */
   margin-left: 0;
 }
 
 /* title text */
-/* line 1772, ../sass/_modules.scss */
+/* line 1745, ../sass/_modules.scss */
 .fc-toolbar h2 {
   margin: 0;
   font-size: 2em;
@@ -2574,29 +2553,29 @@ a.fc-more:hover {
 }
 
 /* button layering (for border precedence) */
-/* line 1779, ../sass/_modules.scss */
+/* line 1752, ../sass/_modules.scss */
 .fc-toolbar button {
   position: relative;
 }
 
-/* line 1783, ../sass/_modules.scss */
+/* line 1756, ../sass/_modules.scss */
 .fc-toolbar .fc-state-hover,
 .fc-toolbar .ui-state-hover {
   z-index: 2;
 }
 
-/* line 1788, ../sass/_modules.scss */
+/* line 1761, ../sass/_modules.scss */
 .fc-toolbar .fc-state-down {
   z-index: 3;
 }
 
-/* line 1792, ../sass/_modules.scss */
+/* line 1765, ../sass/_modules.scss */
 .fc-toolbar .fc-state-active,
 .fc-toolbar .ui-state-active {
   z-index: 4;
 }
 
-/* line 1797, ../sass/_modules.scss */
+/* line 1770, ../sass/_modules.scss */
 .fc-toolbar button:focus {
   z-index: 5;
 }
@@ -2605,7 +2584,7 @@ a.fc-more:hover {
 --------------------------------------------------------------------------------------------------*/
 /* undo twitter bootstrap's box-sizing rules. normalizes positioning techniques */
 /* don't do this for the toolbar because we'll want bootstrap to style those buttons as some pt */
-/* line 1807, ../sass/_modules.scss */
+/* line 1780, ../sass/_modules.scss */
 .fc-view-container *,
 .fc-view-container *:before,
 .fc-view-container *:after {
@@ -2614,7 +2593,7 @@ a.fc-more:hover {
   box-sizing: content-box;
 }
 
-/* line 1815, ../sass/_modules.scss */
+/* line 1788, ../sass/_modules.scss */
 .fc-view,
 .fc-view > table {
   /* so dragged elements can be above the view's main element */
@@ -2625,7 +2604,7 @@ a.fc-more:hover {
 /* BasicView
 --------------------------------------------------------------------------------------------------*/
 /* day row structure */
-/* line 1826, ../sass/_modules.scss */
+/* line 1799, ../sass/_modules.scss */
 .fc-basicWeek-view .fc-content-skeleton,
 .fc-basicDay-view .fc-content-skeleton {
   /* we are sure there are no day numbers in these views, so... */
@@ -2635,19 +2614,19 @@ a.fc-more:hover {
   /* ensure a space at bottom of cell for user selecting/clicking */
 }
 
-/* line 1833, ../sass/_modules.scss */
+/* line 1806, ../sass/_modules.scss */
 .fc-basic-view tbody .fc-row {
   min-height: 4em;
   /* ensure that all rows are at least this tall */
 }
 
 /* a "rigid" row will take up a constant amount of height because content-skeleton is absolute */
-/* line 1839, ../sass/_modules.scss */
+/* line 1812, ../sass/_modules.scss */
 .fc-row.fc-rigid {
   overflow: hidden;
 }
 
-/* line 1843, ../sass/_modules.scss */
+/* line 1816, ../sass/_modules.scss */
 .fc-row.fc-rigid .fc-content-skeleton {
   position: absolute;
   top: 0;
@@ -2656,42 +2635,42 @@ a.fc-more:hover {
 }
 
 /* week and day number styling */
-/* line 1852, ../sass/_modules.scss */
+/* line 1825, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number,
 .fc-basic-view .fc-day-number {
   padding: 0 2px;
 }
 
-/* line 1857, ../sass/_modules.scss */
+/* line 1830, ../sass/_modules.scss */
 .fc-basic-view td.fc-week-number span,
 .fc-basic-view td.fc-day-number {
   padding-top: 2px;
   padding-bottom: 2px;
 }
 
-/* line 1863, ../sass/_modules.scss */
+/* line 1836, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number {
   text-align: center;
 }
 
-/* line 1867, ../sass/_modules.scss */
+/* line 1840, ../sass/_modules.scss */
 .fc-basic-view .fc-week-number span {
   /* work around the way we do column resizing and ensure a minimum width */
   display: inline-block;
   min-width: 1.25em;
 }
 
-/* line 1873, ../sass/_modules.scss */
+/* line 1846, ../sass/_modules.scss */
 .fc-ltr .fc-basic-view .fc-day-number {
   text-align: right;
 }
 
-/* line 1877, ../sass/_modules.scss */
+/* line 1850, ../sass/_modules.scss */
 .fc-rtl .fc-basic-view .fc-day-number {
   text-align: left;
 }
 
-/* line 1881, ../sass/_modules.scss */
+/* line 1854, ../sass/_modules.scss */
 .fc-day-number.fc-other-month {
   opacity: 0.3;
   filter: alpha(opacity=30);
@@ -2703,20 +2682,20 @@ a.fc-more:hover {
 
 /* AgendaView all-day area
 --------------------------------------------------------------------------------------------------*/
-/* line 1892, ../sass/_modules.scss */
+/* line 1865, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid {
   position: relative;
   z-index: 2;
   /* so the "more.." popover will be over the time grid */
 }
 
-/* line 1897, ../sass/_modules.scss */
+/* line 1870, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid .fc-row {
   min-height: 3em;
   /* all-day section will never get shorter than this */
 }
 
-/* line 1901, ../sass/_modules.scss */
+/* line 1874, ../sass/_modules.scss */
 .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
   padding-top: 1px;
   /* add a pixel to make sure there are 2px padding above events */
@@ -2726,7 +2705,7 @@ a.fc-more:hover {
 
 /* TimeGrid axis running down the side (for both the all-day area and the slot area)
 --------------------------------------------------------------------------------------------------*/
-/* line 1910, ../sass/_modules.scss */
+/* line 1883, ../sass/_modules.scss */
 .fc .fc-axis {
   /* .fc to overcome default cell styles */
   vertical-align: middle;
@@ -2734,17 +2713,17 @@ a.fc-more:hover {
   white-space: nowrap;
 }
 
-/* line 1916, ../sass/_modules.scss */
+/* line 1889, ../sass/_modules.scss */
 .fc-ltr .fc-axis {
   text-align: right;
 }
 
-/* line 1920, ../sass/_modules.scss */
+/* line 1893, ../sass/_modules.scss */
 .fc-rtl .fc-axis {
   text-align: left;
 }
 
-/* line 1924, ../sass/_modules.scss */
+/* line 1897, ../sass/_modules.scss */
 .ui-widget td.fc-axis {
   font-weight: normal;
   /* overcome jqui theme making it bold */
@@ -2752,7 +2731,7 @@ a.fc-more:hover {
 
 /* TimeGrid Structure
 --------------------------------------------------------------------------------------------------*/
-/* line 1932, ../sass/_modules.scss */
+/* line 1905, ../sass/_modules.scss */
 .fc-time-grid-container,
 .fc-time-grid {
   /* so slats/bg/content/etc positions get scoped within here */
@@ -2760,24 +2739,24 @@ a.fc-more:hover {
   z-index: 1;
 }
 
-/* line 1938, ../sass/_modules.scss */
+/* line 1911, ../sass/_modules.scss */
 .fc-time-grid {
   min-height: 100%;
   /* so if height setting is 'auto', .fc-bg stretches to fill height */
 }
 
-/* line 1942, ../sass/_modules.scss */
+/* line 1915, ../sass/_modules.scss */
 .fc-time-grid table {
   /* don't put outer borders on slats/bg/content/etc */
   border: 0 hidden transparent;
 }
 
-/* line 1946, ../sass/_modules.scss */
+/* line 1919, ../sass/_modules.scss */
 .fc-time-grid > .fc-bg {
   z-index: 1;
 }
 
-/* line 1950, ../sass/_modules.scss */
+/* line 1923, ../sass/_modules.scss */
 .fc-time-grid .fc-slats,
 .fc-time-grid > hr {
   /* the <hr> AgendaView injects when grid is shorter than scroller */
@@ -2785,12 +2764,12 @@ a.fc-more:hover {
   z-index: 2;
 }
 
-/* line 1956, ../sass/_modules.scss */
+/* line 1929, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight-skeleton {
   z-index: 3;
 }
 
-/* line 1960, ../sass/_modules.scss */
+/* line 1933, ../sass/_modules.scss */
 .fc-time-grid .fc-content-skeleton {
   position: absolute;
   z-index: 4;
@@ -2799,26 +2778,26 @@ a.fc-more:hover {
   right: 0;
 }
 
-/* line 1968, ../sass/_modules.scss */
+/* line 1941, ../sass/_modules.scss */
 .fc-time-grid > .fc-helper-skeleton {
   z-index: 5;
 }
 
 /* TimeGrid Slats (lines that run horizontally)
 --------------------------------------------------------------------------------------------------*/
-/* line 1976, ../sass/_modules.scss */
+/* line 1949, ../sass/_modules.scss */
 .fc-slats td {
   height: 1.5em;
   border-bottom: 0;
   /* each cell is responsible for its top border */
 }
 
-/* line 1981, ../sass/_modules.scss */
+/* line 1954, ../sass/_modules.scss */
 .fc-slats .fc-minor td {
   border-top-style: dotted;
 }
 
-/* line 1985, ../sass/_modules.scss */
+/* line 1958, ../sass/_modules.scss */
 .fc-slats .ui-widget-content {
   /* for jqui theme */
   background: none;
@@ -2827,14 +2806,14 @@ a.fc-more:hover {
 
 /* TimeGrid Highlighting Slots
 --------------------------------------------------------------------------------------------------*/
-/* line 1993, ../sass/_modules.scss */
+/* line 1966, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight-container {
   /* a div within a cell within the fc-highlight-skeleton */
   position: relative;
   /* scopes the left/right of the fc-highlight to be in the column */
 }
 
-/* line 1997, ../sass/_modules.scss */
+/* line 1970, ../sass/_modules.scss */
 .fc-time-grid .fc-highlight {
   position: absolute;
   left: 0;
@@ -2844,25 +2823,25 @@ a.fc-more:hover {
 
 /* TimeGrid Event Containment
 --------------------------------------------------------------------------------------------------*/
-/* line 2008, ../sass/_modules.scss */
+/* line 1981, ../sass/_modules.scss */
 .fc-time-grid .fc-event-container {
   /* a div within a cell within the fc-content-skeleton */
   position: relative;
 }
 
-/* line 2012, ../sass/_modules.scss */
+/* line 1985, ../sass/_modules.scss */
 .fc-ltr .fc-time-grid .fc-event-container {
   /* space on the sides of events for LTR (default) */
   margin: 0 2.5% 0 2px;
 }
 
-/* line 2016, ../sass/_modules.scss */
+/* line 1989, ../sass/_modules.scss */
 .fc-rtl .fc-time-grid .fc-event-container {
   /* space on the sides of events for RTL */
   margin: 0 2px 0 2.5%;
 }
 
-/* line 2020, ../sass/_modules.scss */
+/* line 1993, ../sass/_modules.scss */
 .fc-time-grid .fc-event {
   position: absolute;
   z-index: 1;
@@ -2874,7 +2853,7 @@ a.fc-more:hover {
 We use the full "fc-time-grid-event" class instead of using descendants because the event won't
 be a descendant of the grid when it is being dragged.
 */
-/* line 2032, ../sass/_modules.scss */
+/* line 2005, ../sass/_modules.scss */
 .fc-time-grid-event.fc-not-start {
   /* events that are continuing from another day */
   /* replace space made by the top border with padding */
@@ -2885,7 +2864,7 @@ be a descendant of the grid when it is being dragged.
   border-top-right-radius: 0;
 }
 
-/* line 2042, ../sass/_modules.scss */
+/* line 2015, ../sass/_modules.scss */
 .fc-time-grid-event.fc-not-end {
   /* replace space made by the top border with padding */
   border-bottom-width: 0;
@@ -2895,13 +2874,13 @@ be a descendant of the grid when it is being dragged.
   border-bottom-right-radius: 0;
 }
 
-/* line 2052, ../sass/_modules.scss */
+/* line 2025, ../sass/_modules.scss */
 .fc-time-grid-event {
   overflow: hidden;
   /* don't let the bg flow over rounded corners */
 }
 
-/* line 2056, ../sass/_modules.scss */
+/* line 2029, ../sass/_modules.scss */
 .fc-time-grid-event > .fc-content {
   /* contains the time and title, but no bg and resizer */
   position: relative;
@@ -2909,19 +2888,19 @@ be a descendant of the grid when it is being dragged.
   /* above the bg */
 }
 
-/* line 2061, ../sass/_modules.scss */
+/* line 2034, ../sass/_modules.scss */
 .fc-time-grid-event .fc-time,
 .fc-time-grid-event .fc-title {
   padding: 0 1px;
 }
 
-/* line 2066, ../sass/_modules.scss */
+/* line 2039, ../sass/_modules.scss */
 .fc-time-grid-event .fc-time {
   font-size: .85em;
   white-space: nowrap;
 }
 
-/* line 2071, ../sass/_modules.scss */
+/* line 2044, ../sass/_modules.scss */
 .fc-time-grid-event .fc-bg {
   z-index: 1;
   background: #fff;
@@ -2931,13 +2910,13 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* short mode, where time and title are on the same line */
-/* line 2080, ../sass/_modules.scss */
+/* line 2053, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-content {
   /* don't wrap to second line (now that contents will be inline) */
   white-space: nowrap;
 }
 
-/* line 2085, ../sass/_modules.scss */
+/* line 2058, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time,
 .fc-time-grid-event.fc-short .fc-title {
   /* put the time and title on the same line */
@@ -2945,25 +2924,25 @@ be a descendant of the grid when it is being dragged.
   vertical-align: top;
 }
 
-/* line 2092, ../sass/_modules.scss */
+/* line 2065, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time span {
   display: none;
   /* don't display the full time text... */
 }
 
-/* line 2096, ../sass/_modules.scss */
+/* line 2069, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time:before {
   content: attr(data-start);
   /* ...instead, display only the start time */
 }
 
-/* line 2100, ../sass/_modules.scss */
+/* line 2073, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-time:after {
   content: "\000A0-\000A0";
   /* seperate with a dash, wrapped in nbsp's */
 }
 
-/* line 2104, ../sass/_modules.scss */
+/* line 2077, ../sass/_modules.scss */
 .fc-time-grid-event.fc-short .fc-title {
   font-size: .85em;
   /* make the title text the same size as the time */
@@ -2972,7 +2951,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 /* resizer */
-/* line 2111, ../sass/_modules.scss */
+/* line 2084, ../sass/_modules.scss */
 .fc-time-grid-event .fc-resizer {
   position: absolute;
   z-index: 3;
@@ -2989,7 +2968,7 @@ be a descendant of the grid when it is being dragged.
   cursor: s-resize;
 }
 
-/* line 2126, ../sass/_modules.scss */
+/* line 2099, ../sass/_modules.scss */
 .fc-time-grid-event .fc-resizer:after {
   content: "=";
 }
@@ -3016,7 +2995,7 @@ be a descendant of the grid when it is being dragged.
   padding: 1px;
   font-size: 12px;
   font-weight: 700;
-  color: #7D002E;
+  color: #930036;
 }
 
 /* line 21, ../sass/_admin.scss */
@@ -3156,7 +3135,7 @@ be a descendant of the grid when it is being dragged.
 /* line 129, ../sass/_admin.scss */
 .user-notifications .dropdown a:hover,
 .user-messages .dropdown a:hover {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 132, ../sass/_admin.scss */
 .user-notifications .dropdown .dropdown__top,
@@ -3332,12 +3311,12 @@ be a descendant of the grid when it is being dragged.
 
 /* line 272, ../sass/_admin.scss */
 a.message:hover .message__inner {
-  background: #7D002E;
+  background: #930036;
   color: #FFF;
 }
 /* line 275, ../sass/_admin.scss */
 a.message:hover .message__inner:before {
-  border-right-color: #7D002E;
+  border-right-color: #930036;
 }
 
 /* line 280, ../sass/_admin.scss */
@@ -3578,7 +3557,7 @@ input.btn {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #7D002E;
+  background-color: #930036;
   color: #FFF;
   cursor: pointer;
   font-weight: 400;
@@ -3802,7 +3781,7 @@ input.btn.btn__small {
 }
 /* line 670, ../sass/_admin.scss */
 .pager li a.active {
-  color: #7D002E;
+  color: #930036;
   text-decoration: underline;
 }
 
@@ -3938,7 +3917,7 @@ input.btn.btn__small {
 }
 /* line 795, ../sass/_admin.scss */
 .admin-content-form-item .content-title a {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 799, ../sass/_admin.scss */
 .admin-content-form-item .content-group__left-col > div {
@@ -4128,7 +4107,7 @@ input.btn.btn__small {
 /* line 969, ../sass/_admin.scss */
 #deleteAcc {
   font-size: 1.4em;
-  color: #7D002E;
+  color: #930036;
   display: inline-block;
   margin-top: 20px;
   text-decoration: underline;
@@ -4277,7 +4256,7 @@ input.btn.btn__small {
 }
 /* line 61, ../sass/_states.scss */
 .is-Fixed .post__inner-nav li:hover:before {
-  background: #7D002E;
+  background: #930036;
   height: 3px;
 }
 @media all and (max-width: 750px) {
@@ -4487,7 +4466,7 @@ a:hover, a.active {
 }
 /* line 45, ../sass/screen.scss */
 .home-slider .slider__section-tag {
-  background: #7D002E;
+  background: #930036;
   color: #FFF;
   padding: 0 15px 5px;
   margin-bottom: 20px;
@@ -4508,7 +4487,7 @@ a:hover, a.active {
 /* line 63, ../sass/screen.scss */
 .hp-content .section-link {
   font-size: 1.4em;
-  color: #7D002E;
+  color: #930036;
   line-height: 1.3em;
   margin-left: 10px;
 }
@@ -4647,7 +4626,7 @@ a:hover, a.active {
   padding: 0px 5px 3px 5px;
   width: 100px;
   border-bottom: 0;
-  background: #7D002E;
+  background: #930036;
   color: #FFF;
   font-weight: 700;
   text-align: center;
@@ -4829,13 +4808,13 @@ a:hover, a.active {
 }
 /* line 332, ../sass/screen.scss */
 .nested-event .event__date {
-  color: #7D002E;
+  color: #930036;
   font-size: 2.2em;
 }
 
 /* line 337, ../sass/screen.scss */
 .event__state {
-  color: #7D002E;
+  color: #930036;
   font-size: 1.2em;
 }
 
@@ -4868,7 +4847,7 @@ a:hover, a.active {
 }
 /* line 361, ../sass/screen.scss */
 .event__person_name a:hover {
-  color: #7D002E;
+  color: #930036;
 }
 
 /* line 366, ../sass/screen.scss */
@@ -4952,7 +4931,7 @@ a:hover, a.active {
   left: -1px;
   padding: 5px 21px 5px 21px;
   background: #F0F0F0;
-  color: #7D002E;
+  color: #930036;
 }
 
 /* line 434, ../sass/screen.scss */
@@ -4987,11 +4966,11 @@ a:hover, a.active {
 /* line 456, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:after {
   font-size: 1.2em;
-  color: #7D002E;
+  color: #930036;
 }
 /* line 461, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:hover {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 463, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:hover:after {
@@ -5123,7 +5102,7 @@ a:hover, a.active {
 }
 /* line 574, ../sass/screen.scss */
 #slider .postMeta a:hover {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 579, ../sass/screen.scss */
 #slider .event__location,
@@ -5227,7 +5206,7 @@ a:hover, a.active {
 }
 /* line 670, ../sass/screen.scss */
 .expert__item .item-link:hover .expert__item_name {
-  color: #7D002E;
+  color: #930036;
 }
 
 /* line 675, ../sass/screen.scss */
@@ -5447,7 +5426,7 @@ a:hover, a.active {
 /* line 853, ../sass/screen.scss */
 .expert-badge {
   display: inline-block;
-  background: #7D002E;
+  background: #930036;
   padding: 0 15px 5px;
   margin-bottom: 10px;
   font-size: 1.6em;

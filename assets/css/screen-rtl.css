@@ -616,7 +616,7 @@ html, body, .site-container {
 
 /* line 68, ../sass/_modules-rtl.scss */
 .featured__more {
-  color: #7D002E;
+  color: #930036;
   text-decoration: none;
   top: 1px;
   position: relative;
@@ -1255,7 +1255,7 @@ html, body, .site-container {
 .discussion-board-list .initiatives-list__item > a:hover p:after,
 .discussion-board-list .discussion-board-list__item > a:hover h2,
 .discussion-board-list .discussion-board-list__item > a:hover p:after {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 650, ../sass/_modules-rtl.scss */
 .editorial-list .editorial-list__item:first-child,
@@ -1469,7 +1469,7 @@ html, body, .site-container {
 .external-quote p:before, .external-quote p:after {
   position: absolute;
   font-size: 1.25em;
-  color: #7D002E;
+  color: #930036;
 }
 /* line 718, ../sass/_modules-rtl.scss */
 .external-quote p:before {
@@ -1784,7 +1784,7 @@ html, body, .site-container {
 \*-----------------------------------------------------------*/
 /* line 1006, ../sass/_modules-rtl.scss */
 .main-footer {
-  border-top: 5px solid #7D002E;
+  border-top: 5px solid #930036;
   background: #000;
   padding-top: 1em;
   padding-bottom: 4em;
@@ -2692,7 +2692,7 @@ input.btn, button, legend {
 }
 /* line 320, ../sass/screen-rtl.scss */
 .post__event .events__item__details .events__item__date .events__item__state {
-  color: #7D002E;
+  color: #930036;
   font-size: 1.2em;
 }
 /* line 325, ../sass/screen-rtl.scss */
@@ -2773,11 +2773,11 @@ input.btn, button, legend {
 }
 /* line 396, ../sass/screen-rtl.scss */
 .events__item > article:hover .title {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 399, ../sass/screen-rtl.scss */
 .events__item > article:hover .events__item__sub-title:after {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 404, ../sass/screen-rtl.scss */
 .events__item a {
@@ -2811,7 +2811,7 @@ input.btn, button, legend {
 }
 /* line 434, ../sass/screen-rtl.scss */
 .events__item .events__item__state {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 436, ../sass/screen-rtl.scss */
 .events__item .events__item__state.passed {
@@ -2891,7 +2891,7 @@ input.btn, button, legend {
 /* line 497, ../sass/screen-rtl.scss */
 .discussion-board-list__item article > a:hover .title,
 .discussion-board-list__item article > a:hover .discussion-board-list__item__excerpt p:after {
-  color: #7D002E;
+  color: #930036;
 }
 /* line 504, ../sass/screen-rtl.scss */
 .discussion-board-list__item.pinned:after {
@@ -2910,7 +2910,7 @@ input.btn, button, legend {
 /* line 523, ../sass/screen-rtl.scss */
 .initiatives-list__item .initiatives__item__col.col-l:hover .title,
 .initiatives-list__item .initiatives__item__col.col-l:hover .initiatives-list__item__excerpt p:after {
-  color: #7D002E;
+  color: #930036;
 }
 
 /* line 536, ../sass/screen-rtl.scss */
