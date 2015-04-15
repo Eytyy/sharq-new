@@ -410,42 +410,46 @@ body {
 .noSpace .page-wrapper__inner {
   padding-top: 0;
 }
+/* line 76, ../sass/_layout.scss */
+.passed-event .page-wrapper__inner {
+  padding-bottom: 0;
+}
 
-/* line 77, ../sass/_layout.scss */
+/* line 80, ../sass/_layout.scss */
 .centered-wrapper {
   position: relative;
 }
 
-/* line 82, ../sass/_layout.scss */
+/* line 85, ../sass/_layout.scss */
 .sub-section {
   margin-bottom: 6em;
 }
-/* line 84, ../sass/_layout.scss */
+/* line 87, ../sass/_layout.scss */
 .sub-section:last-child {
   margin-bottom: 0;
 }
 
-/* line 90, ../sass/_layout.scss */
+/* line 93, ../sass/_layout.scss */
 .wSideBar .main__col {
   float: left;
 }
-/* line 93, ../sass/_layout.scss */
+/* line 96, ../sass/_layout.scss */
 .wSideBar .main__col {
   width: 77%;
 }
-/* line 96, ../sass/_layout.scss */
+/* line 99, ../sass/_layout.scss */
 .wSideBar .sidebar__col {
   width: 23%;
 }
-/* line 99, ../sass/_layout.scss */
+/* line 102, ../sass/_layout.scss */
 .wSideBar .sidebar__col_left {
   float: left;
 }
-/* line 102, ../sass/_layout.scss */
+/* line 105, ../sass/_layout.scss */
 .wSideBar .sidebar__col_right {
   float: right;
 }
-/* line 106, ../sass/_layout.scss */
+/* line 109, ../sass/_layout.scss */
 .wSideBar .relevant__content .main__col {
   float: none;
   padding: 0;
@@ -453,66 +457,66 @@ body {
   margin: 0 auto;
 }
 
-/* line 115, ../sass/_layout.scss */
+/* line 118, ../sass/_layout.scss */
 .wSideBar__left .main__col {
   padding-left: 6em;
 }
 
-/* line 118, ../sass/_layout.scss */
+/* line 121, ../sass/_layout.scss */
 .wSideBar__right .main__col {
   padding-right: 6em;
 }
 
-/* line 121, ../sass/_layout.scss */
+/* line 124, ../sass/_layout.scss */
 .sidebar__block {
   margin-bottom: 4em;
   padding-bottom: 4em;
   border-bottom: 1px solid #D2D2D2;
 }
-/* line 125, ../sass/_layout.scss */
+/* line 128, ../sass/_layout.scss */
 .sidebar__block:last-child {
   border-bottom: 0;
 }
 
-/* line 133, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .sharq-post__content .sharq-post__content__sidebar,
 .sharq-post__content .sharq-post__content__main {
   float: left;
 }
-/* line 137, ../sass/_layout.scss */
+/* line 140, ../sass/_layout.scss */
 .sharq-post__content .sharq-post__content__sidebar {
   width: 18%;
 }
-/* line 140, ../sass/_layout.scss */
+/* line 143, ../sass/_layout.scss */
 .sharq-post__content .sharq-post__content__main {
   width: 82%;
   padding-left: 4em;
 }
 
-/* line 147, ../sass/_layout.scss */
+/* line 150, ../sass/_layout.scss */
 .divider_two {
   margin-left: -4em;
 }
-/* line 149, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .divider_two .col {
   padding-left: 4em;
   width: 50%;
 }
 
-/* line 156, ../sass/_layout.scss */
+/* line 159, ../sass/_layout.scss */
 .author__articles__list,
 .user__attended-events {
   margin-top: 6em;
 }
 
-/* line 161, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 .post__article .post-top,
 .post__paper .post-top {
   height: 50%;
   max-height: 400px;
 }
 
-/* line 166, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 footer {
   height: 83px;
   margin-top: -83px;

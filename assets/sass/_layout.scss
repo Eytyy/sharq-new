@@ -73,6 +73,9 @@ body {
 	.noSpace & {
 		padding-top: 0;
 	}
+	.passed-event & {
+		padding-bottom: 0;
+	}
 }
 .centered-wrapper {
 	@extend %centered-row;
