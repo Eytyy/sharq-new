@@ -15,120 +15,29 @@
 	}
 }
 
-.is-Fixed {
-	.post-top {
-		z-index: 4;
-	}
-	.yolo .logo-wrapper {
-		height: 97px;
-	}
-	.header-controls,
-	.post__inner-nav {
-		@include transition(all 0.2s linear);
-	}
-	.header-controls {
-		height: 0;
-		overflow: hidden;
-	}
-	.post__inner-nav {
-		padding: 10px 25px;
-		background-color: #F9F9F9;
-	    position: fixed;
-	    top: 0;
-	    bottom: auto;
-	    left: 0;
-	    right: 0;
-	    height: 55px;
-	    li {
-	    	position: relative;
-	    	a {
-	    		display: block;
-	    	}
-	    	&:before {
-				@include transition(all 0.1s linear);
-				position: absolute;
-				content: " ";
-				bottom: -9px;
-				height: 0px;
-				width: 100%;
-				background: #000;
-				z-index: 1;
-			}
-			&.register-btn:before {
-				display: none;
-			}
-			&:hover {
-				&:before {
-					background: $burgundy;
-					height: 3px;
-				}
-			}
-	    }
-	    @media all and (max-width: 750px) {
-			.post__inner-nav__list {
-				padding: 0;
-				li {
-					&.register-btn { 
-						right: 0;
-					}
-				}
-			}
-		}
-	    @media all and (max-width: 661px) {
-			padding: 10px 20px;
-	    }
-	    @media all and (max-width: 400px) {
-			top: 80px;
-	    }
-	}
-	&.logged-in {
-		.post__inner-nav {
-			top: 148px;
-		}
-		@media all and (max-width: 400px) {
-			.post__inner-nav {
-				top: 128px;
-			}
-		}
-		@media all and (max-width: 350px) {
-			.post__inner-nav {
-				top: 118px;
-			}
-		}
-	}
-}
-
 .isModalActive {
 	overflow: hidden;
 }
-
-.yolo .logo-wrapper {
-	height: 78px;
-	.logo {
-		display: block;
-		height: 51px;
-		overflow: hidden;
-		img {
-			width: 70px;
-			display: inline;
-		}
-	}
+.post__nav.setAtTop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 2.3em 3em;
+	background: #FFF;
+	z-index: 9992;
+	border-bottom: 2px solid #D2D2D2;
 }
-
-body.isMobileMenuActive {
-	overflow: hidden;
-}
-
-@media all and (min-width: 661px) {
+@include respond($bp__mid) {
 	.sharq-post__content {
 		position: relative;
 	}
-	.sharq-post__content__sidebaisOutsideContainerr {
-		position: absolute;
-		height: 100%;
-	}
 	.sharq-post__content__main {
 		float: right !important;
+	}
+	.post__nav.setAtBottom {
+		position: absolute;
+  		bottom: 0;
 	}
 }
 
@@ -161,25 +70,6 @@ body.isMobileMenuActive {
 	}
 }
 
-.is-dashboardMenu-mobile-active {
-	&.pushed {
-		.page__inner-wrapper {
-			max-width: 100%;
-			overflow: hidden;
-			> .full-col {
-				left: 30em;
-				.expandDashboardBar {
-					&:after {
-						border-left-width: 0;
-						border-right-color: #fff;
-						border-right-width: 9px;
-						margin-left: 9px;
-					}
-				}
-			}
-		}
-	}
-}
 .is-open.modal {
 	display: block;
 	opacity: 1;

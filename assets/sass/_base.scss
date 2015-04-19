@@ -65,6 +65,34 @@ $baseFontSize: 62.5%;
 $bodyFont: "ff-tisa-web-pro",serif;
 $titleFont: "adelle",serif;
 
+
+// Layout Widths Fixed Values
+$max_width:     1180px;
+$mid_width:     920px;
+$min_width:     320px;
+
+$tab_width_mid: 720px;
+
+$phab_width_mid: 620px;
+$phab_width_min: 420px;
+
+$main-content__max_width: 870px;
+
+// Break Points
+$bp__max: "all and (min-width: 1180px)";
+$bp__mid: "all and (min-width: 920px)";
+$bp__min: "all and (max-width: 320px)";
+
+$bp__tab_mid: "all and (min-width: 720px)";
+
+$bp__phab_mid: "all and (min-width: 620px)";
+$bp__phab_min: "all and (min-width: 420px)";
+
+// Media Queries Mixin
+@mixin respond( $media ) {
+    @media #{$media} { @content; }
+}
+
 %bodyFont {
 	font-family: $bodyFont;
 }
@@ -74,31 +102,28 @@ $titleFont: "adelle",serif;
 }
 
 %titleMain {
-	font-size: 4.4em;
-	@media all and (max-width: 721px) {
+	font-size: 2.2em;
+	@include respond($bp__phab_min) {
+		font-size: 2.4em;
+	}
+	@include respond($bp__tab_mid) {
 		font-size: 3.2em;
 	}
-	@media all and (max-width: 440px) {
-		font-size: 2.8em;
-	}
-	@media all and (max-width: 350px) {
-		font-size: 2.2em;
-	}
-	@media all and (max-width: 490px) and (max-height: 500px) {
-		font-size: 1.8em;
+	@include respond($bp__max) {
+		font-size: 4.4em;
 	}
 }
 
 %bodyFontSize {
-	font-size: 2em;
-	@media all and (max-width: 721px) {
-		font-size: 1.8em;
-	}
-	@media all and (max-width: 440px) {
+	font-size: 1.4em;
+	@include respond($bp__phab_mid) {
 		font-size: 1.6em;
 	}
-	@media all and (max-width: 350px) {
-		font-size: 1.3em;
+	@include respond($bp__tab_mid) {
+		font-size: 1.8em;
+	}
+	@include respond($bp__max) {
+		font-size: 2em;
 	}
 }
 
@@ -132,14 +157,15 @@ h1, h2, h3, h4, h5 {
 		@extend %bodyFontSize;
 		margin-bottom: 30px;
 		line-height: 1.5em;
+		list-style-position: inside;
 		li {
 			margin-bottom: 1em;
 			&:last-child {
 				margin-bottom: 0;
 			}
 		}
-		@media all and (max-width: 721px) {
-			list-style-position: inside;
+		@include respond ($bp__mid) {
+			list-style-position: outside;
 		}
 	}
 	&:last-child {

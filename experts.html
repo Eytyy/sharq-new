@@ -19,14 +19,6 @@
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
         <div class="site-container">
             <div class="page-wrapper centered wSideBar wSideBar__right">
                 <header class="main-header">
@@ -53,6 +45,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -109,9 +102,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -128,9 +119,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -147,9 +136,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -166,9 +153,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -185,9 +170,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -204,9 +187,7 @@
                                 <li class="content-list__item expert__item">
                                     <a class="item-link" href="expert.html">
                                         <article>
-                                            <div class="expert__item_avatar">
-                                                <img src="assets/images/avatar-plain.jpg">
-                                            </div>
+                                            <div class="expert__item_avatar" style="background-image:url('assets/images/avatar-plain.jpg');"></div>
                                             <div class="expert__item_details">
                                                 <header>
                                                     <h2 class="expert__item_name">Salam Salam</h2>
@@ -267,70 +248,82 @@
                                 </header>
                                 <ul class="sidebar__content-list sidebar__latest-blog">
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="blog-post.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="blog-post.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="research-single.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">From commensal groups to conflicting identities</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="research-single.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">From commensal groups to conflicting identities</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="research-single.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="research-single.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="research-single.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="research-single.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="research-single.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="research-single.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a class="item-link" href="research-single.html">
-                                            <article>
-                                                <header>
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
-                                                </header>
-                                            </article>
-                                        </a>
-                                        <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a class="item-link" href="research-single.html">
+                                                <article>
+                                                    <header>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
+                                                    </header>
+                                                </article>
+                                            </a>
+                                            <a class="author-name" href="expert.html">Dr. Bashir Nafi'</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </section>
@@ -409,6 +402,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

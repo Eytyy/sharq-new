@@ -2,11 +2,6 @@
 	.icon__r {
 		display: inline-block;
 	}
-	.user-nav,
-	.user-notifications,
-	.user-messages {
-		position: relative;
-	}
 	.admin-nav__control__count {
 		position: absolute;
 		top: 0px;
@@ -21,17 +16,14 @@
 	.dropdown {
 		z-index: 9994;
 		position: absolute;
-		width: 250px;
 		background: #FFF;
 		border: 1px solid #DDD;
 		border-radius: 5px;
-		right: 0;
-		top: 45px;
 		padding: 10px 0 15px;
 		display: none;
-		&.isVisible {
-			display: block;
-		}
+		right: 3em;
+		margin-top: 10px;
+		width: 260px;
 		&:before {
 			content: "";
 			position: absolute;
@@ -39,8 +31,7 @@
 			height: 0;
 			width: 0;
 			border-bottom: 10px solid #DDD;
-			top: -20px;
-			right: 5px;
+			top: -21px;
 		}
 		&:after {
 			content: "";
@@ -49,12 +40,32 @@
 			height: 0;
 			width: 0;
 			border-bottom: 10px solid #FFF;
-			top: -19px;
-			right: 5px;
+			top: -20px;
+		}
+		&.isVisible {
+			display: block;
+		}
+		@include respond($bp__tab_mid) {
+			width: 250px;
+			right: 0;
+			top: 45px;
+			left: auto;
+			margin-top: 0;
+			&:before {
+				top: -20px;
+				right: 5px !important;
+			}
+			&:after {
+				top: -19px;
+				right: 5px !important;
+			}
 		}
 	}
 	.user-nav {
-		margin-left: 15px;
+		margin-left: 10px;
+		@include respond($bp__tab_mid) {
+			margin-left: 15px;
+		}
 	}
 	.user-menu__item {
 		font-size: 1.5em;
@@ -106,11 +117,16 @@
 	}
 	.user-avatar {
 		cursor: pointer;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		overflow: hidden;
 		display: block;
 		@extend %fullBorderRadius;
+		background-size: cover;
+		@include respond($bp__tab_mid) {
+			width: 35px;
+			height: 35px;
+		}
 	}
 	.user-notifications,
 	.user-messages {
@@ -125,7 +141,6 @@
 			border-bottom: 0;
 		}
 		.dropdown {
-			width: 300px;
 			a:hover {
 				color: $burgundy;
 			}
@@ -156,6 +171,21 @@
 				color: #A2A2A2;
 				float: left;
 			}
+		}
+	}
+	.user-nav .dropdown {
+		&:after, &:before {
+			right: 55px;
+		}
+	}
+	.user-messages .dropdown {
+		&:after, &:before {
+			right: 98px;
+		}
+	}
+	.user-notifications .dropdown {
+		&:after, &:before {
+			right: 140px;
 		}
 	}
 	.admin-nav__dropdown .msg__item {
@@ -576,18 +606,37 @@
 	.admin-bar {
 		margin-top: 3em;
 		margin-bottom: 3em;
-		padding: 10px;
+		padding: 10px 10px 5px;
 		background: #F2F2F2;
 		border-radius: 10px;
+		@include respond($bp__phab_mid) {
+			padding: 10px;
+		}
 	}
 	.admin-bar__list {
 		@extend %stripListStyles;
 		> li {
 			position: relative;
 			display: inline-block;
-			margin-right: 100px;
+			margin-right: 25px;
 			&:last-child {
 				margin-right: 0;
+			}
+		}
+		@include respond($bp__phab_min) {
+			> li {
+				margin-right: 50px;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+		@include respond($bp__mid) {
+			> li {
+				margin-right: 95px;
+				&:last-child {
+					margin-right: 0;
+				}
 			}
 		}
 	}
@@ -596,15 +645,29 @@
 		font-weight: 700;
 	}
 	.admin-bar__link {
-		font-size: 1.6em;
+		font-size: 1.2em;
 		color: #404040;
 		display: block;
+		width: 25px;
+		height: 20px;
+		overflow: hidden;
 		&:hover {
 			color: #000;
 		}
 		.icon {
-			font-size: 20px;
-			margin-right: 10px;
+			font-size: 18px;
+			margin-right: 5px;
+		}
+		@include respond($bp__phab_mid) {
+			.icon {
+				font-size: 20px;
+				margin-right: 10px;
+			}
+		}
+		@include respond($bp__phab_mid) {
+			font-size: 1.6em;
+			width: auto;
+			height: auto;
 		}
 	}
 	.active .admin__dropdown {
@@ -889,7 +952,7 @@
 				@extend %grid-wrapper;
 				margin-bottom: 0;
 				.module__col {
-					@extend %grid-col;
+					// @extend %grid-col;
 				}
 			}
 			.module-initiatives-task {

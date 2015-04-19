@@ -19,14 +19,6 @@
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="logged-in">
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
         <div class="site-container">
             <div class="page-wrapper wSideBar wSideBar__right">
                 <header class="main-header">
@@ -149,6 +141,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -202,7 +195,7 @@
                                 <h1 class="main-title">Who determines the fate of Damascus and the fate of Syria?</h1>
                                 <div class="postMeta">
                                     <div class="postMeta__l">
-                                        <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                     </div>
                                     <div class="postMeta__r">
                                         <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
@@ -254,7 +247,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="postMeta__r">
-                                                        <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                         <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
                                                     </div>
                                                 </div>
@@ -286,7 +279,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="postMeta__r">
-                                                        <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                         <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
                                                     </div>
                                                 </div>
@@ -321,7 +314,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="postMeta__r">
-                                                        <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                         <a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
                                                     </div>
                                                 </div>
@@ -388,48 +381,25 @@
                             </form>
                             <ul class="comments-list">
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="../assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('../assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
                                         <span class="comment-body">Do you work for Al Jazeera?</span>
                                     </div>
                                 </li>
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="../assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
-                                    <div class="comment-item__right">
-                                        <span class="comment-user"><a href="#">Ramen Condor</a></span>
-                                        <span class="comment-body">Let’s agree to disagree. Where iOS’ depth comes from translucency, Android’s now comes from drop shadows. Same concept, different execution. I kinda miss the more professional looking (IMO) ui that was present in KitKat.</span>
-                                    </div>
-                                </li>
-                                <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="../assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('../assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
-                                        <span class="comment-body">I’d filmed perhaps 20 such clashes before, and had never worried about the police. But this was the first time since the coup, and when I saw the scenes of chaos unfold below me, I started to feel: this time, it’s different.</span>
+                                        <span class="comment-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</span>
                                     </div>
                                 </li>
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="../assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
-                                    <div class="comment-item__right">
-                                        <span class="comment-user"><a href="#">Samba Bokrm</a></span>
-                                        <span class="comment-body">I like the style a lot, I really hope you select a colour palette though, people are going to be put off by some of the brighter picks.</span>
-                                    </div>
-                                </li>
-                                <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="../assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('../assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
-                                        <span class="comment-body">"When you die, you feel nothing, but I was scared of the torture". This is so true.</span>
+                                        <span class="comment-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ab quasi voluptates omnis delectus earum consequatur id sapiente quod facilis incidunt explicabo minus, rerum asperiores eaque ea nisi, facere nulla!</span>
                                     </div>
                                 </li>
                             </ul>
@@ -508,8 +478,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-        <script src="../assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="../assets/js/plugins.js"></script>
         <script src="../assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

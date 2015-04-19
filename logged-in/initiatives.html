@@ -19,14 +19,6 @@
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="logged-in">
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
         <div class="site-container">
             <div class="page-wrapper page__initiatives">
                 <header class="main-header">
@@ -149,6 +141,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -208,85 +201,73 @@
                                 <ul class="content-list initiatives-list">
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote isInitiativeOpen">
-                                                    <a href="#" class="vote"><span class="initiative__vote__count">112</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote isInitiativeOpen">
+                                                <a href="#" class="vote"><span class="initiative__vote__count">112</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote isInitiativeOpen">
-                                                    <a href="#" class="vote"><span class="initiative__vote__count">50</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote isInitiativeOpen">
+                                                <a href="#" class="vote"><span class="initiative__vote__count">50</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote isInitiativeOpen">
-                                                    <a href="#" class="vote"><span class="initiative__vote__count">23</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote isInitiativeOpen">
+                                                <a href="#" class="vote"><span class="initiative__vote__count">23</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
@@ -299,85 +280,73 @@
                                 <ul class="content-list initiatives-list">
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote">
-                                                    <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">50</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote">
+                                                <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">50</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote">
-                                                    <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">23</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote">
+                                                <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">23</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
                                     <li class="content-list__item initiatives-list__item">
                                         <article>
-                                            <div class="initiatives__item__col col-l">
-                                                <a class="item-link" href="initiative.html">
-                                                    <header>
-                                                        <h2 class="title">Initiative Title Goes Here</h2>
-                                                    </header>
-                                                    <div class="initiatives-list__item__excerpt">
-                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
-                                                    </div>
-                                                </a>
-                                                <div class="content-list__bottom">
-                                                    <div class="postMeta">
-                                                        <a class="author" href="author.html">
-                                                            <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
-                                                            <span class="author-name">Dr. Bashir Nafi'</span>
-                                                        </a>
-                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                    </div>
+                                            <a class="item-link" href="initiative.html">
+                                                <header>
+                                                    <h2 class="title">Initiative Title Goes Here</h2>
+                                                </header>
+                                                <div class="initiatives-list__item__excerpt">
+                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quo laborum accusamus.</p>
+                                                </div>
+                                            </a>
+                                            <div class="content-list__bottom">
+                                                <div class="postMeta">
+                                                    <a class="author" href="author.html">
+                                                        <img src="../assets/images/avatar-blank.jpg" alt="author name" class="author-avatar">
+                                                        <span class="author-name">Dr. Bashir Nafi'</span>
+                                                    </a>
+                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                                 </div>
                                             </div>
-                                            <div class="initiatives__item__col col-r">
-                                                <div class="module moudle__initiative__vote">
-                                                    <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">5</span><span class="vote__icon"></span></a>
-                                                </div>
+                                            <div class="module moudle__initiative__vote">
+                                                <a href="#" class="vote"><i class="fa fa-thumbs-o-up vote-icon"></i><span class="initiative__vote__count">5</span><span class="vote__icon"></span></a>
                                             </div>
                                         </article>
                                     </li>
@@ -505,8 +474,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-        <script src="../assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="../assets/js/plugins.js"></script>
         <script src="../assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

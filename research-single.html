@@ -18,15 +18,7 @@
         <link rel="stylesheet" media="screen, projection" href="assets/css/awesome/font-awesome.css">
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
+    <body class="sharq-section">
         <div class="site-container">
             <div class="page-wrapper centered wSideBar wSideBar__right">
                 <header class="main-header">
@@ -53,6 +45,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -127,7 +120,7 @@
                                         <h1 class="main-title">The key strategic movements in the Islamic - Levant, during 2013.</h1>
                                         <div class="postMeta">
                                             <div class="postMeta__l">
-                                                <div class="publish-date">Written on <time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
                                             </div>
                                             <div class="postMeta__r">
                                                 <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
@@ -198,97 +191,107 @@
                                     <h2 class="block-title">Related</h2>
                                 </header>
                                 <ul class="sidebar__content-list">
-                                    <li class="sidebar__content-list__item">
-                                        <a href="#" class="section-tag">Regional Politics</a>
-                                        <article>
-                                            <a class="item-link" href="research-single.html">
-                                                <img src="assets/images/thumbs/thumb2.jpg">
-                                                <header>
-                                                    <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
-                                                </header>
-                                            </a>
-                                            <div class="postMeta">
-                                                <div class="postMeta__l">
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                    <li class="sidebar__content-list__item wImg">
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a href="#" class="section-tag">Regional Politics</a>
+                                            <article>
+                                                <a class="item-link" href="research-single.html">
+                                                    <img src="assets/images/thumbs/thumb2.jpg">
+                                                    <header>
+                                                        <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
+                                                    </header>
+                                                </a>
+                                                <div class="postMeta">
+                                                    <div class="postMeta__l">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <div class="postMeta__r">
+                                                        <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                    </div>
                                                 </div>
-                                                <div class="postMeta__r">
-                                                    <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
-                                                </div>
-                                            </div>
-                                        </article>
+                                            </article>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a href="#" class="section-tag">Regional Politics</a>
-                                        <article>
-                                            <a class="item-link" href="research-single.html">
-                                                <header>
-                                                    <h3 class="title">Maliki takes the Iraq to war again</h3>
-                                                </header>
-                                            </a>
-                                            <div class="postMeta">
-                                                <div class="postMeta__l">
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a href="#" class="section-tag">Regional Politics</a>
+                                            <article>
+                                                <a class="item-link" href="research-single.html">
+                                                    <header>
+                                                        <h3 class="title">Maliki takes the Iraq to war again</h3>
+                                                    </header>
+                                                </a>
+                                                <div class="postMeta">
+                                                    <div class="postMeta__l">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <div class="postMeta__r">
+                                                        <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                    </div>
                                                 </div>
-                                                <div class="postMeta__r">
-                                                    <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                            </article>
+                                        </div>
+                                    </li>
+                                    <li class="sidebar__content-list__item wImg">
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a href="#" class="section-tag">Regional Politics</a>
+                                            <article>
+                                                <a class="item-link" href="research-single.html">
+                                                    <img src="assets/images/thumbs/thumb1.jpg">
+                                                    <header>
+                                                        <h3 class="title">From commensal groups to conflicting identities</h3>
+                                                    </header>
+                                                </a>
+                                                <div class="postMeta">
+                                                    <div class="postMeta__l">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <div class="postMeta__r">
+                                                        <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </article>
+                                            </article>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a href="#" class="section-tag">Regional Politics</a>
-                                        <article>
-                                            <a class="item-link" href="research-single.html">
-                                                <img src="assets/images/thumbs/thumb1.jpg">
-                                                <header>
-                                                    <h3 class="title">From commensal groups to conflicting identities</h3>
-                                                </header>
-                                            </a>
-                                            <div class="postMeta">
-                                                <div class="postMeta__l">
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a href="#" class="section-tag">Regional Politics</a>
+                                            <article>
+                                                <a class="item-link" href="research-single.html">
+                                                    <header>
+                                                        <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
+                                                    </header>
+                                                </a>
+                                                <div class="postMeta">
+                                                    <div class="postMeta__l">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <div class="postMeta__r">
+                                                        <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                    </div>
                                                 </div>
-                                                <div class="postMeta__r">
-                                                    <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
-                                                </div>
-                                            </div>
-                                        </article>
+                                            </article>
+                                        </div>
                                     </li>
                                     <li class="sidebar__content-list__item">
-                                        <a href="#" class="section-tag">Regional Politics</a>
-                                        <article>
-                                            <a class="item-link" href="research-single.html">
-                                                <header>
-                                                    <h3 class="title">The key strategic movements in the Islamic - Levant, during 2013.</h3>
-                                                </header>
-                                            </a>
-                                            <div class="postMeta">
-                                                <div class="postMeta__l">
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                        <div class="sidebar__content-list__item_inner">
+                                            <a href="#" class="section-tag">Regional Politics</a>
+                                            <article>
+                                                <a class="item-link" href="research-single.html">
+                                                    <header>
+                                                        <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
+                                                    </header>
+                                                </a>
+                                                <div class="postMeta">
+                                                    <div class="postMeta__l">
+                                                        <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
+                                                    </div>
+                                                    <div class="postMeta__r">
+                                                        <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
+                                                    </div>
                                                 </div>
-                                                <div class="postMeta__r">
-                                                    <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="sidebar__content-list__item">
-                                        <a href="#" class="section-tag">Regional Politics</a>
-                                        <article>
-                                            <a class="item-link" href="research-single.html">
-                                                <header>
-                                                    <h3 class="title">Battle of Short opens a new chapter in the history of Hezbollah.</h3>
-                                                </header>
-                                            </a>
-                                            <div class="postMeta">
-                                                <div class="postMeta__l">
-                                                    <div class="publish-date"><time datetime="2001-05-15 19:00">May 15 2001</time></div>
-                                                </div>
-                                                <div class="postMeta__r">
-                                                    <span>. by </span><a class="author-name" href="author.html">Dr. Bashir Nafi'</a>
-                                                </div>
-                                            </div>
-                                        </article>
+                                            </article>
+                                        </div>
                                     </li>
                                 </ul>
                             </section>
@@ -308,48 +311,25 @@
                             </form>
                             <ul class="comments-list">
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
                                         <span class="comment-body">Do you work for Al Jazeera?</span>
                                     </div>
                                 </li>
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
-                                    <div class="comment-item__right">
-                                        <span class="comment-user"><a href="#">Ramen Condor</a></span>
-                                        <span class="comment-body">Let’s agree to disagree. Where iOS’ depth comes from translucency, Android’s now comes from drop shadows. Same concept, different execution. I kinda miss the more professional looking (IMO) ui that was present in KitKat.</span>
-                                    </div>
-                                </li>
-                                <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
-                                        <span class="comment-body">I’d filmed perhaps 20 such clashes before, and had never worried about the police. But this was the first time since the coup, and when I saw the scenes of chaos unfold below me, I started to feel: this time, it’s different.</span>
+                                        <span class="comment-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</span>
                                     </div>
                                 </li>
                                 <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
-                                    <div class="comment-item__right">
-                                        <span class="comment-user"><a href="#">Samba Bokrm</a></span>
-                                        <span class="comment-body">I like the style a lot, I really hope you select a colour palette though, people are going to be put off by some of the brighter picks.</span>
-                                    </div>
-                                </li>
-                                <li class="comment-item">
-                                    <div class="comment-item__left">
-                                        <span class="comment-avatar"><img src="assets/images/avatar-plain.jpg" alt=""></span>
-                                    </div>
+                                    <span class="comment-avatar" style="background-image: url('assets/images/avatar-plain.jpg');"></span>
                                     <div class="comment-item__right">
                                         <span class="comment-user"><a href="#">Naman Noran</a></span>
-                                        <span class="comment-body">"When you die, you feel nothing, but I was scared of the torture". This is so true.</span>
+                                        <span class="comment-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ab quasi voluptates omnis delectus earum consequatur id sapiente quod facilis incidunt explicabo minus, rerum asperiores eaque ea nisi, facere nulla!</span>
                                     </div>
                                 </li>
                             </ul>
@@ -429,8 +409,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-        <script src="assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

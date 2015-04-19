@@ -19,14 +19,6 @@
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="logged-in">
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
         <div class="site-container">
             <div class="page-wrapper">
                 <header class="main-header">
@@ -149,6 +141,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -222,7 +215,7 @@
                             </nav>
                             <ul class="notifications-center__content-list">
                                 <li class="notification__item notification__event">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification__event-main">
                                         Admin invited you to attend an event: <a href="#">Al-Sharq annual meet-up.</a>
                                     </div>
@@ -234,13 +227,13 @@
                                     </ul>
                                 </li>
                                 <li class="notification__item notification__initiative">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification-main">
                                        Omar posted a new initiative: <a href="#">"Lorem ipsum dolor sit amet".</a>
                                     </div>
                                 </li>
                                 <li class="notification__item notification__event">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification__event-main">
                                         Admin invited you to attend an event: <a href="#">Al-Sharq annual meet-up.</a>
                                     </div>
@@ -252,19 +245,19 @@
                                     </ul>
                                 </li>
                                 <li class="notification__item notification__discussion">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification-main">
                                         Omar posted a new discussion: <a href="#">"Lorem ipsum dolor sit amet".</a>
                                     </div>
                                 </li>
                                 <li class="notification__item notification__article">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification-main">
                                         Omar posted a new article: <a href="#">"Lorem ipsum dolor sit amet".</a>
                                     </div>
                                 </li>
                                 <li class="notification__item notification__initiative">
-                                    <span class="deleteNotification"></span>
+                                    <span class="deleteNotification"><i class="fa fa-trash-o"></i></span>
                                     <div class="notification-main">
                                        Omar posted a new initiative: <a href="#">"Lorem ipsum dolor sit amet".</a>
                                     </div>
@@ -345,8 +338,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
-        <script src="../assets/js/vendor/jquery.fitvids.js"></script>
+        <script src="../assets/js/plugins.js"></script>
         <script src="../assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

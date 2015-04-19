@@ -1,3 +1,4 @@
+
 body, html, .site-container {
 	height: 100%;
 }
@@ -5,44 +6,29 @@ body {
 	min-width: 320px;
 }
 %centered-row {
-	min-width: 320px;
-	max-width: 1180px;
+	min-width: $min_width;
+	max-width: $max_width;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 3em;
-	@media all and (max-width: 661px) {
-		padding: 0 2em;
-	}
 }
 %grid-wrapper {
 	@extend %clearfix;
-	margin: 0 0 0 -4em;
-	@media all and (max-width: 921px) {
-		margin: 0 0 0 -3em;
+	@include respond($bp__tab_mid) {
+		margin: 0 0 0 -4em;
 	}
 	@media all and (max-width: 721px) {
 		margin: 0;
 	}
 }
-%grid-col {
-	@extend %pullLeft;
-	padding: 0 0 4em 4em;
-	@media all and (max-width: 921px) {
-		padding: 0 0 3em 3em;
-	}
-	@media all and (max-width: 721px) {
-		padding: 0;
-		width: 100%;
-		float: none;
-		padding-bottom: 3em;
-		&:last-child {
-			padding-bottom: 1em;
-		}
-	}
-}
+
 @mixin CreateGridCol($colSize) {
-	width: #{$colSize};
-	@extend %grid-col;
+	@include respond($bp__tab_mid) {
+		padding-bottom: 3em;
+		width: #{$colSize};
+		float: left;
+		padding: 0 0 4em 4em;
+	}
 }
 
 .component-inner{
@@ -55,7 +41,7 @@ body {
 }
 .main__col {
 	width: 100%;
-	max-width: 870px;
+	max-width: $main-content__max_width;
 	&.full {
 		max-width: 100%;
 	}
@@ -90,59 +76,88 @@ body {
 }
 // Page Layout with Sidebar
 .wSideBar {
-	.main__col { 
-		float: left;
+	.sidebar__col {
+		margin-bottom: 2em;
 	}
 	.main__col {
-	  width: 77%;
-	}
-	.sidebar__col {
-		width: 23%;
-	}
-	.sidebar__col_left {
-		float: left;
-	}
-	.sidebar__col_right {
-		float: right;
-	}
-	.relevant__content {
-		.main__col {
-			float: none;
-			padding: 0;
-			width: 100%;
-			margin: 0 auto;
+		margin-bottom: 4em;
+		padding-bottom: 4em;
+		border-bottom: 5px solid #F2F2F2;
+		&:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom: 0;
 		}
 	}
-}
-
-.wSideBar__left .main__col {
-	padding-left: 6em;
-}
-.wSideBar__right .main__col {
-	padding-right: 6em;
-}
-.sidebar__block {
-	margin-bottom: 4em;
-	padding-bottom: 4em;
-	border-bottom: 1px solid #D2D2D2;
-	&:last-child {
-		border-bottom: 0;
+	.sidebar__block {
+		margin-bottom: 4em;
+		padding-bottom: 4em;
+		border-bottom: 5px solid #F2F2F2;
+		&:last-child {
+			border-bottom: 0;
+			margin: 0;
+			padding: 0;
+		}
 	}
+	@include respond($bp__max) {
+		.main__col { 
+			float: left;
+			margin-bottom: 0;
+		}
+		.main__col {
+		  width: 77%;
+		  padding-bottom: 0;
+		  border-bottom: 0;
+		}
+		.sidebar__col {
+			width: 23%;
+			margin-bottom: 0;
+		}
+		.sidebar__col_left {
+			float: left;
+		}
+		.sidebar__col_right {
+			float: right;
+		}
+		.relevant__content {
+			.main__col {
+				float: none;
+				padding: 0;
+				width: 100%;
+				margin: 0 auto;
+			}
+		}
+		&.wSideBar__left .main__col {
+			padding-left: 6em;
+		}
+		&.wSideBar__right .main__col {
+			padding-right: 6em;
+		}
+		.sidebar__block {
+			border-bottom: 1px solid #D2D2D2;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+		
 }
 
 // Main and Sidebar layout for sharq content pages
 .sharq-post__content {
 	@extend %clearfix;
-	.sharq-post__content__sidebar,
-	.sharq-post__content__main {
-		float: left;
-	}
-	.sharq-post__content__sidebar {
-		width: 18%;
-	}
-	.sharq-post__content__main {
-		width: 82%;
-		padding-left: 4em;
+	@include respond($bp__mid) {
+		.sharq-post__content__sidebar,
+		.sharq-post__content__main {
+			float: left;
+		}
+		.sharq-post__content__sidebar {
+			width: 18%;
+		}
+		.sharq-post__content__main {
+			width: 82%;
+			padding-left: 4em;
+		}
 	}
 }
 

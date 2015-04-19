@@ -20,14 +20,6 @@
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="logged-in">
-        <nav class="nav user-nav">
-            <ul class="user-nav__navList">
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-                <li class="user-nav__item"><a href="#"></a></li>
-            </ul>
-        </nav>
         <div class="site-container">
             <div class="page-wrapper wSideBar wSideBar__right noSpace">
                 <header class="main-header">
@@ -150,6 +142,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
+                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -301,7 +294,7 @@
                                 </div>
                             </div>
                             <aside class="sidebar__col sidebar__col_right">
-                                <div class="sidebar__block sidebar__share">
+                                <div class="sidebar__block">
                                     <h2 class="block-title">Event Map</h2>
                                     <div class="event__location_map">
                                         <img src="../assets/images/map.jpg" alt="">
@@ -315,10 +308,10 @@
                                 <div class="sidebar__block sidebar__share">
                                     <h2 class="block-title">Share</h2>
                                     <ul class="share-links">
-                                        <li class="share-fb"><a href="#"></a></li>
-                                        <li class="share-twitter"><a href="#"></a></li>
-                                        <li class="share-gplus"><a href="#"></a></li>
-                                        <li class="share-linkedin"><a href="#"></a></li>
+                                        <li class="share-fb"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="share-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="share-gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="share-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="sidebar__block sidebar__share">
@@ -400,6 +393,7 @@
         <!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../assets/js/plugins.js"></script>
         <script src="../assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

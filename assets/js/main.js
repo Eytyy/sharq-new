@@ -2,7 +2,6 @@ var SHARQ = (function () {
 	//---------------- BEGIN MODULE SCOPE VARIABLES --------------
 	var jqueryMap = {
 			$dropdown_link             : $('.nav__control__item__w__dropdown > a'),
-			$menu_toggle               : $('#menuToggle'),
 			$notifications             : $('.notification__message').find('a'),
 			$search_toggle			   : $('#toggleSearch'),
 			$notifications_close_link  : $('#closeMessages'),
@@ -15,15 +14,19 @@ var SHARQ = (function () {
 			$album_el 				   : $('.album-el-link'),
 			$album_el_desc_btn         : $('#toggleModalDescription'),
 			$modal_window              : $('.modal'),
-			$close_modal_btn           : $('.closeModal')
+			$close_modal_btn           : $('.closeModal'),
+			$mobile_menu_trig          : $('#triggerMobileMenu')
 		},
-
+		stateMap = {
+			'mobileLinksList' : false
+		},
 		onSearchToggle,
 		MESSAGES,
 		adjustSharqPostNav,
 		openDropDown, closeDropDown,
 		openModal, closeModal,
-		handleMobileMenuEvents,
+		setupDropMenu, listToDropdown, toggleDropMenu, onClickDropListLink, onClickAnchor,
+		onMobileMenu,
 		showUserSettings,
 		onClickAlbumItem,
 		onCloseModal,
@@ -49,46 +52,36 @@ var SHARQ = (function () {
 	})();
 
 	//--------------------- BEGIN DOM METHODS --------------------
+	// Fix the positioning of the inner post navigation while scrolling
 	adjustSharqPostNav = function () {
-		var topOffset        = 78,
-			startLimit       = $('.sharq-post__content__main').offset().top - topOffset,
-			paperScrollLimit = $('.post__content__body').height() + 500;
-
-			console.log(paperScrollLimit);
-
-		$(window).on('scroll', function () {
-
-			// between main content top and bottom
-			if( $(window).scrollTop() > startLimit  && $(window).scrollTop() < paperScrollLimit ) {
-				$('.sharq-post__content').addClass('isInsideContainer').removeClass('isOutsideContainer');
-				$('.post__nav').css({
-					'transform': 'translate3d(0px, ' + 0 + 'px , 0px)'
-				})
+		var contentOffset  = $('.sharq-post__content__main').offset().top,
+			postNav = $('.post__nav'),
+			scrollLimit;
+		
+		// $.throttle to minimize the event calls on scroll
+		$(window).on('scroll', $.throttle(250, function () {
+			// If window width greater than 1180px it means we have to cols layout
+			// Meaning that we will have the comments component below the content.
+			if ( $(window).width() > 1180 ) {
+				scrollLimit = (Math.floor($('.comments').offset().top) - 200) - contentOffset - postNav.height() - 40;
+				$(window).scrollTop() > scrollLimit ? $('.post__nav').addClass('setAtBottom') : $('.post__nav').removeClass('setAtBottom');
 			}
-			// outside main content
-			else if( $(window).scrollTop() > paperScrollLimit ) {
-				$('.sharq-post__content').addClass('isOutsideContainer').removeClass('isInsideContainer');
-				$('.post__nav').css({
-					'transform': 'translate3d(0px, ' + paperScrollLimit + 'px, 0px)'
-				});
+			// IF window width greater than 920 and less thant 1180px it means that we have a single
+			// col layout, Meaning we will have the side bar below the content.
+			else if ($(window).width() > 920 && $(window).width() < 1180) {
+				scrollLimit = (Math.floor($('.sidebar__col').offset().top) - 200) - contentOffset - postNav.height() - 40;
+				$(window).scrollTop() > scrollLimit ? $('.post__nav').addClass('setAtBottom') : $('.post__nav').removeClass('setAtBottom');
+			} 
+			// Default Single col but the navigation will be a dropdown list at this stage
+			// Sticking on top instead of a list floating on the left.
+			else {
+				if ( $(window).scrollTop() > contentOffset ) {
+					$('.post__nav').addClass('setAtTop');
+				} else {
+					$('.post__nav').removeClass('setAtTop');
+				}
 			}
-		});
-
-		$("<select />").insertAfter(".post__paper__nav > ul");
-
-		$("<option />", {
-			"selected": "selected",
-			"value"   : "",
-			"text"    : "Go to..."
-		}).appendTo("nav select");
-
-		$(".post__paper__nav > ul a").each(function() {
-			 var el = $(this);
-			 $("<option />", {
-			     "value"   : el.attr("href"),
-			     "text"    : el.text()
-			 }).appendTo("nav select");
-		});
+		}));
 	};
 
 	openDropDown = function (event) {
@@ -116,10 +109,66 @@ var SHARQ = (function () {
 		});
 		e.preventDefault();
 	};
+
+	setupDropMenu = function ($list) {
+		var w           = $(window).width(),
+			list        = $list,
+			list_links	= $list.find('a'),
+			activeChild = list.find('.active'),
+			anchor,
+			anchorValue;
+
+		if ( !stateMap.mobileLinksList ) {
+			anchor = $('<span class="dropdown-toggle" data-toggle="dropdown">'
+						+ '<span class="valueOfButton"></span>'
+                        + '<i class="fa fa-caret-down"></i></span>');
+
+			anchorValue = anchor.find('.valueOfButton');
+			activeChild.length === 0 ? anchorValue.html("Go To")  : anchorValue.html(activeChild.html());
+			list.addClass('custom_menuList');
+			list.prepend(anchor);
+			anchor.on('click', onClickAnchor);
+			list_links.on('click', onClickDropListLink);
+		}
+	};
+
+	listToDropdown = (function () {
+		$(function(){
+			if ($('.sub_nav').length > 0) {
+				setupDropMenu( $('.sub_nav') );
+			}	else if ($('.post__nav')) {
+				setupDropMenu( $('.post__nav') );
+			} 
+			else {
+				return false;
+			}
+			stateMap.mobileLinksList = true;
+		});
+	})();
+
+	toggleDropMenu = function () {
+		$('.custom_menuList').find('ul').toggleClass('active');
+	};
+
+
 	//--------------------- END DOM METHODS ----------------------
 
 
 	//------------------- BEGIN EVENT HANDLERS -------------------
+
+
+	onClickDropListLink = function (e) {
+		var anchor = $('.custom_menuList').find('.dropdown-toggle');
+		if ( $(window).width() < 1180 ) {
+			anchor.find('.valueOfButton').html($(this).text());
+			toggleDropMenu();
+			e.preventDefault();
+		}
+	};
+
+	onClickAnchor = function (e) {
+		toggleDropMenu();
+	};
 
 	onSearchToggle = function (e) {
 		$('#header-search').toggleClass('isActive');
@@ -129,19 +178,8 @@ var SHARQ = (function () {
 	/* This method overrides the openDropDown default behaviour
 	 * and attaches new events on links for mobile menu
 	 */
-	handleMobileMenuEvents = function () {
-		$('#admin-header-nav, body').toggleClass('isMobileMenuActive');
-		$('.nav__control__item.active').removeClass('active');
-
-		if ($('#admin-header-nav').hasClass('isMobileMenuActive')) {
-			console.log('active');
-			$('.nav__control__item > a').off('click', APP.openDropDown);
-			$('.notification__message a').on('click', APP.openMessageModal);
-		}
-		else {
-			$('.nav__control__item > a').on('click', APP.openDropDown);
-			console.log('not active');
-		}
+	onMobileMenu = function () {
+		$('body').toggleClass('is-menuActive');
 	};
 
 	showContactInfo = function (e) {
@@ -182,7 +220,7 @@ var SHARQ = (function () {
 
 		jqueryMap.$admin_dd_btn.on('click', openDropDown);
 
-		jqueryMap.$menu_toggle.on('click', handleMobileMenuEvents);
+		jqueryMap.$mobile_menu_trig.on('click', onMobileMenu);
 
 		jqueryMap.$search_toggle.on('click', onSearchToggle);
 
