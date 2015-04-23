@@ -135,14 +135,6 @@ body {
 		.sidebar__col_right {
 			float: right;
 		}
-		.relevant__content {
-			.main__col {
-				float: none;
-				padding: 0;
-				width: 100%;
-				margin: 0 auto;
-			}
-		}
 		&.wSideBar__left .main__col {
 			padding-left: 6em;
 		}
@@ -156,7 +148,14 @@ body {
 			}
 		}
 	}
-		
+}
+
+.profile__content .main__col {
+	float: none;
+	padding: 0 !important;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 4em;
 }
 
 // Main and Sidebar layout for sharq content pages

@@ -43,6 +43,10 @@
 	}
 		
 }
+.profile__content .main__col {
+	float: none;
+	padding: 0 !important;
+}
 .sharq-post__content {
 	@include respond($bp__mid) {
 		.sharq-post__content__sidebar,
