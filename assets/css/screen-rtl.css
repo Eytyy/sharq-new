@@ -17,16 +17,16 @@
 }
 
 /* line 25, ../sass/_util.scss */
-.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list {
+.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
   *zoom: 1;
 }
 /* line 27, ../sass/_util.scss */
-.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after {
+.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .alsharq-team__list:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after {
   content: " ";
   display: table;
 }
 /* line 32, ../sass/_util.scss */
-.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after {
+.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after {
   clear: both;
 }
 
@@ -68,7 +68,7 @@ html, .post-content .title, textarea {
 }
 
 /* line 45, ../sass/_base-rtl.scss */
-.nav, h1, h2, h3, h4, h5, .btn, .postMeta .author-name, input, button, .admin-content-form-item .content-title, .event__dNp_item, .events__item__date, .related-media__list li.related__media__list__link a, .slide-title, .login__register__form .st {
+.nav, h1, h2, h3, h4, h5, .btn, .postMeta .author-name, input, button, .admin-content-form-item .content-title, .event__dNp_item, .events__item__date, .related-media__list li.related__media__list__link a, .slide-title, .login__register__form .st, .member-name {
   font-family: "Droid Arabic Kufi";
   font-weight: 700;
 }
@@ -185,13 +185,13 @@ em {
 \*--------------------*/
 @media all and (min-width: 720px) {
   /* line 1, ../sass/_layout-rtl.scss */
-  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list {
+  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
     margin: 0 0 0 -4em;
   }
 }
 @media all and (max-width: 721px) {
   /* line 1, ../sass/_layout-rtl.scss */
-  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list {
+  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
     margin: 0;
   }
 }
@@ -2462,4 +2462,38 @@ input.btn {
   .login__register__form .combo .links__group .links__group__item {
     float: none;
   }
+}
+
+/* line 667, ../sass/screen-rtl.scss */
+.alsharq-team__list .content-list__item {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 4em;
+}
+@media all and (min-width: 720px) {
+  /* line 667, ../sass/screen-rtl.scss */
+  .alsharq-team__list .content-list__item {
+    padding-bottom: 3em;
+    width: 25%;
+    float: right;
+    padding: 0 0 4em 4em;
+  }
+}
+/* line 673, ../sass/screen-rtl.scss */
+.alsharq-team__list .item-link {
+  padding: 2em;
+  box-shadow: 0px 3px 5px -5px #000;
+}
+
+/* line 678, ../sass/screen-rtl.scss */
+.member-name {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 683, ../sass/screen-rtl.scss */
+.member-title {
+  text-align: center;
+  font-size: 1.4em;
+  color: #404040;
 }

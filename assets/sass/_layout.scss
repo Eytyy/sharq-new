@@ -88,6 +88,9 @@ body {
 	}
 	.content-list {
 		max-width: $main-content__max_width;
+		&.full {
+			max-width: 100%;
+		}
 	}
 }
 // Page Layout with Sidebar

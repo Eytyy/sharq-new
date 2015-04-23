@@ -5,7 +5,7 @@
 }
 
 /* line 25, ../sass/_util.scss */
-.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .sidebar__content-list, .comments-module__header, .comments-list, .footer__top, .user-notifications .dropdown .dropdown__header,
+.admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .sidebar__content-list, .comments-module__header, .comments-list, .footer__top, .user-notifications .dropdown .dropdown__header,
 .user-messages .dropdown .dropdown__header, .admin-nav__dropdown .msg__item > a, .message, .conversations, .conversations .message > a, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
 .users-content-list .user-group, .admin-form .form-main-btn-wrapper, .events__item__shortcuts-links, #event__moderator, .expert__item article, .user__profile_header, .album-list, .gallery__header, .initiatives-list__item,
 .discussion-board-list__item, .initiative .post-top,
@@ -13,11 +13,11 @@
   *zoom: 1;
 }
 /* line 27, ../sass/_util.scss */
-.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .sidebar__content-list:before, .comments-module__header:before, .comments-list:before, .footer__top:before, .user-notifications .dropdown .dropdown__header:before,
+.admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .alsharq-team__list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .sidebar__content-list:before, .comments-module__header:before, .comments-list:before, .footer__top:before, .user-notifications .dropdown .dropdown__header:before,
 .user-messages .dropdown .dropdown__header:before, .admin-nav__dropdown .msg__item > a:before, .message:before, .conversations:before, .conversations .message > a:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
 .users-content-list .user-group:before, .admin-form .form-main-btn-wrapper:before, .events__item__shortcuts-links:before, #event__moderator:before, .expert__item article:before, .user__profile_header:before, .album-list:before, .gallery__header:before, .initiatives-list__item:before,
 .discussion-board-list__item:before, .initiative .post-top:before,
-.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .sidebar__content-list:after, .comments-module__header:after, .comments-list:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
+.discussion .post-top:before, .login__register__form__wrapper:before, #account-form:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .sidebar__content-list:after, .comments-module__header:after, .comments-list:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
 .user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
@@ -26,7 +26,7 @@
   display: table;
 }
 /* line 32, ../sass/_util.scss */
-.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .sidebar__content-list:after, .comments-module__header:after, .comments-list:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
+.admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .sidebar__content-list:after, .comments-module__header:after, .comments-list:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
 .user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
 .discussion-board-list__item:after, .initiative .post-top:after,
@@ -51,7 +51,7 @@
 .notifications-center__content-list .notification__message .notification__message__left img, .user-avatar, .admin-nav__dropdown .msg__item .avatar img, .conversations .message .avatar img, .user__profile_avatar, .initiative .author-avatar,
 .discussion .author-avatar,
 .initiatives-list__item .author-avatar,
-.discussion-board-list__item .author-avatar {
+.discussion-board-list__item .author-avatar, .member-avatar {
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
@@ -144,7 +144,7 @@ html, .content__body .title, textarea {
 
 /* line 100, ../sass/_base.scss */
 .nav, h1, h2, h3, h4, h5, .btn, input, button, #dashboardSendMsgForm input[type="submit"], .admin-content-form-item .content-title, .event__dNp_item, .events__item__date, .related-media__list li.related__media__list__link a, .expert__badge, .login__register__form .st, .login__register__form input,
-.login__register__form textarea {
+.login__register__form textarea, .member-name {
   font-family: "adelle", serif;
 }
 
@@ -323,13 +323,13 @@ body {
 
 @media all and (min-width: 720px) {
   /* line 15, ../sass/_layout.scss */
-  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list {
+  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
     margin: 0 0 0 -4em;
   }
 }
 @media all and (max-width: 721px) {
   /* line 15, ../sass/_layout.scss */
-  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list {
+  .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
     margin: 0;
   }
 }
@@ -411,79 +411,83 @@ body {
 .relevant__content .content-list {
   max-width: 870px;
 }
+/* line 91, ../sass/_layout.scss */
+.relevant__content .content-list.full {
+  max-width: 100%;
+}
 
-/* line 95, ../sass/_layout.scss */
+/* line 98, ../sass/_layout.scss */
 .wSideBar .sidebar__col {
   margin-bottom: 2em;
 }
-/* line 98, ../sass/_layout.scss */
+/* line 101, ../sass/_layout.scss */
 .wSideBar .main__col {
   margin-bottom: 4em;
   padding-bottom: 4em;
   border-bottom: 5px solid #F2F2F2;
 }
-/* line 102, ../sass/_layout.scss */
+/* line 105, ../sass/_layout.scss */
 .wSideBar .main__col:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
 }
-/* line 108, ../sass/_layout.scss */
+/* line 111, ../sass/_layout.scss */
 .wSideBar .sidebar__block {
   margin-bottom: 4em;
   padding-bottom: 4em;
   border-bottom: 5px solid #F2F2F2;
 }
-/* line 112, ../sass/_layout.scss */
+/* line 115, ../sass/_layout.scss */
 .wSideBar .sidebar__block:last-child {
   border-bottom: 0;
   margin: 0;
   padding: 0;
 }
 @media all and (min-width: 1180px) {
-  /* line 119, ../sass/_layout.scss */
+  /* line 122, ../sass/_layout.scss */
   .wSideBar .main__col {
     float: left;
     margin-bottom: 0;
   }
-  /* line 123, ../sass/_layout.scss */
+  /* line 126, ../sass/_layout.scss */
   .wSideBar .main__col {
     width: 77%;
     padding-bottom: 0;
     border-bottom: 0;
   }
-  /* line 128, ../sass/_layout.scss */
+  /* line 131, ../sass/_layout.scss */
   .wSideBar .sidebar__col {
     width: 23%;
     margin-bottom: 0;
   }
-  /* line 132, ../sass/_layout.scss */
+  /* line 135, ../sass/_layout.scss */
   .wSideBar .sidebar__col_left {
     float: left;
   }
-  /* line 135, ../sass/_layout.scss */
+  /* line 138, ../sass/_layout.scss */
   .wSideBar .sidebar__col_right {
     float: right;
   }
-  /* line 138, ../sass/_layout.scss */
+  /* line 141, ../sass/_layout.scss */
   .wSideBar.wSideBar__left .main__col {
     padding-left: 6em;
   }
-  /* line 141, ../sass/_layout.scss */
+  /* line 144, ../sass/_layout.scss */
   .wSideBar.wSideBar__right .main__col {
     padding-right: 6em;
   }
-  /* line 144, ../sass/_layout.scss */
+  /* line 147, ../sass/_layout.scss */
   .wSideBar .sidebar__block {
     border-bottom: 1px solid #D2D2D2;
   }
-  /* line 146, ../sass/_layout.scss */
+  /* line 149, ../sass/_layout.scss */
   .wSideBar .sidebar__block:last-child {
     border-bottom: 0;
   }
 }
 
-/* line 153, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 .profile__content .main__col {
   float: none;
   padding: 0 !important;
@@ -493,57 +497,57 @@ body {
 }
 
 @media all and (min-width: 920px) {
-  /* line 165, ../sass/_layout.scss */
+  /* line 168, ../sass/_layout.scss */
   .sharq-post__content .sharq-post__content__sidebar,
   .sharq-post__content .sharq-post__content__main {
     float: left;
   }
-  /* line 169, ../sass/_layout.scss */
+  /* line 172, ../sass/_layout.scss */
   .sharq-post__content .sharq-post__content__sidebar {
     width: 18%;
   }
-  /* line 172, ../sass/_layout.scss */
+  /* line 175, ../sass/_layout.scss */
   .sharq-post__content .sharq-post__content__main {
     width: 82%;
     padding-left: 4em;
   }
 }
 
-/* line 180, ../sass/_layout.scss */
+/* line 183, ../sass/_layout.scss */
 .divider_two {
   margin-left: -4em;
 }
-/* line 182, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 .divider_two .col {
   padding-left: 4em;
   width: 50%;
 }
 
-/* line 189, ../sass/_layout.scss */
+/* line 192, ../sass/_layout.scss */
 .author__articles__list,
 .user__attended-events {
   margin-top: 6em;
 }
 
-/* line 194, ../sass/_layout.scss */
+/* line 197, ../sass/_layout.scss */
 .post__article .post-top,
 .post__paper .post-top {
   height: 50%;
   max-height: 400px;
 }
 
-/* line 199, ../sass/_layout.scss */
+/* line 202, ../sass/_layout.scss */
 footer {
   margin-top: -298px;
 }
 @media all and (min-width: 620px) {
-  /* line 199, ../sass/_layout.scss */
+  /* line 202, ../sass/_layout.scss */
   footer {
     margin-top: -271px;
   }
 }
 @media all and (min-width: 1180px) {
-  /* line 199, ../sass/_layout.scss */
+  /* line 202, ../sass/_layout.scss */
   footer {
     margin-top: -331px;
   }
@@ -6777,4 +6781,47 @@ a:hover, a.active {
     width: 100%;
     float: none;
   }
+}
+
+/* line 1654, ../sass/screen.scss */
+.member-avatar {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  margin: 0 auto 10px;
+  border: 3px solid #d2d2d2;
+}
+
+/* line 1664, ../sass/screen.scss */
+.alsharq-team__list .content-list__item {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 4em;
+}
+@media all and (min-width: 720px) {
+  /* line 1664, ../sass/screen.scss */
+  .alsharq-team__list .content-list__item {
+    padding-bottom: 3em;
+    width: 25%;
+    float: left;
+    padding: 0 0 4em 4em;
+  }
+}
+/* line 1670, ../sass/screen.scss */
+.alsharq-team__list .item-link {
+  padding: 2em;
+  box-shadow: 0px 3px 5px -5px #000;
+}
+
+/* line 1675, ../sass/screen.scss */
+.member-name {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* line 1680, ../sass/screen.scss */
+.member-title {
+  text-align: center;
+  font-size: 1.4em;
+  color: #404040;
 }
