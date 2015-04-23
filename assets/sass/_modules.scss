@@ -204,31 +204,6 @@
 			color: rgba(255, 255, 255, 0.8);
 		}
 	}
-	.post__tags {
-		margin-top: 2em;
-		.label {
-			border-bottom: 1px solid #222;
-			padding: 0 5px 2px 0;
-			font-size: 1.4em;
-			display: inline-block;
-			font-weight: 700;
-		}
-		ul {
-			display: inline-block;
-			> li {
-				font-size: 1.4em;
-				display: inline-block;
-			}
-		}
-	}
-
-	.box-wrapper {
-		position: relative;
-	}
-	.section__description {
-		font-size: 1.4em;
-		color: #666;
-	}
 // 	End Of Common Styles/Placeholders/mixins ----------------
 
 
@@ -965,9 +940,10 @@
 		clear: both;
 		color: #999;
 		.publish-date {
-			text-transform: uppercase;
+			font-size: 12px;
+			font-family: helvetica, arial;
 			line-height: 1em;
-			color: #000;
+			color: #666;
 			display: inline-block;
 			// margin-right: 10px;
 		}
@@ -977,9 +953,8 @@
 			max-height: 40px;
 		}
 		.author-name {
-		  	border-bottom: 1px dotted #000;
 			display: inline-block;
-			color: #525252;
+			color: $burgundy;
 			&:hover {
 				color: #000;
 			}
@@ -1195,9 +1170,11 @@
 // expert card
 #expert-card {
 	.expert-name {
+		display: block;
 		font-size: 2em;
 		font-weight: 700;
 		line-height: 1em;
+		margin-bottom: 10px;
 	}
 	p {
 	  	font-size: 1.5em;

@@ -50,8 +50,13 @@ body {
 .page-wrapper {
 	min-height: 100%;
 	display: block;
-	padding-bottom: 8.4em;
-	
+	padding-bottom: 298px;
+	@include respond($bp__phab_mid) {
+		padding-bottom: 271px;
+	}
+	@include respond($bp__max) {
+		padding-bottom: 331px;
+	}
 }
 .page-wrapper__inner {
 	padding-top: 4em;
@@ -72,6 +77,17 @@ body {
 	margin-bottom: 6em;
 	&:last-child {
 		margin-bottom: 0;
+	}
+}
+.relevant__content {
+	@extend %centered-row;
+	.block-title {
+		border-top: 5px solid #F2F2F2;
+		margin-top: 40px;
+		padding-top: 40px;
+	}
+	.content-list {
+		max-width: $main-content__max_width;
 	}
 }
 // Page Layout with Sidebar
@@ -183,7 +199,13 @@ body {
 }
 footer {
 	@extend %clearfix;
-	margin-top: -83px;
+	margin-top: -298px;
+	@include respond($bp__phab_mid) {
+		margin-top: -271px;
+	}
+	@include respond($bp__max) {
+		margin-top: -331px;
+	}
 }
 
 
