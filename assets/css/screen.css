@@ -35,7 +35,7 @@
 }
 
 /* line 38, ../sass/_util.scss */
-.nav ul li, .content-list li, .comments-list li, .module__notifications-center ul li, .admin-bar__list li, .pager li, .admin-form .module .module-list li, .content-list__events li, .event__people_list li, .related-media__list li, .experts-list li, .user__profile__settings ul li, .multimedia-list li, .album-list li, .volunteer__list li {
+.nav ul li, .content-list li, .comments-list li, .module__notifications-center ul li, .admin-bar__list li, .pager li, .admin-form .module .module-list li, .content-list__events li, .event__people_list li, .related-media__list li, .experts-list li, .user__profile__settings ul li, .multimedia-list li, .album-list li, .volunteer__list li, .contactUs-card li {
   list-style: none;
 }
 
@@ -6824,4 +6824,28 @@ a:hover, a.active {
   text-align: center;
   font-size: 1.4em;
   color: #404040;
+}
+
+/* line 1687, ../sass/screen.scss */
+.contactUs-card {
+  font-size: 1.6em;
+}
+/* line 1690, ../sass/screen.scss */
+.contactUs-card li {
+  margin-bottom: 20px;
+}
+/* line 1693, ../sass/screen.scss */
+.contactUs-card .contact-label {
+  font-weight: 700;
+}
+
+/* line 1700, ../sass/screen.scss */
+.contact-section {
+  margin-top: 6em;
+}
+
+/* line 1704, ../sass/screen.scss */
+#contact-form label {
+  margin-bottom: 10px;
+  display: block;
 }

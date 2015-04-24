@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Events</title>
+        <title>Contact Us</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
@@ -18,7 +18,7 @@
         <link rel="stylesheet" media="screen, projection" href="../assets/css/awesome/font-awesome.css">
         <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class="logged-in">
+    <body>
         <div class="site-container">
             <div class="page-wrapper">
                 <header class="main-header">
@@ -141,7 +141,7 @@
                                 </div>
                             </nav>
                             <nav class="nav nav__main">
-                                <span id="triggerMobileMenu" ><i class="fa fa-bars"></i></span>
+                                <span id="triggerMobileMenu"><i class="fa fa-bars"></i></span>
                                 <ul>
                                     <li class="nav__main__item active"><a href="index.html">Home</a></li>
                                     <li class="nav__main__item parentNavItem">
@@ -188,230 +188,63 @@
                         </div>
                     </div>
                 </header>
-                <div class="system-message success">
-                    <div class="system-message__inner">
-                        <p>You're event was created successfully. Users will be notified.</p>
-                    </div>
-                </div>
-                <main class="page-wrapper__inner">
+                <main class="page-wrapper__inner wSideBar wSideBar__right">
                     <div class="centered-wrapper">
-                        <section class="featured-posts featured-posts__events">
-                            <ul class="featured-posts__list">
-                                <li class="featured-posts__item">
-                                    <article class="featured-post featured-post__event">
-                                        <div class="featured__full-bg-wrapper">
-                                            <div class="featured__full-bg" style="background-image:url(../assets/images/event-image.jpg);"></div>
+                        <section>
+                            <div  class="main__col">
+                                <header>
+                                    <h1 class="section-title">Contact Us</h1>
+                                </header>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923217.428699946!2d51.19665775!3d25.32710535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sen!2s!4v1429913469687" width="100%" height="450px" frameborder="0" style="border:0"></iframe>
+                                <section class="contact-section">
+                                    <header>
+                                        <h2 class="block-title">Send Us</h2>
+                                    </header>
+                                    <form id="contact-form">
+                                        <div class="form-group form-group__subtle">
+                                            <label>Name</label>
+                                            <input class="form__field" type="text">
                                         </div>
-                                        <div class="featured__content-wrapper">
-                                            <div class="featured__content">
-                                                <div class="featured__content__inner">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state">Current Event</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                    <a href="event-loggedin.html" class="jumbo-more">Register</a>
-                                                </div>
-                                            </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label>Email</label>
+                                            <input class="form__field" type="email">
                                         </div>
-                                    </article>
-                                </li>
-                            </ul>
-                            <span class="banner-arrow" data-target="events"></span>
-                        </section>
-                        <section id="events" class="events sub-section__without-margin sub-section fill">
-                            <div class="full-col">
-                                <ul class="events__list">
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state">Upcoming /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state">Upcoming /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-passed-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state passed">Passed /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-passed-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state passed">Passed /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-passed-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state passed">Passed /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <li class="events__item">
-                                        <article>
-                                            <div class="events__item__inner">
-                                                <a href="event-passed-loggedin.html">
-                                                    <div class="events__item__details">
-                                                        <span class="events__item__date">
-                                                            <span class="events__item__state passed">Passed /</span>
-                                                            <time datetime="2014-06-31">Jun 31</time> &ndash; <time datetime="2014-07-02">Jul 2</time>
-                                                        </span>
-                                                        <span class="events__item__location">
-                                                            <span>Amman, Jordan</span>
-                                                        </span>
-                                                    </div>
-                                                    <header class="events__item__header">
-                                                        <h3 class="events__item__title title">Change forum held a roundtable entitled Beyond Spring.</h3>
-                                                        <h4 class="events__item__sub-title sub-title">An exchange of views about the challenges the Arab and the Ibero-American</h4>
-                                                    </header>
-                                                </a>
-                                            </div>
-                                        </article>
-                                    </li>
-                                </ul>
-
-                                <div class="action-wrapper">
-                                    <a href="#" class="loadMore">Loard More</a>
-                                </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label>Subject</label>
+                                            <input class="form__field" type="text">
+                                        </div>
+                                        <div class="form-group form-group__subtle">
+                                            <label>Message</label>
+                                            <textarea rows="10"></textarea>
+                                        </div>
+                                        <input type="submit" value="Send" class="submit-btn btn btn__small form__el__centered">
+                                    </form>
+                                </section>
+                            </div>
+                            <div class="sidebar__col sidebar__col_right">
+                                <section class="sidebar__content sidebar__block">
+                                    <header>
+                                        <h2 class="block-title">Contact Info.</h2>
+                                    </header>
+                                    <ul class="contactUs-card">
+                                        <li>
+                                            <div class="contact-label">Address</div>
+                                            <div class="contact-value">Qatar, Doha, 1839 020</div>
+                                        </li>
+                                        <li>
+                                            <div class="contact-label">Telephone</div>
+                                            <div class="contact-value">+961 8292 8282 11</div>
+                                        </li>
+                                        <li>
+                                            <div class="contact-label">Email</div>
+                                            <div class="contact-value"><a href="mailto:info@sharqforum.com">info@sharqforum.com</a></div>
+                                        </li>
+                                    </ul>
+                                </section>
                             </div>
                         </section>
                     </div>
                 </main>
-                <div id="messages-modal" class="modal">
-                    <div class="modal__module">
-                        <div class="module__messages">
-                            <div class="messages-modal__header">
-                                <span class="modal__title">Direct Messages</span> with <span class="messages-user-name">Omar</span>
-                                <span id="closeMessages"><i class="fa fa-times"></i></span>
-                            </div>
-                            <div class="messages-modal__inside">
-                                <div class="messages-modal__conversations">
-                                    <div class="message message-recieved">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Omar</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                    <div class="message message-sent">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Me</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                    <div class="message message-recieved">
-                                        <div class="message__left">
-                                            <span class="avatar"><img src="../assets/images/avatar-tiny.png"></span>
-                                        </div>
-                                        <div class="message__right">
-                                            <span class="username">Omar</span>
-                                            <p class="msg">Hey there, how is it going?</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="messages-modal__form">
-                                    <form action="">
-                                        <textarea name="" id="" cols="30" rows="3" placeholder="Write your message here..."></textarea>
-                                        <button type="submit" class="btn"><i class="fa fa-paper-plane icon"></i> Send</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <footer class="main-footer fill">
                 <div class="centered-wrapper">

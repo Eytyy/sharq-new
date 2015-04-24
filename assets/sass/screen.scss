@@ -1682,3 +1682,27 @@ a {
 	font-size: 1.4em;
 	color: #404040;
 }
+
+// contact
+.contactUs-card {
+	@extend %stripListStyles;
+	font-size: 1.6em;
+	li {
+		margin-bottom: 20px;
+	}
+	.contact-label {
+		font-weight: 700;
+	}
+	.contact-value {
+
+	}
+}
+.contact-section {
+	margin-top: 6em;
+}
+#contact-form {
+	label {
+		margin-bottom: 10px;
+		display: block;
+	}
+}
