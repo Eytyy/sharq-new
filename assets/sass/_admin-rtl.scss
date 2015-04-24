@@ -135,7 +135,8 @@
 	}
 	#newMsg {
 		font-size: 1.4em;
-		right: 0;
+		left: 0;
+		right: auto;
 		font-weight: 700;
 	}
 	.conversations {
@@ -153,14 +154,17 @@
 			@extend %pullLeft;
 		}
 		.message__left {
-			padding-right: 10px;
+			padding-left: 10px;
+			padding-right: 0;
+
 		}
 		.message__right  {
-			padding-left: 60px;
+			padding-left: 0;
+			padding-right: 60px;
 			.message__inner {
 				&:before {
-					@include triangleIcon($direction:"right", $fillColor: "#EEE");
-					left: -11px;
+					@include triangleIcon($direction:"left", $fillColor: "#EEE");
+					right: -11px;
 				}
 			}
 				
@@ -175,26 +179,27 @@
 			@extend %pullRight; 
 		}
 		.message__right {
-			padding-left: 0;
-			padding-right: 6em;
+			padding-left: 6em;
+			padding-right: 0;
 			.message__inner {
 				&:before {
-					border-left: 6px solid #bbb;
-					border-right: 6px solid transparent;
-					left: auto;
-					right: -11px;
+					border-right: 6px solid #bbb;
+					border-left: 6px solid transparent;
+					left: -11px;
+					right: auto;
 				}
 			}
 		}
 		.message__left {
-			right: 0;
-			padding-right: 0;
-			padding-left: 10px;
+			left: 0;
+			right: auto;
+			padding-right: 10px;
+			padding-left: 0;
 		}
 		.msg-date {
 			text-align: right;
-			margin-left: 0;
-			margin-right: 60px;
+			margin-left: 60px;
+			margin-right: 0;
 		}
 	}
 	.message-form {

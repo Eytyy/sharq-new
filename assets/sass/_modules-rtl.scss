@@ -220,6 +220,15 @@
 			}
 		}
 	}
+	.dropdown__inner-link {
+		.fa-angle-right {
+			margin-right: 5px;
+			margin-left: 0;
+			&:before {
+				content: "";
+			}
+		}
+	}
 // 	End Of WEBSITE HEADER -----------------------------------
 
 /*----------------------------------------------------------*\
