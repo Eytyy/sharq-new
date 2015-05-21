@@ -41,8 +41,7 @@
 		font-weight: 700;
 		&:hover {
 			color: #FFF;
-			background: $burgundy;
-			background: rgba(227, 59, 77, 0.7);
+			background: #E33B4D;
 		}
 		@media all and (max-width: 440px) {
 			font-size: 1.2em;
@@ -1203,7 +1202,7 @@
 \*-----------------------------------------------------------*/
 	.main-footer {
 		border-top: 5px solid #D2D2D2;
-		background: #7D002E;
+		background: $burgundy;
 		padding-top: 2em;
 		padding-bottom: 4em
 	}
