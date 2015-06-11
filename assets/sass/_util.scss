@@ -21,7 +21,8 @@ $sprites-spacing: 10px;
    		@include sprites-sprite(#{$image-name});
 	}
 }
-$burgundy : #d32028;
+/* $burgundy : #d32028; */
+$burgundy : #E33B4D;
 %clearfix {
 	*zoom :1;
 	&:before,

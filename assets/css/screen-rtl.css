@@ -16,26 +16,27 @@
   background-repeat: no-repeat;
 }
 
-/* line 25, ../sass/_util.scss */
+/* $burgundy : #d32028; */
+/* line 26, ../sass/_util.scss */
 .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list {
   *zoom: 1;
 }
-/* line 27, ../sass/_util.scss */
+/* line 28, ../sass/_util.scss */
 .admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .alsharq-team__list:before, .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after {
   content: " ";
   display: table;
 }
-/* line 32, ../sass/_util.scss */
+/* line 33, ../sass/_util.scss */
 .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after {
   clear: both;
 }
 
-/* line 38, ../sass/_util.scss */
+/* line 39, ../sass/_util.scss */
 .nav ul li {
   list-style: none;
 }
 
-/* line 49, ../sass/_util.scss */
+/* line 50, ../sass/_util.scss */
 .admin-nav__dropdown .msg__item_right:before, .conversations .message__right .message__inner:before {
   content: "";
   display: inline-block;
@@ -1285,7 +1286,7 @@ em {
 
 /* line 131, ../sass/_admin-rtl.scss */
 a.message:hover .message__inner:before {
-  border-right-color: #d32028;
+  border-right-color: #E33B4D;
 }
 
 /* line 136, ../sass/_admin-rtl.scss */

@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
 }
 
-/* line 25, ../sass/_util.scss */
+/* $burgundy : #d32028; */
+/* line 26, ../sass/_util.scss */
 .admin-form .module-speakers, .home-list.content-list, .event__people_list, .multimedia-list, .alsharq-team__list, .centered-wrapper, .sharq-post__content, footer, .main-header, .main-header .main-header__top, .nav__main, .nav__main__dropdown ul, .item-link, .content-list article, .sidebar__content-list, .comments-module__header, .comments-list, .footer__top, .user-notifications .dropdown .dropdown__header,
 .user-messages .dropdown .dropdown__header, .admin-nav__dropdown .msg__item > a, .message, .conversations, .conversations .message > a, .form-group, .combo, .content-form-header, .admin-content-form-item, .media-content-list .media-group,
 .users-content-list .user-group, .admin-form .form-main-btn-wrapper, .events__item__shortcuts-links, #event__moderator, .expert__item article, .user__profile_header, .album-list, .gallery__header, .initiatives-list__item,
@@ -12,7 +13,7 @@
 .discussion .post-top, .login__register__form__wrapper, #account-form {
   *zoom: 1;
 }
-/* line 27, ../sass/_util.scss */
+/* line 28, ../sass/_util.scss */
 .admin-form .module-speakers:before, .home-list.content-list:before, .event__people_list:before, .multimedia-list:before, .alsharq-team__list:before, .centered-wrapper:before, .sharq-post__content:before, footer:before, .main-header:before, .main-header .main-header__top:before, .nav__main:before, .nav__main__dropdown ul:before, .item-link:before, .content-list article:before, .sidebar__content-list:before, .comments-module__header:before, .comments-list:before, .footer__top:before, .user-notifications .dropdown .dropdown__header:before,
 .user-messages .dropdown .dropdown__header:before, .admin-nav__dropdown .msg__item > a:before, .message:before, .conversations:before, .conversations .message > a:before, .form-group:before, .combo:before, .content-form-header:before, .admin-content-form-item:before, .media-content-list .media-group:before,
 .users-content-list .user-group:before, .admin-form .form-main-btn-wrapper:before, .events__item__shortcuts-links:before, #event__moderator:before, .expert__item article:before, .user__profile_header:before, .album-list:before, .gallery__header:before, .initiatives-list__item:before,
@@ -25,7 +26,7 @@
   content: " ";
   display: table;
 }
-/* line 32, ../sass/_util.scss */
+/* line 33, ../sass/_util.scss */
 .admin-form .module-speakers:after, .home-list.content-list:after, .event__people_list:after, .multimedia-list:after, .alsharq-team__list:after, .centered-wrapper:after, .sharq-post__content:after, footer:after, .main-header:after, .main-header .main-header__top:after, .nav__main:after, .nav__main__dropdown ul:after, .item-link:after, .content-list article:after, .sidebar__content-list:after, .comments-module__header:after, .comments-list:after, .footer__top:after, .user-notifications .dropdown .dropdown__header:after,
 .user-messages .dropdown .dropdown__header:after, .admin-nav__dropdown .msg__item > a:after, .message:after, .conversations:after, .conversations .message > a:after, .form-group:after, .combo:after, .content-form-header:after, .admin-content-form-item:after, .media-content-list .media-group:after,
 .users-content-list .user-group:after, .admin-form .form-main-btn-wrapper:after, .events__item__shortcuts-links:after, #event__moderator:after, .expert__item article:after, .user__profile_header:after, .album-list:after, .gallery__header:after, .initiatives-list__item:after,
@@ -34,12 +35,12 @@
   clear: both;
 }
 
-/* line 38, ../sass/_util.scss */
+/* line 39, ../sass/_util.scss */
 .nav ul li, .content-list li, .comments-list li, .module__notifications-center ul li, .admin-bar__list li, .pager li, .admin-form .module .module-list li, .content-list__events li, .event__people_list li, .related-media__list li, .experts-list li, .user__profile__settings ul li, .multimedia-list li, .album-list li, .volunteer__list li, .contactUs-card li {
   list-style: none;
 }
 
-/* line 43, ../sass/_util.scss */
+/* line 44, ../sass/_util.scss */
 .nav__main__item {
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -47,7 +48,7 @@
   transition: all 0.1s linear;
 }
 
-/* line 46, ../sass/_util.scss */
+/* line 47, ../sass/_util.scss */
 .notifications-center__content-list .notification__message .notification__message__left img, .user-avatar, .admin-nav__dropdown .msg__item .avatar img, .conversations .message .avatar img, .user__profile_avatar, .initiative .author-avatar,
 .discussion .author-avatar,
 .initiatives-list__item .author-avatar,
@@ -57,7 +58,7 @@
   border-radius: 100%;
 }
 
-/* line 49, ../sass/_util.scss */
+/* line 50, ../sass/_util.scss */
 .admin-nav__dropdown .msg__item_right:before, .conversations .message__right .message__inner:before {
   content: "";
   display: inline-block;
@@ -591,7 +592,7 @@ footer {
 /* ----- buttons & links----- */
 /* line 30, ../sass/_modules.scss */
 .btn {
-  background: #d32028;
+  background: #E33B4D;
   border: 0;
   padding: 10px 20px;
   font-size: 1.4em;
@@ -890,7 +891,7 @@ footer {
   font-size: 3em;
   line-height: 1em;
   cursor: pointer;
-  color: #d32028;
+  color: #E33B4D;
   float: left;
   position: relative;
 }
@@ -907,7 +908,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  background: #d32028;
+  background: #E33B4D;
   padding: 10px 0 10px;
   display: none;
   margin-top: 42px;
@@ -1028,7 +1029,7 @@ footer {
   right: 0;
   margin-top: 0;
   z-index: 2;
-  background: #d32028;
+  background: #E33B4D;
 }
 /* line 395, ../sass/_modules.scss */
 .nav__main__dropdown ul {
@@ -1327,7 +1328,7 @@ footer {
 }
 /* line 634, ../sass/_modules.scss */
 .share-links a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /*----------------------------------------------------------*\
@@ -1343,7 +1344,7 @@ footer {
 }
 /* line 652, ../sass/_modules.scss */
 .item-link:hover .title {
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /* line 657, ../sass/_modules.scss */
@@ -1605,7 +1606,7 @@ footer {
 }
 /* line 858, ../sass/_modules.scss */
 .sidebar__content-list__item h3:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /*-----------------------------------------------------------*\
@@ -1726,7 +1727,7 @@ footer {
 /* line 954, ../sass/_modules.scss */
 .postMeta .author-name {
   display: inline-block;
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 957, ../sass/_modules.scss */
 .postMeta .author-name:hover {
@@ -1854,7 +1855,7 @@ footer {
 }
 /* line 1069, ../sass/_modules.scss */
 .comments-anonymous a {
-  color: #d32028;
+  color: #E33B4D;
   margin-right: 5px;
 }
 /* line 1072, ../sass/_modules.scss */
@@ -1899,7 +1900,7 @@ footer {
 /* line 1105, ../sass/_modules.scss */
 .comment-user a {
   font-weight: 700;
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /* line 1110, ../sass/_modules.scss */
@@ -1943,7 +1944,7 @@ footer {
 }
 /* line 1145, ../sass/_modules.scss */
 #tags a:hover {
-  background: #d32028;
+  background: #E33B4D;
   color: #FFF;
 }
 /* line 1151, ../sass/_modules.scss */
@@ -2007,7 +2008,7 @@ footer {
 /* line 1203, ../sass/_modules.scss */
 .main-footer {
   border-top: 5px solid #D2D2D2;
-  background: #d32028;
+  background: #E33B4D;
   padding-top: 2em;
   padding-bottom: 4em;
 }
@@ -2237,11 +2238,11 @@ footer {
 }
 /* line 1388, ../sass/_modules.scss */
 .notifications-center__content-list > li a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 1390, ../sass/_modules.scss */
 .notifications-center__content-list > li a:hover:after {
-  color: #d32028;
+  color: #E33B4D;
   display: inline;
 }
 /* line 1395, ../sass/_modules.scss */
@@ -2453,7 +2454,7 @@ body .fc {
 /* line 1581, ../sass/_modules.scss */
 .fc-state-default {
   font-weight: 700;
-  background-color: #d32028;
+  background-color: #E33B4D;
   color: #FFF;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
@@ -2764,7 +2765,7 @@ temporary rendered events).
   font-size: 1em;
   line-height: 1.3;
   border-radius: 3px;
-  background-color: #d32028;
+  background-color: #E33B4D;
   /* default BACKGROUND color */
   font-weight: normal;
   /* undo jqui's ui-widget-header bold */
@@ -3375,7 +3376,7 @@ be a descendant of the grid when it is being dragged.
   padding: 1px;
   font-size: 12px;
   font-weight: 700;
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /* line 16, ../sass/_admin.scss */
@@ -3542,7 +3543,7 @@ be a descendant of the grid when it is being dragged.
 /* line 144, ../sass/_admin.scss */
 .user-notifications .dropdown a:hover,
 .user-messages .dropdown a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 147, ../sass/_admin.scss */
 .user-notifications .dropdown .dropdown__top,
@@ -3733,12 +3734,12 @@ be a descendant of the grid when it is being dragged.
 
 /* line 302, ../sass/_admin.scss */
 a.message:hover .message__inner {
-  background: #d32028;
+  background: #E33B4D;
   color: #FFF;
 }
 /* line 305, ../sass/_admin.scss */
 a.message:hover .message__inner:before {
-  border-right-color: #d32028;
+  border-right-color: #E33B4D;
 }
 
 /* line 310, ../sass/_admin.scss */
@@ -3979,7 +3980,7 @@ input.btn {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #d32028;
+  background-color: #E33B4D;
   color: #FFF;
   cursor: pointer;
   font-weight: 400;
@@ -4247,7 +4248,7 @@ input.btn.btn__small {
 }
 /* line 733, ../sass/_admin.scss */
 .pager li a.active {
-  color: #d32028;
+  color: #E33B4D;
   text-decoration: underline;
 }
 
@@ -4383,7 +4384,7 @@ input.btn.btn__small {
 }
 /* line 858, ../sass/_admin.scss */
 .admin-content-form-item .content-title a {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 862, ../sass/_admin.scss */
 .admin-content-form-item .content-group__left-col > div {
@@ -4573,7 +4574,7 @@ input.btn.btn__small {
 /* line 1032, ../sass/_admin.scss */
 #deleteAcc {
   font-size: 1.4em;
-  color: #d32028;
+  color: #E33B4D;
   display: inline-block;
   margin-top: 20px;
   text-decoration: underline;
@@ -4844,7 +4845,7 @@ a:hover, a.active {
 }
 /* line 66, ../sass/screen.scss */
 .home-slider .slider__section-tag {
-  background: #d32028;
+  background: #E33B4D;
   color: #FFF;
   padding: 0 15px 3px;
   margin-bottom: 20px;
@@ -4885,7 +4886,7 @@ a:hover, a.active {
 /* line 94, ../sass/screen.scss */
 .hp-content .section-link {
   font-size: 1.4em;
-  color: #d32028;
+  color: #E33B4D;
   line-height: 1.3em;
   margin-left: 10px;
 }
@@ -5057,7 +5058,7 @@ a:hover, a.active {
   margin-bottom: 1em;
   width: 100px;
   border-bottom: 0;
-  background: #d32028;
+  background: #E33B4D;
   color: #FFF;
   font-weight: 700;
   text-align: center;
@@ -5235,7 +5236,7 @@ a:hover, a.active {
 }
 /* line 382, ../sass/screen.scss */
 .nested-event .event__date {
-  color: #d32028;
+  color: #E33B4D;
   font-size: 2.2em;
 }
 @media all and (min-width: 920px) {
@@ -5247,7 +5248,7 @@ a:hover, a.active {
 
 /* line 390, ../sass/screen.scss */
 .event__state {
-  color: #d32028;
+  color: #E33B4D;
   font-size: 1.2em;
 }
 
@@ -5304,7 +5305,7 @@ a:hover, a.active {
 }
 /* line 432, ../sass/screen.scss */
 .event__person_name a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /* line 437, ../sass/screen.scss */
@@ -5373,7 +5374,7 @@ a:hover, a.active {
   left: -1px;
   padding: 5px 21px 5px 21px;
   background: #F0F0F0;
-  color: #d32028;
+  color: #E33B4D;
 }
 
 /* line 484, ../sass/screen.scss */
@@ -5408,11 +5409,11 @@ a:hover, a.active {
 /* line 506, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:after {
   font-size: 1.2em;
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 511, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 513, ../sass/screen.scss */
 .related-media__list li.related__media__list__link a:hover:after {
@@ -5620,7 +5621,7 @@ a:hover, a.active {
 }
 /* line 690, ../sass/screen.scss */
 #slider .postMeta a:hover {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 695, ../sass/screen.scss */
 #slider .event__location,
@@ -5762,7 +5763,7 @@ a:hover, a.active {
 }
 /* line 804, ../sass/screen.scss */
 .expert__item .item-link:hover .expert__item_name {
-  color: #d32028;
+  color: #E33B4D;
 }
 /* line 809, ../sass/screen.scss */
 .expert__item:first-child .expert__item_avatar {
@@ -5884,7 +5885,7 @@ a:hover, a.active {
   display: block;
   width: 150px;
   margin: 15px auto 10px;
-  background: #d32028;
+  background: #E33B4D;
   border: 1px solid #e8e8e8;
 }
 
@@ -6317,7 +6318,7 @@ a:hover, a.active {
 }
 /* line 1260, ../sass/screen.scss */
 .content-by-tags-list .section-tag {
-  background: #7D002E;
+  background: #E33B4D;
   color: #FFF;
   padding: 0 15px 5px;
   margin-bottom: 20px;

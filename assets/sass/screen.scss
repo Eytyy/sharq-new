@@ -120,7 +120,7 @@ a {
 				margin-bottom: 2em;
 			}
 		}
-			
+
 	}
 	.home-list.content-list {
 		@extend %grid-wrapper;
@@ -573,7 +573,7 @@ a {
 				li {
 					margin: 0;
 					a {
-						padding: 10px 15px 10px;  
+						padding: 10px 15px 10px;
 						border-bottom: 1px solid #EEE;
 						line-height: 1.25em;
 						font-size: 13px;
@@ -640,9 +640,9 @@ a {
 			}
 		}
 	}
-	.sub_nav {		
+	.sub_nav {
 		ul {
-			
+
 		}
 		li {
 			font-size: 1.4em;
@@ -991,7 +991,7 @@ a {
 				display: block;
 			}
 		}
-	}	
+	}
 	.userMsg__btn {
 		width: 100px;
 		font-size: 1.2em;
@@ -1258,7 +1258,7 @@ a {
 		background-color: rgba(0, 0, 0, 0.3);
 	}
 	.section-tag {
-		background: #7D002E;
+		background: $burgundy;
 		color: #FFF;
 		padding: 0 15px 5px;
 		margin-bottom: 20px;
@@ -1503,7 +1503,7 @@ a {
 				left: 15px;
 				background: #d2d2d2;
 			}
-		}		
+		}
 		@media all and (max-width: 721px) {
 			margin-left: 0;
 			.floated {
@@ -1536,7 +1536,7 @@ a {
 			float: right;
 		}
 	}
-		
+
 	.form-separator {
 		margin: 4em 0;
 		border: 1px solid #d2d2d2;
@@ -1622,9 +1622,9 @@ a {
 		}
 		input {
 			&[type=email], &[type=password] { border: 1px solid #eee; }
-			
+
 			&[type=email] { border-bottom: none; }
-			
+
 			&[type=password] { border: 1px solid #eee; }
 		}
 		@media all and (max-width: 721px) {
