@@ -1030,13 +1030,18 @@ a {
 		&:after {
 			display: block;
 			content: "";
-			background: rgba(0,0,0, 0.2);
+			background-color: rgba(0,0,0, 0.2);
 			position: absolute;
 			left: 0;
 			right: 0em;
 			top: 0;
 			bottom: 4em;
-
+		}
+		&:hover {
+			&:after {
+				background-color: rgba(0,0,0, 0.7);
+				transition: background 0.2s linear;
+			}
 		}
 		&:first-child {
 			padding-top: 60%;
@@ -1171,6 +1176,9 @@ a {
 		}
 	}
 	// gallery
+	#gallery {
+		min-height: 300px;
+	}
 	.gallery__header {
 		padding: 3em 0 0;
 		@extend %clearfix;
@@ -1217,11 +1225,19 @@ a {
 		position: relative;
 		display: table;
 		margin: 0 auto;
-		max-width: 100%;
+		width: 100%;
+		max-width: 1200px;
+		padding: 0 50px;
 	}
 	.gallery__inner {
 		display: table-cell;
 		vertical-align: middle;
+	}
+	.gallery__image__wrapper {
+		background-color: #000;
+		img {
+	    margin: 0 auto;
+		}
 	}
 // End Of Multimedia Index ---------------
 

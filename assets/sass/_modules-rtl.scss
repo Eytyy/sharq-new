@@ -75,11 +75,11 @@
 		left: auto;
 		right: auto;
 		&.modal__nav__next {
-			right: -40px;
+			right: 15px;
 			@include rotate(-45deg);
 		}
 		&.modal__nav__prev {
-			left: -40px;
+			left: 15px;
 			@include rotate(135deg);
 		}
 	}
@@ -155,7 +155,7 @@
 			font-weight: 700;
 		}
 	}
-	
+
 	/* ----- website global navigation ----- */
 	.global__nav {
 		@extend %pullRight;
@@ -434,7 +434,7 @@
 				right: -15px;
 			}
 		}
-			
+
 	}
 	/* ----- posts meta data i.e: author, date...etc. ----- */
 	.postMeta {

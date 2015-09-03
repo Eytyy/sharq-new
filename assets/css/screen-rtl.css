@@ -353,7 +353,7 @@ em {
 }
 /* line 77, ../sass/_modules-rtl.scss */
 .modal__nav__item.modal__nav__next {
-  right: -40px;
+  right: 15px;
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -361,7 +361,7 @@ em {
 }
 /* line 81, ../sass/_modules-rtl.scss */
 .modal__nav__item.modal__nav__prev {
-  left: -40px;
+  left: 15px;
   -moz-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
