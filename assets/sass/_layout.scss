@@ -31,6 +31,16 @@ body {
 	}
 }
 
+@mixin CreateInlineGridCol($colSize) {
+	@include respond($bp__tab_mid) {
+		padding-bottom: 3em;
+		width: #{$colSize};
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 0 4em 4em;
+	}
+}
+
 .component-inner{
 	@extend %centered-row;
 	position: relative;
@@ -119,7 +129,7 @@ body {
 		}
 	}
 	@include respond($bp__max) {
-		.main__col { 
+		.main__col {
 			float: left;
 			margin-bottom: 0;
 		}
@@ -209,6 +219,3 @@ footer {
 		margin-top: -331px;
 	}
 }
-
-
-

@@ -49,7 +49,12 @@
 	.home-list.content-list {
 		@extend %grid-wrapper;
 		.content-list__item {
-			@include CreateGridCol(50%);
+			@include CreateInlineGridCol(50%);
+			@include respond($bp__tab_mid) {
+				&:nth-child(2n) {
+					margin-right: -3px;
+				}
+			}
 		}
 		.postMeta{
 			float: none;
@@ -385,7 +390,7 @@
 		.fa {
 			font-size: 1.2em;
 		}
-	}	
+	}
 	.userMsg__btn {
 		font-size: 1.2em;
 		font-weight: 700;
@@ -590,7 +595,7 @@
 				left: auto;
 				right: 15px;
 			}
-		}		
+		}
 		@media all and (max-width: 721px) {
 			margin-right: 0;
 			.floated {

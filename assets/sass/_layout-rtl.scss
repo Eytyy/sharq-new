@@ -15,10 +15,21 @@
 		padding: 0 0 4em 4em;
 	}
 }
+
+@mixin CreateInlineGridCol($colSize) {
+	@include respond($bp__tab_mid) {
+		padding-bottom: 3em;
+		width: #{$colSize};
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 0 4em 4em;
+	}
+}
+
 // Page Layout with Sidebar
 .wSideBar {
 	@include respond($bp__max) {
-		.main__col { 
+		.main__col {
 			float: right;
 		}
 		.sidebar__col_left {
@@ -41,7 +52,7 @@
 			padding-left: 6em;
 		}
 	}
-		
+
 }
 .profile__content .main__col {
 	float: none;
@@ -68,5 +79,3 @@
 		padding-left: 0;
 	}
 }
-
-

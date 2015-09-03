@@ -128,7 +128,7 @@ a {
 			height: auto;
 		}
 		.content-list__item {
-			@include CreateGridCol(50%);
+			@include CreateInlineGridCol(50%);
 			border-bottom: 0;
 		}
 		.content-list__bottom {
