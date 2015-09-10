@@ -53,6 +53,7 @@
 			@include respond($bp__tab_mid) {
 				&:nth-child(2n) {
 					margin-right: -3px;
+					margin-left: 0;
 				}
 			}
 		}

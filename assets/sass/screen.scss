@@ -129,6 +129,11 @@ a {
 		}
 		.content-list__item {
 			@include CreateInlineGridCol(50%);
+			@include respond($bp__tab_mid) {
+				&:nth-child(2n) {
+					margin-left: -3px;
+				}
+			}
 			border-bottom: 0;
 		}
 		.content-list__bottom {
@@ -1228,6 +1233,7 @@ a {
 		width: 100%;
 		max-width: 1200px;
 		padding: 0 50px;
+		table-layout:fixed
 	}
 	.gallery__inner {
 		display: table-cell;
