@@ -187,10 +187,13 @@ a {
 			padding-left: 9em;
 		}
 		.expert__item {
-			padding: 10px;
-			background: #F8F8F8;
 			margin-bottom: 2em;
 			border-bottom: 0;
+		}
+		.item-link {
+			padding: 10px;
+			background: #F8F8F8;
+			position: relative;
 		}
 		.expert__item_bio {
 			clear: both;
