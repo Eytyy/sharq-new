@@ -1458,203 +1458,206 @@ input.btn {
 \*----------------------------------------*/
 /* line 292, ../sass/_admin-rtl.scss */
 .admin-bar__list > li {
-  margin-right: 25px;
-}
-/* line 294, ../sass/_admin-rtl.scss */
-.admin-bar__list > li:last-child {
+  margin-left: 25px;
   margin-right: 0;
 }
+/* line 295, ../sass/_admin-rtl.scss */
+.admin-bar__list > li:last-child {
+  margin-left: 0;
+}
 @media all and (min-width: 420px) {
-  /* line 299, ../sass/_admin-rtl.scss */
+  /* line 300, ../sass/_admin-rtl.scss */
   .admin-bar__list > li {
-    margin-right: 50px;
-  }
-  /* line 301, ../sass/_admin-rtl.scss */
-  .admin-bar__list > li:last-child {
+    margin-left: 50px;
     margin-right: 0;
+  }
+  /* line 303, ../sass/_admin-rtl.scss */
+  .admin-bar__list > li:last-child {
+    margin-left: 0;
   }
 }
 @media all and (min-width: 920px) {
-  /* line 307, ../sass/_admin-rtl.scss */
-  .admin-bar__list > li {
-    margin-right: 95px;
-  }
   /* line 309, ../sass/_admin-rtl.scss */
-  .admin-bar__list > li:last-child {
+  .admin-bar__list > li {
+    margin-left: 95px;
     margin-right: 0;
+  }
+  /* line 312, ../sass/_admin-rtl.scss */
+  .admin-bar__list > li:last-child {
+    margin-left: 0;
   }
 }
 
-/* line 315, ../sass/_admin-rtl.scss */
+/* line 318, ../sass/_admin-rtl.scss */
 .admin-bar__link {
   font-size: 1.2em;
 }
-/* line 317, ../sass/_admin-rtl.scss */
+/* line 320, ../sass/_admin-rtl.scss */
 .admin-bar__link .icon {
   font-size: 18px;
   margin-right: 5px;
 }
 @media all and (min-width: 620px) {
-  /* line 322, ../sass/_admin-rtl.scss */
+  /* line 325, ../sass/_admin-rtl.scss */
   .admin-bar__link .icon {
     font-size: 20px;
     margin-right: 10px;
   }
 }
 @media all and (min-width: 620px) {
-  /* line 315, ../sass/_admin-rtl.scss */
+  /* line 318, ../sass/_admin-rtl.scss */
   .admin-bar__link {
     font-size: 1.6em;
   }
 }
 
-/* line 331, ../sass/_admin-rtl.scss */
+/* line 334, ../sass/_admin-rtl.scss */
 .admin__dropdown {
   left: 0;
 }
-/* line 333, ../sass/_admin-rtl.scss */
+/* line 336, ../sass/_admin-rtl.scss */
 .admin__dropdown:before {
   top: -20px;
   left: 3px;
 }
-/* line 337, ../sass/_admin-rtl.scss */
+/* line 340, ../sass/_admin-rtl.scss */
 .admin__dropdown:after {
   top: -19px;
   left: 3px;
 }
-/* line 341, ../sass/_admin-rtl.scss */
+/* line 344, ../sass/_admin-rtl.scss */
 .admin__dropdown a {
   font-size: 1.4em;
 }
 
-/* line 346, ../sass/_admin-rtl.scss */
+/* line 349, ../sass/_admin-rtl.scss */
 .pager li {
   margin-left: 10px;
   font-size: 1.25em;
 }
-/* line 349, ../sass/_admin-rtl.scss */
+/* line 352, ../sass/_admin-rtl.scss */
 .pager li a {
   font-size: 1.2em;
   font-family: helvetica;
   font-weight: 700;
 }
 
-/* line 359, ../sass/_admin-rtl.scss */
+/* line 362, ../sass/_admin-rtl.scss */
 #dashboardSendMsgForm legend {
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.35em;
 }
-/* line 364, ../sass/_admin-rtl.scss */
+/* line 367, ../sass/_admin-rtl.scss */
 #dashboardSendMsgForm input[type="submit"] {
   font-family: "Droid Arabic Kufi";
   outline: none;
 }
 
-/* line 371, ../sass/_admin-rtl.scss */
+/* line 374, ../sass/_admin-rtl.scss */
 .content-form-header {
   font-weight: 700;
   font-size: 1.5em;
 }
 
-/* line 379, ../sass/_admin-rtl.scss */
+/* line 382, ../sass/_admin-rtl.scss */
 .admin-filter label, .admin-filter select {
   font-weight: 400;
 }
-/* line 382, ../sass/_admin-rtl.scss */
+/* line 385, ../sass/_admin-rtl.scss */
 .admin-filter label {
   font-size: 1.4em;
   margin-right: 10px;
 }
-/* line 386, ../sass/_admin-rtl.scss */
+/* line 389, ../sass/_admin-rtl.scss */
 .admin-filter select {
   font-size: 1.2em;
 }
 
-/* line 393, ../sass/_admin-rtl.scss */
+/* line 396, ../sass/_admin-rtl.scss */
 .admin-content-form-item {
   padding: 1em 0.5em 1em;
 }
-/* line 395, ../sass/_admin-rtl.scss */
+/* line 398, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-type {
   font-size: 1.4em;
 }
-/* line 399, ../sass/_admin-rtl.scss */
+/* line 402, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-group {
   padding-right: 3em;
 }
-/* line 405, ../sass/_admin-rtl.scss */
+/* line 408, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-operations a {
   font-size: 1.4em;
 }
-/* line 407, ../sass/_admin-rtl.scss */
+/* line 410, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-operations a:first-child {
   margin-right: 15px;
 }
-/* line 415, ../sass/_admin-rtl.scss */
+/* line 418, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-group__right-col {
   padding-left: 3em;
 }
-/* line 419, ../sass/_admin-rtl.scss */
+/* line 422, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-title {
   font-size: 1.4em;
   line-height: 1.25em;
 }
-/* line 424, ../sass/_admin-rtl.scss */
+/* line 427, ../sass/_admin-rtl.scss */
 .admin-content-form-item .media-type {
   font-size: 11px;
 }
 
-/* line 430, ../sass/_admin-rtl.scss */
+/* line 433, ../sass/_admin-rtl.scss */
 .media-group, .user-group {
   font-size: 1.4em;
 }
-/* line 432, ../sass/_admin-rtl.scss */
+/* line 435, ../sass/_admin-rtl.scss */
 .media-group p, .user-group p {
   font-size: 1em;
 }
 
-/* line 436, ../sass/_admin-rtl.scss */
+/* line 439, ../sass/_admin-rtl.scss */
 .admin-page__title {
   font-size: 2em;
   font-weight: 300;
 }
 
-/* line 440, ../sass/_admin-rtl.scss */
+/* line 443, ../sass/_admin-rtl.scss */
 .admin-form {
   padding: 4em;
 }
-/* line 446, ../sass/_admin-rtl.scss */
+/* line 449, ../sass/_admin-rtl.scss */
 .admin-form .module .form-inner-action-group {
   text-align: right;
 }
-/* line 449, ../sass/_admin-rtl.scss */
+/* line 452, ../sass/_admin-rtl.scss */
 .admin-form .module .remove {
   right: 5px;
 }
-/* line 460, ../sass/_admin-rtl.scss */
+/* line 463, ../sass/_admin-rtl.scss */
 .admin-form .module-initiative-tasks-list input, .admin-form .module-initiative-tasks-list textarea {
   display: inline-block;
   float: none;
 }
 
-/* line 473, ../sass/_admin-rtl.scss */
+/* line 476, ../sass/_admin-rtl.scss */
 .user__profile .admin-form .profile__bio textarea {
   font-size: 18px;
 }
 
-/* line 479, ../sass/_admin-rtl.scss */
+/* line 482, ../sass/_admin-rtl.scss */
 #deleteAcc {
   font-size: 1.4em;
 }
 
 /* ---------------- End of Dashboard Page & Admin Pages --------- */
-/* line 485, ../sass/_admin-rtl.scss */
+/* line 488, ../sass/_admin-rtl.scss */
 .event-create-notification-msg p {
   font-size: 1.4em;
   font-weight: 700;
 }
-/* line 489, ../sass/_admin-rtl.scss */
+/* line 492, ../sass/_admin-rtl.scss */
 .event-create-notification-msg .form-main-btn-wrapper {
   text-align: right;
 }

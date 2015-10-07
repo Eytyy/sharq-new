@@ -167,7 +167,7 @@
 					right: -11px;
 				}
 			}
-				
+
 		}
 	}
 	.msg-date {
@@ -175,8 +175,8 @@
 	}
 	.message-sent {
 		.message__left,
-		.message__right { 
-			@extend %pullRight; 
+		.message__right {
+			@extend %pullRight;
 		}
 		.message__right {
 			padding-left: 6em;
@@ -267,7 +267,7 @@
 			width: auto;
 			float: none;
 		}
-		input { 
+		input {
 			margin-left: 5px;
 		}
 	}
@@ -290,24 +290,27 @@
 \*----------------------------------------*/
 	.admin-bar__list {
 		> li {
-			margin-right: 25px;
+			margin-left: 25px;
+			margin-right: 0;
 			&:last-child {
-				margin-right: 0;
+				margin-left: 0;
 			}
 		}
 		@include respond($bp__phab_min) {
 			> li {
-				margin-right: 50px;
+				margin-left: 50px;
+				margin-right: 0;
 				&:last-child {
-					margin-right: 0;
+					margin-left: 0;
 				}
 			}
 		}
 		@include respond($bp__mid) {
 			> li {
-				margin-right: 95px;
+				margin-left: 95px;
+				margin-right: 0;
 				&:last-child {
-					margin-right: 0;
+					margin-left: 0;
 				}
 			}
 		}
@@ -338,7 +341,7 @@
 			top: -19px;
 			left: 3px;
 		}
-		a {	
+		a {
 			font-size: 1.4em;
 		}
 	}
@@ -366,7 +369,7 @@
 				outline: none;
 			}
 		}
-	
+
 	// Admin Content List (media & dashboard) Common Styles
 		.content-form-header {
 			font-weight: 700;
@@ -425,7 +428,7 @@
 				font-size: 11px;
 			}
 		}
-	
+
 	// Manage Media/users Specific Stylesfont-weight: 700;
 		.media-group, .user-group {
 			font-size: 1.4em;
