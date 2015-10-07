@@ -225,7 +225,7 @@
 		.main-header__top_inner {
 			@extend %centered-row;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			.main-header__top {
 				padding: 10px 0 0;
 			}
@@ -258,7 +258,7 @@
 			overflow: hidden;
 			font-size: 0;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			&:after {
 				display: none;
 			}
@@ -274,7 +274,7 @@
 		color: $burgundy;
 		float: left;
 		position: relative;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			display: none;
 			float: none;
 		}
@@ -293,10 +293,10 @@
 				display: block;
 			}
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			clear: both;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			> ul {
 				position: static;
 				padding: 0;
@@ -321,7 +321,7 @@
 		&:last-child > a {
 			border-bottom: 0;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			float: left;
 			padding-right: 40px;
 			text-transform: uppercase;
@@ -360,7 +360,7 @@
 
 	}
 	.parentNavItem {
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			> a:after {
 			  content: "";
 			  margin: 0;
@@ -440,7 +440,7 @@
 		vertical-align: middle;
 		width: 30px;
 		height: 30px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			position: relative;
 			margin-left: 15px;
 			width: 35px;
@@ -461,7 +461,7 @@
 		&:hover {
 			border-color: #b2b2b2;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			font-size: 17px;
 			line-height: 30px;
 			width: 35px;
@@ -473,7 +473,7 @@
 		padding-left: 11px;
 		margin-left: 8px;
 		width: 42px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			padding-left: 15px;
 			margin-left: 12px;
 			width: 50px;

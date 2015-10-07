@@ -23,7 +23,7 @@
 	}
 	.user-nav {
 		margin-left: 10px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			margin-left: 15px;
 		}
 	}

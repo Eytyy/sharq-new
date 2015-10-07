@@ -99,7 +99,7 @@
 \*----------------------------------------------------------*/
 	/* ----- website logo ----- */
 	.logo-wrapper {
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			float: right;
 			margin: 0 0 20px;
 		}
@@ -109,7 +109,7 @@
 		font-size: 3em;
 		line-height: 1em;
 		float: right;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			float: none;
 		}
 	}
@@ -118,7 +118,7 @@
 			font-size: 1.4em;
 			font-weight: 700;
 		}
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			float: right;
 			padding-right: 0px;
 			padding-left: 40px;
@@ -134,7 +134,7 @@
 
 	}
 	.parentNavItem {
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			> a:after {
 			  margin: 0 0.5em 0 0;
 			}
@@ -170,14 +170,14 @@
 	.global__nav_item {
 		margin-left: 0;
 		margin-right: 10px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			margin-right: 10px;
 		}
 	}
 	.global__nav_item > a {
 		font-size: 15px;
 		line-height: 25px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			font-size: 17px;
 		}
 	}
@@ -189,7 +189,7 @@
 		padding-right: 11px;
 		margin-right: 8px;
 		width: 42px;
-		@include respond($bp__tab_mid) {
+		@include respond($bp__mm) {
 			padding-left: 0;
 			margin-left: 0;
 			padding-right: 15px;

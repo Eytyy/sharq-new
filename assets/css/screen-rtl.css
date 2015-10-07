@@ -74,37 +74,37 @@ html, .post-content .title, textarea {
   font-weight: 700;
 }
 
-/* line 66, ../sass/_base-rtl.scss */
+/* line 67, ../sass/_base-rtl.scss */
 .main-title {
   font-size: 2.2em;
 }
 @media all and (min-width: 420px) {
-  /* line 66, ../sass/_base-rtl.scss */
+  /* line 67, ../sass/_base-rtl.scss */
   .main-title {
     font-size: 2.8em;
   }
 }
 @media all and (min-width: 720px) {
-  /* line 66, ../sass/_base-rtl.scss */
+  /* line 67, ../sass/_base-rtl.scss */
   .main-title {
     font-size: 3.2em;
   }
 }
 @media all and (min-width: 1180px) {
-  /* line 66, ../sass/_base-rtl.scss */
+  /* line 67, ../sass/_base-rtl.scss */
   .main-title {
     font-size: 4.2em;
   }
 }
 
-/* line 79, ../sass/_base-rtl.scss */
+/* line 80, ../sass/_base-rtl.scss */
 .post__content__body ol, .post__content__body ul,
 .content__body ol,
 .content__body ul, p {
   font-size: 1.6em;
 }
 @media all and (max-width: 721px) {
-  /* line 79, ../sass/_base-rtl.scss */
+  /* line 80, ../sass/_base-rtl.scss */
   .post__content__body ol, .post__content__body ul,
   .content__body ol,
   .content__body ul, p {
@@ -112,7 +112,7 @@ html, .post-content .title, textarea {
   }
 }
 @media all and (max-width: 440px) {
-  /* line 79, ../sass/_base-rtl.scss */
+  /* line 80, ../sass/_base-rtl.scss */
   .post__content__body ol, .post__content__body ul,
   .content__body ol,
   .content__body ul, p {
@@ -120,7 +120,7 @@ html, .post-content .title, textarea {
   }
 }
 @media all and (max-width: 350px) {
-  /* line 79, ../sass/_base-rtl.scss */
+  /* line 80, ../sass/_base-rtl.scss */
   .post__content__body ol, .post__content__body ul,
   .content__body ol,
   .content__body ul, p {
@@ -128,53 +128,53 @@ html, .post-content .title, textarea {
   }
 }
 
-/* line 98, ../sass/_base-rtl.scss */
+/* line 99, ../sass/_base-rtl.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 102, ../sass/_base-rtl.scss */
+/* line 103, ../sass/_base-rtl.scss */
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 111, ../sass/_base-rtl.scss */
+/* line 112, ../sass/_base-rtl.scss */
 .main-title {
   line-height: 1.65em;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-/* line 119, ../sass/_base-rtl.scss */
+/* line 120, ../sass/_base-rtl.scss */
 .post__content__body ol, .post__content__body ul,
 .content__body ol,
 .content__body ul {
   line-height: 1.5em;
 }
 
-/* line 124, ../sass/_base-rtl.scss */
+/* line 125, ../sass/_base-rtl.scss */
 p {
   margin-bottom: 2em;
   line-height: 1.5em;
 }
-/* line 128, ../sass/_base-rtl.scss */
+/* line 129, ../sass/_base-rtl.scss */
 p:last-child {
   margin-bottom: 0;
 }
 
-/* line 132, ../sass/_base-rtl.scss */
+/* line 133, ../sass/_base-rtl.scss */
 i {
   font-style: normal;
 }
 
-/* line 135, ../sass/_base-rtl.scss */
+/* line 136, ../sass/_base-rtl.scss */
 em {
   font-weight: 700;
 }
 
-/* line 139, ../sass/_base-rtl.scss */
+/* line 140, ../sass/_base-rtl.scss */
 .post-content .title {
   font-size: 2em;
   font-weight: 700;
@@ -382,7 +382,7 @@ em {
 	WEBSITE HEADER
 \*----------------------------------------------------------*/
 /* ----- website logo ----- */
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 101, ../sass/_modules-rtl.scss */
   .logo-wrapper {
     float: right;
@@ -397,7 +397,7 @@ em {
   line-height: 1em;
   float: right;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 108, ../sass/_modules-rtl.scss */
   #triggerMobileMenu {
     float: none;
@@ -409,7 +409,7 @@ em {
   font-size: 1.4em;
   font-weight: 700;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 116, ../sass/_modules-rtl.scss */
   .nav__main__item {
     float: right;
@@ -428,7 +428,7 @@ em {
   }
 }
 
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 138, ../sass/_modules-rtl.scss */
   .parentNavItem > a:after {
     margin: 0 0.5em 0 0;
@@ -468,7 +468,7 @@ em {
   margin-left: 0;
   margin-right: 10px;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 170, ../sass/_modules-rtl.scss */
   .global__nav_item {
     margin-right: 10px;
@@ -480,7 +480,7 @@ em {
   font-size: 15px;
   line-height: 25px;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 177, ../sass/_modules-rtl.scss */
   .global__nav_item > a {
     font-size: 17px;
@@ -497,7 +497,7 @@ em {
   margin-right: 8px;
   width: 42px;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 184, ../sass/_modules-rtl.scss */
   .lang__links {
     padding-left: 0;
@@ -1166,7 +1166,7 @@ em {
 .user-nav {
   margin-left: 10px;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 1105px) {
   /* line 24, ../sass/_admin-rtl.scss */
   .user-nav {
     margin-left: 15px;
