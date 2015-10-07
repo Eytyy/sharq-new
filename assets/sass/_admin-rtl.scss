@@ -206,12 +206,15 @@
 		text-align: right;
 	}
 	.new-msg-user {
-		text-align: left;
+		text-align: right;
 		label {
-			left: 10;
+			right: 10px;
+			left: auto;
+			top: 15px;
 		}
 		input {
-			padding-left: 30px;
+			padding-right: 30px;
+			padding-left: 0;
 		}
 	}
 /* ---------------- End of Messages Modal Styles ---------------- */

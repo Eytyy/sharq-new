@@ -3889,8 +3889,8 @@ a.message:hover .message__inner:before {
 /* line 437, ../sass/_admin.scss */
 .new-msg-user label {
   position: absolute;
-  left: 10;
-  top: 4;
+  left: 10px;
+  top: 11px;
   width: 30px;
 }
 /* line 443, ../sass/_admin.scss */

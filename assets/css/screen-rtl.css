@@ -1363,91 +1363,94 @@ a.message:hover .message__inner:before {
 
 /* line 208, ../sass/_admin-rtl.scss */
 .new-msg-user {
-  text-align: left;
+  text-align: right;
 }
 /* line 210, ../sass/_admin-rtl.scss */
 .new-msg-user label {
-  left: 10;
+  right: 10px;
+  left: auto;
+  top: 15px;
 }
-/* line 213, ../sass/_admin-rtl.scss */
+/* line 215, ../sass/_admin-rtl.scss */
 .new-msg-user input {
-  padding-left: 30px;
+  padding-right: 30px;
+  padding-left: 0;
 }
 
 /* ---------------- End of Messages Modal Styles ---------------- */
 /*----------------------------------------*\
 	Common Forms Styles
 \*----------------------------------------*/
-/* line 223, ../sass/_admin-rtl.scss */
+/* line 226, ../sass/_admin-rtl.scss */
 legend {
   font-size: 1.6em;
 }
 
-/* line 226, ../sass/_admin-rtl.scss */
+/* line 229, ../sass/_admin-rtl.scss */
 label {
   font-size: 1.4em;
   font-weight: 700;
   line-height: 1.25em;
 }
 
-/* line 231, ../sass/_admin-rtl.scss */
+/* line 234, ../sass/_admin-rtl.scss */
 input, textarea, button {
   font-size: 1.4em;
 }
 
-/* line 240, ../sass/_admin-rtl.scss */
+/* line 243, ../sass/_admin-rtl.scss */
 input.btn {
   font-weight: 400;
 }
 
-/* line 243, ../sass/_admin-rtl.scss */
+/* line 246, ../sass/_admin-rtl.scss */
 .combo {
   margin-left: -3em;
 }
-/* line 245, ../sass/_admin-rtl.scss */
+/* line 248, ../sass/_admin-rtl.scss */
 .combo .form-group {
   padding-left: 3em;
 }
 
-/* line 250, ../sass/_admin-rtl.scss */
+/* line 253, ../sass/_admin-rtl.scss */
 .links__group {
   margin-left: -3%;
 }
-/* line 252, ../sass/_admin-rtl.scss */
+/* line 255, ../sass/_admin-rtl.scss */
 .links__group .links__group__item {
   width: 30.333%;
   margin-left: 3%;
   margin-bottom: 30px;
 }
-/* line 261, ../sass/_admin-rtl.scss */
+/* line 264, ../sass/_admin-rtl.scss */
 .links__group .fa {
   margin-right: 10px;
 }
 
-/* line 266, ../sass/_admin-rtl.scss */
+/* line 269, ../sass/_admin-rtl.scss */
 .options-group input, .options-group label {
   width: auto;
   float: none;
 }
-/* line 270, ../sass/_admin-rtl.scss */
+/* line 273, ../sass/_admin-rtl.scss */
 .options-group input {
   margin-left: 5px;
 }
 
-/* line 274, ../sass/_admin-rtl.scss */
+/* line 277, ../sass/_admin-rtl.scss */
 .options-group.radios {
   margin-right: 30px;
 }
 
-/* line 277, ../sass/_admin-rtl.scss */
+/* line 280, ../sass/_admin-rtl.scss */
 .conference-extra__element {
   font-size: 14px;
 }
-/* line 279, ../sass/_admin-rtl.scss */
+/* line 282, ../sass/_admin-rtl.scss */
 .conference-extra__element label {
   font-size: 14px;
 }
-/* line 282, ../sass/_admin-rtl.scss */
+/* line 285, ../sass/_admin-rtl.scss */
 .conference-extra__element span {
   margin: 0 5px 0 0;
 }
@@ -1456,208 +1459,208 @@ input.btn {
 /*----------------------------------------*\
 	Dashboard Page & Admin Pages
 \*----------------------------------------*/
-/* line 292, ../sass/_admin-rtl.scss */
+/* line 295, ../sass/_admin-rtl.scss */
 .admin-bar__list > li {
   margin-left: 25px;
   margin-right: 0;
 }
-/* line 295, ../sass/_admin-rtl.scss */
+/* line 298, ../sass/_admin-rtl.scss */
 .admin-bar__list > li:last-child {
   margin-left: 0;
 }
 @media all and (min-width: 420px) {
-  /* line 300, ../sass/_admin-rtl.scss */
+  /* line 303, ../sass/_admin-rtl.scss */
   .admin-bar__list > li {
     margin-left: 50px;
     margin-right: 0;
   }
-  /* line 303, ../sass/_admin-rtl.scss */
+  /* line 306, ../sass/_admin-rtl.scss */
   .admin-bar__list > li:last-child {
     margin-left: 0;
   }
 }
 @media all and (min-width: 920px) {
-  /* line 309, ../sass/_admin-rtl.scss */
+  /* line 312, ../sass/_admin-rtl.scss */
   .admin-bar__list > li {
     margin-left: 95px;
     margin-right: 0;
   }
-  /* line 312, ../sass/_admin-rtl.scss */
+  /* line 315, ../sass/_admin-rtl.scss */
   .admin-bar__list > li:last-child {
     margin-left: 0;
   }
 }
 
-/* line 318, ../sass/_admin-rtl.scss */
+/* line 321, ../sass/_admin-rtl.scss */
 .admin-bar__link {
   font-size: 1.2em;
 }
-/* line 320, ../sass/_admin-rtl.scss */
+/* line 323, ../sass/_admin-rtl.scss */
 .admin-bar__link .icon {
   font-size: 18px;
   margin-right: 5px;
 }
 @media all and (min-width: 620px) {
-  /* line 325, ../sass/_admin-rtl.scss */
+  /* line 328, ../sass/_admin-rtl.scss */
   .admin-bar__link .icon {
     font-size: 20px;
     margin-right: 10px;
   }
 }
 @media all and (min-width: 620px) {
-  /* line 318, ../sass/_admin-rtl.scss */
+  /* line 321, ../sass/_admin-rtl.scss */
   .admin-bar__link {
     font-size: 1.6em;
   }
 }
 
-/* line 334, ../sass/_admin-rtl.scss */
+/* line 337, ../sass/_admin-rtl.scss */
 .admin__dropdown {
   left: 0;
 }
-/* line 336, ../sass/_admin-rtl.scss */
+/* line 339, ../sass/_admin-rtl.scss */
 .admin__dropdown:before {
   top: -20px;
   left: 3px;
 }
-/* line 340, ../sass/_admin-rtl.scss */
+/* line 343, ../sass/_admin-rtl.scss */
 .admin__dropdown:after {
   top: -19px;
   left: 3px;
 }
-/* line 344, ../sass/_admin-rtl.scss */
+/* line 347, ../sass/_admin-rtl.scss */
 .admin__dropdown a {
   font-size: 1.4em;
 }
 
-/* line 349, ../sass/_admin-rtl.scss */
+/* line 352, ../sass/_admin-rtl.scss */
 .pager li {
   margin-left: 10px;
   font-size: 1.25em;
 }
-/* line 352, ../sass/_admin-rtl.scss */
+/* line 355, ../sass/_admin-rtl.scss */
 .pager li a {
   font-size: 1.2em;
   font-family: helvetica;
   font-weight: 700;
 }
 
-/* line 362, ../sass/_admin-rtl.scss */
+/* line 365, ../sass/_admin-rtl.scss */
 #dashboardSendMsgForm legend {
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.35em;
 }
-/* line 367, ../sass/_admin-rtl.scss */
+/* line 370, ../sass/_admin-rtl.scss */
 #dashboardSendMsgForm input[type="submit"] {
   font-family: "Droid Arabic Kufi";
   outline: none;
 }
 
-/* line 374, ../sass/_admin-rtl.scss */
+/* line 377, ../sass/_admin-rtl.scss */
 .content-form-header {
   font-weight: 700;
   font-size: 1.5em;
 }
 
-/* line 382, ../sass/_admin-rtl.scss */
+/* line 385, ../sass/_admin-rtl.scss */
 .admin-filter label, .admin-filter select {
   font-weight: 400;
 }
-/* line 385, ../sass/_admin-rtl.scss */
+/* line 388, ../sass/_admin-rtl.scss */
 .admin-filter label {
   font-size: 1.4em;
   margin-right: 10px;
 }
-/* line 389, ../sass/_admin-rtl.scss */
+/* line 392, ../sass/_admin-rtl.scss */
 .admin-filter select {
   font-size: 1.2em;
 }
 
-/* line 396, ../sass/_admin-rtl.scss */
+/* line 399, ../sass/_admin-rtl.scss */
 .admin-content-form-item {
   padding: 1em 0.5em 1em;
 }
-/* line 398, ../sass/_admin-rtl.scss */
+/* line 401, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-type {
   font-size: 1.4em;
 }
-/* line 402, ../sass/_admin-rtl.scss */
+/* line 405, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-group {
   padding-right: 3em;
 }
-/* line 408, ../sass/_admin-rtl.scss */
+/* line 411, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-operations a {
   font-size: 1.4em;
 }
-/* line 410, ../sass/_admin-rtl.scss */
+/* line 413, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-operations a:first-child {
   margin-right: 15px;
 }
-/* line 418, ../sass/_admin-rtl.scss */
+/* line 421, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-group__right-col {
   padding-left: 3em;
 }
-/* line 422, ../sass/_admin-rtl.scss */
+/* line 425, ../sass/_admin-rtl.scss */
 .admin-content-form-item .content-title {
   font-size: 1.4em;
   line-height: 1.25em;
 }
-/* line 427, ../sass/_admin-rtl.scss */
+/* line 430, ../sass/_admin-rtl.scss */
 .admin-content-form-item .media-type {
   font-size: 11px;
 }
 
-/* line 433, ../sass/_admin-rtl.scss */
+/* line 436, ../sass/_admin-rtl.scss */
 .media-group, .user-group {
   font-size: 1.4em;
 }
-/* line 435, ../sass/_admin-rtl.scss */
+/* line 438, ../sass/_admin-rtl.scss */
 .media-group p, .user-group p {
   font-size: 1em;
 }
 
-/* line 439, ../sass/_admin-rtl.scss */
+/* line 442, ../sass/_admin-rtl.scss */
 .admin-page__title {
   font-size: 2em;
   font-weight: 300;
 }
 
-/* line 443, ../sass/_admin-rtl.scss */
+/* line 446, ../sass/_admin-rtl.scss */
 .admin-form {
   padding: 4em;
 }
-/* line 449, ../sass/_admin-rtl.scss */
+/* line 452, ../sass/_admin-rtl.scss */
 .admin-form .module .form-inner-action-group {
   text-align: right;
 }
-/* line 452, ../sass/_admin-rtl.scss */
+/* line 455, ../sass/_admin-rtl.scss */
 .admin-form .module .remove {
   right: 5px;
 }
-/* line 463, ../sass/_admin-rtl.scss */
+/* line 466, ../sass/_admin-rtl.scss */
 .admin-form .module-initiative-tasks-list input, .admin-form .module-initiative-tasks-list textarea {
   display: inline-block;
   float: none;
 }
 
-/* line 476, ../sass/_admin-rtl.scss */
+/* line 479, ../sass/_admin-rtl.scss */
 .user__profile .admin-form .profile__bio textarea {
   font-size: 18px;
 }
 
-/* line 482, ../sass/_admin-rtl.scss */
+/* line 485, ../sass/_admin-rtl.scss */
 #deleteAcc {
   font-size: 1.4em;
 }
 
 /* ---------------- End of Dashboard Page & Admin Pages --------- */
-/* line 488, ../sass/_admin-rtl.scss */
+/* line 491, ../sass/_admin-rtl.scss */
 .event-create-notification-msg p {
   font-size: 1.4em;
   font-weight: 700;
 }
-/* line 492, ../sass/_admin-rtl.scss */
+/* line 495, ../sass/_admin-rtl.scss */
 .event-create-notification-msg .form-main-btn-wrapper {
   text-align: right;
 }

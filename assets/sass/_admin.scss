@@ -368,7 +368,7 @@
 					top: 10px;
 				}
 			}
-				
+
 		}
 	}
 	.msg-date {
@@ -379,8 +379,8 @@
 	}
 	.message-sent {
 		.message__left,
-		.message__right { 
-			@extend %pullRight; 
+		.message__right {
+			@extend %pullRight;
 		}
 		.message__right {
 			padding-left: 0;
@@ -436,8 +436,8 @@
 		position: relative;
 		label {
 			position: absolute;
-			left: 10;
-			top: 4;
+			left: 10px;
+			top: 11px;
 			width: 30px;
 		}
 		input {
@@ -701,7 +701,7 @@
 			top: -19px;
 			left: 3px;
 		}
-		a {	
+		a {
 			font-size: 1.4em;
 			display: block;
 			width: 100%;
@@ -768,7 +768,7 @@
 				outline: none;
 			}
 		}
-	
+
 	// Admin Content List (media & dashboard) Common Styles
 		.content-form-header {
 			border-bottom: 2px solid #d2d2d2;
@@ -871,7 +871,7 @@
 				margin-bottom: 5px;
 			}
 		}
-	
+
 	// Manage Media/users Specific Styles
 		.media-content-list .media-group,
 		.users-content-list .user-group {
@@ -911,7 +911,7 @@
 				margin: 0;
 				vertical-align: top;
 			}
-			.module .module__wrapper, 
+			.module .module__wrapper,
 			.form-wrapper-outlined {
 				padding: 10px;
 				border: 1px dashed #d2d2d2;
@@ -966,7 +966,7 @@
 				.initiative-task-group {
 					padding-top: 25px;
 				}
-				.initiative-task-group, .module-initiative-tasks-list textarea { 
+				.initiative-task-group, .module-initiative-tasks-list textarea {
 					width: 92.25%;
 				}
 				textarea {
