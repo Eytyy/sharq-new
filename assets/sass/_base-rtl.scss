@@ -77,12 +77,12 @@ $bp__phab_min: "all and (min-width: 420px)";
 }
 
 %bodyFontSize {
-	font-size: 2em;
+	font-size: 1.6em;
 	@media all and (max-width: 721px) {
-		font-size: 1.8em;
+		font-size: 1.6em;
 	}
 	@media all and (max-width: 440px) {
-		font-size: 1.6em;
+		font-size: 1.4em;
 	}
 	@media all and (max-width: 350px) {
 		font-size: 1.3em;

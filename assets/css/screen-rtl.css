@@ -101,14 +101,14 @@ html, .post-content .title, textarea {
 .post__content__body ol, .post__content__body ul,
 .content__body ol,
 .content__body ul, p {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 @media all and (max-width: 721px) {
   /* line 79, ../sass/_base-rtl.scss */
   .post__content__body ol, .post__content__body ul,
   .content__body ol,
   .content__body ul, p {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 }
 @media all and (max-width: 440px) {
@@ -116,7 +116,7 @@ html, .post-content .title, textarea {
   .post__content__body ol, .post__content__body ul,
   .content__body ol,
   .content__body ul, p {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 }
 @media all and (max-width: 350px) {
@@ -2306,52 +2306,53 @@ input.btn {
 /* line 524, ../sass/screen-rtl.scss */
 .initiatives-list__item .initiatives-list__item__excerpt,
 .initiatives-list__item header {
-  padding-right: 70px;
+  padding-left: 70px;
+  padding-right: 0;
 }
 
-/* line 529, ../sass/screen-rtl.scss */
+/* line 530, ../sass/screen-rtl.scss */
 .moudle__initiative__vote {
   right: 0;
 }
 
-/* line 532, ../sass/screen-rtl.scss */
+/* line 533, ../sass/screen-rtl.scss */
 .vote {
   font-size: 2em;
   line-height: 1.25em;
 }
 
-/* line 536, ../sass/screen-rtl.scss */
+/* line 537, ../sass/screen-rtl.scss */
 .vote-icon {
   margin-right: 0;
   margin-left: 10px;
 }
 
-/* line 542, ../sass/screen-rtl.scss */
+/* line 543, ../sass/screen-rtl.scss */
 .volunteer__list ul li:first-child {
   margin-left: 0;
   margin-right: 10px;
 }
 
-/* line 546, ../sass/screen-rtl.scss */
+/* line 547, ../sass/screen-rtl.scss */
 .volunteer__item h3 {
   font-size: 2em;
   line-height: 1.35em;
   font-weight: 700;
 }
 @media all and (max-width: 721px) {
-  /* line 546, ../sass/screen-rtl.scss */
+  /* line 547, ../sass/screen-rtl.scss */
   .volunteer__item h3 {
     font-size: 1.6em;
   }
 }
 @media all and (max-width: 350px) {
-  /* line 546, ../sass/screen-rtl.scss */
+  /* line 547, ../sass/screen-rtl.scss */
   .volunteer__item h3 {
     font-weight: 400;
   }
 }
 
-/* line 557, ../sass/screen-rtl.scss */
+/* line 558, ../sass/screen-rtl.scss */
 .volunteer__item__cap {
   font-size: 1.6em;
   font-weight: 700;
@@ -2360,26 +2361,26 @@ input.btn {
   margin-left: 5px;
 }
 
-/* line 565, ../sass/screen-rtl.scss */
+/* line 566, ../sass/screen-rtl.scss */
 .volunteer__item__users li {
   font-size: 1.4em;
 }
-/* line 567, ../sass/screen-rtl.scss */
+/* line 568, ../sass/screen-rtl.scss */
 .volunteer__item__users li:after {
   content: ",";
 }
-/* line 570, ../sass/screen-rtl.scss */
+/* line 571, ../sass/screen-rtl.scss */
 .volunteer__item__users li:last-child:after {
   content: ".";
 }
 
-/* line 575, ../sass/screen-rtl.scss */
+/* line 576, ../sass/screen-rtl.scss */
 .volunteerButton {
   margin-left: 0;
   margin-right: 6px;
 }
 
-/* line 579, ../sass/screen-rtl.scss */
+/* line 580, ../sass/screen-rtl.scss */
 .vote__icon {
   right: 0;
   left: -15px;
@@ -2388,113 +2389,113 @@ input.btn {
 /*--------------------*\
 	Login/Register
 \*--------------------*/
-/* line 588, ../sass/screen-rtl.scss */
+/* line 589, ../sass/screen-rtl.scss */
 .login__register__form__wrapper {
   margin-left: 0;
   margin-right: -3em;
 }
-/* line 591, ../sass/screen-rtl.scss */
+/* line 592, ../sass/screen-rtl.scss */
 .login__register__form__wrapper .floated {
   padding-left: 0;
   padding-right: 3em;
 }
-/* line 595, ../sass/screen-rtl.scss */
+/* line 596, ../sass/screen-rtl.scss */
 .login__register__form__wrapper .floated:last-child:before {
   left: auto;
   right: 15px;
 }
 @media all and (max-width: 721px) {
-  /* line 588, ../sass/screen-rtl.scss */
+  /* line 589, ../sass/screen-rtl.scss */
   .login__register__form__wrapper {
     margin-right: 0;
   }
-  /* line 602, ../sass/screen-rtl.scss */
+  /* line 603, ../sass/screen-rtl.scss */
   .login__register__form__wrapper .floated {
     float: none;
   }
-  /* line 604, ../sass/screen-rtl.scss */
+  /* line 605, ../sass/screen-rtl.scss */
   .login__register__form__wrapper .floated:last-child:before {
     right: 0;
   }
 }
 
-/* line 611, ../sass/screen-rtl.scss */
+/* line 612, ../sass/screen-rtl.scss */
 #account-form label {
   font-weight: 400;
 }
-/* line 614, ../sass/screen-rtl.scss */
+/* line 615, ../sass/screen-rtl.scss */
 #account-form .submit-btn {
   float: left;
 }
 
-/* line 618, ../sass/screen-rtl.scss */
+/* line 619, ../sass/screen-rtl.scss */
 .register-group .form-group {
   margin-right: 0;
   margin-left: 40px;
 }
-/* line 621, ../sass/screen-rtl.scss */
+/* line 622, ../sass/screen-rtl.scss */
 .register-group .form-group:last-child {
   margin-left: 0;
 }
 
-/* line 627, ../sass/screen-rtl.scss */
+/* line 628, ../sass/screen-rtl.scss */
 .login__register__form .st {
   font-size: 1.8em;
 }
-/* line 631, ../sass/screen-rtl.scss */
+/* line 632, ../sass/screen-rtl.scss */
 .login__register__form .form__title {
   font-size: 2.6em;
   font-weight: 700;
 }
-/* line 636, ../sass/screen-rtl.scss */
+/* line 637, ../sass/screen-rtl.scss */
 .login__register__form .login__regesiter__form__links .sep {
   font-size: 1.6em;
 }
-/* line 639, ../sass/screen-rtl.scss */
+/* line 640, ../sass/screen-rtl.scss */
 .login__register__form .login__regesiter__form__links a {
   font-size: 1.4em;
 }
-/* line 643, ../sass/screen-rtl.scss */
+/* line 644, ../sass/screen-rtl.scss */
 .login__register__form .form__col {
   width: 40%;
   padding-left: 0;
   padding-right: 3em;
 }
-/* line 649, ../sass/screen-rtl.scss */
+/* line 650, ../sass/screen-rtl.scss */
 .login__register__form input,
 .login__register__form textarea {
   font-family: "Droid Arabic Kufi";
   font-size: 1.6em;
 }
 @media all and (max-width: 721px) {
-  /* line 656, ../sass/screen-rtl.scss */
+  /* line 657, ../sass/screen-rtl.scss */
   .login__register__form .form__title {
     font-size: 2.2em;
   }
-  /* line 658, ../sass/screen-rtl.scss */
+  /* line 659, ../sass/screen-rtl.scss */
   .login__register__form input, .login__register__form textarea {
     font-size: 1.4em;
   }
-  /* line 660, ../sass/screen-rtl.scss */
+  /* line 661, ../sass/screen-rtl.scss */
   .login__register__form .form__col, .login__register__form .form__col.account-col__right {
     float: none;
   }
 }
 @media all and (max-width: 440px) {
-  /* line 665, ../sass/screen-rtl.scss */
+  /* line 666, ../sass/screen-rtl.scss */
   .login__register__form .combo .links__group .links__group__item {
     float: none;
   }
 }
 
-/* line 673, ../sass/screen-rtl.scss */
+/* line 674, ../sass/screen-rtl.scss */
 .alsharq-team__list .content-list__item {
   border-bottom: 0;
   margin-bottom: 0;
   padding-bottom: 4em;
 }
 @media all and (min-width: 720px) {
-  /* line 673, ../sass/screen-rtl.scss */
+  /* line 674, ../sass/screen-rtl.scss */
   .alsharq-team__list .content-list__item {
     padding-bottom: 3em;
     width: 25%;
@@ -2502,19 +2503,19 @@ input.btn {
     padding: 0 0 4em 4em;
   }
 }
-/* line 679, ../sass/screen-rtl.scss */
+/* line 680, ../sass/screen-rtl.scss */
 .alsharq-team__list .item-link {
   padding: 2em;
   box-shadow: 0px 3px 5px -5px #000;
 }
 
-/* line 684, ../sass/screen-rtl.scss */
+/* line 685, ../sass/screen-rtl.scss */
 .member-name {
   text-align: center;
   font-size: 2em;
 }
 
-/* line 689, ../sass/screen-rtl.scss */
+/* line 690, ../sass/screen-rtl.scss */
 .member-title {
   text-align: center;
   font-size: 1.4em;
